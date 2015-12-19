@@ -1,0 +1,177 @@
+[20:15:43] <prabhanjan> Ok guys, so agenda for today-
+[20:15:53] <prabhanjan> 1. Intro to reverse engineering
+[20:16:13] <prabhanjan> 2. Stack and basic x86 architecture
+[20:16:33] <prabhanjan> 3. Commonly used commands in x86 assembly(intel)
+[20:16:48] <prabhanjan> 4. Hands on example 
+[20:17:40] <prabhanjan> To get started, what do you think reverse engineering is ?
+[20:21:55] <prabhanjan> So basically what I think of reversing engineering is that its an art of converting binaries(excecutables) into source code
+[20:22:30] <prabhanjan> Or atleast figure out what the source code does, even if we just have the executable file. 
+[20:22:44] <prabhanjan> Any questions?
+[20:23:07] <Divya> no..continue
+[20:24:41] <prabhanjan> So can u think of any applications of Reversing ?
+[20:27:26] <prabhanjan> How about we have some harmful excecutable, but with some important information. We can risk to run it, but we can reverse it to get the information
+[20:29:06] <prabhanjan> Or people have reversed expensive(paid) applications and distributed them for free. 
+[20:30:14] <prabhanjan> The most relevant example here would be cracked games I suppose. Most of the games are cracked by reversing !
+[20:33:31] <prabhanjan> Moving on
+[20:34:12] <prabhanjan> So what is a stack ?
+[20:38:28] <prabhanjan> Even what a stack is in plain English will do !
+[20:40:03] <ravali> stack means a pile of objects
+[20:40:05] <mohit_reddy> arrange things on top of each other where only the top element can be accessed
+[20:40:22] <prabhanjan> Yep!
+[20:40:55] <prabhanjan> So basically stack is an abstract data type which follows Last In First Out(LIFO)
+[20:41:21] <prabhanjan> Suppose have a stack of plates which are numbered 1-10
+[20:41:57] <prabhanjan> and you arrange them in the order 1,2,....10, such that 1 is at the bottom and 10 is at the top 
+[20:42:34] <prabhanjan> This forms a stack. Now, which is the last plate that went into the stack ?
+[20:45:41] <ravali> 10th one
+[20:45:54] <ravi_> 10
+[20:46:06] <prabhanjan> Thats right. Which is the first plate that i can take out ?
+[20:46:12] <ravi_> 10
+[20:46:15] <ravali> 10
+[20:46:35] <prabhanjan> Yep. Basically thats the idea of a stack!
+[20:47:48] <prabhanjan> For this discussion- In a computer, we numbered address locations, where we store data in such a manner that it forms a stack
+[20:49:16] <prabhanjan> But the numbering is quite weird. Its opposite to what one might assume normally
+[20:50:32] <prabhanjan> Suppose the addresses are numbered 0-100. And I insert numbers 1,2,3,4 into the stack. At what addresses do you think these will be stored?
+[20:52:21] <prabhanjan> If you are confused or have any doubts, feel free to ask for clarifications.
+[20:53:49] <ravali> at 0 address 1 will be stored
+[20:54:28] <ravali> at 1 address 2 will be stored
+[20:54:41] <ravali> and so on... am i correct
+[20:54:47] <prabhanjan> Haha. Thats what one assumes normally.
+[20:55:03] <prabhanjan> The stack is actually stored in this manner
+[20:55:13] <prabhanjan> Address 100- 1
+[20:55:18] <prabhanjan> Address 99-2
+[20:55:22] <prabhanjan> Address 98-3
+[20:55:27] <prabhanjan> Address 97 -4
+[20:57:12] <prabhanjan> Think of this stack as a book with pages numbered from 0-100.
+[20:57:31] <prabhanjan> But you start writing from page 100 and move the other way
+[20:57:55] <prabhanjan> Is the clear ?
+[20:58:00] <prabhanjan> *this
+[20:58:39] <ravali> yeah
+[21:00:10] <prabhanjan> Where do you think the stack in stored in a computer?
+[21:01:12] <prabhanjan> The stack is usually stored in the RAM 
+[21:02:05] <prabhanjan> Can we directly perform operations on data stored in the RAM?
+[21:04:26] <prabhanjan> We cannot directly perform operations on data stored in the RAM. We load the data into the processor, then perform the operations and put it back into the RAM or output it
+[21:05:27] <prabhanjan> Now that we have a fair idea of what a stack is, we'll move on to x86 architecture
+[21:05:35] <RektM9> hello?
+[21:05:48] <prabhanjan> hello RektM9 !
+[21:08:04] <prabhanjan> 8086 was one of the first commercially marketable microprocessors by Intel. Following this they had 80186 which has similar architecture.
+[21:09:07] <prabhanjan> Roughly the same architecture exists till today, and gets its name from the first few processors which implemented the architecture- 80*86*, 801*86*
+[21:09:20] <prabhanjan> Hence its called x86 architecture
+[21:12:02] <prabhanjan> Does anyone know what registers are ?
+[21:13:32] <NITKQ> Nope
+[21:13:47] <ravi_> register is small amount of data storage in processor
+[21:13:53] <prabhanjan> What is a register in plain English ?
+[21:14:06] <prabhanjan> ravi_ you are right !
+[21:15:34] <prabhanjan> Registers are memory elements in the processor. Registers can basically store a fixed maximum amount of data(32 bit,64 bit) 
+[21:17:07] <prabhanjan> In order of decreasing speed and increasing amount of storage: registers > cache > primary memory > secondary memory
+[21:17:40] <prabhanjan> Registers can be accessed the fastest since they are inside the processor itself !
+[21:18:35] <NITKQ> How much is total register memory generally?
+[21:19:37] <prabhanjan> Depends on the processor. You might have heard of 32 bit and 64 bit processors. Each register in the processor has maximum limit of 32 and 64 bits respectively
+[21:22:18] <prabhanjan> Let us assume a processor has only two elements- 1. Registers to store data 
+[21:22:59] <prabhanjan> 2. A processing unit which can load data to and from the memory to the registers, and perform operations on them .
+[21:24:06] <prabhanjan> Check out the list of main registers in a processor- http://www.cs.virginia.edu/~evans/cs216/guides/x86-registers.png 
+[21:25:14] <prabhanjan> Let me know when you are done with the link. 
+[21:29:48] <NITKQ> I checked out the link, it didn't make much sense.
+[21:30:11] <prabhanjan> Okay let me explain
+[21:30:57] <prabhanjan> The processor has memory elements called registers.
+[21:32:00] <prabhanjan> In the link, each register has a maximum capacity of 32 bits
+[21:33:12] <prabhanjan> The general purpose registers are named EAX,EBX ..and so on(we'll come back to that)
+[21:34:12] <prabhanjan> EAX has 3 parts- AX which can store 16 bits and AH,AL which can store 8 bits each
+[21:35:18] <prabhanjan> Similar logic applies for other general purpose registers
+[21:35:59] <prabhanjan> ESP and EBP are special registers which are used to store the location of the current stack 
+[21:36:08] <prabhanjan> Is this clear?
+[21:36:20] <prabhanjan> NITKQ, does it make sense now ?
+[21:37:38] <NITKQ> yup
+[21:39:29] <prabhanjan> For 64 bit processors, you might come across RAX, RBX,... instead of EAX, EBX
+[21:41:01] <prabhanjan> Go through this- http://grayhash.com/beist_seminar/x86_basic_re.pdf
+[21:41:11] <prabhanjan> Let me know when you are done, Ill explain 
+[21:51:27] <prabhanjan> PS- Read till page 20!
+[21:58:54] <sandeepmenon> done
+[21:59:07] <prabhanjan> others?
+[21:59:12] <ravali> ya done
+[21:59:18] <prabhanjan> Shall i continue?
+[22:01:06] <prabhanjan> Okay so we'll discuss some of the frequently used instructions 
+[22:02:02] <prabhanjan> Basically an instruction consists of an opcode and operand(s)
+[22:03:19] <prabhanjan> These are assembly instructions we are talking about! Does anyone not know what is assembly language ?
+[22:05:21] <prabhanjan> It goes like this high level language>assembly language>machine language.
+[22:06:06] <prabhanjan> Assembly is sort of an intermediate between high level and machine language.
+[22:09:38] <prabhanjan> lets start with mov
+[22:09:58] <prabhanjan> what do you think this does?- mov eax, 0x2
+[22:12:00] <prabhanjan> mov eax,0x2 stores 0x2(0x is prefix to show that the number is hex) in register eax
+[22:13:26] <prabhanjan> a small variation- mov eax, dword ptr[0x401000]
+[22:15:06] <prabhanjan> A word indicates 16bits (in x86) just like byte indicates 8 buts
+[22:15:16] <prabhanjan> dword- double word indicates 32 bits
+[22:16:00] <prabhanjan> mov eax, dword ptr[0x401000] stores 32bits of data stored at memory location 0x401000 in register eax
+[22:18:02] <prabhanjan> Moving on, 
+[22:18:13] <prabhanjan> what does add eax,0x2 do ?
+[22:20:33] <prabhanjan> add eax, 0x2 adds 0x2 and value stored in eax and stores it back in eax
+[22:20:39] <prabhanjan> Any questions ?
+[22:20:55] <ravali> no.. continue
+[22:21:04] <sandeepmenon> no
+[22:21:41] <prabhanjan> so what does sub eax,0x2 do ?
+[22:23:20] <venkat> subtracts 0x2 from value stored and stores it back?
+[22:23:28] <prabhanjan> Yes venkat ! 
+[22:24:26] <prabhanjan> push eax 
+[22:24:58] <prabhanjan> Stores the value of eax in the stack(in memory)
+[22:25:36] <prabhanjan> pop eax. Stores the value stored in the top of the stack(in memory) into eax 
+[22:26:35] <prabhanjan> Consider these two instructions- 
+[22:26:43] <prabhanjan> cmp eax, 0x0
+[22:26:52] <prabhanjan> je 0x401000
+[22:27:28] <prabhanjan> cmp eax,0x0 compares the value stored in eax and 0x0
+[22:27:51] <prabhanjan> The result is stored in a flag(we will keep this abstract for now)
+[22:28:41] <prabhanjan> je- jump is equal. If the value stored in eax is equal to 0x0, the processor jumps to the instruction 0x401000
+[22:28:51] <prabhanjan> Is this clear ?
+[22:32:25] <prabhanjan> Similarly we have jne- jump if not equal, jle- jump if lesser than or equal to, jge- jump if greater than or equal to 
+[22:34:21] <prabhanjan> How many of you are using Linux ?
+[22:37:04] <anand16> me
+[22:38:38] <prabhanjan> Whoever is using Linux go to -https://github.com/PrabhanjanPM/Reversing/tree/master/Example
+[22:39:19] <prabhanjan> Copy the text in the example file and paste it in filename.txt (you can use any name you like :P)
+[22:40:47] <prabhanjan> In terminal, go to the directory where the filename.txt is saved.
+[22:41:53] <prabhanjan> use this command - cat filename.txt |base64 -d>filename.out
+[22:42:11] <prabhanjan> chmod +x filename.out
+[22:42:26] <prabhanjan> file filename.out
+[22:42:33] <prabhanjan> tell me what output you get 
+[22:47:25] <prabhanjan> anyone?
+[22:49:54] <prabhanjan> You'll get something like this-
+[22:49:59] <prabhanjan> file.out: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=bdbaa3390b4f986555225ce52bf5e20cf44d7556, not stripped
+[22:50:28] <prabhanjan> We'll discuss later what that means. 
+[22:50:43] <chinmay_dd> @all please be responsive. This has to be interactive rather than passive 
+[22:51:14] <prabhanjan> Yeah. You can stop me and ask questions if you dont understand anything !
+[22:51:53] <prabhanjan> For now, filename.out is an excecutable file. So we run it by- ./filename.out
+[22:52:52] <prabhanjan> Has anyone run it ?
+[22:53:18] <anand16> Hello World 10 times
+[22:53:44] <prabhanjan> Yep!
+[22:54:22] <prabhanjan> Well this was an easy one, so we can directly figure out what the source code is just by looking at the output !
+[22:54:41] <prabhanjan> But let us look at what actually goes on 
+[22:55:53] <prabhanjan> Use- objdump -M intel filename.out -D|grep -A20 main.:
+[22:56:45] <prabhanjan> This gives us the disassembly of executable filename.out in intel format. All the instructions we discussed are in intel format 
+[22:57:51] <prabhanjan> we use grep -A20 main.: to get only the 20 lines of assembly after the regular expression main.: (Basically prints out 20 lines after main is found)
+[22:58:26] <prabhanjan> The output is here -https://gist.github.com/PrabhanjanPM/59129d1d7085d982d2da
+[23:02:06] <prabhanjan_> Any questions ??
+[23:02:12] <anand16> nipe
+[23:02:16] <anand16> *nope
+[23:03:11] <prabhanjan_> So execution of main begins at 40052d
+[23:03:56] <prabhanjan_> push rbp ->stores value in register rbp onto the stack
+[23:05:02] <prabhanjan_> rbp- Base pointer. This is pushed to the stack so that we can return the calling function after execution of this function
+[23:06:10] <prabhanjan_> mov rbp,rsp -> stores value of rsp in rbp 
+[23:06:18] <prabhanjan_> sub rsp,0x10 -
+[23:06:36] <prabhanjan_> subtracts value of rsp(stack pointer by 0x10)
+[23:06:57] <prabhanjan_> this means 16 bytes of memory are allocated for this function 
+[23:08:40] <prabhanjan_> mov DWORD PTR [rbp-0x4], 0x0 ->stores 0x0 in 4 bytes following rbp-0x4
+[23:09:14] <prabhanjan_> We can infer int data type seeing that it uses 4 bytes memory 
+[23:10:16] <prabhanjan_> jmp 40054c -> jump to instruction at 40054c
+[23:10:46] <prabhanjan_> 40054c- cmp DWORD PTR[rbp-0x4], 0x9
+[23:11:33] <prabhanjan_> compares value that we stored at rbp-0x4(ie 0x0) with 0x9
+[23:12:28] <prabhanjan_> jle 40053e -> Jumps to 40053e if value at bp-0x4 is lesser than 0x9
+[23:12:55] <prabhanjan_> Since 0x0 is lesser than 0x9, it jumps to 40053e
+[23:13:38] <prabhanjan_> mov 0x4005e4, call 400410 <puts@plt>
+[23:13:50] <prabhanjan_> this is used to print Hello World
+[23:13:58] <prabhanjan_> And the cycle repeats again !
+[23:14:41] <prabhanjan_> *just after printing, add DWORD PTR[rbp-0x4], 0x1
+[23:15:03] <prabhanjan_> we increment the value at rbp-0x4 by one.
+[23:15:35] <prabhanjan_> Then we again compare it with 0x9, and the cycle repeats till its greater than 9
+[23:16:00] <prabhanjan_> When it exceeds 9, the  functions returns !
+[23:16:06] <prabhanjan_> Any questions ?
+[23:18:05] <prabhanjan_> You can check out this link -http://beginners.re/Reverse_Engineering_for_Beginners-en-A5.pdf 
+[23:18:38] <prabhanjan_> and attempt excercises - https://github.com/PrabhanjanPM/Reversing/tree/master/Excercise
+[23:21:42] <prabhanjan_> We can hold a workshop for the problems later!
+[23:22:01] <prabhanjan_> Goodnight guys!
