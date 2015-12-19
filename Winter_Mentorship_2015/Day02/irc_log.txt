@@ -1,0 +1,492 @@
+[18:48:50] <ashish1294> Good Evening. We will start in another 15 mins. Ask your friends to join.
+[18:56:35] <Aswanth> Join
+[19:01:32] * Guest41231 slaps rakshith_ around a bit with a large fishbot
+[19:01:39] <ashish1294> We will wait for 5 more minutes before starting
+[19:01:46] <Guest41231> k
+[19:01:54] <ravali> ok
+[19:02:02] <Chombs> Cool
+[19:03:48] <Salman_> Since we have 5 minutes what's with the slap option?
+[19:03:56] <chinmay_dd> Dont use it
+[19:03:56] * Geralt slaps Salman_ around a bit with a large fishbot
+[19:04:07] * Fantumnitk slaps Salman_ around a bit with a large fishbot
+[19:04:12] <Guest41231> wat is it??
+[19:04:20] <kbhat> exactly what you see
+[19:04:25] <Fantumnitk> just trying. No offence Salman_ 
+[19:04:32] <ashish1294> Yes please don’t use it
+[19:04:33] <kbhat> first off, it isn't an option
+[19:04:42] <kbhat> wait is it? O.o
+[19:05:05] <kbhat> Guest41231, "/action whatever will display something like this:"
+[19:05:09] * kbhat whatever
+[19:05:21] <kbhat> * "/action whatever"
+[19:05:32] <kbhat> that's all there is to it
+[19:05:47] <kbhat> Salman_, ^
+[19:06:01] <ashish1294> I guess our first sessions should have been on IRC itself :P
+[19:06:08] <ashish1294> *session
+[19:06:47] <Chombs> We're starting soon?
+[19:06:49] <ashish1294> So let us start.
+[19:06:58] <Salman_> Well you know guys you can slap yourslves as well
+[19:07:05] <Salman_> Okay ready to start
+[19:07:53] <ashish1294> First of all I would appreciate all first years taking out time to join these sessions during holiday.
+[19:08:10] <ashish1294> Learning should never stop. Not even dueing
+[19:08:25] <ashish1294> Cloud Computing.
+[19:09:07] * lol__ slaps ajithps around a bit with a large fishbot
+[19:09:30] * sushant94 is waiting for ashish1294 to start
+[19:10:13] <ashish1294> So here is the brief overview for todays session - 1. Basic Overview 2. PAAS, IAAS, SAAS, SOA 3. Distributed Computing Concepts 4. Importance and Use cases 
+[19:10:47] <ashish1294> I will keep it very simple
+[19:11:06] <ashish1294> So first see the traditional client server technology
+[19:11:41] <ashish1294> We have a server. For example say nitk website. That’s hosted on servers at NITK itself.
+[19:12:10] <ashish1294> There are many clients making requests and the server is serving them.
+[19:12:40] <ashish1294> There is only one server.
+[19:13:11] <ashish1294> And there are hardware limitations.
+[19:13:41] <ashish1294> There is a limit to the number of requests that a single server can serve
+[19:13:57] <ashish1294> Maintaing server is also a difficult task
+[19:14:07] <ashish1294> If you have seen pic
+[19:14:14] <ashish1294> of severs in movies
+[19:14:22] <ashish1294> *servers
+[19:14:39] <ashish1294> you will know how hard it is to maintain cooling systems
+[19:14:53] <ashish1294> and high  speed network infrastructure
+[19:16:02] <ashish1294> You often want to have a website but you do not have resources to to maintain such servers yourself
+[19:16:21] <ashish1294> This is where cloud computing comes in
+[19:17:00] <ashish1294> Cloud computing is all about remote computing.
+[19:17:45] <ashish1294> Here a cloud provider maintains huge servers with all facilities and allows people to rent it
+[19:18:14] <ashish1294> You will not have 
+[19:18:24] <ashish1294> physical access to hardware
+[19:18:52] <ashish1294> And the data centers are distributed across the globe
+[19:19:05] <Salman_> But isn't it unreliable due to external factors like weather......?
+[19:19:28] <Fantumnitk> Theyre very secure.
+[19:19:37] <Fantumnitk> AC rooms with security.
+[19:19:43] <ashish1294> The geographical distribution helps combat critical weather
+[19:19:51] <Fantumnitk> Die hard 4.0
+[19:20:06] <Fantumnitk> and backups.
+[19:20:09] <ashish1294> if there is a tsunami is say US the London data center is still active
+[19:20:13] <Fantumnitk> Right?
+[19:20:29] <ashish1294> Yes. Die Hard 4. Nice example. It’s something similar !
+[19:20:49] <Salman_> Okay ....
+[19:20:57] <ashish1294> And mind you traditional servers also have these problems
+[19:21:37] <ashish1294> There are 3 major cloud technologies
+[19:21:58] <ashish1294> First is IaaS or “Infrastructure As A Service"
+[19:22:09] <ravali> ashish could u throw some light on die hard 4
+[19:22:29] <ravali> what is die hard 4
+[19:22:35] <Fantumnitk> Movie.
+[19:22:39] <Fantumnitk> Watch it.
+[19:22:57] <ravali> k fantum
+[19:22:58] <ashish1294> Okay. For those of you who haven’t seen die hard 4 - the data and application code is replicated on all data centres
+[19:23:47] <ashish1294> In case one of the center goes down - the other data centre which has the backup immediately takes up the charge
+[19:24:11] <Fantumnitk> fact:Google keeps 9 copies of your cloud data
+[19:24:25] <ashish1294> It is highly unlikely that all the data centers everywhere will go down at once
+[19:25:31] <ashish1294> So even if there is a terrorist attack or natural calamity your website keeps running
+[19:25:53] <ravali> interesting..
+[19:25:56] <ashish1294> So moving on - IaaS
+[19:26:35] <ashish1294> In IaaS the application developer will rent infrastructure i.e., direct hardware
+[19:26:50] <ashish1294> This is the most common form of cloud computing
+[19:26:52] <lol__> but are all these centers located at secret and secure locations ? for instance,what if terrorists attack all these centers at once ?
+[19:27:38] <ashish1294> The location of Amazon Data centres is still unknown even after a decade  !
+[19:27:55] <lol__> oh..great
+[19:28:11] <ashish1294> It’s difficult to co-ordinate and bring down everything at once
+[19:28:47] <ashish1294> byt nevertheless there have incidents when everything was brought down together. But those were technical glitches.
+[19:28:52] <ashish1294> *but
+[19:29:12] <ashish1294> SO in IaaS you rent a typical computer machine
+[19:29:13] <rakshith_> DDoS?
+[19:30:11] <ashish1294> DDoS is one form of security attack
+[19:31:18] <sanju> What is DDos?
+[19:31:40] <ashish1294> Eg. You can rent a computer with 512 MB Ram 20 GB Disk and 1 core 2,4 Ghz processor for usd $5 / month on digitalocean.com
+[19:31:58] <Fantumnitk> www.webopedia.com/TERM/D/DDoS_attack.html
+[19:32:28] <ashish1294> DDoS is really out of scope for this session 
+[19:33:16] <Geralt> is the computer a physical computer with those specs or a vm?
+[19:33:19] <ashish1294> You can read that like for more details
+[19:33:31] <ashish1294> It is a VM
+[19:34:14] <Salman_> VM??
+[19:34:26] <ashish1294> It has high speed internet with transfer limit of 1TB / month
+[19:34:34] <ashish1294> VM = Virtual Machine
+[19:34:53] <ashish1294> Let’s just say a normal computer if you don’t know what VM is
+[19:35:14] <ashish1294> Those VMs are up 24x7
+[19:35:59] <ashish1294> They have power backup + cooling system + guranteed to recover from hardware failures
+[19:36:26] <ashish1294> You typically operate such a computer over SSH
+[19:37:04] <ashish1294> If you don’t know what ssh is - you just login to the computer over internet like any other machine and start using it.
+[19:37:17] <ashish1294> You have ti install all your softwares
+[19:37:19] <ashish1294> *to
+[19:37:26] <ashish1294> and dependencies 
+[19:37:41] <ashish1294> for your application to run.
+[19:38:31] <ashish1294> Disadvantage is that - The load on your website may be fluctuating. Like during night it will have only 10 visitors / hr but during day it will have 1000 
+[19:38:56] <ashish1294> But you will have to pay a constant amount everytime
+[19:39:21] <Salman_> SO are you saying a website will work faster if it has less traffic
+[19:39:34] <Salman_> Can the same be applied to Internet Speed?
+[19:39:58] <ashish1294> No I mean you do not need a powerful server when load is less. I can change my server to a less powerful machine 
+[19:40:18] <ashish1294> But you are stuck with high power machine
+[19:40:25] <Salman_> Okay.....
+[19:40:43] <ashish1294> Advantage is that you can run literally anything 
+[19:40:57] <ashish1294> Whatever you can do on a normal PC you can do there
+[19:41:42] <ashish1294> There is one more disadvantage - Not many people would know the internals of network security and operating system to optimise their machine
+[19:41:53] <ashish1294> They only know how to build a website
+[19:42:17] <ashish1294> They don’t know anything about load distribution
+[19:42:40] <ashish1294> so they may find setting up servers on IaaS difficult
+[19:42:49] <ashish1294> the solution is PaaS
+[19:43:00] <ashish1294> i.e., Platform As A Service
+[19:43:10] <ashish1294> Here you don’t rent a machine at all
+[19:43:17] <ashish1294> You rent a platform.
+[19:43:44] <ashish1294> You rent computing units - i.e, the ability to do some processing
+[19:47:08] <Salman_> PLatform???
+[19:47:14] <Salman_> Didn't get the meaning
+[19:48:04] <Geralt> lol
+[19:48:23] <Salman_> Okay it wasn't such a bad question I guess.... :p
+[19:48:41] <ajithps> lets just wait for a while till he returns
+[19:48:44] <Geralt> no i meant he was dropped from the chat
+[19:49:15] <Guest41231> lolol
+[19:49:18] <Chombs> Lol...
+[19:49:37] <venkat_> what happens now
+[19:49:41] <ashish1294> HI
+[19:49:42] <ajithps> he comes back.
+[19:49:52] <ashish1294> sorry for trouble !
+[19:50:11] <ashish1294> This is what happens with unreliable unternet connections !
+[19:50:13] <ajithps> ashish1294: Salman_ was saying that he didn't understand meaning of platform
+[19:50:24] <ashish1294> yeah. I saw log
+[19:50:33] <ajithps> ah forgot XD
+[19:51:01] <ashish1294> So platform is basically computational resource
+[19:51:28] <ashish1294> I mean we saw Linux Platform, Windows Platform
+[19:52:06] <ashish1294> We mean that its a set of tools (including an OS) that helps us use our processor
+[19:53:10] <ashish1294> If I give you a brand new CPU you won’t be able to do anything with it unless you set up a platform - you can use that platform to exploit your computational resource
+[19:54:05] <ashish1294> In IaaS you build website depending on the OS / platform you install on your system
+[19:54:31] <ashish1294> in PaaS your app is independent of underlying platform.
+[19:54:38] <Salman_> Okay so how do we have the same website for multiple OS'
+[19:55:03] <Salman_> multiple=different
+[19:55:18] <ashish1294> Most website are same for all OS. There are few features that may be dependent on OS.
+[19:56:07] <ashish1294> PaaS provides a common method to use those few features with a common interface
+[19:57:18] <ashish1294> DO you know Java Virtual Machine ?
+[19:57:53] <rakshith_> YES
+[19:58:03] <ravali> no
+[19:58:26] <ashish1294> Okay so say you want to get the path of current directory
+[19:58:43] <ashish1294> on Linux it may may - /home/user/Desktop
+[19:58:56] <Salman_> No
+[19:59:16] <ashish1294> on windows it may be C:\\DocumentsandSettings\user\Desktop
+[19:59:25] <rakshith_> Java is platform independent!
+[19:59:41] <ashish1294> So the path is platform dependent
+[20:00:07] <ashish1294> but the PaaS will provide you a single function say getDesktopPath()
+[20:01:11] <Salman_> OKay wait, I didn't exactly get Java Virtual Machine?
+[20:01:20] <ashish1294> Internally it may be implemented like - getDesktopPath() { if(os == win) return “C\\Docume…”; else if(os== linux) return “/home/…”; }
+[20:01:30] <ashish1294> Leave Java Virtual Machine
+[20:01:35] <Salman_> What is it exactly and why is platform dependent/independent
+[20:01:39] <Salman_> ok
+[20:01:41] <ashish1294> Check the example
+[20:01:57] <rakshith_> Java runs on top of the JVM. JVM is written separately for different platforms
+[20:02:06] <ashish1294> Salman_: Do you understand now ? The ame getDesktopPath() will work on both platforms
+[20:02:16] <ashish1294> *same
+[20:02:39] <Salman_> Okay ya got it so basically depending on the OS the code will be executed accordingly
+[20:02:44] <ashish1294> Yes
+[20:03:06] <ashish1294> But as a developer - you only need to know the getdesktop function
+[20:03:30] <ashish1294> So PaAS does that. And more importantly it scale
+[20:03:39] <ashish1294> automatically
+[20:03:43] <Salman_> scale??
+[20:03:54] <ashish1294> If you application had sudden surge in traffic
+[20:04:09] <ashish1294> Say you wrote a super awesome blog that went viral
+[20:04:23] <ashish1294> You then millions of views on it
+[20:04:38] <ashish1294> but usually you only get 100 views
+[20:05:06] <ashish1294> So your traditional server will be overwhelmed and crash
+[20:05:19] <Geralt> internally does the provider scale horizontally or vertically or can we choose?
+[20:05:24] <ashish1294> PaAS will add new processor to you app
+[20:05:52] <ashish1294> Geralt: Interesting question. I am assuming you have some background in this area
+[20:06:07] <ashish1294> You can choose
+[20:06:16] <Geralt> ok
+[20:06:30] <ashish1294> Vertical scaling means - Adding more resources
+[20:07:08] <ashish1294> Horizontal scaling means - Adding more machines altogether and diverting half the requests to the new machine
+[20:07:26] <Salman_> Resources refers to....?
+[20:07:57] <ashish1294> Resources mean processing capability, memory, etc
+[20:08:53] <Salman_> ok
+[20:09:04] <ashish1294> Typical examples of IaaS are - Amazon AWS EC2, Google Compute Engine, Rackspace, Digital Ocean Droplet
+[20:09:44] <ashish1294> Examples of PaaS are - Amazon Elastic Beanstalk, Google App Engine, Azure PCloud, Heroku
+[20:10:22] <ashish1294> Note that Amazon Web Services is the most widely used Cloud Computing Platform
+[20:11:02] <Rajgauri> What next?
+[20:11:05] <ashish1294> So is everyone clear till now ?
+[20:11:14] <venkat_> yes
+[20:11:17] <ravali> yes
+[20:11:19] <sandeepmenon> yes
+[20:11:24] <Salman_> yup
+[20:11:25] <aalam> yes
+[20:11:28] <Geralt> yeah
+[20:11:31] <neha333> yeah
+[20:11:31] <ashish1294> Next up. Let’s take a break and introduce ourselves. 
+[20:11:46] <Salman_> Salman Shah, 1st year IT
+[20:12:04] <Guest41231> Sagar,1st Year,comps
+[20:12:11] <ravali> Ravali Badri, 1st year IT 
+[20:12:17] <venkat_> Venkataraman S, 1st year comp
+[20:12:19] <aalam> Aalamdeep Kashyap 1st Year comps
+[20:12:20] <ashish1294> I am Ashish Kedia, Final Year IT
+[20:12:49] <rakshith_> Rakshith, First Year IT
+[20:12:51] <ajithps> I am Ajith Pandel, Final Year IT :)
+[20:12:59] <Rajgauri> Rajgauri, first year IT
+[20:13:13] <Geralt> Geralt of Rivia, Graduate from the Wolf Witcher School
+[20:13:59] <Salman_> I didn't know the Web Club had Student Exchange Programs :p
+[20:14:36] <ashish1294> Last year we had Batman
+[20:14:39] <ashish1294> :P
+[20:14:40] <ajithps> Geralt: May we know your real name? :)
+[20:14:51] <ujdcodr> Ujjwal P, 1st year IT
+[20:15:28] <Geralt> Pratyush, 1st year IT
+[20:15:43] <ashish1294> @Second years : Please introduce yourself
+[20:16:19] <ajithps> mohit_reddy: ping
+[20:16:19] <mukta> mukta second year IT
+[20:16:20] <sandeepmenon> Sandeep Menon 2nd year CSE
+[20:16:20] <mohit_reddy> Mohit Reddy, Second Year Comps
+[20:16:21] <anand16> Anand , 2nd yeat CS
+[20:16:26] <ajithps> ah
+[20:16:30] <prajwala> Prajwala,second year cs
+[20:16:35] <Sheetal> Sheetal, 2nd year CSE
+[20:16:36] <Isha_97> Isha Tarte, 2nd Year Comps
+[20:16:38] <neha333> Myself Neha, Second year IT
+[20:17:01] <ajithps> any third years apart from chinmay_dd and kbhat ?
+[20:17:27] <Fantumnitk> Adithya Bhat, II year IT
+[20:17:48] <ashish1294> Is there any first year who doesn’t know about web enthusiasts’ club ?
+[20:17:57] <Guru_pradeep> Guru pradeep, second year cs
+[20:18:04] <Chombs> Puneet first year cs
+[20:18:28] <Salman_> I guess, me!!!
+[20:18:31] <ujdcodr> @ashish1294, which is better if we're concerned about dealing with variable amounts of traffic on a website IaaS or PaaS
+[20:18:36] <Krishna> Krishna Jaju 2nd year, IT
+[20:19:00] <ashish1294> PaaS is tailor made specifically to handle variable amount of traffic
+[20:19:38] <ujdcodr> Because i don't see the point of an IaaS since you have to pay for the hardware even if the website doesn't get so many hits
+[20:19:57] <ujdcodr> THen where is IaaS used?
+[20:20:17] <ashish1294> There are advantages of IaaS for specific use cases
+[20:20:29] <ujdcodr> namely???
+[20:21:12] <ujdcodr> Is it used by larger websites that constantly receive high amounts of traffic
+[20:21:39] <ashish1294> PaaS has overhead. It takes time to scale. It may not to smart enough to counter attacks. It may not offer the right runtime for your app
+[20:22:03] <ujdcodr> overhead???
+[20:22:29] <ashish1294> Quora, Amazon, Github - they all use IaaS
+[20:22:46] <ashish1294> Even Flipkart uses Amazon’s IaaS :P
+[20:23:06] <ashish1294> overhead - to detect the traffic load
+[20:23:51] <ashish1294> It adds an extra layer between computing platform and application - which has some overhead
+[20:24:11] <ashish1294> For example suppose you want to cache frequently used data into main memory
+[20:24:35] <ashish1294> PaaS only provides support for distributed cache frameworks
+[20:24:54] <ashish1294> IaaS you can have your own cache configuration
+[20:25:34] <ujdcodr> so PaaS limits the rate at which you can cache data??
+[20:26:45] <ashish1294> it doesn’t limit. Since you do not have access to direct platform in PaAS you cannot modify the cache according to your application need
+[20:27:24] <ujdcodr> ohk...
+[20:27:52] <ujdcodr> so as a startup it would be better to invest in a PaaS and then upscale to IaaS
+[20:28:15] <Fantumnitk> what about maintainance?as in cleaning junk files,etc
+[20:28:21] <ashish1294> The most widely popular mechanism is to use web-interface on PaaS outsource expensive background tasks to IaaS
+[20:29:20] <ujdcodr> what was it like before cloud computing.......were the subdivsions IaaS/PaaS already existent or would u just have to rent out an entire server??
+[20:29:38] <ashish1294> Yup. All major startups start with PaaS with a major exception of Quora which chose IaaS because they wanted to use traditional MySQL.
+[20:30:11] <ashish1294> Rackspace is probably the oldest popular server renting platform
+[20:30:22] <ashish1294> It didn’t had IaaS / PaaS
+[20:30:55] <ujdcodr> you mean PaaS doesn't support MySQL??
+[20:31:02] <ashish1294> It just allows you to rent machines. You even pay for salary of people working to keep your system clean there !
+[20:31:34] <ujdcodr> woah!! must have been an expensive affair
+[20:31:58] <ashish1294> No. It does. But Quora have 3 layers of MySQL shema which is very different from any existing service. So they built their own service
+[20:32:13] <ashish1294> Yes. It was expensive and thus it was difficult to scale
+[20:32:35] <ujdcodr> which led to cloud computing....i guess
+[20:33:07] <ashish1294> And thus computationally expensive areas like Neural Networks didn’t develop much earlier - due to lack to computing resources
+[20:33:25] <ashish1294> So the last form of cloud service is SaaS
+[20:33:38] <ashish1294> i.e., Software As A Service
+[20:33:47] <ashish1294> Here there is no server at all
+[20:34:02] <ashish1294> You rent the service of a software
+[20:34:09] <ashish1294> This typically done via APIs
+[20:34:28] <ujdcodr> is this google drive,skydrive all about?
+[20:34:46] <ujdcodr> i heard that twitter is some kind of SaaS
+[20:35:01] <ashish1294> Google drive is a data storage service.
+[20:35:23] <ashish1294> It is a web application - a product - a website. Not a form of technology
+[20:36:18] <ashish1294> SaaS is like renting a MySQL server
+[20:36:24] <ujdcodr> but isn't it kind of like a software that's storing data on a server located elsewhere???
+[20:37:31] <ashish1294> When I say SaaS the S for Software means a much lower level software. Something that is used to develop higher level softwares
+[20:38:02] * prajwala slaps sandeepmenon around a bit with a large fishbot
+[20:38:28] <ashish1294> A typical example is data storage service
+[20:38:35] <ajithps> as mentioned before it's very rude to slap someone else
+[20:38:39] <prajwala> sorry,that was by mistake :P
+[20:39:06] <sandeepmenon> its okay XD
+[20:39:18] <ajithps> ashish1294: Please continue :)
+[20:39:34] <ashish1294> But this data storage storage service is not like Drive
+[20:39:40] <ashish1294> Drive is meant for end users
+[20:39:50] <ujdcodr> what are some examples of low level software
+[20:40:11] <ashish1294> Drive is used by real people. A user manages his own drive
+[20:41:24] <ashish1294> Amazon’s Simple Storage Service or S3, Google Cloud Datastore, Amazon RDBMS, Google Cloud Storage,
+[20:42:06] <ashish1294> In these data storage services - an application programatically interacts with the service with exchange data. 
+[20:42:22] <ashish1294> And multiple applications mat interact at same time
+[20:43:00] <ashish1294> These is no user interface for there softwares. There is only Programming Interfaces
+[20:43:04] <ashish1294> or APIs
+[20:43:21] <ashish1294> You use those apis to interact with softwares
+[20:43:48] <ashish1294> SaAS compliments IaaS and PaaS
+[20:44:32] <ujdcodr> So SaaS has to be implemented regardless whether we use IaaS or PaaS??
+[20:44:45] <ashish1294> SaaS scales independently of application and is hosted separately from your application servers
+[20:45:18] <Salman_> Microsoft's OneDrive??
+[20:45:29] <ashish1294> Use of SaaS is optional. But most applications do use some SaaS. Most big applications will used tens of SaaS
+[20:45:52] <Salman_> All Windows 10 PCs have that ..... is that SaaS again?
+[20:45:59] <ashish1294> MS one drive is like Google Drive
+[20:46:13] <Salman_> Okay....
+[20:46:29] <ashish1294> …. ?
+[20:46:38] <ujdcodr> can you explain the role of an API
+[20:46:46] <ujdcodr> how exactly does it work???
+[20:46:55] <ashish1294> For example Siri is an SaaS
+[20:47:07] <ujdcodr> and what is it interfacing with??
+[20:47:49] <ashish1294> I Phone uses it to identify what user is saying.
+[20:48:16] <ashish1294> In this case the final application is named after the Service itself
+[20:48:32] <ashish1294> API = Application Programmer Interface
+[20:49:03] <ashish1294> It is set of library functions used to inreact with a software
+[20:49:56] <ashish1294> In layman's terms, an API is an agreement between two people stating: "If you give me this instruction, I will perform this action, or return this information"
+[20:50:59] <ashish1294> It might be too technical
+[20:51:03] <ujdcodr> yes....but who is the instructor and who is the instructed???
+[20:51:19] <ashish1294> Instructor is the application that you develop
+[20:51:40] <ashish1294> And the performer is the software service
+[20:52:35] <ashish1294> So you give SQL queries to MySQL service and and it gives you the result
+[20:52:41] <ujdcodr> so the app is like a mediator between the user and service......while the api is the mediator between the app and the service
+[20:52:48] <ujdcodr> is that correct???
+[20:53:04] <ashish1294> Yup. You are kind of right !
+[20:54:04] <ashish1294> “user -> App -> API -> Service -> backend -> Hardware”
+[20:54:25] <ujdcodr> perfect!!
+[20:54:27] <ashish1294> We only develop the “App” Part of it.
+[20:54:27] <ujdcodr> thanks
+[20:55:09] <ashish1294> So the last thing that I wanted to discuss is geting started with Cloud Computing
+[20:55:50] <ashish1294> The main thing to get acquainted to various services out there and learn to use there API
+[20:56:22] <ashish1294> A typical cloud app will have a web interface for users to interact with
+[20:56:32] <ujdcodr> will those API courses on codecademy.org be of any use??
+[20:56:53] <ashish1294> This interface is developed using frameworks like Django, Rails, MEAN
+[20:57:19] <ashish1294> Then there is Data backend - There are 2 choices for cloud developers - SQL and NoSQL
+[20:57:41] <ashish1294> SQL include Amazon’s RDBMS and Google Cloud Storage
+[20:58:09] <ashish1294> NoSQL include Amazon DynamoDB and Google Cloud Datastore
+[20:58:24] <ashish1294> There is also CouchDB and MongoDB 
+[20:58:52] <ashish1294> https://www.coursera.org/course/cloudcomputing
+[20:59:13] <ashish1294> This is a great course to learn basic of cloud computing
+[20:59:57] <Salman_> Rails= Ruby on Rails??
+[21:00:16] <ashish1294> You can deploy a free app on Heroku if you want to try out PaaS
+[21:00:25] <ashish1294> Rails = Ruby on Rails 
+[21:00:46] <ashish1294> Ruby is language. Rails is framework
+[21:01:12] <ashish1294> We have a dedicated session in ROR 
+[21:01:30] <ashish1294> Also there are limitation to cloud computing
+[21:01:46] <ashish1294> One of the biggest is data and application locking.
+[21:02:00] <ashish1294> What this means is that you are bound to cloud provider
+[21:02:52] <ashish1294> All your data is on some one else’s server. Although it doesn’t mean they can access it but it does means that you’re not allowed to take them out and shift it
+[21:03:11] <ujdcodr> How is data accessed/modified in NoSQL systems?
+[21:03:19] <ashish1294> Your application is almost always dependent on Cloud Provider
+[21:04:06] <ashish1294> Say you are developing an app and you deploy it on Google’s PaaS - App Engine. You will write codes that are compatible only with that PaAS
+[21:04:30] <ashish1294> If you decide to move to Amazon’s PaaS you will have to rewrite.
+[21:05:00] <ashish1294> But Data is often stored in a format that only Google’s PaaS can unterstand
+[21:05:18] <ashish1294> Migration of Data to other cloud provider is difficult
+[21:06:08] <ashish1294> Microsoft Azure tries to avoid such vendor locking. But that isn’t sufficient
+[21:06:34] <ujdcodr> What is Azure exactly??
+[21:06:36] <ashish1294> ujdcodr: NoSQL stores data in key-value pair
+[21:06:46] <ujdcodr> is it some sort of cloud based OS???
+[21:06:54] <ashish1294> Azure is name for Microsoft Cloud
+[21:07:15] <ashish1294> GCP (Google Cloud Platform) is name for Google’s Cloud
+[21:07:39] <ashish1294> Amazon Web Services is collective name for Amazon’s CLoud
+[21:08:12] <ashish1294> So I am mostly done for the day. You may ask any questions if you have
+[21:08:46] <Salman_> Yes please...
+[21:08:53] <Salman_> You said Rails is a framework
+[21:08:58] <Salman_> What does that mean?/
+[21:09:10] <ashish1294> It is an MVC framework
+[21:09:18] <ujdcodr> aren't key value pairs similar to rows and colums in SQL
+[21:09:19] <Salman_> ???
+[21:09:43] <vshan> There's a dedicated session to Rails tomorrow, Salman
+[21:10:13] <ashish1294> In layman terms Framework means a collection of very small APIs
+[21:11:06] <ashish1294> No. Lets say you have student detail your table columns will be - > Name | Age | Sex | Marks
+[21:11:34] <ashish1294> Records will be (in SQL) -> ujdcodr | 10 | M | 70
+[21:12:03] <ujdcodr> You got the age and marks wrong
+[21:12:08] <ujdcodr> ;-)
+[21:12:16] <ujdcodr> just kidding
+[21:12:19] <ujdcodr> continue
+[21:12:31] <ashish1294> In NoSQL { “Name” : “ujdcodr”, “Age” : 10, “Sex” : ‘M’, “Marks” : 70 }
+[21:13:01] <ashish1294> The advantage is that if I do not have Age for some student i can just omit it
+[21:13:14] <ashish1294>  { “Name” : “ujdcodr”, “Sex” : ‘M’, “Marks” : 70 }
+[21:13:19] <Salman_> Oh okay what about ssh?
+[21:13:24] <ashish1294> No Age. No Space wasted
+[21:13:24] <Salman_> What is that exactly
+[21:13:25] <ujdcodr> isn't this how data is entered into SQL
+[21:13:36] <ujdcodr> how is it NoSQL then???
+[21:13:44] <ashish1294> There are many more differences. Hard to cover all in a short time
+[21:13:49] <Salman_> I mean we use that to log into our UBuntu terminal
+[21:13:56] <Salman_> But what does it signify?
+[21:14:27] <ashish1294> ujdcodr: You will learn more about it in 2nd and 3rd year
+[21:14:41] <ashish1294> SSH = Secure Shell
+[21:15:03] <ashish1294> You use to establish a secure connection to a remote machine
+[21:15:33] <ashish1294> If you  give the ip address of your machine and password I can log in from here
+[21:16:00] <ashish1294> And operate your computer over internet
+[21:16:23] <ujdcodr> not so secure is it....
+[21:16:26] <ashish1294> ujdcodr: http://www.sitepoint.com/sql-vs-nosql-differences/
+[21:16:56] <ashish1294> Let us not discuss the level of security :P
+[21:17:42] <ashish1294> Any other questions ?
+[21:17:47] <Salman_> You mentioned that a VM having a transfer limit of 1 TB
+[21:17:54] <Salman_> What does that mean??
+[21:18:05] <Salman_> Transfer limit to be specific
+[21:18:16] <Salman_> Is it volume of Information 
+[21:18:22] <Salman_> Or something else?
+[21:18:51] <ashish1294> 1 TB or data transfer over network
+[21:19:09] <ashish1294> Total volume on upload and download
+[21:19:22] <ashish1294> but that is not a limit for VM
+[21:19:35] <ashish1294> it is limit for your plan !
+[21:19:48] <ashish1294> Limit of your infrastructure
+[21:19:55] <Salman_> So we can have greater than 1TB
+[21:19:59] <Salman_> oH OKAY
+[21:20:36] <Salman_> One more question 
+[21:20:40] <Salman_> This is a silly one
+[21:20:40] <ashish1294> Yes. If you pay more
+[21:20:45] <Salman_> But what exactly is Cache
+[21:20:46] <ujdcodr> lol
+[21:20:56] <Salman_> I've heard different explanations for it
+[21:21:14] <Salman_> And different definitions....
+[21:21:26] <ashish1294> Cache is way of storing frequently used data
+[21:21:40] <Salman_> So cache memory would mean....
+[21:21:55] <Salman_> ??
+[21:22:31] <ashish1294> see reading data from disk is slower than reading from ram
+[21:22:55] <ashish1294> Cache often have different meaning in different context.
+[21:23:27] <ashish1294> Do Suppose I frequently read the number of students in a class
+[21:23:49] <ashish1294> I make a disk read operation everytime
+[21:24:14] <ashish1294> I read all student and count the number existing student
+[21:24:47] <ashish1294> To minimize this i computed number of student and stored in ram when the server started
+[21:25:10] <ashish1294> Reading from ram typically 1000 times faster than hard disk
+[21:25:49] <ashish1294> Got it ?
+[21:26:12] <ashish1294> You will learn about it in OS course and Database course
+[21:26:18] <Salman_> Yup
+[21:26:20] <ashish1294> Just get a basic idea
+[21:26:30] <Salman_> Okay one last doubt......
+[21:26:30] <ujdcodr> @Salman_: Another version of cache. Have you noticed that a sight you visit for the first time takes longer than one which you visit everyday?
+[21:26:39] <ujdcodr> *website
+[21:26:45] <ashish1294> Yes. That’s a good example
+[21:26:46] <Salman_> Yeah.. @ujdcodr
+[21:27:01] <ujdcodr> that's the webserver tagging your IP
+[21:27:05] <Salman_> So if I clear my history it'll act as the same again
+[21:27:11] <Salman_> ??
+[21:27:18] <ujdcodr> it says that 'this IP keeps coming here'
+[21:27:21] <Salman_> Oh wait webserver
+[21:27:25] <ujdcodr> so i better make access faster
+[21:27:58] <ujdcodr> for this IP
+[21:28:08] <ashish1294> ujdcodr: you aren’t right
+[21:28:09] <ujdcodr> hence your IP is 'cached'
+[21:28:16] <Salman_> So it is IP dependent?
+[21:28:29] <ashish1294> The webserver do not do any user-specific caching
+[21:28:34] <ashish1294> The browser caches all the static files
+[21:28:57] <ashish1294> Clear your whole browser history - Everything including cookies
+[21:29:21] <ashish1294> You will notice that the response time will increase
+[21:29:33] <ujdcodr> ok...
+[21:29:42] <ujdcodr> thanks for correcting me
+[21:29:45] <Salman_> Ohkay
+[21:30:25] <ashish1294> ANy other questions ?
+[21:30:29] <Salman_> So cookies are the cache over here?
+[21:30:46] <ashish1294> No. Cookies are something else. 
+[21:30:56] <ashish1294> Out of scope 
+[21:30:57] <ashish1294> !
+[21:31:02] <ujdcodr> how do access the logs of yesterday's discussion??
+[21:31:12] <ujdcodr> On cryptography??
+[21:31:19] <ajithps> We will update out website with links to all the logs
+[21:31:20] <ashish1294> Yesterday many people posted passwords here
+[21:31:51] <ashish1294> We will sanatize yesterday log and give you all link to all logs
+[21:31:53] <ujdcodr> the github page shows only todays logs
+[21:32:02] <Salman_> One last question "You stated that SaAS compliments IAaS and PAAS WHAT DID YOU MEAN by that?
+[21:32:18] <Salman_> "*
+[21:32:25] <ashish1294> I mean SaaS are additional services
+[21:32:55] <ashish1294> they help developers using IaaS and PaaS in developing their Apps by providing APIs
+[21:33:13] <Salman_> Ok so in addition to what is provided by IaaS AND PaAs SaaS offers a bit more
+[21:33:30] <ashish1294> Yup. Kind of !
+[21:34:03] <Fantumnitk_> https://www.dropbox.com/s/lpjncffuxusw4ir/chat_logs.zip?dl=0
+[21:34:08] <Salman_> CouchDB and MongoDB are these included in NoSQL
+[21:34:10] <Fantumnitk_> Yesterday's logs.
+[21:34:18] <Salman_> ????
+[21:34:25] <ujdcodr> Thanks a lot
+[21:35:03] <ashish1294> CouchDb and MongoDB aren’t offered as SaaS yet
+[21:35:33] <ashish1294> But people deploye their own Mongo instance on IaaS and use
+[21:36:24] <ashish1294> *deploy
+[21:36:29] <ashish1294> Any other questions ?
+[21:37:07] <Salman_> Nope alright thank you for giving your time and doing this for us ..... Really means a lot
+[21:37:25] <Salman_> Hope to meet you soon in person ..... maybe one fine day 
+[21:37:41] <ashish1294> You can return the thanks by trying out these technologies
+[21:37:42] <Salman_> Good Night and thank you once again :D 
+[21:37:46] <ujdcodr> Appreciate the work you're doing guyz
+[21:37:48] <ujdcodr> keep it up
+[21:37:50] <ujdcodr> !!!
+[21:38:12] <Salman_> Oh btw is there any e-book to download you know an Introduction to Cloud Computing
+[21:38:15] <ashish1294> Ha Ha. We will have talks next sem. Will meet soon.
+[21:38:33] <ashish1294> I have not used many e books myself
+[21:38:33] <neha333> Thank you
+[21:38:48] <ashish1294> Docs are best
