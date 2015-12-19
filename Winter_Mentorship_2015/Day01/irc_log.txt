@@ -1,0 +1,562 @@
+[21:01:01] <Fantumnitk> Let us wait another 10 minutes for everyone to join.
+[21:01:40] <kbhat> ashish1294, o/
+[21:02:03] <Sreeps> Quit
+[21:03:17] <ashish1294> HI ALL
+[21:03:33] <tihor> hii
+[21:03:36] <ravi_> hii
+[21:03:43] <ashish1294> welcome to the first winter mentorship session by web enthusiasts’ club
+[21:04:08] <Fantumnitk> Type /HELP for help.
+[21:04:18] <Bhai> Hii
+[21:04:18] <ashish1294> Please spread the work amoung your class mates 
+[21:04:26] <Bhai> Anything started yet
+[21:04:32] <Fantumnitk> No.
+[21:04:36] <Bhai> Or am I late
+[21:04:40] <Bhai> Oh okay 
+[21:04:43] <ashish1294> and I highly recommend everyone to use their good name as username
+[21:05:14] <ajithps> you can do that by typing /nick new_nick
+[21:05:33] <ajithps> no space before /
+[21:06:06] <ashish1294> Today Adithya will be taking a session on Cryptography
+[21:06:24] <ashish1294> All the sessions will be conducted here itself.
+[21:06:35] <ashish1294> https://docs.google.com/document/d/1Zn5oiubHNk_ESlHRefyS_-n6ASgjnq3KeoQCScEplj4/edit?usp=sharing
+[21:07:02] <ashish1294> Here is the schedule. The schedule may be updated. So keep checking
+[21:07:13] <Adithya_bhat> All chat logs will be made available to you.
+[21:07:32] <Adithya_bhat> In case of any disruptions.
+[21:07:48] <ashish1294> The main objective for these sessions is to introduce you all of basics of these topics
+[21:09:16] <ashish1294> If you have any doubts please ping right away
+[21:09:28] <ashish1294> Adithya_bhat: You can take over
+[21:09:39] <Adithya_bhat> Alright,
+[21:10:08] <Salman_> Umm how do we start the session...
+[21:10:17] <Salman_> As in is there a talk or something 
+[21:10:21] <Adithya_bhat> All the late comers: Use the command /nick new_nick_name to change your nick names
+[21:10:22] <Salman_> How does it work out
+[21:10:33] <Divya> ya even i have same doubt
+[21:10:39] <Adithya_bhat> I will tell you a concept.
+[21:10:57] <Adithya_bhat> You ask doubts regarding the concept.
+[21:11:05] <Adithya_bhat> We proceed when everyone is clear.
+[21:11:27] <ajithps> new_nick_name: should be replaced by your name
+[21:11:32] <Adithya_bhat> put your name in place of new_nick_namw
+[21:11:36] <Adithya_bhat> *name
+[21:11:53] <ajithps> which isn't your name
+[21:12:18] <Adithya_bhat> Basics of IRC:
+[21:12:28] <Adithya_bhat> will be the first topic.
+[21:12:38] <nitk6342> Cool
+[21:13:08] <Divya> What abt cryptography?its today right?
+[21:13:16] <Adithya_bhat> Yup.
+[21:13:36] <Adithya_bhat> IRC works on the server-client model.
+[21:13:43] <Adithya_bhat> Meaning,
+[21:14:05] <Adithya_bhat> All the users, connect to one server.
+[21:14:19] <Adithya_bhat> The current one is a webchat server.
+[21:16:16] <hehaichi> too much clutter
+[21:16:46] <Adithya_bhat> To register your nick name permanently and link your e-mail ID to that nick name use the following command.
+[21:16:58] <Adithya_bhat> Initial traffic:
+[21:18:16] <Adithya_bhat> "/msg NickServ your_password_here your_email_ID_here"
+[21:18:50] <Adithya_bhat> "/msg NIckServ REGISTER your_password_here your_email_ID_here"
+[21:19:00] <Adithya_bhat> without quotes
+[21:21:12] <Adithya_bhat> For more info and a detailed tutorial: http://www.irchelp.org/irchelp/irctutorial.html
+[21:21:29] <SR232> When can we start?
+[21:21:36] <Adithya_bhat> Everydone quitting and Joining?
+[21:21:44] <Adithya_bhat> *Everyone
+[21:21:52] <Adithya_bhat> done?
+[21:22:53] <Adithya_bhat> The next topic is Symmetric model. I need a response inorder to proceed.
+[21:23:10] <nitk6342> cool. proceed
+[21:23:38] <SR232> proceed
+[21:24:05] <Adithya_bhat> The concept is "Symmetric cipher model".
+[21:24:17] <Adithya_bhat> Sounds complicated, but it's quite simple.
+[21:24:29] <Adithya_bhat> New users, the session has just started.
+[21:24:53] <Adithya_bhat> feel free to ask questions.
+[21:25:03] <rohit> sure
+[21:25:08] <Divya> ya cool
+[21:25:49] <Adithya_bhat> About the symmetric cipher model(SCM), it has five elements.
+[21:26:39] <Divya> continue..
+[21:26:52] <Adithya_bhat> Cryptography is all about transmitting information from one person to another in such a way that only the end user and the sender can understand.
+[21:27:33] <Adithya_bhat> No one other than the intended recepient of the message must be able to understand the message.
+[21:27:42] <Divya> ya correct
+[21:27:57] <Adithya_bhat> the so called "message" is termed as "Plaintext" in cryptographical terms.
+[21:28:24] <Salman__> okay.....
+[21:28:25] <rohit> kk
+[21:28:57] <Adithya_bhat> If any modification is performed on the Plaintext, the modified Plaintext becomes the "Ciphertext"
+[21:29:14] <Adithya_bhat> Everyone clear about Plaintext and Ciphertext?
+[21:29:29] <neha333> Yep. go on
+[21:29:29] <rohit> yes
+[21:29:31] <subbu18> yeah
+[21:29:36] <SR232> ye
+[21:29:48] <Adithya_bhat> Now, the recepient somehow needs to get back the plaintext from the ciphertext.
+[21:30:09] <Adithya_bhat> He uses what is commonly known as the "key" to achieve this.
+[21:30:41] <Adithya_bhat> The key can take various forms.
+[21:31:06] <Adithya_bhat> It can sometimes not be present at all.
+[21:31:31] <Adithya_bhat> And the last thing is the encryption/decryption algorithms.
+[21:31:45] <SR232> what do u mean not present at all?
+[21:31:57] <SR232> How will they get back the message then?
+[21:32:21] <Adithya_bhat> It depends on how they convert plaintext to ciphertext.
+[21:32:41] <Divya> how do u convert then?
+[21:32:48] <rohit> can u give an example to illustrate this 
+[21:33:07] <Adithya_bhat> Ill send a person, a number.
+[21:33:17] <Adithya_bhat> But ill turn the number upside down.
+[21:33:39] <Adithya_bhat> he just needs to turn the number upside down again to get the number.
+[21:34:00] <Adithya_bhat> the encryption and decryption algorithms cancel each other.
+[21:34:09] <Divya> ok..
+[21:34:25] <Adithya_bhat> This happens all the time. It is a property.
+[21:34:46] <SR232> Is it necessary tht the encryption and decryption algos cancel each other always?
+[21:35:01] <Adithya_bhat> Yes.
+[21:35:06] <SR232> ok
+[21:35:12] <Adithya_bhat> Otherwise you cant get back the plaintext.
+[21:35:14] <Salman__> Whenever the key isn't present only then will the algorithms cancel each other right?
+[21:35:41] <Adithya_bhat> to cancel each other they might need an external factor.
+[21:35:45] <Adithya_bhat> Another example.
+[21:35:54] <Adithya_bhat> I am sending numbers.
+[21:36:09] <Adithya_bhat> But this time I'll add x to the number and send it.
+[21:36:13] <Adithya_bhat> X is now my key.
+[21:36:36] <Adithya_bhat> The recepient must now subtract x inorder to CANCEL the effect of my addition.
+[21:36:44] <Divya> oh..but how will recipient know that?
+[21:36:52] <Adithya_bhat> Any other number y cannot achieve this
+[21:37:12] <Adithya_bhat> The key is assumed to be transmitted securely.
+[21:37:33] <Divya> ok..so only the receiver knows the key right?
+[21:37:37] <Adithya_bhat> In real life, a secure third party can send both people the same key.
+[21:37:46] <Salman__> Then why not just transmit the message securely?
+[21:37:49] <Adithya_bhat> Both of them know the key.
+[21:37:49] <SR232> The key must factor into the decryption algorithm somehow right
+[21:37:59] <Adithya_bhat> Yes.
+[21:38:10] <Adithya_bhat> It depends on the algorithm used.
+[21:38:30] <Salman__> Then why not just transmit the message securely?
+[21:38:52] <Adithya_bhat> Suppose Alice and Bob are the two people.
+[21:39:21] <Adithya_bhat> They meet up once and decide on what key they will use.
+[21:39:42] <Adithya_bhat> And after that they always communicate through post.(say)
+[21:39:56] <Salman__> Oh .....
+[21:40:02] <Adithya_bhat> Now they encrypt their data with the pre-decided key.
+[21:40:16] <Adithya_bhat> Or they can meet up again to change the key.
+[21:40:47] <SR232> cool..go ahead
+[21:40:56] <Adithya_bhat> Let us proceed to the next topic.
+[21:41:08] <Adithya_bhat> We will learn some famous algorithms used.
+[21:41:24] <Adithya_bhat> Encryption/Decryption algorithms.
+[21:41:32] <Adithya_bhat> First one is very easy.
+[21:41:43] <Adithya_bhat> It is called the Caesar cipher.
+[21:42:30] <Adithya_bhat> In this algorithm every alphabet of the english alphabets are shifted by some k position.
+[21:42:49] <Adithya_bhat> if k = 1; A becomes B, B becomes C and so on.
+[21:42:57] <Adithya_bhat> Z becomes A
+[21:43:20] <Adithya_bhat> So if plaintext is "hello world", what will the ciphertext be?
+[21:43:27] <Adithya_bhat> if k=1?
+[21:43:53] <ravi__> ifmmp rpsme
+[21:44:05] <Salman__> ifmmp xpsme
+[21:44:06] <subbu18> ifmmp xpsme
+[21:44:08] <rohit> ifmmp xpsme
+[21:44:47] <Adithya_bhat> Correct.
+[21:44:48] <Adithya_bhat> ifmmp xpsme
+[21:45:27] <Adithya_bhat> This one was the first recorded use of encryption by yours truly, Julias Caesar.
+[21:45:34] <sumedh> how does the change take place? based on ascii value?if it was so the space should be changed
+[21:45:48] <Adithya_bhat> this was done by hand.
+[21:46:01] <sumedh> okay
+[21:46:02] <Adithya_bhat> No ascii value nothing.
+[21:46:35] <Adithya_bhat> A primitive algorithm indeed.
+[21:46:42] <Salman__> Okay......
+[21:46:51] <Adithya_bhat> Can anoyne tell how we can crack this cipher?
+[21:47:20] <Salman__> Write the reverse
+[21:47:42] <ajithps> if anyone misses out on anything because you quit in between you can see the logs. The url is available in the topic. It will update itself
+[21:48:09] <Divya__> which url?
+[21:48:23] <Adithya_bhat> A cryptanalyst is a villian who tries to understand the message.
+[21:48:39] <Adithya_bhat> but is not the intended recipient.
+[21:48:47] <Adithya_bhat> The link in the top.
+[21:48:53] <ajithps> Divya__: type /topic
+[21:48:56] <Adithya_bhat> https://goo.gl/mbv5wW
+[21:49:34] <Adithya_bhat> Let's proceed to the drawbacks of Caesar cipher.
+[21:49:47] <Adithya_bhat> It just has 25 keys.
+[21:50:09] <Adithya_bhat> It is easy to employ 25 people and decode the message.
+[21:50:20] <Adithya_bhat> So, it is not that useful.
+[21:50:33] <rohit_> okk
+[21:50:53] <Adithya_bhat> The next one is monoalphabetic substitution cipher.
+[21:50:56] <Adithya_bhat> MSC
+[21:50:59] <Divya__> ok
+[21:51:14] <Adithya_bhat> Even Caesar Cipher is a form of Substitution Cipher.
+[21:51:29] <Adithya_bhat> Because each letter is substituted with another letter.
+[21:51:44] <rohit_> kk
+[21:51:53] <Salman_> ok
+[21:51:58] <Divya__> okay
+[21:52:01] <cartman> kk
+[21:52:13] <Adithya_bhat> In MSC, instead of going in sequence, each letter is mapped to another letter
+[21:52:21] <Adithya_bhat> Not in a sequence.
+[21:52:24] <Adithya_bhat> Example:
+[21:52:28] <Adithya_bhat> A is H.
+[21:52:28] <Sid15> Randomly?
+[21:52:33] <Adithya_bhat> B is O.
+[21:52:40] <Adithya_bhat> not randomly.
+[21:52:46] <Adithya_bhat> C is Y.
+[21:52:51] <rohit_> then how
+[21:53:01] <Adithya_bhat> ABCBCC is now HOYOYY
+[21:53:22] <rohit_> what is mapping function
+[21:53:24] <Adithya_bhat> the mapping is predecided.
+[21:53:30] <rohit_> kk
+[21:53:46] <Adithya_bhat> or transmitted securely in cryptographical terms.
+[21:54:00] <Divya__> ok
+[21:54:27] <Adithya_bhat> Mapping function means assigning one letter to each letter.
+[21:54:33] <Adithya_bhat> without repitions.
+[21:54:47] <Adithya_bhat> If H is A.
+[21:55:00] <Divya__> that is random assignment no?
+[21:55:00] <Adithya_bhat> then everywhere H is A only.
+[21:55:08] <rohit_> kk got it thanks
+[21:55:11] <Divya__> ohk 
+[21:55:22] <Adithya_bhat> Kind of, yes.
+[21:55:34] <cartman> how is it different from caesar?
+[21:55:35] <Sid15> Ok.got it
+[21:55:41] <subbu18> suppose if we want to transmit numbers as well, then what do we do? randomly assign them as well
+[21:55:46] <Adithya_bhat> Now, this is better than Caesar cipher because there are 26! keys.
+[21:56:02] <Adithya_bhat> Add 0-9 to your set.
+[21:56:13] <Adithya_bhat> 0 can be T.
+[21:56:17] <Adithya_bhat> H can be 5
+[21:56:24] <Adithya_bhat> and so on.
+[21:56:25] <Divya__> okay
+[21:56:31] <subbu18> ok. Got it
+[21:56:53] <Adithya_bhat> Adding characters, increases the number of keys a cryptanalyst has to try.
+[21:57:01] <Sid15> Is it 26 keys or 26! Keys?
+[21:57:21] <Adithya_bhat> if you have n characters, then a cryptanalyst has to try n! keys to get to the plaintext.
+[21:57:28] <Adithya_bhat> factorial
+[21:57:32] <Sid15> Ok
+[21:57:39] <Adithya_bhat> 26! = 26*25*..
+[21:58:19] <Adithya_bhat> But for smart cryptanalysts, even this can be solved with a little analysis.
+[21:59:38] <Adithya_bhat> The drawbacks of this algorithm is that it is susceptible to what is commonly known as "Frequency - analysis"
+[22:00:10] <Adithya_bhat> For example:
+[22:00:27] <Adithya_bhat> if the plaintext is afg wajd jjahd jawdj hawdh j...
+[22:00:53] <Adithya_bhat> one can guess that "afg" could be "the"
+[22:01:19] <Adithya_bhat> with three letters figured out, you can guess the remaining words accordingly.
+[22:01:27] <Divya__> ok
+[22:01:29] <Adithya_bhat> Clear?
+[22:01:36] <Divya__> yup
+[22:02:01] <SR232> yup
+[22:02:26] <aalam> can u explain it again
+[22:02:31] <Adithya_bhat> Digrams:https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwi316qU5-DJAhVICY4KHcM4CK4QFggoMAI&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDigram&usg=AFQjCNHSYPiY-UMxk84-GdDAnRSO8tu3pA&sig2=Dab404G28B5z_JRebiN2AA
+[22:02:57] <Adithya_bhat> Digrams:https://en.wikipedia.org/wiki/Digram
+[22:03:45] <Adithya_bhat> @<aalam>: In what part do you have confusion?
+[22:04:02] <Adithya_bhat> Digrams are tools used in frequency analysis.
+[22:04:47] <Salman__> And bigrams are a subset of digrams
+[22:04:50] <Adithya_bhat> Any method used in simplifying or getting the plaintext from ciphertext is known as an attack against that algorithm.
+[22:05:00] <Salman__> Sorry ... got it
+[22:05:30] <aalam> i am not gettin frequency analysis
+[22:05:32] <Adithya_bhat> >I'll explain again:
+[22:06:03] <Adithya_bhat> In this method:
+[22:06:16] <Adithya_bhat> abcdefghijklmnopqrstuvwxyz
+[22:06:33] <Adithya_bhat> qwertyuiopasdfghjklzxcvbnm
+[22:06:56] <Adithya_bhat> now every letter above will be replaced by a letter directly below it.
+[22:07:10] <aalam> ok
+[22:07:18] <Adithya_bhat> so what will the message "hello world" become?
+[22:08:01] <aalam> itssg vgksr
+[22:08:10] <Adithya_bhat> itssg vgksr it is.
+[22:08:15] <Adithya_bhat> correct.
+[22:08:18] <Sid15> itssg vgksr
+[22:08:28] <ravi__> itssg vgksr
+[22:08:39] <Salman__> itssg vgksr
+[22:08:56] <Adithya_bhat> now for a cryptanalyst he has to sit and try 26! keys to get the plaintext.
+[22:09:12] <aalam> what does this line mean 
+[22:09:23] <Adithya_bhat> Assuming he is unlucky and he wont get it in the very first attempt.
+[22:09:40] <Adithya_bhat> I will give you itssg vgksr
+[22:09:52] <Adithya_bhat> How will you get me hello world?
+[22:10:04] <aalam> that means he has to try every possible character to unlock the code
+[22:10:12] <Adithya_bhat> exactly.
+[22:10:27] <Adithya_bhat> there are 26! such possibilities to try.
+[22:11:33] <aalam> ok
+[22:12:02] <Adithya_bhat> However an attack against this is "frequency analysis"
+[22:12:04] <Adithya_bhat> https://en.wikipedia.org/wiki/Letter_frequency
+[22:12:11] <Adithya_bhat> This data can be used.
+[22:12:45] <Adithya_bhat> Suppose e is the most repeated english alphabet. and in our ciphertext t is the most repeated letter.
+[22:12:56] <Adithya_bhat> We can map e to t.
+[22:13:09] <Adithya_bhat> now we have only 25! keys to try.
+[22:13:24] <Adithya_bhat> Thus, even this is vulnerable.
+[22:13:29] <Adithya_bhat> Any doubts?
+[22:13:33] <Adithya_bhat> questions?
+[22:13:59] <Divya__> nop..continue
+[22:14:04] <SR232> so far so good
+[22:14:15] <Adithya_bhat> We have two more concepts left. Vignere cipher and One time pad.
+[22:14:30] <ravi__> yes go on..
+[22:14:32] <Adithya_bhat> Shall we proceed?
+[22:14:37] <aalam> yeaaa
+[22:14:38] <Adithya_bhat> Okay then.
+[22:14:47] <Adithya_bhat> Vignere Cipher:
+[22:14:49] <SR232> go ahead
+[22:14:58] <Adithya_bhat> In this cipher, a key is chosen.
+[22:15:38] <Adithya_bhat> It could be a word, a group of words anything.
+[22:15:55] <Adithya_bhat> each alphabet is assigned a number.
+[22:16:07] <Adithya_bhat> abcdefg... is 12345..26
+[22:16:34] <Divya__> random number right?
+[22:16:35] <aalam> means in alphabetical order only
+[22:16:51] <Divya__> its not necessary that a is 1 b is 2..?
+[22:16:53] <Adithya_bhat> key is not a number. it is text.
+[22:17:09] <Adithya_bhat> no. a is 1, b is 2 only.
+[22:17:15] <Adithya_bhat> and so on.
+[22:17:42] <Adithya_bhat> let my plaintext be "hello world"
+[22:17:54] <Adithya_bhat> let my key be "try"
+[22:18:19] <Adithya_bhat> now size of try is 3. and my plaintext is 10 characters.
+[22:18:38] <aalam> 85121215 231518123
+[22:18:51] <Adithya_bhat> so i repeat try to make it as long as the plaintext.
+[22:19:05] <aalam> was that ok
+[22:19:06] <Adithya_bhat> so try becomes trytr ytryt
+[22:19:12] <Adithya_bhat> yeah.
+[22:19:34] <aalam> what have u said abt try
+[22:19:44] <Salman__> ok..
+[22:19:54] <SR232> if key was longer then we would shorten it right?
+[22:19:56] <Adithya_bhat> I expand try.
+[22:20:02] <Adithya_bhat> no.
+[22:20:14] <aalam> how you expand try
+[22:20:15] <Adithya_bhat> if my key was "verylongkeyindeed"
+[22:20:25] <aalam> plz explain it again
+[22:20:25] <Adithya_bhat> trytrytrytrytrytry
+[22:20:56] <Adithya_bhat> if my key was "verylongkeyindeed" and my plaintext is "hello"
+[22:21:06] <Adithya_bhat> I will just use "veryl"
+[22:21:22] <Adithya_bhat> i perform this operation.
+[22:21:23] <aalam> ok
+[22:21:39] <Adithya_bhat> valueof(v)+valueof(h)
+[22:21:41] <Divya__> does the key indicate no of characters in plaintext?
+[22:21:55] <Adithya_bhat> valueof(e)+value(e)
+[22:22:20] <Adithya_bhat> whatever answer i get, i write the character which has that value.
+[22:22:24] <aalam> wat is dis
+[22:22:51] <subbu18> what if it exceeds 26?
+[22:22:51] <Adithya_bhat> what is the value of v?
+[22:22:51] <aalam> m not understanding
+[22:22:51] <Salman__> ??
+[22:23:02] <Adithya_bhat> mod 26
+[22:23:20] <Adithya_bhat> let me show you.
+[22:23:26] <aalam> value of v is 22
+[22:23:27] <Adithya_bhat> plaintext "abc"
+[22:23:46] <Adithya_bhat> key:"cde"
+[22:23:59] <Adithya_bhat> value of a is 1, value of c is 3
+[22:24:06] <Adithya_bhat> so 1+3 is 4
+[22:24:13] <Adithya_bhat> so the first character is d
+[22:25:10] <aalam> so we have to take first character of plaintext and of key ad their value and get our new character and need to continue wid tis
+[22:25:13] <Adithya_bhat> take Ith character from plaintext and the corresponding character from the key.
+[22:25:15] <aalam> right???
+[22:25:22] <Adithya_bhat> yes.
+[22:25:26] <Adithya_bhat> add their values.
+[22:25:38] <Adithya_bhat> bring it back to the range of 1-26.
+[22:25:42] <aalam> yeaaa
+[22:25:58] <Adithya_bhat> now if you have a shorter key.
+[22:26:18] <Adithya_bhat> you expand it, till it is equal to the size of plaintext.
+[22:26:37] <Adithya_bhat> if Plaintext:"abcgdajakdkdak"
+[22:26:44] <Adithya_bhat> and the key is:"try"
+[22:26:45] <aalam> can u explain this wid example
+[22:26:57] <Adithya_bhat> after explansion it becomes:
+[22:27:05] <Adithya_bhat> "trytrytrytrytr"
+[22:27:15] <aalam> ok
+[22:27:21] <Adithya_bhat> no repeat the same procedure as last time.
+[22:27:28] <Adithya_bhat> *now
+[22:28:00] <aalam> that is to add value and all that
+[22:28:09] <Adithya_bhat> Yes.
+[22:28:27] <Adithya_bhat> If the key is longer you trim the key to match the size of the plaintext.
+[22:28:33] <Adithya_bhat> Clear?
+[22:28:36] <Salman__> Plaintext=abc;Key=def;Ciphertext=egi ?
+[22:28:37] <aalam> yes
+[22:28:40] <SR232> yes
+[22:28:41] <Salman__> Is that right
+[22:29:08] <cartman>  what to do when goes out of range? take 27 as 1 and continue?
+[22:29:14] <Salman__> Adithya ??
+[22:29:17] <Adithya_bhat> yes.
+[22:29:22] <Salman__> ok 
+[22:29:24] <Adithya_bhat> cartman yes.
+[22:29:35] <cartman> ok
+[22:29:35] <Adithya_bhat> 27%26 = 1
+[22:29:45] <Adithya_bhat> this is called mod26
+[22:29:52] <Divya__> ok
+[22:30:29] <Adithya_bhat> no doubts, yes?
+[22:30:59] <Adithya_bhat> We have been gradually increasing the pace.
+[22:31:02] <aalam> can u give one example of out of range concept
+[22:31:19] <Adithya_bhat> plaintext:"zz"
+[22:31:30] <Adithya_bhat> key:"bc"
+[22:31:40] <Adithya_bhat> ciphertext:"bc"
+[22:31:50] <Adithya_bhat> plaintext:"za"
+[22:31:56] <Adithya_bhat> key:"bc"
+[22:32:00] <Adithya_bhat> ciphertext:?
+[22:32:10] <Salman__> bc??
+[22:32:17] <aalam> bd
+[22:32:19] <Divya__> bd
+[22:32:21] <Salman__> sorry
+[22:32:22] <Salman__> bd
+[22:32:25] <Adithya_bhat> bd it is.
+[22:32:26] <ravi__> bd
+[22:32:31] <Adithya_bhat> good job.
+[22:32:34] <Divya__> how to trim?
+[22:32:41] <Divya__> if key is longer?
+[22:33:00] <Adithya_bhat> if plaintext:"abcdfg"
+[22:33:05] <Adithya_bhat> key:"qwertyuip"
+[22:33:17] <Adithya_bhat> then the trimmed key is:"qwerty"
+[22:33:35] <Divya__> ok..jus remove extras?
+[22:33:42] <Adithya_bhat> yup.
+[22:33:48] <Divya__> ok 
+[22:34:00] <Adithya_bhat> anymore questions?
+[22:34:15] <aalam> no
+[22:34:27] <Adithya_bhat> To the drawbacks then.
+[22:34:28] <Divya__> nop
+[22:34:40] <Adithya_bhat> Even this can be cracked.
+[22:35:13] <Adithya_bhat> provided there is a huge collection of large ciphertexts.
+[22:35:30] <Salman__> Means??
+[22:35:55] <Adithya_bhat> because of the key expansion, statistical approach on the alphabets can be applied.
+[22:36:16] <Adithya_bhat> and thus something similar to frequency analysis is done.
+[22:36:23] <Adithya_bhat> and it can be cracked.
+[22:36:23] <SR232> wouldnt that take ages to crack?
+[22:36:31] <Adithya_bhat> No.
+[22:37:07] <Adithya_bhat> when you have a large ciphertext, and the key is small, details of the key gets leaked.
+[22:37:25] <Adithya_bhat> as in the case of "zz"+any key = key
+[22:37:30] <Salman__> How does that work out?
+[22:37:36] <aalam> how can tis happen
+[22:37:46] <Salman__> oh
+[22:37:52] <Adithya_bhat> analysing common words and articles, like a, an and the
+[22:38:19] <Adithya_bhat> when you  have a large ciphertext, t will be mapped to teh same letter atleast once.
+[22:38:32] <Adithya_bhat> once you catch this, it becomes easier.
+[22:38:54] <Adithya_bhat> key can be estimated.
+[22:39:09] <Adithya_bhat> once it is done, the ciphertext can be decoded.
+[22:39:24] <Adithya_bhat> it does require a lot of statistics.
+[22:39:39] <Adithya_bhat> It was employed during the world wat.
+[22:39:41] <Adithya_bhat> *wat
+[22:39:46] <Adithya_bhat> **war
+[22:40:11] <Adithya_bhat> Shall we proceed to the last uncrackable cipher?
+[22:40:11] <Salman__> You mean Enigma
+[22:40:15] <Salman__> ??
+[22:40:19] <SR232> what about the enigma machine used by  the germans during the world war?
+[22:40:27] <Salman__> The Nazis used it
+[22:40:30] <Adithya_bhat> Thats different.
+[22:40:33] <Salman__> Was it this?
+[22:40:40] <Salman__> oh okay...
+[22:41:09] <Adithya_bhat> I can talk about rotor machines later.
+[22:41:38] <Adithya_bhat> So the last one?
+[22:41:46] <SR232> yeah
+[22:41:52] <Salman__> ok
+[22:41:54] <Adithya_bhat> It is called One-time pad.
+[22:42:20] <Adithya_bhat> It is a small modification to the vignere cipher.
+[22:43:25] <Adithya_bhat> The only change is that the key is as long as the plaintext.
+[22:43:55] <Adithya_bhat> it works on binary data of the plaintext.
+[22:44:35] <Adithya_bhat> ith bit of the key is XORed with the ith bit of the plain text.
+[22:44:50] <Adithya_bhat> The resulting binary data is read as ciphertext.
+[22:44:59] <Adithya_bhat> Now, how can we decrypt this?
+[22:44:59] <aalam> ok
+[22:46:00] <aalam> we can make decimal equ of bit and assign tht particular alphabet???
+[22:47:03] <Adithya_bhat> if plaintext is "aaa"; the bit sequence will be "000010000100001"
+[22:47:18] <Adithya_bhat> i need 5 bits to represent all 26 characters.
+[22:48:42] <aalam> means we have to group five bits
+[22:49:00] <Adithya_bhat> then it will be read as 1101:01010:1
+[22:49:24] <Adithya_bhat> or groups of 5 bits.
+[22:49:36] <aalam> can u explain it
+[22:49:38] <Adithya_bhat> depending on the pre-decided algrithm
+[22:50:32] <Adithya_bhat> for simplicity sake, let us assume that there are 32 characters "abcdefghijklmnopqrstuvwxyz"+"space"+"!@#$%"
+[22:50:59] <Adithya_bhat> now each group of 5 bits is associated to a unique character.
+[22:51:19] <Adithya_bhat> this is case1:
+[22:51:41] <Adithya_bhat> so for "1101010101": it will be?
+[22:52:09] <aalam> how???
+[22:52:28] <Adithya_bhat> 00000 is a
+[22:52:33] <Adithya_bhat> 00001 is b
+[22:52:44] <Adithya_bhat> and so on 11111 is %
+[22:52:48] <Salman__> zu?
+[22:52:58] <Adithya_bhat> 26 is space.
+[22:53:02] <Adithya_bhat> 0 indexing.
+[22:53:08] <Salman__> oh sorry
+[22:53:14] <Salman__> space v
+[22:53:21] <Adithya_bhat>  good.
+[22:53:31] <aalam> is it fixed???
+[22:53:43] <Adithya_bhat> what is?
+[22:53:50] <Adithya_bhat> no it isnt.
+[22:54:00] <aalam> like % is 11111
+[22:54:07] <Adithya_bhat> no.
+[22:54:22] <aalam> then
+[22:54:33] <Adithya_bhat> the sender and receiver must agree on the convention.
+[22:55:04] <Adithya_bhat> like both should sit together and decide what 00000 will be, 00001 wil be and so on.
+[22:55:12] <aalam> ok
+[22:55:43] <Salman__> But why is it unbreakable?
+[22:55:45] <Divya__> k
+[22:55:49] <Salman__> I didn't get that
+[22:56:22] <Adithya_bhat> different keys give different plaintexts.
+[22:56:45] <Adithya_bhat> if ciphertext is "rtyui"
+[22:57:08] <Adithya_bhat> there are keys that give "bunny" as the output and "blood"
+[22:57:18] <Adithya_bhat> how do you know which key was used?
+[22:57:56] <Salman__> Oh wow.... I got it
+[22:58:14] <Adithya_bhat> Decryption is fairly simply.
+[22:58:18] <Adithya_bhat> *simple.
+[22:58:26] <Salman__> ok any drawbacks?
+[22:58:33] <sumedh> isnt this the same as the previous one?
+[22:58:46] <sumedh> just the  key is binary?
+[22:59:19] <Adithya_bhat> key is as long as the plaintext.
+[22:59:27] <Adithya_bhat> and binary XOR.
+[22:59:48] <Adithya_bhat> in vignere it was addition.
+[23:00:05] <Adithya_bhat> Decryption, you take the key and xor again.
+[23:00:21] <Adithya_bhat> Voila, plaintext for you, ladies and gentlemen.
+[23:00:22] <cartman> how do you ensure the key is as long as the plaintext and if so couldn't the same be applied to the vignere?
+[23:01:03] <Adithya_bhat> Very good question.
+[23:01:17] <Adithya_bhat> Which is why this algorithm isn't practical.
+[23:01:37] <Adithya_bhat> 1. Large random keys cannot be generated.
+[23:01:58] <Adithya_bhat> 2. The keys cant be distributed securely.
+[23:02:34] <Adithya_bhat> In the olden days, they would use books with page numbers for this.
+[23:02:49] <Adithya_bhat> Mainly, the Bible.
+[23:03:34] <Adithya_bhat> They would go to a pre-decided page number, say 678 and start taking the bit stream of the characters that follow.
+[23:04:01] <Adithya_bhat> clear?
+[23:04:20] <cartman> yep
+[23:04:28] <Adithya_bhat> And we are done with the introduction to cryptography.
+[23:04:30] <Salman__> But why did they need to encode the Bible
+[23:04:50] <Salman__> ???
+[23:04:53] <sumedh> what is to beiing XORed?
+[23:05:05] <sumedh> like the XOR logic gates?
+[23:08:25] <Adithya_bhat_> The Bible was the source of "key"
+[23:08:33] <Adithya_bhat_> not the "plaintext"
+[23:09:59] <Adithya_bhat> Sorry, had some problems there.
+[23:10:07] <Adithya_bhat> Everyone clear?
+[23:11:27] <Divya__> we make 5 bit binary equivalent n encode?
+[23:11:42] <Adithya_bhat> yes.
+[23:11:43] <Salman__> umm ny1 there?
+[23:11:57] <Adithya_bhat> depending on the need.
+[23:12:31] <Adithya_bhat> We are done for the day.
+[23:12:37] <Salman__> Why XOR GATE .... Is there a reason behind it?
+[23:12:47] <Salman__> oh okay.....
+[23:12:56] <ashish1294> @ web club members : I have take screenshot for attendance
+[23:12:56] <Adithya_bhat> 5xor 4 xor 4 is 5
+[23:13:19] <Salman__> U can reproduce it again?
+[23:13:20] <Adithya_bhat> it is easy to encrypt and decrypt.
+[23:13:29] <Adithya_bhat> the same operation.
+[23:13:37] <Salman__> Okay ......
+[23:13:44] <ashish1294> Since you nick names are all messed up I have manually map. Please use real names or you will considered absent !
+[23:14:17] <Divya__> hey can u explain that "bunny" "blood" example?
+[23:14:19] <Salman__> And you'd like to talk about rotor machines or some other day?
+[23:14:42] <Adithya_bhat> Some other time.
+[23:15:00] <Adithya_bhat> divya.
+[23:15:04] <ashish1294> Adithya_bhat: Great work. Once you’re done you may give some material for future self-study if any
+[23:15:24] <Adithya_bhat> ping ashish1294 
+[23:15:31] <Adithya_bhat> Alright.
+[23:15:39] <Adithya_bhat> ping Divya__ 
+[23:15:50] <chinmay_dd> Awesome work guys! :)
+[23:15:52] <Divya__> ok
+[23:15:54] <Adithya_bhat> Here is a ciphertext:
+[23:16:46] <Adithya_bhat> ANKYODKYUREPFJBYOJDSPLREYIUNOFDOIUERFPLUYTS
+[23:16:55] <Adithya_bhat> ill give you two keys:
+[23:17:07] <Adithya_bhat> which give different meanings.
+[23:17:13] <Adithya_bhat> key 1:
+[23:17:23] <ajithps> also you are free to mail us if you have any doubts or clarifications
+[23:17:54] <ajithps> or you can join us anytime at #lug-nitk
+[23:18:02] <ashish1294> is Aalam here ?
+[23:18:13] <Adithya_bhat> px1mvmsydofuyrvzwctnlebnecvgdupahfzzlmnyih
+[23:18:26] <Adithya_bhat> this key gives the plaintext as:
+[23:18:48] <Adithya_bhat> mr mustard with the candlestick in the hall.
+[23:18:57] <Adithya_bhat> key 2:
+[23:19:18] <Divya__> oh..here ur doin xor of each letter bin equivalent of key with cipher text right?
+[23:19:55] <Adithya_bhat> pftgpmiydgaxgoufhklllmhsqdqogtewbqfgyovuhwt
+[23:20:14] <Adithya_bhat> this key is converted into a steam og bits.
+[23:20:18] <Adithya_bhat> *of
+[23:20:24] <Adithya_bhat> key 2 gives:
+[23:20:34] <Divya__> like p^A..(their binary equivalent)
+[23:20:38] <Divya__> ?
+[23:20:51] <Adithya_bhat> miss scarlet with the knife in the library
+[23:21:00] <Adithya_bhat> yeah, theyre both the same.
+[23:21:16] <Divya__> ok
+[23:21:17] <Adithya_bhat> 11^10 is 01.
+[23:21:25] <Adithya_bhat> doing it bitwise or otherwise.
+[23:21:36] <Divya__> k
+[23:21:56] <Adithya_bhat> see two keys give different plaintexts.
+[23:22:02] <Divya__> ya got it
+[23:22:09] <Adithya_bhat> for the same ciphertext.
+[23:22:12] <Adithya_bhat> okay..
+[23:22:15] <Divya__> thanks a lot!it was great!!
+[23:23:00] <Salman__> Any books you'd like to suggest for us.... for further reading?
+[23:23:11] <Salman__> Torrent an e-book maybe....
+[23:24:22] <Adithya_bhat> william stallings:
+[23:24:40] <Adithya_bhat> cryptography and network security.
+[23:24:55] <Adithya_bhat> and of course:web-club
+[23:25:32] <ajithps> Also note that in real life the cryptography used can be much more complex
+[23:25:40] <ajithps> and tends to have a lot of math involved
+[23:26:10] <Adithya_bhat> this was based on symmetric cipher model.
+[23:26:15] <ajithps> This is just an introduction 
+[23:26:16] <Adithya_bhat> yes.
+[23:26:37] <Salman__> Okay
+[23:26:53] <Salman__> 6th edition??
+[23:26:59] <Adithya_bhat> yes.
+[23:27:19] <Adithya_bhat> It has rotor machines.
+[23:27:37] <Adithya_bhat> and everything that was taught today.
+[23:28:05] <Salman__> Alright thank you ..... very much Adithya ... hope we have the pleasure of meeting each other some day .....
