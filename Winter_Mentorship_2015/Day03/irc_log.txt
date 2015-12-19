@@ -1,0 +1,161 @@
+[19:21:19] <vinayb> alright we'll start now
+[19:22:03] <vinayb> Let me introduce myself. I'm Vinay, second year IT, and I'm going to be talking about Ruby on Rails today.
+[19:22:42] <vinayb> Has anyone here used Ruby or Rails ?
+[19:23:12] <Salman_> No Rails, a bit of Ruby
+[19:23:23] <Salman_> Just the basics
+[19:23:36] <Salman_> What is the difference between Ruby and Ruby on Rails?
+[19:23:53] <vinayb> I'll get to that. 
+[19:24:02] <Salman_> Okay...
+[19:25:11] <vinayb> Ruby on Rails is a web framework used for Web Application Development
+[19:25:17] <vinayb> now what do these terms mean?
+[19:25:55] <Salman_> No idea.....
+[19:25:56] <vinayb> If you've experience with C, then you'll know how your programs run: there's some text input, some processing, some text output
+[19:26:12] <vinayb> so text is the basic medium
+[19:26:25] <vinayb> Similarly, in Web Application Development, a webpage is the basic medium
+[19:26:51] <vinayb> so what's a webpage? A webpage at it's core is just plain HTML and CSS
+[19:27:40] <vinayb> so that's the medium. So like your small C programs take text input and give text output, web apps take input and give web pages as output
+[19:28:19] <vinayb> Now, web pages are rendered by a browser. So using a browser like Chrome, Firefox, you can interact with a web app
+[19:28:23] <vinayb> any questions?
+[19:28:55] <rohit> nope carry on
+[19:29:29] <Salman_> Is Ruby on Rails like JavaScript
+[19:29:38] <Salman_> Are they two similar by any means
+[19:29:44] <Salman_> Just two different languages
+[19:29:55] <Salman_> Designed to do the same thing
+[19:30:03] <vinayb> No, JavaScript is a language. Rails is a framework. I'll get to the differences soon
+[19:30:09] <Salman_> ok
+[19:30:45] <vinayb> So, now you have web page as medium. For input, think of a web page like google: there's a big search box. You search something, then results show up in the next page
+[19:31:17] <vinayb> So how do we go about extracting that input and giving that output? That's where the Web Framework comes in
+[19:32:30] <vinayb> A web framework does the tedious work of extracting input and all those low level details, it "abstracts" it for you
+[19:32:44] <vinayb> So that you can focus on the business logic of your app
+[19:33:12] <vinayb> A web framework basically says: here, use this read(), write() functions. Don't worry about how they're implemented. 
+[19:33:32] <vinayb> Any questions?
+[19:34:02] <Divya> no..continue
+[19:34:55] <Salman_> continue..
+[19:35:03] <vinayb> To see the difference between Ruby and Ruby on Rails: think of your C code. You do #include <stdio.h>. That gives you some functions like printf
+[19:35:42] <vinayb> The printf function "abstracts" away the details of how some text you pass it will be printed 
+[19:36:00] <vinayb> It just says: Just give me string. I'll display it. Don't worry how it's done
+[19:37:17] <vinayb> So, Rails (which is short for Ruby on Rails), is like that "#include <stdio.h>" statement. It abstracts away low-level details, so that you focus on your app logic
+[19:37:55] <vinayb> Does anybody have a question regarding what a web framework is?
+[19:38:00] <vinayb> or the difference
+[19:38:00] <kapilace6> Its like a package in python?
+[19:38:07] <Divya> is rails similar to html/css/bootstrap?
+[19:39:24] <Salman_> But aren't HTML and CSS languages then?
+[19:39:26] <vinayb> Yes, you can think of it that way. Divya: html/css/bootstrap only describe how a webpage looks. Rails allows you to do much more. I'll get to it now
+[19:39:50] <Divya> ok
+[19:40:14] <vinayb> HTML, CSS are a way of describing something. You can't do logic like you can in C, Ruby etc
+[19:40:28] <vinayb> Ok, so Rails is a MVC framework
+[19:40:37] <Divya> ohk..
+[19:40:43] <vinayb> What's MVC? MVC is a way of structuring your code
+[19:41:21] <vinayb> M stands for Model, V for Views, C for Controllers
+[19:41:51] <vinayb> Now, before i go on this further, let's see the difference between static webpages and dynamic webpages
+[19:42:41] <vinayb> Static webpages don't change. They're just HTML and CSS files. But dynamic webpages change. If you noticed, every day your facebook feed changes
+[19:43:01] <vinayb> Unless you have no friends, of course ;)
+[19:43:08] <vinayb> So that's an example of dynamic webpages
+[19:43:46] <vinayb> so Web Apps are things like Facebook, Quora etc..
+[19:44:12] <vinayb> Now, in an App, say we want to store whatever the user enters
+[19:44:47] <vinayb> In Facebook, after you upload your DP, it's always there. It doesn't go after you close the window
+[19:45:00] <vinayb> So how is that done? That's done by using databases
+[19:46:20] <vinayb> The question arises, how do we create a database? how do I store user data in it? how do I retrieve user data from it?
+[19:46:34] <vinayb> All those details are taken care of by Models, the M in MVC
+[19:47:11] <vinayb> A Model abstracts away the database for the web app
+[19:47:57] <vinayb> Model also holds the business logic. So for example, say you had a website stringlength.com. It prompts for a string, and then in next page it gives the length of the string
+[19:48:34] <vinayb> Now, if you wanted to store the last five strings input'd by the user, you'd store them in a database. Models do that for you
+[19:48:59] <vinayb> Models is also where you'd put the logic of finding the length of the string
+[19:49:17] <vinayb> Any questions in Models?
+[19:49:59] <cartman> which program do these models use?
+[19:50:00] <Salman_> Nope
+[19:50:46] <vinayb> They're inside of Rails. It's all Ruby code. For the database, they might use, SQLite, MySQL etc.
+[19:51:02] <vinayb> Now let's come to Views
+[19:51:07] <vinayb> the "V" in MVC
+[19:52:17] <vinayb> Say you have the user data in database. You access it using Models. Now how do you go about displaying it? That's where views come in
+[19:53:00] <vinayb> Views is where your HTML, CSS, JS etc are all put in. Views give a User Interface. They describe how some thing looks
+[19:53:37] <Salman_> Front-End?
+[19:53:47] <vinayb> Yes, exactly, the Front-End of the app
+[19:54:00] <sumedh> sorry,i was late.. can i get the logs please?
+[19:54:28] <vinayb> one sec
+[19:55:39] <ajithps> Will put it up in a while
+[19:56:32] <vinayb> Alright, so we were talking about Views. The Front-End of the app. Now, the question arises, how do we control this program flow between Models and Views?
+[19:56:53] <vinayb> That's where Controllers come in. The "C" in MVC
+[19:57:39] <vinayb> Controllers is how some data is accessed from the Model, and then displayed in the View
+[19:58:13] <vinayb> They orchestrate how everything happens
+[19:59:19] <vinayb> As the user data comes in, in the form of say the URL that they've input or some form they've filled, controller decides what to do next
+[20:00:01] <vinayb> That's how the three interact- MVC.
+[20:00:05] <vinayb> Any questions?
+[20:00:39] <Salman_> Can u edit any of the three
+[20:00:49] <Salman_> Or all can be edited from time-to-time
+[20:00:55] <Geralt> whats the difference between a presenter and a controller?
+[20:00:56] <Salman_> Say I want to update my app
+[20:01:12] <vinayb> Yes, when you are building a Rails app, you edit/create these views/controllers/models
+[20:01:24] <Salman_> Okay
+[20:02:05] <vinayb> A presenter doesn't make any decision regarding user input. It just says: Hey man, you've given me this input, now describe how i'm supposed to show it
+[20:03:08] <vinayb> Whereas in the case of controller, for example, in a calculator app, sees that you entered '+', so it calls that associated logic (in Model). Then gives the result to View
+[20:03:33] <Geralt> oh ok
+[20:04:24] <vinayb> Right. Rails is a MVC framework. When you create a new Rails app, it generates some folders and files for you
+[20:05:30] <vinayb> It creates an App folder, which has the 'Models', 'Controllers' and 'Views' folders inside of it
+[20:06:28] <vinayb> The Models and Controller folders store the Model files and Controller files which are just .rb extension Ruby files
+[20:06:57] <vinayb> Like, filename.c, it'd be filename.rb
+[20:07:05] <Divya> whats the diff between rails and django?
+[20:07:43] <vinayb> Rails is built on Ruby, and Django on Python
+[20:07:58] <Divya> ohk..but which is bter?
+[20:08:42] <vinayb> Both are web frameworks, yes. Both have their purposes. Rails was an industry standard, but Django, other web frameworks are becoming more popular day by day
+[20:08:58] <Divya> k
+[20:09:26] <vinayb> Now, let's talk a little about routes. 
+[20:10:03] <vinayb> If there's some input like google search box, you'll enter something, and the app, on the basis of the input, will do something
+[20:10:37] <vinayb> But before that, when you go to a URL like, google.com or google.com/abcd, how does the app know what to do?
+[20:10:45] <Divya> which framework is google built on?
+[20:12:00] <vinayb> There's a lot of complexity to that answer, which I might address in the end. For now don't worry about it
+[20:12:21] <vinayb> Right, so again here's where the controllers come in
+[20:12:44] <vinayb> These URLs (google.com , google.com/abcd etc) are "routes"
+[20:13:08] <vinayb> There's a file in each Rails app which maps each route to a controller
+[20:13:49] <vinayb> So, for example, the file would say, on 'google.com', run the B function of Controller A
+[20:14:11] <vinayb> on 'google.com/abcd', run the C function of Controller A
+[20:14:18] <vinayb> or some other controller
+[20:14:39] <vinayb> So the job of the routes file is to map the URLs, the routes to controller files
+[20:17:05] <vinayb> So, now, assume you type something in the google search box. How does your app get that query? That's where something called a Params Hash comes in
+[20:18:06] <vinayb> Ok, so you've entered google.com in your browser. Your routes file matches that route (google.com) to say a controller file, a_controller.rb
+[20:19:00] <vinayb> a Hash in ruby is just an associative array. That is instead of 0, 1, 2,.. indexing, you can index using any object 
+[20:19:22] <Salman_> What does Hash mean?
+[20:19:38] <Salman_> Like associative array?
+[20:19:44] <Salman_> What does that mean
+[20:19:46] <vinayb> example: h = { 'a' : 'A', 'b' : 'B', 'c' : 'C' }
+[20:20:02] <vinayb> It's a structure like an array
+[20:20:16] <Salman_> Okay...carry on
+[20:20:29] <Geralt> whats the difference between a hash and a dictionary
+[20:20:30] <vinayb> instead of doing h[0], h[1] etc.. you'd do h['a'], h['b'], h['c']
+[20:20:47] <vinayb> they are same, just different words
+[20:20:56] <vinayb> hash  =  dictionary
+[20:22:14] <vinayb> So, now, whatever you entered, your google query, is stored in the Params Hash. Rails takes care of the extraction. so to access the query, you'd do params['query'] or something similar
+[20:22:59] <vinayb> Ok, let's put it all together now.
+[20:23:59] <vinayb> Assume you're objective is to create a google-like app
+[20:24:43] <vinayb> 1. When you enter 'google.com' and hit enter, the routes file matches that URL, the route, with a controller file, say, a_controller.rb
+[20:25:06] <vinayb> and specifies to call the function, say A in that file
+[20:25:29] <vinayb> The logic in that function tells it to display a corresponding view-- the google homepage
+[20:26:34] <vinayb> Now, you do a query. The routes file again matches it to some controller, say, b_controller.rb, function A
+[20:26:55] <Salman_> Often hailed as India’s biggest cultural & musical export, Raghu Dixit’s unique brand of infectious, happy music transcends age, genre, and even language. His music is strongly rooted in Indian traditions and culture and is presented with a very contemporary, global sound. From playing to over 100,000 people in his home state to every big music festival in India, from Glastonbury, to the BBC to even playing for the Queen o
+[20:27:11] <Salman_> Often hailed as India’s biggest cultural & musical export, Raghu Dixit’s unique brand of infectious, happy music transcends age, genre, and even language. His music is strongly rooted in Indian traditions and culture and is presented with a very contemporary, global sound. From playing to over 100,000 people in his home state to every big music festival in India, from Glastonbury, to the BBC to even playing for the Queen o
+[20:28:08] <vinayb> The controller has access the query with the Params Hash. So the controller says, 'Here, take this params['query']' to a Search Model, which holds the logic for searching the internet for results. The model then returns all the results to the controller 
+[20:28:17] <vinayb> *access to the query
+[20:28:57] <vinayb> With the results in hand, controller says 'Here, take these results' to a View which displays all those results
+[20:30:03] <vinayb> That's how all these three work together, the MVC, to make a working app
+[20:30:07] <vinayb> Any questions?
+[20:33:18] <Divya> where's the params hash stored?
+[20:34:21] <vinayb> It's stored inside of Rails, but the details of storing it aren't relevant: Rails does it for us. You can access the params hash in any controller file
+[20:34:48] <Divya> ok..
+[20:35:19] <vinayb> This is pretty much the basics of web application development in Rails
+[20:35:59] <Divya> its inbuilt for each app or we should write?
+[20:36:05] <Divya> the params hash i mean
+[20:36:18] <kapilace6_> Where do you define the hashes?
+[20:36:58] <vinayb> Whenever you create a new Rails app, Rails provides you with the Params Hash in every controller file. You don't have to define it, or declare it anywhere, Rails takes care of all that
+[20:37:34] <Divya> ok
+[20:39:47] <vinayb> So, to revise and tie it all up: The Model gives you access to the database, and allows you to store/retrieve things from it without worrying how it's done or which database is used. The app business logic is also stored in Models. Views give you a place to write all your HTML, CSS and JS to make the User Interface for your app. Controllers control the
+[20:39:47] <vinayb> program flow and orchestrate things.
+[20:40:25] <vinayb> Any final questions?
+[20:40:59] <Divya> any materials to further refer?
+[20:41:40] <vinayb> I'd recommend the books 'Agile Web Development with Rails 4' and 'The Rails 4 Way'
+[20:41:57] <Divya> ok
+[20:42:04] <vinayb> Or you can also get videos from nets.tutsplus.com
+[20:42:26] <vinayb> * code.tutsplus.com
+[20:43:13] <Divya> the session was great!thanks!
+[20:43:54] <vinayb> Thank you all for taking the time to attend and showing interest :)
+[20:43:58] <aalam> thanks...
+[20:44:38] <vinayb> you can contact me with any further queries at vinaybhat001<at>gmail<dot>com
