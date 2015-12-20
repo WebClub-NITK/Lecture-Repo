@@ -1,0 +1,542 @@
+[20:04:34] <anand16> Hey everyone I'm Anand 2nd year CSE
+[20:04:48] <sandeepmenon> I am Sandeep 2nd year CSE
+[20:04:58] <mohit_reddy> hi everyone i am mohit 2nd year CSE
+[20:05:09] <anand16> Agenda for today : 
+[20:05:16] <anand16> 1. Time complexity 
+[20:05:22] <anand16> 2. Recursion
+[20:05:32] <anand16> 3. Divide and Conquer 
+[20:05:50] <anand16> so let's start 
+[20:06:28] <anand16> Before going to time complexity of an algorithm ... what is an algorithm ?
+[20:07:18] <ASP> A sequence of steps involving the implementation of logic to solve a problem?
+[20:07:30] <anand16> correct 
+[20:08:02] <anand16> implementation is not necessary 
+[20:08:08] <anand16> but okay!
+[20:09:23] <anand16> An important feature of an algorithm is it's running time 
+[20:09:55] <anand16> any ideas on how to measure the running time of a given algorithm ?
+[20:11:31] <yonam> in terms of input size function
+[20:12:58] <anand16> normal way would be to just implement the algorithm in any language, execute it on a computer and measure the time taken
+[20:13:59] <anand16> but this depends on a lot of factors like the language chosen, implementation, hardware, etc,.
+[20:14:58] <anand16> whereas what we're really interested in is to find the running time of the algorithm in terms of its input
+[20:15:34] <ASP> Maybe find what could be the running time for the most complex set of inputs?
+[20:15:39] <anand16> or you could say the rate at which the running time increases as the size of the input increases
+[20:15:48] <anand16> correct @yonam
+[20:16:24] <anand16> i'll be coming to that @ASP 
+[20:18:17] <anand16> in simple words it can be approximated as the number of simple operations performed by an algorithm
+[20:18:49] <anand16> simple operations include arithmetic, logical, relational, etc,.
+[20:19:39] <anand16> There are many notations used for this purpose 
+[20:20:19] <anand16> Most commonly used are 
+[20:20:31] <anand16> 1. Big-Oh -> worst case 
+[20:20:43] <anand16> 2. Big-Omega -> best case
+[20:20:55] <anand16> 3. Big-Theta -> average case
+[20:21:39] <anand16> but as ASP pointed out we are more interested in analyzing the algorithm for the worst case
+[20:22:03] <anand16> so Big-Oh will be the notation we'll be using 
+[20:22:15] <anand16> any doubts ?
+[20:22:27] <aalam> no
+[20:22:31] <vilas> No. Proceed. 
+[20:22:45] <renegadetimelord> Continue
+[20:22:55] <ASP> Just out of curiosity, wouldn't it be more efficient to apply the Big - oh notation for all algorithms? 
+[20:24:17] <anand16> it's not necessary that the algorithm is given a complex input
+[20:24:45] <anand16> so in some cases we may be interested in other cases as well
+[20:24:59] <anand16> *places 
+[20:26:12] <anand16> moving on 
+[20:26:54] <anand16> Big-Oh 
+[20:28:56] <anand16> Let f(n) and g(n) be two functions then f(n) = O(g(n)) if and only if there exist constants c and n0 such that f(n)<=c*g(n) for all n >= n0
+[20:30:22] <QRS> O(g(n)) signifying ?
+[20:31:06] <anand16> Big-Oh of g(n) .... f(n) is of the order O(g(n))
+[20:31:52] <anand16> some properties of Big-Oh 
+[20:32:19] <aalam> thats zero of g(n)???
+[20:33:03] <QRS> its a notation for big-oh oh g(n) if I'm not wrong
+[20:33:04] <anand16> capital O
+[20:33:20] <Chombs> schoOl that o
+[20:34:01] <anand16> Sum : if f1 = O(g1) and f2 = O(g2) then f1 + f2 = O(g1 + g2)
+[20:34:43] <anand16> Product: if f1 = O(g1) and f2 = O(g2) then f1*f2 = O(f1*f2)
+[20:35:23] <mohit_reddy> * O(g1*g2)
+[20:35:38] <anand16> ^
+[20:36:37] <anand16> if f1 = O(g1) then kf = O(g1) where k is a nonzero constant
+[20:36:59] <Geralt> ?
+[20:37:51] <anand16> this is because the constant c in the definition of Big-Oh can be multiplied by k thus maintaining the inequality
+[20:38:22] <anand16> let's take an example
+[20:38:23] <QRS> right
+[20:39:28] <anand16> f(n) = 4 * n^2 => f(n) = O(n^2)
+[20:40:28] <anand16> please note that the inequality will still hold for f(n) = O(n^3) and for higher powers as well
+[20:40:43] <anand16> but we are interested in the tight bound 
+[20:41:11] <anand16> next 
+[20:41:31] <anand16> f(n) = 2 * n^3 + 4 * n^2 + 5
+[20:41:46] <anand16> what is the order of f ? anyone ?
+[20:41:56] <Geralt> 3?
+[20:42:07] <anand16> correct 
+[20:42:13] <anand16> so g(n) is ?
+[20:42:22] <QRS> n^3?
+[20:42:32] <anand16> correct!
+[20:43:07] <Geralt> but according to the above stated sum rule should it not be n^3 + n^2
+[20:43:41] <vilas> No.. because n^2 < n^3 for n>1 ... 
+[20:43:50] <anand16> in general for any polynomial all lower order terms can be neglected
+[20:43:57] <Geralt> ok
+[20:44:14] <mohit_reddy> and for large values of n^2<< n^3 so they can be neglected in that case.
+[20:44:20] <sandeepmenon> *for large inputs, msaller power can be neglected
+[20:44:26] <sandeepmenon> smaller*
+[20:44:30] <mohit_reddy> * large values of n
+[20:45:35] <QRS> right
+[20:45:37] <anand16> let's take a real program and find it's complexity in terms of Big-Oh
+[20:46:49] <anand16> Statement : Given a positive integer n, find whether it's prime ?
+[20:46:53] <anand16> any solutions ?
+[20:47:21] <yonam> n
+[20:47:47] <QRS> iterate till sqrt(n) and check if it is divisble by any of those numbers from 1 to sqrt(n)
+[20:47:56] <mohit_reddy> it could be better than that. @yonam
+[20:48:00] <anand16> yonam : it can be done in a better way
+[20:48:18] <anand16> jinx XD
+[20:48:19] <ASP> n/2?
+[20:48:28] <anand16> correct @QRS
+[20:49:04] <anand16> head over here : http://ideone.com/Sp58lL
+[20:49:17] <mohit_reddy> @QRS so the time complexity will be ?
+[20:49:26] <yonam> i was saying o(n)
+[20:49:43] <venkat> nlogn
+[20:49:46] <Chombs> n^.5?
+[20:50:02] <anand16> guys did you see the code ?
+[20:50:12] <ASP> Yes
+[20:50:17] <QRS> yeah
+[20:50:18] <anand16> all your answers are right
+[20:50:39] <QRS> n^1/2
+[20:50:42] <anand16> but i mentioned that we are interested in the tight bound
+[20:51:09] <anand16> awesome @QRS
+[20:51:23] <anand16> can you explain how ?
+[20:52:03] <QRS> um
+[20:52:34] <QRS> because the largest value encountered during the iteration is n^1/2
+[20:52:39] <QRS> ?
+[20:52:55] <Geralt> in the worst case scenario there would be a comparison n^1/2 times?
+[20:53:06] <anand16> okay
+[20:53:30] <anand16> Chombs your answer is right as well .. didn't notice 
+[20:53:41] <Chombs> Time taken is a fn of n^0.5?
+[20:53:42] <anand16> sorry
+[20:55:22] <anand16> correct in the worst case i.e when the input is indeed a prime number, the simple operation % (modulo) will be performed n^0.5 times
+[20:55:55] <anand16> everyone got how it's O(n^0.5) ?
+[20:55:55] <QRS> yes 
+[20:56:16] <aditya> yes
+[20:57:28] <vilas> yup
+[20:57:45] <anand16> next we'll analyze the time complexity of bubble sort
+[20:58:16] <anand16> head over here : http://ideone.com/wA6e7r
+[20:58:40] <yonam> n^2
+[20:58:58] <Chombs> n^2
+[20:59:02] <anand16> excellent 
+[20:59:26] <anand16> what is f(n) here ?
+[20:59:41] <QRS> could you explain in one simple sentence wat the code does ?
+[21:00:35] <anand16> given an array a of size n, the code arranges them in non-decreasing order
+[21:00:41] <Chombs> Sorts an array using two loops
+[21:00:47] <yonam> (n-1)(n-1)?
+[21:00:47] <QRS> Right
+[21:00:52] <Geralt> is it n^2
+[21:01:13] <anand16> wrong @yonam
+[21:01:13] <vilas> (n-1)n/2 ?
+[21:01:15] <ASP> n^2- 2n-1?
+[21:01:21] <ASP> *+1
+[21:01:52] <anand16> correct @vilas
+[21:02:03] <anand16> can you explain ? 
+[21:02:19] <anand16> simple explanation will do 
+[21:02:25] <vilas> Assume that the array is in decreasing order. worst case. 
+[21:03:34] <vilas> Its executed in every iteration. So summation from 1 to n-1
+[21:04:39] <anand16> any doubts ?
+[21:06:23] <anand16> next we'll analyze the time complexity of http://ideone.com/mRhliT
+[21:07:03] <sandeepmenon> PS: this is a question from our end sem paper. so if u guys solve it.. congragulations 5 marks :P XD
+[21:07:17] <mohit_reddy> yeah XD
+[21:07:19] <anand16> haha yeah 
+[21:07:26] <anand16> any answers ?
+[21:07:31] <Chombs> O(n^2)?
+[21:07:43] <anand16> see carefully 
+[21:07:48] <mohit_reddy> see the loops carefully
+[21:07:50] <vilas> O(log n to base 2) ?
+[21:08:01] <Geralt> is it n^2?
+[21:08:09] <anand16> not n^2 
+[21:08:13] <Geralt> by 2
+[21:08:18] <yonam> nlgn
+[21:08:22] <anand16> you're missing something @vilas
+[21:08:25] <sandeepmenon> see the second loop carefully
+[21:08:26] <mohit_reddy> @yonam correct
+[21:08:33] <mohit_reddy> @yonam how ?
+[21:09:20] <vilas> Oh yeah dint notice the outer loop :P 
+[21:10:25] <yonam> for each i iteration the j loop runs till 2^k<=n for some k
+[21:10:29] <Chombs> So the second loop runs depending in how many times the n can be divided by 2?
+[21:10:38] <yonam> which gives lgn
+[21:10:47] <yonam> n*lgn
+[21:11:03] <mohit_reddy> @chombs yeah
+[21:11:17] <anand16> correct 
+[21:12:04] <anand16> detailed derivation needs to be written to score 5/5 though 
+[21:12:14] <Geralt> so the log is base 2?
+[21:12:25] <anand16> yeah base 2
+[21:12:43] <sandeepmenon> almost all the logs you see in this subject are base 2
+[21:13:05] <anand16> omitting the derivation ( you can ping me if you're interested ) and moving on to Searching
+[21:13:27] <anand16> over to mohit_reddy 
+[21:13:48] <mohit_reddy> okay so i hope you guys now have some about time complexity
+[21:14:16] <mohit_reddy> now lets see few of the basic algorithms
+[21:14:22] <mohit_reddy> 1) searching algorithms
+[21:14:53] <mohit_reddy> as the name suggests , we are searching for a value in the given data. so in this session we assume the data is given in an array and proceed
+[21:15:26] <mohit_reddy> we will be discussing about 2 algorithms here
+[21:15:33] <mohit_reddy> 1) linear search
+[21:15:47] <mohit_reddy> any idea what happens in this algorithm ?
+[21:15:54] <mohit_reddy> anyone ?
+[21:16:20] <Chombs> Every element is compared with the element to be searched?
+[21:16:27] <vilas> Just keep on searching from index 1 to n until you find the element. 
+[21:16:34] <Chombs> Every element in array*
+[21:16:44] <mohit_reddy> correct.
+[21:17:18] <mohit_reddy> we traverse the array, check the "item" with every element present in the array and perform some operation.
+[21:17:25] <mohit_reddy> http://ideone.com/9vtujE
+[21:17:48] <mohit_reddy> this is the code for linear search. go through it once
+[21:18:10] <mohit_reddy> here the operation is nothing but getting the position of item in the given array.
+[21:18:33] <mohit_reddy> if the item is not found it prints -1 which acts as a flag here.
+[21:18:48] <mohit_reddy> any doubts ?
+[21:19:06] <mohit_reddy> yeah what is the time complexity ?
+[21:19:13] <ASP> n where n is number of elements in the array?
+[21:19:18] <vilas> n
+[21:19:30] <mohit_reddy> good ! correct.
+[21:19:46] <mohit_reddy> so any doubts ?
+[21:20:05] <vilas> nope. continue
+[21:20:45] <mohit_reddy> the second searching algorithm is Binary search.
+[21:21:01] <mohit_reddy> in this algorithm the array should be sorted
+[21:21:16] <mohit_reddy> either in ascending order or descending order.
+[21:21:23] <mohit_reddy> we will see why
+[21:22:26] <mohit_reddy> the algorithm follows divide and conquer. 
+[21:22:43] <mohit_reddy> here suppose we want to find the location of a item in the array
+[21:23:17] <mohit_reddy> we firstly check if the middle element is equal to the item. if so return the index.
+[21:24:01] <mohit_reddy> if the middle element is smaller than "item", then we know that item could be present in the first half of the array or might not be present at all.
+[21:24:28] <arvind> log
+[21:24:39] <arvind> sry
+[21:24:42] <mohit_reddy> else if the middle element is greater than item, then we know that the item could be present in the second half of the array or might be present at all.
+[21:25:31] <mohit_reddy> so we can ignore one half of the array and perform the same operation on the other half of the array only whose size will be half of the size of original array.
+[21:25:42] <mohit_reddy> lets take an example 
+[21:25:57] <mohit_reddy> suppose the array is 1,3,4,5,6,8,9
+[21:26:32] <mohit_reddy> we want to find the location of 6 in the array
+[21:26:40] <mohit_reddy> first we check the middle element
+[21:26:44] <mohit_reddy> 5!=6 
+[21:26:57] <mohit_reddy> so we check if it is greater than or smaller than the item
+[21:27:08] <mohit_reddy> 5<6 we can ignore the first half of the array
+[21:27:20] <mohit_reddy> array left = 6,8,9
+[21:27:27] <mohit_reddy> now the middle element is 8
+[21:27:30] <mohit_reddy> 6!=8
+[21:27:39] <mohit_reddy> we check for the equality.
+[21:27:56] <mohit_reddy> 6<8 hence we can ignore the second half of the present array
+[21:28:08] <mohit_reddy> array left = 6
+[21:28:12] <mohit_reddy> 6==6 
+[21:28:22] <mohit_reddy> and we got the element we were looking for.
+[21:28:54] <mohit_reddy> any doubts ?
+[21:29:06] <mohit_reddy> clear how the algorithm works ?
+[21:29:18] <Chombs> Yea
+[21:29:20] <arvind> yes
+[21:29:31] <QRS> yes
+[21:29:32] <aditya> yes
+[21:29:35] <vilas> yup
+[21:29:45] <mohit_reddy> http://ideone.com/zTF5ri
+[21:29:55] <mohit_reddy> here is the code for binary search.
+[21:30:05] <mohit_reddy> can anyone tell me the time complexity ?
+[21:30:14] <arvind> log(n)?
+[21:30:21] <aditya> logn
+[21:30:21] <mohit_reddy> correct .. how ?
+[21:30:22] <Chombs> Logn
+[21:30:24] <ASP> log n?
+[21:30:42] <arvind> worst case last element is to be found
+[21:30:51] <ASP> The number of times considering it runs for when the last element is the one to be found
+[21:31:04] <arvind> array has to be divided log n times
+[21:31:07] <ASP> Will be the number of times n can be divided by 2. So log n
+[21:31:48] <mohit_reddy> not exactly the last element. in the example which i gave searching 6 or 9 will take the same time rit ?
+[21:32:08] <mohit_reddy> we have to divide the array twice..
+[21:32:55] <mohit_reddy> yeah in the worst case we have to divide the array till we are left with only one element = number of times n can be divided by 2
+[21:33:17] <mohit_reddy> we got smart people here rit ? anand16: sandeepmenon ?
+[21:33:33] <mohit_reddy> okay so any doubts ?
+[21:34:45] <sandeepmenon> yeah mohit_reddy 
+[21:34:48] <QRS> clear
+[21:35:00] <arvind> nope
+[21:35:35] <ASP> none
+[21:35:39] <aditya> no
+[21:35:46] <mohit_reddy> oh okay then sandeepmenon continue.
+[21:35:58] <sandeepmenon> next up is recursion
+[21:36:09] <sandeepmenon> i am sure most of you would already know what recursion is
+[21:36:31] <sandeepmenon> its a technique to express operations in terms of themselves
+[21:36:47] <sandeepmenon> in a program.. it'll be like a function calling itself
+[21:37:29] <sandeepmenon> recursion can make your program look more elegant and sleek
+[21:37:50] <sandeepmenon> an iterative program may be long and invlves lot of variables and stuff
+[21:38:08] <sandeepmenon> whereas a recursive one will be small and easier to read and understand
+[21:38:25] <sandeepmenon> many recursive problems are closely related to math
+[21:38:45] <sandeepmenon> you will be able to right the recursive formala before hand
+[21:38:50] <sandeepmenon> we'll see fibonacci
+[21:39:01] <sandeepmenon> what is the speciality of a fibonacci series?
+[21:40:19] <QRS> An= An-2 + An-1
+[21:40:20] <arvind> nth number is sum of previous two numbers provide n!=1,2 
+[21:40:33] <sandeepmenon> correct!
+[21:40:42] <sandeepmenon> also what numbers do we start of with?
+[21:40:49] <arvind> 0,1
+[21:41:02] <sandeepmenon> yes.. we have the program ready already
+[21:41:19] <sandeepmenon> http://ideone.com/DryMFV
+[21:41:26] <sandeepmenon> check this out^
+[21:41:26] <QRS> 1,1 would also do?
+[21:41:44] <sandeepmenon> yes.. 1,1 also does @ QRS 
+[21:42:24] <sandeepmenon> you can see that the code is very similar to what you guys explained
+[21:42:39] <sandeepmenon> f(n)=f(n-1)+f(n-2)
+[21:43:01] <sandeepmenon> here we call the function recursively with values of n-1 and n-2
+[21:43:16] <sandeepmenon> understood the code?
+[21:43:38] <QRS> nope
+[21:43:51] <sandeepmenon> whats the doubt?
+[21:44:01] <QRS> input n=6
+[21:44:40] <sandeepmenon> yes
+[21:44:45] <sandeepmenon> answer is 8
+[21:44:58] <QRS> could you mention what the program would do here
+[21:45:10] <sandeepmenon> sure
+[21:45:11] <anand16> @QRS : note that the starting is 0,1 and not 1,1
+[21:45:23] <sandeepmenon> function calls f(6)
+[21:45:38] <sandeepmenon> f(6) calls f(5) and f(4)
+[21:45:43] <sandeepmenon> and it goes on
+[21:46:03] <sandeepmenon> it is tedious to trace a recursive function which calls more than once
+[21:46:12] <sandeepmenon> if the math is right, the program will be right
+[21:46:56] <anand16> http://www.cse.unsw.edu.au/~billw/dictionaries/pix/fibonacci_tree.png
+[21:47:25] <sandeepmenon> ^ 
+[21:47:39] <sandeepmenon> or this : http://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+[21:48:56] <sandeepmenon> we will post our email id's at the end of the session.. we will be happy to calrify further doubts
+[21:49:04] <sandeepmenon> we are exceeding the time
+[21:49:13] <sandeepmenon> are'nt u guys hungry :P
+[21:49:22] <sandeepmenon> so we will move on
+[21:49:27] <sandeepmenon> ok guys?
+[21:49:44] <Chombs_> Sure np
+[21:49:48] <QRS> fine I'll get in touch later
+[21:49:55] <sandeepmenon> sure do QRS 
+[21:50:17] <sandeepmenon> can you guys tell the time complexity for this function?
+[21:50:52] <Chombs_> N!?
+[21:51:00] <sandeepmenon> no
+[21:51:27] <sandeepmenon> hint: this function wasnt mentioned in any of the previous examples
+[21:52:07] <sandeepmenon> if u guys look at that tree which was there in that link we posted.. you'll see how it grows
+[21:52:14] <QRS> yeah
+[21:52:33] <sandeepmenon> say for f(6)
+[21:52:40] <sandeepmenon> f(5) get called once
+[21:52:46] <sandeepmenon> f(4) twice
+[21:52:53] <sandeepmenon> f(3) 4 times
+[21:52:55] <QRS> we will have f(4) twice
+[21:52:59] <ASP> 2^n?
+[21:53:02] <sandeepmenon> yes
+[21:53:03] <QRS> oops :p
+[21:53:35] <QRS> sum(2^n)
+[21:53:42] <sandeepmenon> striclty speaking.. the mathematical derivation gives us the (golden ration)^2
+[21:53:47] <sandeepmenon> which is rounded off to 2
+[21:54:11] <Chombs_> 2^n is correct?
+[21:54:14] <sandeepmenon> golden ration is approx .. 1.61803398875
+[21:54:15] <anand16> * (GR)^n
+[21:54:22] <sandeepmenon> yes 2^n is correct
+[21:54:23] <mohit_reddy> yeah..
+[21:54:46] <sandeepmenon> http://stackoverflow.com/questions/360748/computational-complexity-of-fibonacci-sequence
+[21:54:54] <sandeepmenon> ^ refer this link later
+[21:54:58] <arvind> y is it  not sum of 2^n ?
+[21:55:13] <sandeepmenon> it is 2^n
+[21:55:28] <sandeepmenon> but when we derive it mathematically.. you'll get the golden ration
+[21:55:31] <arvind> ok
+[21:55:36] <sandeepmenon> see the link i gave later
+[21:55:49] <sandeepmenon> ok guys?
+[21:55:58] <QRS> alright
+[21:56:21] <sandeepmenon> over to mohit_reddy 
+[21:56:24] <mohit_reddy> okay so we can find out factorial of a number using recursion
+[21:56:35] <mohit_reddy> how ? 
+[21:56:45] <mohit_reddy> n!=(n*(n-1)*(n-2)...1)
+[21:57:12] <mohit_reddy> we notice that we need to multiply n-x where x=0 to n-1 
+[21:57:13] <ASP> Call n-1 each time till we get 1.
+[21:57:21] <vilas> Fact(n) = n*Fact(n-1). Fact(0)=1.
+[21:57:25] <arvind> n * fact(n-1) if n=1 fact(n)=1
+[21:57:31] <mohit_reddy> so we can get a recursion here.
+[21:57:37] <mohit_reddy> yeah correct.
+[21:57:54] <mohit_reddy> but @arvind you will be missing the case of 0!=1;
+[21:58:07] <mohit_reddy> http://ideone.com/VitCv5
+[21:58:26] <mohit_reddy> here is the code for factorial of a number using recursion
+[21:58:36] <mohit_reddy> any doubts ?
+[21:58:53] <arvind> i can stop it at n=1 r8?
+[21:59:15] <mohit_reddy> http://www.programiz.com/cpp-programming/recursion  here it is explained properly.
+[21:59:18] <mohit_reddy> yeah you can
+[21:59:24] <arvind> oh if input is 0 ..? ok...
+[21:59:27] <mohit_reddy> but what will be 0! ?
+[21:59:53] <mohit_reddy> any doubts ??
+[21:59:56] <arvind> no
+[22:00:05] <vilas> no
+[22:00:15] <Chombs_> No
+[22:00:41] <mohit_reddy> time complexity ?
+[22:00:47] <mohit_reddy> anyone?
+[22:01:00] <vilas> n
+[22:01:03] <Chombs_> n
+[22:01:28] <mohit_reddy> recursions are really important . so if you have any doubts please do ask.
+[22:01:35] <mohit_reddy> yeah correct. how ?
+[22:03:01] <mohit_reddy> no one ?
+[22:03:14] <vilas> Fact ( n) = n*Fact(n-1). Fact(n-1)= n-1 * Fact ( n-2 ). goes on till 0. So n 
+[22:03:21] <Chombs_> For a number n the function calls itself n times such, is till it reaches 0!.
+[22:03:31] <QRS> yup!
+[22:03:43] <mohit_reddy> correct !
+[22:04:42] <anand16> next we'll be seeing Pascal's Triangle 
+[22:05:01] <anand16> does anyone know what Pascal's Triangle is ?
+[22:05:27] <Chombs_> Powers of 11 in an arrangement?
+[22:05:45] <the_ghost> the coefficients in (x+y)^n arranged in the form of triangle
+[22:05:54] <vilas> Yup. Write all numbers in the form of a pyramid. Sum of 2 numbers in the prev row = the number in the next row in between these 2 numbers
+[22:06:01] <anand16> yes yes 
+[22:06:11] <arvind> coefficients of (x+1)^n
+[22:07:24] <anand16> now which among these properties can we use if we want to calculate the number at kth position in the nth row ?
+[22:07:53] <anand16> those of you who don't know what Pascal's Triangle is see this - https://upload.wikimedia.org/wikipedia/commons/f/f6/Pascal%27s_triangle_5.svg
+[22:08:10] <Chombs_> Coificient one?
+[22:08:20] <the_ghost> nck
+[22:08:39] <QRS> a(n,k) = a(n-1,k-1) +a(n-1,k)
+[22:09:13] <anand16> nCk is correct. can you think of a recursive way ?
+[22:09:27] <anand16> correct @QRS
+[22:09:51] <anand16> code for this : http://ideone.com/veTegF
+[22:10:24] <anand16> can anyone analyze the time complexity of this solution ?
+[22:11:16] <QRS> n?
+[22:11:33] <arvind> 2^n?
+[22:12:13] <anand16> correct @arvind
+[22:12:31] <anand16> explanation is similar to the fibonacci series 
+[22:13:19] <anand16> there is another interesting property of the triangle 
+[22:13:46] <anand16> sum of the shallow diagonals give the fibonacci sequence 
+[22:13:52] <anand16> see this : http://mathworld.wolfram.com/images/eps-gif/FibonacciShallowDiags_1000.gif
+[22:14:38] <arvind> what about a(n,k)=a(n,k-1)*[(n-k+1)/k] if k=1 a(n,k)=1
+[22:15:11] <QRS> ah brilliant @anand16
+[22:16:18] <anand16> nice exploitation of nCk properties @arvind 
+[22:16:47] <anand16> but n-k+1 may not always be divisible by k 
+[22:17:21] <anand16> got it ?
+[22:17:49] <arvind> but wont it work if it is fraction?
+[22:18:18] <arvind> float value?
+[22:18:27] <anand16> yes it will ... that's why you got the complement 
+[22:18:40] <arvind> ok !
+[22:19:16] <anand16> moving on to Merge Sort 
+[22:19:40] <mohit_reddy> okay so the last topic for todays sessions
+[22:19:45] <mohit_reddy> divide and conquer
+[22:20:06] <mohit_reddy> the name says it all
+[22:20:16] <mohit_reddy> what do we do in this ?
+[22:21:10] <mohit_reddy> we divide the problem into 2 or more subproblems (divide), until we these become simple enough to be solved or operated ( Conquer)
+[22:21:38] <mohit_reddy> we have already discussed binary search. 
+[22:21:56] <mohit_reddy> now we will discuss merge sort. what happens in merge sort
+[22:22:45] <mohit_reddy> given an array , we sort the array by dividing the array into smaller subarrays and combining smaller arrays using proper operations.
+[22:23:05] <mohit_reddy> so i will explain the algorithm using an example
+[22:23:19] <mohit_reddy> let the array be 10,9,14,12,4,2,3,6
+[22:23:49] <mohit_reddy> we divide the array into smaller subarrays :  10,9,14,12 and 4,2,3,6
+[22:24:09] <mohit_reddy> and we can divide the first subarray into again two arrays : 10,9 and 14,12
+[22:24:50] <mohit_reddy> we can divide the array 10,9 into 10 and 9 . so we finally got the basis step i.e the array with 1 element is already sorted .
+[22:25:32] <mohit_reddy> so we combine both of them using proper operations. we want the array to be sorted . so we combine both the arrays so that the formed array have elements in sorted order
+[22:25:41] <mohit_reddy> so the combined array we get 9,10
+[22:26:11] <mohit_reddy> we have to divide the 14,12 array also, giving 14 and 12. we can combine both of them giving 12,14
+[22:26:47] <mohit_reddy> the arrays left 9,10 and 12,14
+[22:27:11] <mohit_reddy> we can combine both of the : 9,10,12,14
+[22:27:33] <mohit_reddy> now the other half which was left will be also be sorted in the same way giving : 2,3,4,6
+[22:28:02] <mohit_reddy> and we have to finally 'merge' these two arrays to get the final sorted array : 2,3,4,6,9,10,12,14
+[22:28:44] <mohit_reddy> any doubts?
+[22:28:57] <mohit_reddy> http://ideone.com/XdeIk4
+[22:28:57] <mmv> no
+[22:28:59] <vilas> no
+[22:29:02] <mohit_reddy> here is the code .
+[22:29:11] <mohit_reddy> you can go through it. 
+[22:29:36] <mohit_reddy> and after going through the code ask if you didnt understand any part of the code.
+[22:30:05] <mohit_reddy> if you guys have no doubts .. what will be the time complexity ? and how did you get that ?
+[22:33:07] <Chombs_> Is it n logn ?
+[22:33:19] <mohit_reddy> yeah but how ?
+[22:34:23] <mohit_reddy> no answers?
+[22:34:49] <QRS_> we have to keep dividing
+[22:34:57] <QRS_> till we end up with one element
+[22:35:10] <QRS_> and then perform one operation on each element
+[22:35:12] <Chombs_> each problem is divided into 2 subproblem so, the tree will have logn levels
+[22:35:22] <QRS_> combined nlogn ?
+[22:35:40] <mohit_reddy> yes correct.
+[22:36:19] <Chombs_> Each level has complexity of n so its nlogn?
+[22:36:46] <mohit_reddy> yeah correct. good guys. ohk last thing quicksort. sandeepmenon go
+[22:36:55] <sandeepmenon> ok
+[22:37:09] <sandeepmenon> like mergesort, quicksort is also a divide and conquer algorithm
+[22:37:20] <sandeepmenon> what it does is
+[22:37:38] <sandeepmenon> it picks an element, called pivot
+[22:37:48] <sandeepmenon> and partitions the array around it
+[22:38:01] <sandeepmenon> in simple terms
+[22:38:34] <sandeepmenon> it picks an element and positions it in such a way that, the positon is the correct position in the sorted order
+[22:39:04] <sandeepmenon> ie. all elements to the left of the pivot will be less than it, and to the right is greater than the pivot
+[22:39:33] <sandeepmenon> ok.. so how to pick the pivot..
+[22:39:38] <sandeepmenon> there are many ways
+[22:39:59] <sandeepmenon> you can just pick a random one
+[22:40:12] <sandeepmenon> the first one, the last one
+[22:40:19] <sandeepmenon> median
+[22:40:49] <sandeepmenon> following code picks the last element as pivot
+[22:40:56] <sandeepmenon> http://ideone.com/PpUvXb
+[22:41:30] <sandeepmenon> the code can be a bit confusing to trace in your mind
+[22:41:59] <sandeepmenon> but if you sit with a pen and paper, you'l clearly see how the algorithms sorts the array beautifully
+[22:42:36] <sandeepmenon> http://me.dt.in.th/page/Quicksort/
+[22:42:53] <sandeepmenon> ^this is an awesome demonstration of how quick sort works
+[22:43:09] <sandeepmenon> its very elaborate and in detail
+[22:43:48] <sandeepmenon> we'll be posting all the links together at the end of the session, so dont worry.. you can go through all of them thoroughy
+[22:43:56] <sandeepmenon> everyone clear?
+[22:44:40] <Chombs_> Yep! Thanks!
+[22:44:49] <mmv> clear ? we just got a basic outline...
+[22:45:03] <sandeepmenon> ok..
+[22:45:17] <sandeepmenon> the partitioning part is the main core of this algorithm
+[22:45:51] <sandeepmenon> there are many algos to do the partitioning
+[22:46:08] <sandeepmenon> you can go through them in the wiki article of quicksort
+[22:46:14] <sandeepmenon> they have explained it pretty well
+[22:46:38] <mohit_reddy> ok i will explain how it works small example .
+[22:46:59] <mohit_reddy> let the array be 2,3,4,1,5
+[22:47:10] <mohit_reddy> so the main part is partitioning correct 
+[22:47:38] <mohit_reddy> and we arrange all the elements smaller than the pivot to its left and rest to its right
+[22:47:58] <mohit_reddy> meaning the pivot takes the correct position as it should be in sorted array
+[22:48:12] <mohit_reddy> let the pivot be the first element
+[22:48:16] <mohit_reddy> here 2
+[22:48:23] <mohit_reddy> so the array after arranging becomes
+[22:48:30] <mohit_reddy> 1,2,3,4,5
+[22:48:41] <mohit_reddy> so divide the array into 1 adn 3,4,5
+[22:48:54] <mohit_reddy> the left subarray is already sorted
+[22:49:10] <mohit_reddy> right subarray is 3,4,5. pivot is 3 which is in the correct position
+[22:49:16] <mohit_reddy> so the array left is 4,5 
+[22:49:26] <mohit_reddy> similar we can say that it also sorted
+[22:49:38] <mohit_reddy> we combine them to get the sorted array
+[22:49:39] <mohit_reddy> cool ?
+[22:49:49] <arvind> yes!
+[22:49:56] <mmv> yup
+[22:50:09] <mohit_reddy> any doubts ?
+[22:50:15] <mmv> no
+[22:50:40] <mmv> is this more efficient than selection sort ?
+[22:51:06] <sandeepmenon> yes
+[22:51:28] <sandeepmenon> selection sort has O(n^2) complexity
+[22:51:39] <anand16> note that efficiency of quicksort depends on how you chose the pivot 
+[22:51:42] <mohit_reddy> yeah we choose the pivot correctly or randomly it is found that the running time is nlogn but selection sort runs at n^2 in average case. so yeah it is efficient than selections sort
+[22:51:48] <sandeepmenon> this has O(nlogn).. depending on the pivot
+[22:52:19] <mohit_reddy> clear ? @mmv ?
+[22:52:28] <mmv> yes..
+[22:52:56] <arvind> i dont get y it depens on pivot
+[22:53:34] <mohit_reddy> suppose every time the pivot chosen takes the first place in the array 
+[22:53:50] <mohit_reddy> then we will be forming the subarrays of size 1 and n-1
+[22:54:03] <mohit_reddy> which will lead to n^2 sorting algo
+[22:54:30] <sandeepmenon> Getting a pivot equal to the lowest or highest number, should also trigger the worst case scenario of O(n^2).
+[22:54:30] <mohit_reddy> whereas if the pivot is chosen such that everytime the partition gives us n/2 and n/2 subarrays
+[22:54:47] <mohit_reddy> then it is nothing but mergesort correct ?
+[22:55:19] <mmv> ya
+[22:56:03] <mohit_reddy> sorry not merge sort but partition takes logn time .
+[22:56:44] <sandeepmenon> always division by half, leads to logn, just like merge sort
+[22:57:12] <mohit_reddy> so everyone clear ?
+[22:57:30] <mohit_reddy> i hope you this session helped you.
+[22:57:54] <arvind> so merge sort better than quick sort better than selection sort?
+[22:59:12] <anand16> there is one more thing to be noted ... in merge sort a temporary array of size n is required whereas in quicksort it's not 
+[22:59:30] <mohit_reddy> the space factor is there in merge sort
+[22:59:57] <mmv> i didnt get how quick sort when the pivot is chosen such that everytime the partition gives us n/2 and n/2 subarrays is different from merge sort
+[23:00:21] <sandeepmenon> it is not possible to get n/2 , n/2 subarrays always
+[23:00:37] <arvind> it is best case r8?
+[23:00:42] <sandeepmenon> it'll depend on the chosen pivot
+[23:01:16] <anand16> in merge sort the partitions you get are not sorted .. whereas in merge sort the two arrays which will be merged are sorted
+[23:01:34] <anand16> *quick sort in place of the first merge sort
+[23:02:22] <arvind> ok!
+[23:02:31] <mohit_reddy> go through the codes. take 2 or 3 arrays and try it on a paper. then you will understand the proper working of an algorithm
+[23:02:56] <arvind> thanks!nice session!
+[23:03:19] <mmv> thanks..
+[23:03:22] <sandeepmenon> however.. it is said that quick sort is superior to merge sort in many scenarios because many other factors 
+[23:03:27] <sandeepmenon> you can read up on that
+[23:03:39] <sandeepmenon> thank you guys for attending patiently
+[23:03:50] <aditya> Thank you
+[23:04:01] <chinmay_dd> Well done guys :)
+[23:04:04] <anand16> thanks for attending 
+[23:04:09] <mohit_reddy> well thank you guys for attending. you can contact us anytime. be it any doubt or friendly talk we will reply :P
+[23:04:14] <vilas> thanks a lot :) 
+[23:04:16] <sandeepmenon> once again.. all links found here: https://gist.github.com/gitmenonsandu/3f37491490a1e98b8578
+[23:04:26] <mmv> we should thank you for putting so much of effort and teaching us..
+[23:04:26] <mohit_reddy> you can contact me : mohitreddy1996@gmail.com
+[23:04:28] <anand16> can you guys introduce yourselves if you're not in a hurry :)
+[23:05:18] <mohit_reddy> we will giving 2 more sessions on number theory which is the most important thing. and a bit about python and some of its powerful libraries. hoping to see you all there :)
+[23:05:21] <vilas> Vilas here.. 1st year CS, S2 :) 
+[23:05:48] <aditya> Aditya 1st year IT
+[23:05:53] <mmv> vikram here ..1st year IT , S7
+[23:06:06] <mohit_reddy> one session for number theory and one session on Python and libraries.
+[23:07:01] <mmv> like number theory in olympiad math ?
+[23:07:40] <mohit_reddy> nah not exactly that. which is useful in data structures and algorithms. not that complex
+[23:08:18] <sandeepmenon> you can find all of ours email id's here : https://gist.github.com/gitmenonsandu/3f37491490a1e98b8578
+[23:08:19] <chinmay_dd> mmv, we rarely need a lot of concepts. But you need to know only a few of them but you need to know them well
+[23:08:39] <chinmay_dd> Like, you should remember their applications and implementations :)
+[23:08:39] <sandeepmenon> well said chinmay_dd 
+[23:09:10] <chinmay_dd> It is great that you guys are showing interest already! Great to see :D
+[23:10:04] <sandeepmenon> good night everyone
+[23:10:05] <sandeepmenon> bye
