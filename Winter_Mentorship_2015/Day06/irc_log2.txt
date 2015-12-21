@@ -1,0 +1,422 @@
+[19:45:29] <Pooja_M_S_> Okay we will start in five minutes
+[19:45:38] <Pooja_M_S_> you could ask your friends to join in
+[19:48:00] <Pooja_M_S_> okay. let's start.
+[19:48:19] <Pooja_M_S_> Can anyone tell me what javascript is?
+[19:48:42] <Pooja_M_S_> What do you think? is it a high level language/ low level language?
+[19:48:49] <Pooja_M_S_> is it compiled/ interpreted?
+[19:49:01] <Pooja_M_S_> is it static/dynamic?
+[19:49:29] <Pooja_M_S_> JavaScript is a scripting language by definition.
+[19:49:46] <Pooja_M_S_> But it was built with certain ideas in mind
+[19:50:26] <Pooja_M_S_> Netscape communications wanted to use the features of C++, JAVA in JS
+[19:50:43] <Pooja_M_S_> So they made JS Object Oriented programming language
+[19:51:07] <Pooja_M_S_> Later Mozilla and ECMA international took charge of JS foundation
+[19:51:39] <Pooja_M_S_> They wanted JS to be flexible as UI as well as on console
+[19:51:50] <Pooja_M_S_> okay you all are using some browser right now
+[19:52:06] <Pooja_M_S_> mozilla or chrome or internet explorer right
+[19:52:10] <rektm8> yup
+[19:52:11] <Pooja_M_S_> press F12
+[19:52:23] <Pooja_M_S_> or if you can find developer tools
+[19:52:30] <Pooja_M_S_> in tools in menu
+[19:52:41] <Pooja_M_S_> go there and search for js console or just console
+[19:52:56] <Pooja_M_S_> found it?
+[19:53:26] <rektm8> yup found it
+[19:53:30] <Pooja_M_S_> cool.
+[19:53:54] <Pooja_M_S_> in this irc session whatever commands/syntax we teach you.
+[19:54:01] <Pooja_M_S_> try using it on this console
+[19:54:17] <Pooja_M_S_> also you could do this.
+[19:54:20] <Pooja_M_S_> its a little trick
+[19:54:34] <Pooja_M_S_> javascript:alert("hello");
+[19:54:42] <Pooja_M_S_> copy this code i have written
+[19:54:51] <Pooja_M_S_> and bookmark it in your browser
+[19:54:58] <Pooja_M_S_> and click on the bookmark
+[19:55:14] <Pooja_M_S_> it will show an alert box with hello
+[19:55:23] <Pooja_M_S_> so basically all i am trying to say is
+[19:55:56] <Pooja_M_S_> you could run your js code on browser console /on a browser independently.
+[19:56:09] <Pooja_M_S_> without any html code to run it
+[19:56:18] <Pooja_M_S_> coming back 
+[19:56:24] <Pooja_M_S_> js is high level language
+[19:56:32] <Pooja_M_S_> just like C C++ Java
+[19:56:43] <Pooja_M_S_> it is interpreted and not compiled
+[19:56:55] <Pooja_M_S_> It is a imperative language
+[19:57:03] <Pooja_M_S_> what is imperative is...
+[19:57:19] <Pooja_M_S_> it is a set of commands and syntaxs and not procedures..
+[19:57:37] <Pooja_M_S_> C, C++, Java, Perl, PHP, Python, Haskell
+[19:57:39] <Pooja_M_S_> and js
+[19:57:45] <Pooja_M_S_> all of these are imperative
+[19:57:55] <Pooja_M_S_> and what is not imperative is declarative
+[19:58:06] <Pooja_M_S_> your HTML, SQL are all declarative
+[19:58:18] <Pooja_M_S_> this is somthing you need to understand
+[19:58:28] <Pooja_M_S_> it is a fucntional langugae
+[19:58:47] <Pooja_M_S_> in C c++, java if we type 5+7 and run the code
+[19:58:51] <Pooja_M_S_> it will give error
+[19:58:52] <Pooja_M_S_> right
+[19:58:56] <rektm8> yup
+[19:59:24] <Pooja_M_S_> that's because...they are not directly fucntional
+[19:59:38] <Pooja_M_S_> they need syntax like void main() or some class
+[19:59:40] <Pooja_M_S_> or soemthing
+[20:00:03] <Pooja_M_S_> but functional languages like haskell and js itself
+[20:00:12] <Pooja_M_S_> 5+7 on console give 12
+[20:00:15] <Pooja_M_S_> try it out
+[20:00:20] <Pooja_M_S_> on the console
+[20:00:33] <Pooja_M_S_> now
+[20:00:33] <rektm8> works!
+[20:00:37] <Pooja_M_S_> ya cool
+[20:00:47] <Pooja_M_S_> you could code js independently
+[20:00:55] <Pooja_M_S_> using jsfiddle, jsbin
+[20:01:01] <Pooja_M_S_> or text editors
+[20:01:06] <Pooja_M_S_> like notepad, sublime
+[20:01:13] <Pooja_M_S_> anything of your choice
+[20:01:45] <Pooja_M_S_> js is dynamic and untyped
+[20:02:08] <Pooja_M_S_> it's a feature you will observe when you use <script> tag in HTML
+[20:02:27] <Pooja_M_S_> when running js on a local host on several windows
+[20:02:45] <Pooja_M_S_> js being dynamic updates automatically on all windows...
+[20:02:52] <Pooja_M_S_> if changed on one
+[20:03:13] <Pooja_M_S_> now...in a html code you could use js
+[20:03:16] <Pooja_M_S_> by two ways
+[20:03:39] <Pooja_M_S_> 1. <script scr="jsfile.js"></script>
+[20:03:46] <Pooja_M_S_> src*
+[20:04:02] <Pooja_M_S_> and this jsfile.js is where you will code the js file
+[20:04:09] <Pooja_M_S_> which will be taught next
+[20:04:32] <Pooja_M_S_> 2.<script>alert("hello"); </script>
+[20:04:37] <Pooja_M_S_> this is secodn way
+[20:05:01] <Pooja_M_S_> first one is more comfortable if you already have a .js file
+[20:05:12] <Pooja_M_S_> lastly...
+[20:05:39] <Pooja_M_S_> tutorials on codecademy follow console method of running .js
+[20:05:55] <Pooja_M_S_> and khan academy follows Graphics implemented js
+[20:06:12] <Pooja_M_S_> you could go through what you find more comfortable
+[20:06:20] <Pooja_M_S_> as i mentioned above
+[20:06:31] <Pooja_M_S_> js is object oriented prigrmming language
+[20:06:56] <Pooja_M_S_> so isha and sheetal would brief you about its syntax
+[20:07:11] <Pooja_M_S_> They will explain the oops part of js
+[20:07:37] <isha97> So we will start with basic Hello World program
+[20:08:00] <isha97> is everyone familiar with the basic syntax of HTML ?
+[20:08:19] <isha97> say yes or no
+[20:08:37] <Pooja_M_S_> common people...some replies..
+[20:08:45] <Sheetal> pls respond
+[20:08:46] <rektm8>  yes
+[20:09:12] <isha97> what about ravali , arvind ?
+[20:09:36] <isha97> are you guys awake ? :P
+[20:09:42] <Pooja_M_S_> :P
+[20:09:52] <Sheetal> Lol..
+[20:10:15] <Pooja_M_S_> other second years could favour us with a reply
+[20:10:49] <Pooja_M_S_> guys wait.
+[20:10:57] <isha97> okay so open a text editor and type the following code.
+[20:11:00] <Pooja_M_S_> don't start anything till someone replies
+[20:11:13] <Sheetal> anyone??
+[20:11:20] <Pooja_M_S_> no use explaining if noone answering..:P
+[20:11:39] <rektm8> i think i'm the only one
+[20:11:41] <isha97> yeah. true that Pooja_M_S_
+[20:12:03] <vinaymundada27> haha...awake..continue!
+[20:12:07] <Pooja_M_S_> good
+[20:12:24] <Pooja_M_S_> finally someone did respond.
+[20:12:29] <Sheetal> :)
+[20:12:43] <isha97> so let's start with the code
+[20:12:48] <isha97> <html>
+[20:12:52] <isha97> <body>
+[20:13:02] <isha97> <p> header...</p>
+[20:13:26] <isha97> <script> alert('Hello World'); </script>
+[20:13:36] <isha97> <p>.. footer </p>
+[20:13:40] <isha97> </body>
+[20:13:45] <isha97> </html>
+[20:14:02] <isha97> save the file in.html format
+[20:14:14] <isha97> and open it with a browser
+[20:14:23] <isha97> tell me when you are done
+[20:15:12] <Pooja_M_S_> here i have one thing to mention...
+[20:15:24] <Pooja_M_S_> js which runs on console
+[20:15:33] <Pooja_M_S_> is equivalent to running in background
+[20:15:53] <Pooja_M_S_> if you bookmark javascript:console.log("hello");
+[20:16:03] <Pooja_M_S_> it will not give you any UI change
+[20:16:10] <Pooja_M_S_> but if you click F12 and check..
+[20:16:15] <Pooja_M_S_> on console hello is printed
+[20:16:25] <Pooja_M_S_> javascript:alert("hello");
+[20:16:30] <Pooja_M_S_> is UI based
+[20:16:35] <sachin__> dialog box with hello world
+[20:16:45] <Pooja_M_S_> ya 
+[20:16:55] <Pooja_M_S_> with hello*
+[20:16:59] <isha97> yeah! but did you see footer before you clicked ok?
+[20:17:28] <Pooja_M_S_> hello world* my bad
+[20:17:40] <rektm8> no
+[20:17:49] <isha97> cool
+[20:17:49] <rektm8> it appears after clicking "okay"
+[20:17:59] <sachin__> after clicking ok its showing footer and header
+[20:18:33] <isha97> so script tells the following to the browser:
+[20:18:49] <isha97> Starts showing the page, shows Header
+[20:19:01] <isha97> Switches to JavaScript mode inside this tag and executes the contents of <script>
+[20:19:15] <isha97> Returns back to HTML-mode and continues with the page, outputs Footer.
+[20:19:37] <isha97> I mean the obove 3 things happen
+[20:19:53] <isha97> got it ?
+[20:20:04] <rektm8> yeah
+[20:20:23] <sachin__> yeah
+[20:20:31] <isha97> cool
+[20:20:45] <isha97> so now we will discuss about variables.
+[20:21:03] <isha97> a variable is intialised with the keyword var.
+[20:21:20] <isha97> head on to http://javascript.info/tutorial/variables-and-statements
+[20:22:37] <isha97> A variable can contain a value of any type.
+[20:23:39] <isha97> so now, inside your scrip tag do var temp =5; alert(temp);
+[20:24:25] <isha97> it will display 5
+[20:24:59] <isha97> any doubts?
+[20:25:07] <isha97> you can read later
+[20:25:47] <isha97> again no replies :(
+[20:26:08] <Sheetal> if u dont have any doubts, u can say no!
+[20:26:13] <Pooja_M_S_> var temp =5; var s="string"; all these show that you don't have to specify a datatype as you did in C, Java
+[20:26:34] <sachin__> done
+[20:26:37] <rektm8> no doubts so far
+[20:26:42] <Sheetal> cool!
+[20:27:07] <isha97> okay so alert is a user interaction
+[20:27:29] <isha97> next we will discuss prompt and confirm
+[20:28:03] <isha97> Prompt
+[20:28:05] <isha97> This method accepts two arguments: result = prompt(text[, default]);
+[20:28:24] <isha97> It outputs a modal window with the text, OK/CANCEL buttons and input field.
+[20:28:53] <isha97> var years = prompt('How old are you?', 100); alert('You are ' + years + ' years old!');
+[20:29:35] <isha97> if you do something like this, it will ask you how old are you. 
+[20:29:59] <isha97> if you don't type anything, it will take default value as 100.
+[20:30:17] <isha97> next is confirm
+[20:30:38] <isha97> result = confirm(message)
+[20:30:54] <isha97> confirm outputs the message with two buttons: OK and CANCEL.  The result is true/false, for OK/CANCEL.
+[20:31:15] <isha97> var result = confirm("Should I say hello?"); alert(result)
+[20:31:36] <isha97> you can try the above code
+[20:32:28] <isha97> next is operators
+[20:32:47] <isha97> you can visit http://javascript.info/tutorial/operators
+[20:33:19] <Pooja_M_S_> best tutorial theory wise is w3schools.com
+[20:33:27] <Pooja_M_S_> awesome content. go through it also.
+[20:33:28] <isha97> it works the same way it does in c only with some differences. you can check that in the above link.
+[20:33:57] <isha97> any doubts?
+[20:34:01] <sachin__> no
+[20:34:13] <Pooja_M_S_> === and == are different here
+[20:34:19] <Pooja_M_S_> == checks only value
+[20:34:27] <Pooja_M_S_> var x= 5;
+[20:34:31] <Pooja_M_S_> var x="5";
+[20:34:42] <Pooja_M_S_> var y="5";****
+[20:34:42] <Sheetal> 96=='96' will give true 
+[20:34:48] <Sheetal> 96==='96' gives false
+[20:34:50] <Pooja_M_S_> ya
+[20:35:03] <Sheetal> == does type conversion before checking
+[20:35:08] <Sheetal> but === doesnt 
+[20:35:20] <isha97> Now we will just see how to declare functions.
+[20:35:28] <Pooja_M_S_> also java script takes in some attributes from shell scripting
+[20:35:34] <Pooja_M_S_> it has i, g, m
+[20:35:42] <Pooja_M_S_> i for case insenitive
+[20:35:44] <Pooja_M_S_> g for global
+[20:35:48] <Pooja_M_S_> m for multiline
+[20:36:03] <Pooja_M_S_> you can use this with fucntions like replace()
+[20:36:14] <Pooja_M_S_> var s= "web club";
+[20:36:36] <Pooja_M_S_> s.replace('/Web/i,"nitk");
+[20:36:56] <Pooja_M_S_> Web and web is not treated differently
+[20:39:05] <isha97> okay, So the basic syntax is:
+[20:39:05] <isha97> function f(arg1, arg2, ...) {    ... code ... }
+[20:39:05] <isha97> f is the function name
+[20:39:07] <Pooja_M_S_> var f = function(arg1, arg2){ }; another way of writing
+[20:39:07] <isha97> function sayhi(name){  alert("Hi "+ name ); } var name = prompt("Enter your name ","john"); sayhi(name);
+[20:39:18] <isha97> sayhi is the function 
+[20:39:44] <isha97> whatever name you enter is sent as an argument
+[20:40:08] <isha97> and it will display Hi <name>
+[20:40:32] <isha97> you can head on to http://javascript.info/tutorial/functions-declarations-and-expressions for more details
+[20:41:17] <Sheetal> so now i'll be dealing with the console based js
+[20:41:38] <Sheetal> to execute the commands, u can also click on the menu button on top right of browser
+[20:41:49] <Sheetal> select developer option
+[20:41:59] <Sheetal> and then click on toggle tools
+[20:42:06] <Sheetal> a console window will appear 
+[20:42:17] <Sheetal> and the follwoing commands can be typed on them 
+[20:42:36] <Sheetal> so i'll start with basic constructs 
+[20:42:44] <sachin__> u can directly do F12
+[20:42:46] <Sheetal> like if, switch,for, while
+[20:42:50] <isha97> you can use the shortcut ctrl+shift+i
+[20:42:51] <isha97> to open console
+[20:42:59] <Sheetal> yea
+[20:43:09] <Sheetal> so the syntax goes like
+[20:43:17] <Sheetal> if(confition)
+[20:43:19] <Sheetal> {
+[20:43:23] <Sheetal> statements
+[20:43:25] <Sheetal> }
+[20:43:29] <Sheetal> else
+[20:43:31] <Sheetal> { 
+[20:43:32] <Sheetal> }
+[20:43:51] <Sheetal> An alternative way is the switch statement
+[20:44:10] <Sheetal> switch(name)
+[20:44:10] <Sheetal> {
+[20:44:19] <Sheetal> case 'a':statement; break;
+[20:44:28] <Sheetal> default:statement;
+[20:44:28] <Sheetal> }
+[20:45:02] <Sheetal> Now coming to something more interesting, there are easy functions to display substrings of a string
+[20:45:05] <Sheetal> for example 
+[20:45:24] <Sheetal> "sheetal".substring(0,4);
+[20:45:25] <Sheetal> will output
+[20:45:30] <Sheetal> shee
+[20:45:57] <Sheetal> it includes the start, and excludes the end
+[20:46:10] <Sheetal> "sheetal".length 
+[20:46:15] <Sheetal> gives the length=7
+[20:46:38] <Sheetal> to print anything on the console
+[20:46:45] <Sheetal> the command is
+[20:46:54] <Sheetal> console.log("whatever u wanna print");
+[20:47:06] <Sheetal> Next up is arrays
+[20:47:22] <Sheetal> so there are 1D , 2D  , multi dimensional arrays
+[20:47:36] <Sheetal> there are 2 ways to create them 
+[20:47:45] <Sheetal> first is using the array constructor methos
+[20:47:58] <Sheetal> var <arrayname>=new Array()
+[20:48:11] <Sheetal> arrayname[0]=1;
+[20:48:20] <Sheetal> this is how u can add an elemen to it
+[20:48:30] <Sheetal> multi Dimensional arrays exist like
+[20:48:41] <Sheetal> var arr=[[1,2,3,4,5,[1,2,3,4,5]],[6,7,8,9,10,[1,2,3,4,6]]];
+[20:49:00] <Sheetal> okay just to see if anyones awake,
+[20:49:04] <Sheetal> what is 
+[20:49:06] <rektm8> i'm getting syntax error with var <arrayname>=new Array()
+[20:49:08] <Sheetal> arr[1][5][4]=?
+[20:49:29] <Sheetal> theres a semicolon too
+[20:49:37] <Sheetal> var <arrayname>=new Array();
+[20:50:03] <rektm8> its supposed to be typed in the console right?
+[20:50:11] <Sheetal> yea
+[20:50:26] <rektm8> it says uncaught SyntaxError: Unexpected token <(…)
+[20:50:31] <isha97> did you use a name in place of <arrayname>
+[20:50:49] <isha97> var a = new array()
+[20:50:53] <rektm8> i tried with that too
+[20:51:08] <Sheetal> did u select JS on top of the console window??
+[20:51:19] <Pooja_M_S> ya that's important
+[20:51:27] <Pooja_M_S> if you are using mozilla
+[20:51:31] <Pooja_M_S> you need to select js
+[20:51:36] <Pooja_M_S> chrome need not
+[20:51:48] <rektm8> i'm on chrome
+[20:51:53] <Pooja_M_S> hmm..
+[20:51:58] <Sheetal> okay make sure tht JS is selected
+[20:51:59] <Pooja_M_S> wait what have you put
+[20:52:01] <Pooja_M_S> copy paste here
+[20:52:05] <Sheetal> and then type this exact
+[20:52:11] <Sheetal> var a=new Array();
+[20:52:14] <Sheetal> a[0]=1;
+[20:52:23] <Sheetal> does this give an error?
+[20:52:27] <rektm8> ah this works
+[20:52:37] <Sheetal> okay cool
+[20:52:45] <rektm8> I was typing                 var <a>=new Array();
+[20:52:54] <Pooja_M_S> haha.. happens
+[20:53:11] <Sheetal> oh...<> indicates any name, to be given by user
+[20:53:17] <Sheetal> so 
+[20:53:22] <Sheetal> similar to arrays is lists
+[20:53:37] <Sheetal> to create a list
+[20:53:52] <Sheetal> var list=['a','b','c'];
+[20:54:31] <Sheetal> and then type list[0];
+[20:54:38] <Sheetal> it prints "a"
+[20:55:31] <Sheetal> so the while and do while loop syntax is very similar, as u all already know
+[20:55:46] <Pooja_M_S> var a =[1,"abc",3.4, 4, "x"]; such a array is also correct
+[20:55:48] <Sheetal> i'll jus quickly state it once, and then we continue with objects
+[20:56:07] <Sheetal> yea, there are no datatypes of arrays as such
+[20:56:25] <Pooja_M_S> and var a=[[1,2],[3]]; is a jagged array
+[20:56:30] <Pooja_M_S> 1 2
+[20:56:32] <Pooja_M_S> 3
+[20:56:40] <Pooja_M_S> in 2 Dimension..
+[20:56:49] <Pooja_M_S> not same column for rows...is jagging
+[20:57:18] <rektm8> ok
+[20:57:22] <Sheetal> There are pre-defined functions here, like
+[20:57:30] <Sheetal> Math.random();
+[20:57:44] <Sheetal> which generates any number between 0 to 1
+[20:57:47] <Sheetal> real number
+[20:58:20] <Sheetal> to check if an input is a number or not,
+[20:58:30] <Sheetal> if(isNaN(number))
+[20:58:37] <Sheetal> return "not a number";
+[20:58:59] <Sheetal> u could try out these basics on the console. It will get u started to JS. 
+[20:59:16] <rektm8> okay
+[20:59:32] <Pooja_M_S> Number("34") gives 34 Number("") gives 0 but Number("abc") gives NaN
+[20:59:48] <Pooja_M_S> Number() used to convert string to number
+[21:00:53] <Sheetal> Now moving ahead with objects
+[21:01:08] <Sheetal> JS objects are referenced by key-value pairs
+[21:01:49] <Sheetal> There are 2 ways to create objectw
+[21:02:24] <Sheetal> first way:
+[21:02:35] <Sheetal> var <obj>={};
+[21:02:47] <Sheetal> <obj>.name="Hey";
+[21:03:15] <Sheetal> <obj>.number="123";
+[21:03:32] <Sheetal> so here, the object has key value pairs, where the keys are name and number
+[21:03:43] <Sheetal> and respective values are Hey and 123
+[21:03:52] <Sheetal> The second way:
+[21:04:09] <Sheetal> This is the constructor method
+[21:04:16] <Sheetal> var obj=new Object();
+[21:04:18] <Pooja_M_S> above is called literal notation
+[21:04:24] <Sheetal> obj["name"]="Hey";
+[21:04:44] <Sheetal> obj["number"]=123;
+[21:04:51] <Pooja_M_S> var obj ={ name:"Hey", number:123}; is literal
+[21:05:02] <Sheetal> Here again, name and number are keys, 
+[21:05:08] <Sheetal> Hey and 123 are  values
+[21:05:23] <Sheetal> clear?
+[21:05:42] <Sheetal> u can also pass objects to arrays
+[21:05:54] <Sheetal> var obj=new Object();
+[21:05:58] <Sheetal> obj["name
+[21:06:08] <Sheetal> obj["name"]="h";
+[21:06:19] <Sheetal> var array=[3,'a',obj];
+[21:06:21] <Pooja_M_S> Okay see... obj.name is dot notation and obj["name"] is bracket notation
+[21:06:32] <Sheetal> where obj is the name of the object
+[21:06:44] <Sheetal> and it is passed to an array names array
+[21:06:50] <Sheetal> *named
+[21:07:56] <Sheetal> While dealing with functions and objects, there is an important concept dealing with the "this" keyword
+[21:09:10] <Sheetal> when we use the "this" keyword inside a function referenced by an object value, it refers to that particular object which is calling the function 
+[21:09:39] <Pooja_M_S> okay so now..
+[21:09:52] <Pooja_M_S> suppose you have an object
+[21:10:05] <Pooja_M_S> function Person(name, id)
+[21:10:06] <Pooja_M_S> {
+[21:10:11] <Pooja_M_S> this.name=name;
+[21:10:15] <Pooja_M_S> this.id=id;
+[21:10:17] <Pooja_M_S> };
+[21:10:29] <Pooja_M_S> this is not exactly a function
+[21:10:35] <Pooja_M_S> its actually a object
+[21:11:02] <Pooja_M_S> var p1 = new Person("pooja",1);
+[21:11:16] <Pooja_M_S> will make p1.name="pooja"
+[21:11:21] <Pooja_M_S> p1.id=1
+[21:11:57] <Pooja_M_S> var p = new Object(); is implementing object constructor
+[21:12:18] <Pooja_M_S> var p = new Person() implements customised constructor
+[21:12:39] <Pooja_M_S> var family = new Array();
+[21:12:52] <Pooja_M_S> family[0]=Person("a",10);
+[21:13:05] <Pooja_M_S> family[0].name=a then 
+[21:13:08] <Pooja_M_S> and so on
+[21:13:37] <Pooja_M_S> typeof("pooja") is string
+[21:13:48] <Pooja_M_S> typeof(p1) is object
+[21:14:06] <Pooja_M_S> console.log(typeof(p1)); would give object
+[21:14:30] <Pooja_M_S> p1.hasOwnProperty('name'); returns true as name is a key
+[21:14:47] <Pooja_M_S> p1.hasOwnProperty('xyz'); returns false
+[21:15:07] <Pooja_M_S> for(var prop in p1)
+[21:15:15] <Pooja_M_S> console.log(prop);
+[21:15:25] <Pooja_M_S> prints name and id on console log
+[21:15:33] <Pooja_M_S> console*
+[21:15:57] <Pooja_M_S> console.log(p1[prop]); gives pooja and 1
+[21:16:18] <Pooja_M_S> Inheritance now
+[21:16:24] <Pooja_M_S> most of you know what it is
+[21:16:47] <Pooja_M_S> for inheritance we need js prottype
+[21:16:54] <Pooja_M_S> prototype*
+[21:17:19] <Pooja_M_S> function dog(name,breed)
+[21:17:20] <Pooja_M_S> {
+[21:17:28] <Pooja_M_S> this.breed=breed;
+[21:17:37] <Pooja_M_S> this.name=name;
+[21:17:38] <Pooja_M_S> }
+[21:17:44] <Pooja_M_S> Now,
+[21:18:13] <Pooja_M_S> dog.prototype.bark=function(){console.log("bark");};
+[21:18:31] <Pooja_M_S> here we are adding a function outside declaration
+[21:18:50] <Pooja_M_S> suppose you have existing object
+[21:18:59] <Pooja_M_S> you want to add extra features and properties
+[21:19:04] <Pooja_M_S> you can add using this
+[21:19:25] <Pooja_M_S> clear?
+[21:19:48] <Pooja_M_S> rektm8 has quit.:(
+[21:20:01] <Pooja_M_S> i don't hope for a responce
+[21:20:07] <Sheetal> Lol....tht was our sole listener
+[21:20:26] <Pooja_M_S> Inheritance..learn on your own
+[21:20:28] <Pooja_M_S> :P
+[21:20:33] <Sheetal> Anybody else alive?
+[21:20:43] <Pooja_M_S> Wrapping up sheetal
+[21:20:51] <Pooja_M_S> js can be used in many places
+[21:20:55] <Pooja_M_S> apart from HTML
+[21:21:08] <Pooja_M_S> it can used with PHP for database management
+[21:21:18] <ajithps> they have logs to look at so don't be discouraged :P
+[21:21:47] <Sheetal> Do go thru w3 schools javascript objects course. 
+[21:21:51] <Sheetal> http://www.w3schools.com/js/js_object_definition.asp
+[21:21:58] <Sheetal> explained well!
+[21:22:02] <Pooja_M_S> it can be used for script setup and redirecting data without server using google spreadsheers
+[21:22:14] <Pooja_M_S> speadsheet scripts
+[21:22:48] <Pooja_M_S> it can be used for building applications...meteor uses pure js framework to build hybrid apps
+[21:23:10] <Pooja_M_S> google javascript API has plenty of use.
+[21:23:14] <Pooja_M_S> check them out!
+[21:23:15] <Pooja_M_S> :)
+[21:23:40] <Pooja_M_S> Session Ends!
+[21:23:48] <Pooja_M_S> Thank You All.:)
+[21:23:58] <Sheetal> Thank you so much for attending!
+[21:24:08] <ajithps> please mention your email ids so that people can contact you if they have any doubts 
+[21:24:18] <Pooja_M_S> pooja27ms@gmail.com
+[21:24:21] <Sheetal> sheetalsh456@gmail.com
+[21:24:23] <isha97> tarteisha@gmail.com
+[21:24:48] <ajithps> Thank you for taking the sessions!
+[21:25:04] <Pooja_M_S> :)
+[21:25:07] <Sheetal> :)
+[21:25:09] <isha97> our pleasure!

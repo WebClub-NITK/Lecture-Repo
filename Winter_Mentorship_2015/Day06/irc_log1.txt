@@ -1,0 +1,253 @@
+[18:01:31] <isha97> Hello Everyone!
+[18:01:48] <Mittu_> Hi
+[18:02:03] <Pooja_M_S> Hello All! 
+[18:02:09] <isha97> we will be starting in 5minutes. If any of your friends are joining ask them to join fast!
+[18:02:24] <Sheetal> Hi all!
+[18:03:09] <isha97> I am Isha, 2nd year comps
+[18:03:53] <Sheetal> I am Sheetal, 2nd year CSE
+[18:05:22] <Pooja_M_S> I am Pooja M S , 2nd Year IT
+[18:07:25] <isha97> Today we will be holding a session on Git- a Distributed Version Control system.
+[18:07:44] <isha97> so starting with Version control
+[18:08:02] <isha97> any ideas about what is version control ?
+[18:08:19] <Mittu> No
+[18:08:34] <isha97> Hint: from the name
+[18:09:06] <Nitin_> no
+[18:09:17] <isha97> Version control is a system  that records changes to a file or set of files over time so that you can recall specific versions later.
+[18:10:30] <Guest81775> ok
+[18:10:30] <Nitin_> ok
+[18:10:55] <isha97> Firstly, local version control system
+[18:11:10] <isha97> VCS on ur local machine.
+[18:11:29] <Mittu> Ok
+[18:11:49] <isha97> a simple database that kept all the changes to files 
+[18:12:38] <isha97> The next major issue that people encounter is that they need to collaborate with developers on other systems. To deal with this problem, Centralized Version Control Systems (CVCSs) were developed.
+[18:13:43] <chinmay_dd> Sorry for that, continue
+[18:13:47] <isha97> Any doubts till here ?
+[18:14:12] <Nitin_> no
+[18:14:18] <Mittu> No
+[18:15:12] <isha97> okay. so, Centralised version control system have a single server that contains all the versioned files, and a number of clients that check out files from that central place.
+[18:15:38] <isha97> in this way many users can collaborate on  a single project.
+[18:16:11] <isha97> and everyone knows to a certain degree what everyone else on the project is doing. 
+[18:18:17] <isha97> but it has certain drawbacks also
+[18:18:24] <isha97> If that server  goes down for an hour, then during that hour nobody can collaborate at all.
+[18:19:11] <isha97> If the hard disk the cen-  tral database is on becomes corrupted, and proper backups haven’t been kept,  you lose absolutely everything – the entire history of the project except whatever single snapshots people happen to have on their local machines.
+[18:20:32] <isha97> This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS clients don’t just check out the latest snapshot of the files,they fully mirror the repository.
+[18:21:05] <isha97> a repository for now can be considered as a folder with all your files.
+[18:22:14] <isha97> Thus if any server dies,  and these systems were collaborating via it, any of the client repositories can  be copied back up to the server to restore it.
+[18:22:30] <isha97> Clone is exact copy of the repo on your local machine.
+[18:23:05] <isha97> any doubts till here ?
+[18:23:19] <Mittu> No
+[18:23:22] <anish10> no
+[18:24:00] <isha97> now, we will be discussing the 3 stages in git.
+[18:24:18] <isha97> Git has three main states that  your files can reside in: committed, modified, and staged. Committed means  that the data is safely stored in your local database. Modified means that you  have changed the file but have not committed it to your database yet. Staged  means that you have marked a modified file in its current version to go into  your next commit snapshot. 
+[18:25:09] <Pooja_M_S> I would like to add something here.
+[18:25:33] <Pooja_M_S> The three stages are also called
+[18:25:38] <Pooja_M_S> 1.Working directory
+[18:25:41] <Pooja_M_S> 2.staging area
+[18:25:46] <Pooja_M_S> 3.repository
+[18:26:06] <isha97> yeah!
+[18:26:24] <Sheetal> Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files
+[18:26:36] <isha97> The basic Git workflow goes something like this: 
+[18:26:42] <Sheetal> Staging Area: where you'll list changes you make to the working directory
+[18:26:48] <isha97> 1. You modify files in your working directory. 
+[18:27:01] <isha97> 2. You stage the files, adding snapshots of them to your staging area. 
+[18:27:14] <isha97> 3. You do a commit, which takes the files as they are in the staging area and  stores that snapshot permanently to your Git directory.
+[18:28:59] <Pooja_M_S> Repository: where Git permanently stores those changes as different versions of the project
+[18:29:33] <isha97> There are a lot of different ways to use Git. There are the original command line tools, and there are many graphical user interfaces of varying capabilities
+[18:29:56] <Pooja_M_S> Guys, we all three have given our definition of the three stages. follow the one you are comfortable with.
+[18:30:11] <isha97> you can download git from http://www.git-scm.com/downloads
+[18:31:23] <isha97> First-Time Git Setup:
+[18:31:35] <isha97> Setting your name and mail:
+[18:31:47] <isha97> Setting your name and mail:
+[18:31:53] <isha97> git config --global user.name "your_name"
+[18:32:06] <isha97> git config --global user.email abc@xyz.com
+[18:32:26] <isha97> you can head on to https://github.com/akaysh/git-basic-commands
+[18:32:33] <isha97> for all the commands.
+[18:33:23] <isha97> okay, So now pooja and Sheetal will start with the commands. You can ping me if you have any doubts.
+[18:33:55] <Sheetal> So anyone has any doubts regarding the stages of a git project?
+[18:35:56] <Sheetal> okay so i'll start with some of the basic commands
+[18:35:58] <Pooja_M_S> Say yes or no.. :P
+[18:36:42] <chinmay_dd> Guys, please be interactive :)
+[18:36:53] <lol_> yes !
+[18:37:01] <Sheetal> Please feel free to ask doubts!
+[18:37:06] <Pooja_M_S> What's the doubt?
+[18:37:54] <Pooja_M_S> lol_ you said yes. You have any doubt?
+[18:38:02] <lol_> no..
+[18:38:11] <Sheetal> okay 
+[18:38:12] <chinmay_dd> If you guys dont want to build from source, sudo apt-get install git works just fine
+[18:38:12] <Pooja_M_S> sheetal carry on.
+[18:38:19] <lol_> i jus meant i'llask in case i've doubts..
+[18:38:26] <Pooja_M_S> ok
+[18:38:27] <Sheetal> cool!
+[18:38:35] <Sheetal> so the first command is 
+[18:38:46] <Sheetal> git init
+[18:39:12] <Sheetal> This transforms the current directory into a git repository
+[18:39:28] <Sheetal> Which means that a .git folder is created in the current directory
+[18:39:47] <Sheetal> An extension of the same command would be 
+[18:40:03] <Sheetal> git init <repo_name>
+[18:40:30] <Sheetal> This will create an empty git repository named <repo_name> in the current local directory
+[18:41:08] <Sheetal> We will go on with the commands. If u have any doubts, u can stop us. 
+[18:41:15] <Sheetal> so the second one is 
+[18:41:18] <Sheetal> git status
+[18:41:33] <Sheetal> As we told about the 3 stages earlier
+[18:42:03] <Sheetal> So this command basically lists the files present in the modiied , staged or committed stages
+[18:42:19] <Sheetal> When we say a file is staged, 
+[18:42:28] <Sheetal> it means that its in queue to be committed
+[18:42:57] <Sheetal> And only once a file is committed, the changes made in it will be reflected to the repo
+[18:43:19] <Sheetal> So to stage a file
+[18:43:36] <Sheetal> the command is git add <filename>
+[18:43:59] <Sheetal> if u wish to stage all the modified files, u can type git add .
+[18:44:26] <Sheetal> any doubts?
+[18:44:40] <Pooja_M_S> okay.
+[18:44:41] <aalam> no
+[18:45:01] <Pooja_M_S> so next is command : git diff filename
+[18:45:17] <Pooja_M_S> we can check the differences in the file between the working directory and the staging area with this command.
+[18:45:34] <Pooja_M_S> so suppose using git add you have put the file into staging area
+[18:45:48] <Pooja_M_S> and then you modify the file.
+[18:46:09] <Pooja_M_S> the difference between the two...can be found using git diff command
+[18:46:19] <Pooja_M_S> here filename is the name of your file
+[18:46:37] <Pooja_M_S> it will show the deletions in red and a '-' sign
+[18:46:45] <Pooja_M_S> and additions in green with '+' sign
+[18:50:18] <Pooja_M_S_> sorry.
+[18:50:26] <Pooja_M_S_> okay as i was saying.
+[18:50:36] <Pooja_M_S_> now we know how to add files to a staging area.
+[18:50:46] <Pooja_M_S_> last step will be to commit them 
+[18:50:55] <Pooja_M_S> so now we know how to add files to staging area
+[18:51:02] <Pooja_M_S_> A commit permanently stores changes from the staging area inside the repository.
+[18:51:29] <Pooja_M_S_> now in the syntax of commit command
+[18:51:39] <Pooja_M_S_> you have -m
+[18:51:51] <Pooja_M_S_> that is for a message associated with the commit
+[18:52:00] <Pooja_M_S_> git commit -m "A message"
+[18:52:12] <Pooja_M_S_> Standard Conventions for Commit Messages:
+[18:52:19] <Pooja_M_S_> Must be in quotation marks
+[18:52:26] <Pooja_M_S_> Written in the present tense
+[18:52:37] <Pooja_M_S_> Should be brief (50 characters or less) when using -m
+[18:52:56] <Pooja_M_S_> All this is for standardization of the message 
+[18:53:15] <Pooja_M_S_> clear?
+[18:53:56] <Pooja_M_S_> okay once you commit. the file is in your repository.
+[18:54:23] <Pooja_M_S_> so again you can modify some files..
+[18:54:28] <Pooja_M_S_> add them using git add
+[18:54:36] <Pooja_M_S_> again commit them using git commit
+[18:54:45] <Pooja_M_S_> after doign all this..
+[18:54:55] <Pooja_M_S_> if you want to look back at all your commits
+[18:55:03] <Pooja_M_S_> just in case you want to change anything
+[18:55:33] <Pooja_M_S_> you'll need to refer back an earlier version of a project. Commits are stored chronologically in the repository and can be viewed with git log command
+[18:55:38] <Pooja_M_S_> git log
+[18:56:03] <Pooja_M_S_> any doubts?
+[18:56:22] <rektm8> no
+[18:56:36] <Sheetal> okay. 
+[18:56:55] <Sheetal> so if u want to see the details of the most recent commit 
+[18:57:03] <Sheetal> the command is :
+[18:57:09] <Sheetal> git show HEAD
+[18:57:13] <Sheetal> the details include:
+[18:57:23] <Sheetal> the commit id
+[18:57:54] <Sheetal> ( every file that u commit will have a unique commit id, which can be seen when u type git log )
+[18:58:20] <Sheetal> the contents of the files of the recently committed repo
+[18:58:51] <Sheetal> So this shows u the details of the most recently committed file
+[18:59:14] <Sheetal> Now all this while, we were dealing with the master branch
+[18:59:45] <Sheetal> all the modifications, enqueuing and committing was taking place in the master branch
+[19:00:06] <Sheetal> we can create different multiple branches originating from the master
+[19:01:49] <Pooja_M_S_> to show which branch you are in
+[19:01:51] <neha333>  
+[19:01:54] <Pooja_M_S_> you do git branch
+[19:02:12] <Pooja_M_S_> if you are on master
+[19:02:19] <Pooja_M_S_> it will show you master
+[19:02:23] <Pooja_M_S_> master is the main branch
+[19:03:00] <Pooja_M_S_> so now
+[19:03:05] <Pooja_M_S_> if you have started new
+[19:03:11] <Pooja_M_S_> new project
+[19:03:18] <Pooja_M_S_> you would just have a master branch
+[19:03:28] <Pooja_M_S_> you want to create a new branch
+[19:03:32] <Pooja_M_S_> at that point
+[19:03:42] <Pooja_M_S_> you use git branch branchname
+[19:03:52] <Pooja_M_S_> branchname is the name of your new branch
+[19:04:10] <Pooja_M_S_> and just like how you change directories using cd command
+[19:04:25] <Pooja_M_S_> checkout is used to move between branches
+[19:04:43] <Pooja_M_S_> right now you are on master branch and have created a new branch
+[19:04:50] <Pooja_M_S_> to go to that branch
+[19:04:53] <Pooja_M_S_> use
+[19:05:11] <Pooja_M_S_> git checkout branchname
+[19:06:01] <Sheetal> so git checkout branchname takes u to that particular <branchname?
+[19:06:13] <Sheetal> to go to the most recently visited branch
+[19:06:22] <Sheetal> we type
+[19:06:28] <Sheetal> git checkout HEAD
+[19:06:43] <Sheetal> Now coming to the staging of files, 
+[19:07:13] <Sheetal> To unstage a staged file, that means to get it back to the modifying stage
+[19:07:15] <Sheetal> we type
+[19:07:28] <Sheetal> git reset HEAD <filename>
+[19:07:47] <Sheetal> The word HEAD indicated the most recent change 
+[19:08:30] <Sheetal> Now if u have modified the contents of a file,
+[19:08:42] <Sheetal> But dont want these modifications anymore
+[19:08:48] <Sheetal> then, 
+[19:09:03] <Sheetal> before adding it to the staging area in the working directory
+[19:09:14] <Sheetal> u can revert back these changes
+[19:09:23] <Sheetal> The command used here is 
+[19:09:34] <Sheetal> git checkout -- <filename>
+[19:09:56] <Sheetal> any doubts?
+[19:10:08] <Pooja_M_S_> okay now.
+[19:10:17] <Pooja_M_S_> head always talks about most recent commit
+[19:10:32] <Pooja_M_S_> what about the commits you want to undo are not the most recent ones
+[19:10:57] <Pooja_M_S_> that time we use the command
+[19:11:02] <Pooja_M_S_> git reset SHA
+[19:11:25] <Pooja_M_S_> f the SHA of the previous commit is 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba
+[19:11:37] <Pooja_M_S_> use git reset 5d69206
+[19:11:47] <Pooja_M_S_> first seven characters
+[19:11:55] <Pooja_M_S_> every commit has a SHA
+[19:12:12] <Pooja_M_S_> 40 characters SHA
+[19:12:36] <Pooja_M_S_> they it will undo all commits
+[19:12:41] <Pooja_M_S_> from that commit onwards
+[19:12:51] <Pooja_M_S_> now suppose...
+[19:12:58] <Pooja_M_S_> you were in your master branch
+[19:13:06] <Pooja_M_S_> you wanted to test some modifications
+[19:13:12] <Pooja_M_S_> so you created a branch
+[19:13:17] <Pooja_M_S_> made modifications there
+[19:13:21] <Pooja_M_S_> it didnt work out
+[19:13:46] <Pooja_M_S_> so you thought...let's create another branch and test something else..
+[19:14:00] <Pooja_M_S_> and that tesing was successful
+[19:14:14] <Pooja_M_S_> so you thought...that this should be a part of the main branch
+[19:14:29] <Pooja_M_S_> so you could merge a branch to your master branch
+[19:14:37] <Pooja_M_S_> using the command
+[19:14:47] <Pooja_M_S_> git merge branchname
+[19:14:51] <Pooja_M_S_> clear?
+[19:15:48] <Sheetal> Now as u all know, a branch exists in the local directory as well as in the online repo
+[19:16:09] <Sheetal> suppose u want to delete a branch
+[19:16:24] <Sheetal> to delete it from the online repo
+[19:16:31] <Sheetal> we follow the command
+[19:16:46] <Sheetal> git push origin -- delete <branchname>
+[19:16:56] <Sheetal> keep in mind that
+[19:17:12] <Sheetal> this will only delete it from the repo, but not from the local directory
+[19:17:18] <Sheetal> to delete it from the local
+[19:17:31] <Sheetal> we need to first checkout of that particular branch
+[19:17:55] <Sheetal> if u try to delete the branch u r in currently, it will throw an error
+[19:18:00] <Sheetal> so to delete from local
+[19:18:08] <Sheetal> use the command
+[19:18:21] <Sheetal> git branch -d <branchname>
+[19:19:11] <Sheetal> Now the main question that arises here is, how do i get an online repo as a local diestory on my pc
+[19:19:18] <Sheetal> this is called cloning
+[19:19:19] <Pooja_M_S_> also when you are merging , you need to leave the branch..and in master branch use git merge command
+[19:19:37] <Sheetal> we clone the repo to our pc, so that modifications can be made on it
+[19:19:43] <Sheetal> and it can be accessed locally
+[19:19:55] <Sheetal> the command used to clone a repo is 
+[19:20:03] <Sheetal> git clone <url>
+[19:20:08] <Sheetal> the url mentioned here is 
+[19:20:28] <Sheetal> the url which will be given on the repo page on ure github account
+[19:20:46] <Sheetal> u just have to copy that url and paste it along with git clone, 
+[19:20:57] <Sheetal> to make it accessible in ure local directory
+[19:21:12] <Sheetal> okayso we have come to the end of the basic commands
+[19:21:35] <Sheetal> now isha will explain a few applications of git
+[19:22:03] <isha97> okay, So now we will discuss about Github.
+[19:22:05] <isha97> GitHub is the single largest host for Git repositories, and is the central point of  collaboration for millions of developers and projects
+[19:22:27] <isha97> how many of you already have an account on github ?
+[19:22:52] <isha97> No one ?
+[19:23:18] <Pooja_M_S_> guys please do respond.
+[19:23:18] <isha97> head on to github.com
+[19:24:01] <isha97> Here you can create your account
+[19:24:47] <isha97> you can search for repositories 
+[19:24:53] <isha97> fork it
+[19:25:20] <isha97> What this means is that GitHub will make a copy of the project that is entirely yours; it lives in your user’s namespace, and you can push to it.
+[19:25:32] <isha97> You can clone a repository.
+[19:25:47] <isha97> the link would be given 
+[19:26:06] <isha97> Okay, So you can head on that website and explore more.
+[19:26:18] <isha97> Any doubts?
+[19:26:35] <isha97> we will wrap up the session.
+[19:29:34] <chinmay_dd> Just adding to the list of resources ->https://try.github.io/levels/1/challenges/1
+
