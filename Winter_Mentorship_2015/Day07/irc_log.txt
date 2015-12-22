@@ -1,0 +1,368 @@
+[20:13:49] <anand16> Hey everyone 
+[20:14:05] <chinmay_dd> anand16: Hi!
+[20:14:06] <anand16> I'm Anand , 2nd Year CSE
+[20:14:19] <sandeepmenon> I am Sandeep , 2nd year CSE
+[20:14:30] <mohit_reddy> Mohit , 2nd year CSE
+[20:14:44] <anand16> Agenda for today :
+[20:14:50] <anand16> 1. Modulo
+[20:14:57] <anand16> 2. Modular Exponentiation
+[20:15:04] <anand16> 3. Euclid's GCD
+[20:15:10] <anand16> 4. Euler Totient Funtcion
+[20:15:15] <anand16> 5. Fermat's theorem and Euler's Theorem
+[20:15:26] <anand16> 6. Modular Multiplicative Inverse
+[20:15:34] <anand16> 7. Prime Number Sieves 
+[20:15:51] <anand16> 8. Fibonacci numbers using matrices
+[20:17:42] <anand16> small question to those who attended the previous session : what's the time complexity of the following code : http://ideone.com/AkF2Gf
+[20:19:28] <sandeepmenon> how many of you attended our previous session: time complexity and basic algos?
+[20:21:36] <anand16> anyone can answer :P
+[20:22:10] <chinmay_dd> Guys come on you have to reply!
+[20:22:16] <rektm9> not me
+[20:24:18] <anand16> we have an excellent unresponsive audience 
+[20:24:21] <anand16> moving on
+[20:25:04] <anand16> 1. Modulo 
+[20:26:26] <anand16> given two numbers a and n , the operation a modulo n gives the remainder of the division of a by n
+[20:27:27] <anand16> we will be using % to indicate modulo operation 
+[20:27:48] <anand16> it is one of the basic operation in modern computing 
+[20:27:58] <anand16> *operations
+[20:28:43] <anand16> you might remember that the first time you used % would be to check whether a given number is even or odd 
+[20:30:07] <anand16> some properties of %
+[20:30:38] <anand16> 1. Sum : (a+b)%m = (a%m + b%m)%m
+[20:30:52] <anand16> same holds for difference 
+[20:31:50] <anand16> Product : (a*b)%m = (a%m * b%m)%m
+[20:32:42] <anand16> Cancellation: ac % m = bc => a % m = b iff c and m are coprime 
+[20:33:38] <anand16> Inverse : if ab % m = 1 then b is said to be the inverse of a and is denoted by a^-1
+[20:34:23] <anand16> Division : (a/b)%m = (a%m * b^-1%m)%m
+[20:36:06] <anand16> Exponentiaion : a%m = b => a^n %m = b^n %m
+[20:37:15] <anand16> next we deal with modular exponentiation 
+[20:37:22] <anand16> any doubts ?
+[20:38:14] <anand16> taking that as a no and moving on
+[20:38:14] <vilas> No. continue.. 
+[20:39:04] <mmv> (a/b)%m = (a%m * b^-1%m)%m
+[20:39:29] <mmv> what does b^-1%m mean ?
+[20:39:33] <anand16> b^-1 is the inverse of b 
+[20:40:04] <mmv> ya..but isnt modulo operators valid only for integers ?
+[20:40:05] <anand16> mmv: clear ?
+[20:40:55] <anand16> yeah it's valid only when a/b is an integer 
+[20:41:19] <mmv>  how is 1/b an integer ?
+[20:41:27] <anand16> and when inverse of b exists
+[20:42:18] <mmv> sorry..is inverse of b 1/b ?
+[20:42:35] <anand16> inverse of b is an integer ... example:  (3*4) % 11 = 1 indicating that 4 is the inverse of 3 under modulo 11
+[20:43:21] <mmv> okay..sorry..i was not there in the starting
+[20:43:42] <mmv> please continue
+[20:43:53] <anand16> okay 
+[20:44:15] <ajithps> Do read the logs mmv. Link to todays log is given in topic.
+[20:44:29] <anand16> how will you find b^e % m ?
+[20:44:41] <anand16> any ideas ?
+[20:46:09] <anand16> vilas: mmv : ?
+[20:46:14] <vilas> b and e are any integers? 
+[20:46:26] <anand16> yeah any integers
+[20:47:22] <vilas> get the pattern ?
+[20:47:38] <vilas> Like- try for smaller powers and see where it repeats? 
+[20:48:15] <mmv> if b%m=k then b^e%m =k^e%m
+[20:48:55] <mmv> using that same property repeatedly till we get a small number right ?
+[20:49:05] <anand16> finding the pattern will reduce it to say b^e` % m 
+[20:50:06] <anand16> yeah one approach is multiplying b repeatedly e times and taking modulo everytime 
+[20:51:45] <vilas> But you can't do that if the numbers b and e are too big.. and finding patterns as i said wont work for higher values of m... is there some shortcut for finding it ? 
+[20:52:04] <mohit_reddy> yeah there is vilas . wait for it :P
+[20:52:11] <vilas> :P 
+[20:52:15] <anand16> complexity of this is O(e) assuming that multiplication takes constant time 
+[20:52:15] <anand16> there is a better way and it's called exponentiation by squaring 
+[20:53:36] <mmv> 10^3%6=4^3%6=(8*8)%6=(2*2)%6=4
+[20:54:01] <mmv> using properties..correct ?
+[20:54:35] <anand16> yes 
+[20:55:21] <anand16> okay method of squaring
+[20:55:49] <anand16> express e in binary form
+[20:56:50] <anand16> reducing b^e %m to b^(en2^n + en-12^n-2 + ... + e12^1 + e02^0) % m
+[20:58:09] <anand16> further reducing to : https://upload.wikimedia.org/math/4/7/1/4711487a677d7a3d6bcf083a5391f5e9.png
+[20:58:18] <anand16> can't write that here XD
+[20:59:19] <anand16> if you've understood it head over here : http://ideone.com/nqyZRu
+[20:59:34] <anand16> if not ask :P
+[21:02:31] <anand16> is the implementation clear ?
+[21:03:27] <vilas> Yes
+[21:03:36] <mohit_reddy> https://www.hackerrank.com/contests/infinitum12/challenges/marbles
+[21:03:45] <mohit_reddy> https://www.codechef.com/MAY15/problems/SETDIFF/
+[21:04:05] <mohit_reddy> these questions are regarding modular exponentiation. you can try them out after the session
+[21:06:20] <anand16> there are other methods to find b^e % m as well ... explore if you're interested ;)
+[21:06:23] <anand16> over to sandeepmenon 
+[21:07:00] <anand16> okay over to menonsandu 
+[21:07:21] <menonsandu> 2. GCD using Euclidean algorithm
+[21:07:38] <menonsandu> how would calculate GCD if asked to?
+[21:07:42] <menonsandu> any ideas?
+[21:08:44] <menonsandu> how do you usually calculate GCD?
+[21:09:01] <vilas> If you do not consider efficiency into account, find the largest number 'n' starting from 2 such that ( a % n == b % n == 0 ) 
+[21:09:17] <vilas> n is the gcd of a and b 
+[21:09:18] <menonsandu> yes.. that is one solution
+[21:09:30] <menonsandu> but we have to consider efficiency too
+[21:10:10] <menonsandu> the euclidean algorithm involves properties of modulo to compute GCD
+[21:10:26] <menonsandu> the algo goes as follows
+[21:10:35] <mmv> while(min!=0&&max!=0)
+[21:10:53] <menonsandu> yes mmv ?
+[21:10:57] <mmv> oops i was typing it and pressed enter by mistake
+[21:11:07] <menonsandu> NP
+[21:11:11] <theonewhomustnot> i have an idea, will just find the modulo between the numbers work?
+[21:11:22] <menonsandu> after  that?
+[21:11:31] <theonewhomustnot> the bigger number% the smaller number
+[21:11:38] <theonewhomustnot> the remainder will give the gcd?
+[21:11:42] <menonsandu> explain for 20 and 12
+[21:11:50] <menonsandu> 20%12 gives 8
+[21:12:13] <theonewhomustnot> hmm yeah my bad
+[21:12:27] <menonsandu> it is by finding modulo only
+[21:12:32] <menonsandu> algo is as follows
+[21:12:47] <menonsandu> gcd(a,b)=gcd(b, a % b)
+[21:12:50] <menonsandu> and
+[21:12:56] <menonsandu> gcd(a,0)=a
+[21:13:34] <menonsandu> it is a property of GCD and modulo
+[21:13:49] <menonsandu> you can verify it using the example of 20 and 12
+[21:14:04] <menonsandu> gcd(20,12)=gcd(12,8)
+[21:14:24] <menonsandu> gcd(12,8)=gcd(8,4)
+[21:14:33] <menonsandu> gcd(8,4)=gcd(4,0)
+[21:14:38] <menonsandu> gcd(4,0)=4
+[21:14:45] <menonsandu> so gcd(20,12)=4
+[21:15:23] <menonsandu> this is an efficient way compute gcd of two numbers
+[21:15:36] <menonsandu> the best part is... the code for this is just 3 lines
+[21:15:49] <menonsandu> last session, we discussed recursionn
+[21:16:03] <menonsandu>  we have the formulae
+[21:16:07] <menonsandu> the code is same
+[21:16:11] <menonsandu> check it out
+[21:16:25] <menonsandu> http://ideone.com/f8c8xb
+[21:19:15] <sandukuttan> did everyone understand the algo and the code?
+[21:19:20] <vilas> Yes
+[21:19:29] <mohit_reddy> after the session you can solve this : https://www.codechef.com/MAY15/problems/CHAPD/
+[21:19:33] <sandukuttan> any doubts?
+[21:20:31] <sandukuttan> can we move on to the next topic?
+[21:20:33] <sandukuttan> any doubts?
+[21:20:49] <vilas> Yup. Continue.
+[21:21:39] <theonewhomustnot> no doubts
+[21:21:46] <mohit_reddy> next topic is Euler's Totient function.
+[21:21:57] <mohit_reddy> anyone heard of this function before ?
+[21:22:50] <mohit_reddy> yes /no ?
+[21:22:52] <vilas> Nope 
+[21:23:05] <theonewhomustnot> nope..
+[21:23:11] <mohit_reddy> ok. so totient function is represented as phi(n)
+[21:23:50] <mohit_reddy> it is equal to the number of positive integers which are coprime to n.
+[21:24:16] <mohit_reddy> or relatively prime to n.
+[21:24:39] <mohit_reddy> there is cototient of n 
+[21:24:48] <mohit_reddy> which is equal to n-phi(n)
+[21:25:17] <mohit_reddy> meaning number of positive integers which have atleast one common factor with n
+[21:25:36] <mohit_reddy> so the basic algo for totient function is :
+[21:25:56] <mohit_reddy> for(int i=1;i<=n;i++){ if(n%i==1) count++;}
+[21:26:33] <mohit_reddy> phi(n)=count;
+[21:26:39] <mohit_reddy> sorry i=2 to n
+[21:26:59] <mohit_reddy> as gcd(1,n) is always 1. we take initial value of count as 1;
+[21:27:31] <mohit_reddy> there are a few interesting properties of totient function.
+[21:27:49] <mohit_reddy> 1) it is multiplicative in nature.
+[21:28:22] <vilas> n%i==1 ? 
+[21:28:22] <mohit_reddy> the proof is out of the scope of this session. includes chinese remainder theorem, you can google about it
+[21:29:32] <mohit_reddy> sorry sorry 
+[21:29:38] <mohit_reddy> gcd(i,n)==1
+[21:29:48] <ajithps> What do you mean by multiplicative in nature?
+[21:29:57] <mohit_reddy> sorry got confused
+[21:30:26] <mohit_reddy> yeah the function is multiplicative. 
+[21:30:38] <mohit_reddy> i.e if m and n are coprime . i.e gcd(n,m)==1
+[21:30:49] <mohit_reddy> phi(m*n)=phi(m)*(n)
+[21:30:57] <ajithps> Ah. But you didnt mention that condition :P
+[21:31:28] <mohit_reddy> ah sorry .
+[21:31:39] <ajithps> np :)
+[21:31:55] <mohit_reddy> i will you guys the correctness with an example later in this session
+[21:32:18] <mohit_reddy> so let n=p^e where p is a prime number and e is an integer
+[21:32:40] <mohit_reddy> how many positive integers will divide p^e ?
+[21:32:43] <mohit_reddy> anyone ?
+[21:33:10] <vilas> e+1
+[21:33:25] <mohit_reddy> no !! think again
+[21:33:46] <mohit_reddy> not divide 
+[21:34:03] <mohit_reddy> will have a common factor with n ?
+[21:34:56] <vilas> 2 + ( p -1 ) ^ 2 ?
+[21:35:08] <vilas> Shit sorry
+[21:35:08] <mohit_reddy> sorry again. the question is : who many integers will have a common factor with n where n=p^e where p is a prime number.
+[21:35:42] <vilas> 2 + ( e-1)( p-1)? 
+[21:35:57] <mohit_reddy> no see..
+[21:36:08] <mohit_reddy> it is given that n=p^e
+[21:36:39] <mohit_reddy> so only the multiples of p will have a common factor with p^e and multiples of p <=p^e
+[21:36:51] <mohit_reddy> so how many such multiples will be there ?
+[21:37:11] <mohit_reddy> p,2p,3p....(p^(e-1)).p
+[21:37:20] <mohit_reddy> i.e p^(e-1)
+[21:37:38] <mohit_reddy> so how many numbers now will have no common factors with n ?
+[21:38:00] <mohit_reddy> n-p^(e-1) = totient function.
+[21:38:04] <vilas> yes
+[21:38:10] <mohit_reddy> so phi(n)=n-p^(e-1)
+[21:38:21] <mohit_reddy> =p^e-p^(e-1)
+[21:38:33] <mohit_reddy> =p^e(1-1/p)
+[21:38:42] <mohit_reddy> =n*(1-1/p)
+[21:38:49] <mohit_reddy> clear ? any doubts ?
+[21:39:09] <vilas> Got it :P Was thinking of something else.. 
+[21:39:12] <vilas> No doubts
+[21:39:20] <Yoda100> no
+[21:39:25] <mohit_reddy> good :)
+[21:39:58] <mohit_reddy> so now we know that every number can be represented by unique prime factorization correct ?
+[21:40:23] <vilas> yup
+[21:40:32] <mohit_reddy> i.e n can be written as : n= p1^a1 * p2^a2 * p3^a3 ...
+[21:40:46] <mohit_reddy> where p1,p2,p3..are prime numbers
+[21:41:02] <mohit_reddy> and a1,a2... are non negative integers .
+[21:41:13] <mohit_reddy> so what will be phi(n) ??
+[21:42:11] <mohit_reddy> anyone?
+[21:42:25] <vilas> n*( 1-1/p)^(number of such primes p1, p2.. )  
+[21:42:41] <vilas> right?
+[21:42:44] <mohit_reddy> phi(n)=phi(p1^a1)*phi(p2^a2)...
+[21:42:55] <mohit_reddy> why ^ ?
+[21:43:19] <vilas> sorry. yeah you are correct 
+[21:43:38] <vilas> = n* product of all ( 1- 1/p ) 
+[21:43:46] <mohit_reddy> so we have that phi(p1^a1) = p1^a1*(1-1/p1)
+[21:44:24] <mohit_reddy> so phi(n) = p1^a1*(1-1/p1) * p2^a2*(1-1/p2) ...
+[21:44:54] <mohit_reddy> => p1^a1 * p2^a2 ... *(1-1/p1)*(1-1/p2)*(1-1/p3) ..
+[21:45:11] <mohit_reddy> which gives n*(1-1/p1)*(1-1/p2)*(1-1/p3)...
+[21:45:39] <mohit_reddy> so lets check for an example : 
+[21:45:46] <mohit_reddy> let n=24
+[21:46:03] <mohit_reddy> 24=2^3 * 3^1
+[21:46:21] <mohit_reddy> so phi(n) = 24*(1-1/2)*(1-1/3)
+[21:46:31] <mohit_reddy> =24*(1)*(2)/(2*3)
+[21:46:34] <mohit_reddy> =4
+[21:46:44] <mohit_reddy> * 8
+[21:46:52] <mohit_reddy> phi(24)=8
+[21:47:46] <mohit_reddy> and if we check positive integers less than 24 which have no common factors are : 1,5,7,11,13,17,19,23
+[21:47:59] <mohit_reddy> clear ? any doubts so far ?
+[21:48:08] <vilas> No
+[21:48:11] <theonewhomustnot> nope
+[21:48:24] <mohit_reddy> cool.
+[21:48:58] <mohit_reddy> so i as i told you that it is multiplicative in nature. lets take an example and show its correctness.
+[21:49:11] <mohit_reddy> the integers need to be coprime 
+[21:49:44] <mohit_reddy> so for simplicity lets consider p1^a1 and p2^a2 where p1 and p2 are distinct primes
+[21:50:05] <mohit_reddy> so phi(n*m)=phi(n)*phi(m) we need to show that this is correct.
+[21:50:25] <mohit_reddy> RHS : phi(p1^a1) = p1^a1*(1-1/p1)
+[21:50:42] <mohit_reddy> similarly for phi(p2^a2)= p2^a2*(1-1/p2)
+[21:51:20] <mohit_reddy> LHS phi(p1^a1 * p2^a2) = p1^a1*p2^a2 * (1-1/p1)*(1-1/p2) = rhs
+[21:51:29] <mohit_reddy> cool ? any doubts ?
+[21:51:44] <vilas> No
+[21:52:12] <theonewhomustnot> nope
+[21:52:15] <mohit_reddy> http://ideone.com/CslEaZ
+[21:52:26] <mohit_reddy> here is the implementation of it
+[21:52:48] <mohit_reddy> go through it and work it out on a paper with examples. you will how it works. 
+[21:53:10] <mohit_reddy> still if you guys have any doubts you can ask anyone of us.
+[21:53:56] <mohit_reddy> and after the session you can try this problem : http://www.spoj.com/problems/ETF/
+[21:54:24] <anand16> moving on 
+[21:54:41] <anand16> next we have Euler's theorem
+[21:55:43] <anand16> Statement: given two coprime numbers a and n , a ^ phi(n) % n = 1 
+[21:56:04] <anand16> where phi(n) is the euler's totient function of n 
+[21:56:44] <anand16> again proof of this is out of the scope of this session :P
+[21:57:00] <anand16> question: what is phi(n) if n is prime ?
+[21:57:38] <vilas> n-1
+[21:57:53] <anand16> correct 
+[21:58:58] <anand16> using that in the theorem reduces it to 
+[21:59:13] <anand16> a ^ (n-1) % n  = 1 
+[21:59:18] <anand16> if n is prime 
+[21:59:44] <anand16> This statement is also known as the Fermat's little theorem
+[22:00:39] <anand16> question : can this be used to find the inverse of a ?
+[22:01:45] <vilas> So, can you say a^(n-2) is the inverse of a ? 
+[22:02:23] <anand16> excellent !
+[22:02:48] <sandeepmenon> very good.. vilas 
+[22:02:57] <anand16> over to sandeepmenon 
+[22:03:19] <sandeepmenon> number theory has a lot to do with prime numbers
+[22:03:47] <sandeepmenon> yesterday's session we analysed the complexity of a program to check whether it was prime or not
+[22:03:56] <sandeepmenon> but that was for one number
+[22:04:13] <sandeepmenon> what if we want to find the primes .. say between 1 and 100
+[22:04:21] <sandeepmenon> any approaches?
+[22:06:25] <sandeepmenon> no ideas?
+[22:06:38] <vilas> *No efficient ideas
+[22:06:48] <vilas> :P
+[22:06:56] <sandeepmenon> ok
+[22:07:17] <sandeepmenon> there is this method called the sieve of eratosthenes
+[22:07:39] <sandeepmenon> you probably would have done this in your first class of primes, at school
+[22:07:45] <sandeepmenon> its simple
+[22:08:03] <theonewhomustnot> where you take all multiples of numbers 1 to 9 and cancel them out
+[22:08:04] <theonewhomustnot> ?
+[22:08:11] <theonewhomustnot> 2 to 9*
+[22:08:12] <sandeepmenon> we create a list of integers from 2 to the required number n
+[22:08:30] <sandeepmenon> you are almost right
+[22:08:35] <sandeepmenon> that is the first tep
+[22:08:40] <sandeepmenon> but not just till 9
+[22:08:43] <sandeepmenon> we'll see
+[22:08:43] <theonewhomustnot> for 1 to 100 thats the case
+[22:09:10] <sandeepmenon> yes true
+[22:09:27] <sandeepmenon> we make the list of numbers
+[22:09:31] <sandeepmenon> start from 2
+[22:09:41] <sandeepmenon> strike off all multiples of 2
+[22:09:46] <sandeepmenon> then proceed to 3
+[22:09:54] <sandeepmenon> strike off all multipes of 3
+[22:10:05] <sandeepmenon> proceed to 5, since 4 was struck off
+[22:10:33] <sandeepmenon> this continues on till sqrt(n)
+[22:11:25] <sandeepmenon> its a simple but effective approach
+[22:11:27] <sandeepmenon> http://ideone.com/LHfVh0
+[22:11:30] <sandeepmenon> this is the cde
+[22:11:33] <sandeepmenon> code*
+[22:12:08] <sandeepmenon> for 100, sqrt is 10, so it is 2-9
+[22:13:52] <sandeepmenon> any doubts with the code or the logic?
+[22:14:23] <vilas> nope
+[22:16:11] <sandeepmenon> mmv, theonewhomustnot .. guys?
+[22:16:37] <anish10> no
+[22:17:07] <sandeepmenon> ok.. moving on
+[22:17:26] <sandeepmenon> anand16, had mentioned finding inverse of a number
+[22:18:07] <sandeepmenon> you can head of here and watch this video
+[22:18:12] <sandeepmenon> its a pen and paper methond
+[22:18:38] <sandeepmenon> https://www.youtube.com/watch?v=fz1vxq5ts5I
+[22:18:50] <sandeepmenon> its a 6min video, but you can skip most parts
+[22:19:03] <sandeepmenon> everyone ,ping when done
+[22:19:33] <sandeepmenon> anyone who cant buffer youtube video?
+[22:20:45] <sandeepmenon> for those who cant stream the video
+[22:21:52] <sandeepmenon> multiplicative inverse of a number 'a' under modulo 'm', is the number 'x' such that a*x mod m = 1 
+[22:22:21] <sandeepmenon> say a=5 and m=6
+[22:22:39] <sandeepmenon> we need to find an 'x' such that a*x mod 6 gives one
+[22:22:57] <sandeepmenon> for small numbers like this , we can guess the answer
+[22:23:02] <sandeepmenon> here x=5
+[22:23:13] <sandeepmenon> 5*5= 25, mod 6 is 1
+[22:24:24] <sandeepmenon> this x can be found out using definite steps described under euclidean algorithms and concepts of gcd, modulo, totient function etc
+[22:24:38] <sandeepmenon> https://en.wikipedia.org/wiki/Modular_multiplicative_inverse
+[22:24:46] <sandeepmenon> you can head over here and see the example
+[22:26:27] <sandeepmenon> ping when done
+[22:27:23] <vilas> done
+[22:28:59] <anish10> done
+[22:29:25] <sandeepmenon> you can find the inverse using the totient function
+[22:29:38] <sandeepmenon> as prooved before , it is a^(n-2)
+[22:29:44] <sandeepmenon> here's the code for it
+[22:29:52] <sandeepmenon> http://ideone.com/SrgwVY
+[22:31:39] <sandeepmenon> correction: it is a^(n-2) if n is prime
+[22:32:49] <mohit_reddy> and for practice  : its a pretty tough question but once you know these concepts shouldnt take much . https://www.hackerrank.com/contests/infinitum12/challenges/movement-in-tree-i
+[22:34:03] <sandeepmenon> go through all the questions that we post in between when you get time, it'll really help in sinking in the topics
+[22:34:49] <sandeepmenon> for those who saw the youtube video, here is the code implementing that logic
+[22:34:58] <sandeepmenon> http://ideone.com/ceums0
+[22:36:10] <sandeepmenon> its a recursive function.. so try to analyse it mathematically rather than tracing the control of the program
+[22:37:18] <mohit_reddy> any doubts ?
+[22:38:52] <mohit_reddy> no ? 
+[22:39:10] <vilas> trying to understand the code :P other than that, no
+[22:39:48] <mohit_reddy> ok so can we move on ? you can contact us anytime with any doubt. 
+[22:40:23] <vilas> Yup. Continue
+[22:40:51] <mohit_reddy> okay so last topic for this session is bth fibonacci number using matrix multiplication.
+[22:40:53] <mohit_reddy> *nth
+[22:41:14] <mohit_reddy> so we discussed about calculating nth fibonacci number using recursion
+[22:41:20] <mohit_reddy> what was the time complexity >
+[22:41:31] <mohit_reddy> *?
+[22:43:02] <mohit_reddy> no one really ?
+[22:43:24] <mohit_reddy> and it is matrix exponentiation . not multiplication.
+[22:45:28] <mohit_reddy> okay so it was O((golden ratio)^n)  approximated as O(2^n) 
+[22:46:26] <mohit_reddy> so the nth fibonacci can be calculated as follows :
+[22:47:15] <mohit_reddy> the nth power of matrix M where M = {  {1,1} , {1,0} } 
+[22:47:23] <mohit_reddy> M is a 2*2 matrix 
+[22:47:59] <mohit_reddy> so M^n= {{f(n+1),f(n)},{f(n),f(n-1)} }
+[22:48:19] <mohit_reddy> so when we are considering n we subtract one and solve it
+[22:48:25] <mohit_reddy> how can this be solved ?
+[22:48:42] <mohit_reddy> this can be solved using O(n) approach 
+[22:48:57] <mohit_reddy> in this we multiply the matrix n times to get the result
+[22:49:22] <mohit_reddy> other is a O(logn) approach which is similar to modular exponentiation
+[22:50:08] <mohit_reddy> i.e when the LSB of the exponent is 1 we update the resultant matrix . and we update the M matrix till exponent becomes zero.
+[22:50:41] <mohit_reddy> the codes for reference  : using recursion : http://ideone.com/quukr5 , using iterations : http://ideone.com/FC0Owt
+[22:51:00] <mohit_reddy> note : using iterations we need not subtract 1 from n.
+[22:51:13] <mohit_reddy> questions related to this  : https://www.hackerrank.com/contests/inscription2015/challenges/monica-marijuana
+[22:53:09] <anand16> That marks the end of this session 
+[22:53:26] <sandeepmenon> thank you guys for attending
+[22:53:31] <anand16> thanks for attending and responding 
+[22:53:41] <ajithps> :)
+[22:53:41] <anand16> although the latter was limited XD
+[22:53:42] <mohit_reddy> thanks for attending :)
+[22:53:53] <mohit_reddy> true XD
+[22:54:13] <ajithps> Thanks for taking the session! Well done :)
+[22:54:35] <anand16> :)
+[22:54:42] <mohit_reddy> :D
+[22:54:44] <sandeepmenon> :)
+[22:55:36] <ajithps> Thanks everyone for attending! For any questions you may contact anyone of us :)
+[22:55:59] <anand16> fine the links here : https://gist.github.com/anandarao/86063fcd4d8aa21ac1c6 
+[22:56:07] <anand16> *ind
+[22:56:22] <ajithps> You will find the logs of all the sessions and contact details herehttps://goo.gl/WGyvvK
+[22:57:01] <ajithps> See you guys tomorrow!
