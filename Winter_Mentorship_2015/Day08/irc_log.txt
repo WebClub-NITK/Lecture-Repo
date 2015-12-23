@@ -1,0 +1,630 @@
+[20:02:10] <soundarya> hey guys
+[20:02:28] <soundarya> So today we will be having a session on networks. 
+[20:02:53] <natasha_> all those who are here for the networks session please post your mail ids
+[20:02:54] <soundarya> We are waiting for Prajwala to join us. So we might start in about 5 mins
+[20:03:06] <natasha_> i'll be sending a word doc for your ref
+[20:03:41] <ajithps> Just post the link here so that if people join later they can access it. 
+[20:03:59] <ajithps> I will put the link to logs in a while
+[20:04:37] <ajithps> Upload in say google doc?
+[20:04:59] <natasha_> yeah ok just give me a min
+[20:05:03] <ajithps> cool
+[20:08:30] <soundarya> So today we will be telling you about-
+[20:08:37] <soundarya> 1) Packet Sniffers
+[20:08:45] <soundarya> 2)Explain OSI Model
+[20:08:59] <soundarya> 3)Switches and hubs in detail
+[20:09:07] <Salman_> What does the topic in itself mean?
+[20:09:09] <soundarya> 4)Few Network Attacks
+[20:09:23] <Salman_> When we say networks what are we excatly referring to?
+[20:09:40] <Salman_> Sorry for interrupting... in between
+[20:09:45] <soundarya> Computer networks. :P
+[20:10:15] <Salman_> So networks only refer to Internet connections
+[20:10:27] <natasha_> just a sec guys ........here is the link to the doc..you'll need it later
+[20:10:30] <natasha_> https://drive.google.com/file/d/0Bw_-b0ljJuyZQjNhdldHTkRFaWM/view?usp=sharing
+[20:10:32] <Salman_> Like WFi, LAN or any other thing as well?
+[20:11:17] <soundarya> Yes, all of that. You will learn about them today. Be patient :P
+[20:11:24] <Salman_> sorry ok
+[20:11:30] <natasha_> we are referring to all networks not only internet
+[20:11:41] <natasha_> any network of devices in general
+[20:11:42] <soundarya> chill its fine :)
+[20:12:54] <natasha_> shall we continue?
+[20:12:59] <natasha_> prajwala is here
+[20:13:12] <Salman_> yup..
+[20:13:16] <vilas> continue...
+[20:13:23] <prajwala> Hey everyone! This is Prajwala, 2nd year CSE
+[20:15:11] <prajwala> So lets start off with the basic definition, what is networking?
+[20:16:00] <prajwala> or what is a computer network in general, anyone?
+[20:16:43] <Alconblue> In simple words connecting many computers together maybe? 
+[20:16:55] <prajwala> its a set of computers or devices connected together for sharing data and resources
+[20:16:59] <prajwala> yes right!
+[20:17:29] <prajwala> so lets delve deeper, what is a packet?
+[20:17:56] <prajwala> its the most basci unit that is transffered through a network
+[20:17:56] <vilas> a bundle of info maybe
+[20:18:13] <prajwala> they carry data from one of the network to another
+[20:18:21] <prajwala> ya correct @vilas
+[20:18:36] <Alconblue> Sorry but carry data? 
+[20:18:41] <prajwala> and a packet consists of header portion and main portion
+[20:18:58] <Alconblue> Is the data itself packet or carrier? 
+[20:19:18] <prajwala> header portion consists of the information about packet including the source and destination
+[20:19:48] <prajwala> and main portion consists of the actual data being transferred
+[20:20:11] <prajwala> does that clear you doubt @ Alconblue? 
+[20:20:25] <Alconblue> Yup
+[20:20:29] <prajwala> okay 
+[20:20:33] <natasha_> @Alconblue packets are just entities with data in it like a parcel coming to your house or something. the content of the parcel is your data
+[20:21:10] <prajwala> moving on, lets look at what packet analysis is
+[20:21:47] <prajwala> It is the process of capturing and interpreting live data as it flows across a network 
+[20:21:59] <prajwala> also called packet sniffing
+[20:22:32] <prajwala> and its done using a tool called packet sniffers
+[20:23:36] <prajwala> Packet sniffing is mainly done to understand network characteristics,learning who is on the network, identifying network attacks etc
+[20:24:23] <prajwala> Wireshark,tcpdump,scapy are examples of packet sniffers
+[20:24:56] <prajwala> clear so far?
+[20:25:01] <vilas> yes
+[20:25:35] <prajwala> okay lets move on
+[20:25:45] <prajwala> how do computers communicate?
+[20:26:12] <prajwala> hint: http,tcp/ip, what are these? :P
+[20:26:50] <vilas> protocols.. rules for conversion of data to something else before transmission.. ?
+[20:27:05] <prajwala> yes correct!
+[20:28:15] <prajwala> but not just conversion of data into different formats but also to govern how packets should be routed, how to initiate a connection,acknowldege receipt of data etc
+[20:28:27] <prajwala> they can be simple or complex
+[20:28:52] <prajwala> and different types of protocols are used at different layers of networking
+[20:29:11] <prajwala> we'll be talking about layers of networking a little later
+[20:29:22] <prajwala> now lets see how packet sniffers work
+[20:29:41] <prajwala> Packet Sniffing can be broken into three steps: 
+[20:29:55] <prajwala> Collection, Conversion, Analysis
+[20:31:04] <prajwala> Collection refers to collects raw binary data from the wire- this is done by switching network interface to a mode called promiscuous mode
+[20:31:11] <prajwala> collecting*
+[20:32:02] <prajwala> in this mode, network card can listen to all the traffic on a network segment, and not just the traffic addressed to it
+[20:32:26] <prajwala> The next step is conversion
+[20:33:29] <prajwala> here, the captured data is converted to readable form,as network data is in a form that can be interpreted at a basic level
+[20:33:39] <prajwala> The last step is analysis
+[20:34:02] <prajwala> this is the actual analysis of captured , converted data
+[20:34:29] <prajwala> it takes captured data and verifies protocol based on the info extracted
+[20:34:49] <prajwala> this is how packet sniffing is done and how packet sniffers work
+[20:35:33] <prajwala> any doubts?
+[20:35:43] <vilas> no
+[20:36:02] <prajwala> okay
+[20:36:08] <prajwala> over to soundarya
+[20:36:39] <soundarya> Okay cool. So now let's get to the basics
+[20:37:10] <soundarya> When you think of computer networks, what pic do have in your mind?
+[20:37:31] <soundarya> computers everywhere. wires. right?
+[20:37:52] <vilas> yea :P 
+[20:37:57] <soundarya> the actual computer network is quite different from what you think
+[20:38:07] <soundarya> it has a lot of other network devices too.
+[20:38:10] <soundarya> routers mainly
+[20:38:35] <soundarya> i'm sure you would have heard of routers. but we'll look at them in depth later
+[20:39:00] <soundarya> So there are a few things that you should know before i tell you about the so model
+[20:39:36] <soundarya> firstly, get the difference between circuit switching and packet switching netweoks
+[20:39:53] <soundarya> it's cool if you don't know what they are yet
+[20:40:14] <soundarya> An example will make it simpler
+[20:40:39] <soundarya> Do any of you know how telephones work?
+[20:41:00] <soundarya> fine, i'll tell you
+[20:41:55] <soundarya> So, when you make a call,  the audio signals travel through cables and reach the telephone exchange
+[20:42:38] <soundarya> from there it goes through several other telephone exchanges and radio transmitter-receivers, mobile towers etc before reaching the other guy
+[20:43:25] <soundarya> and in case of telephones, a fixed connection like this is established before you actually start talking.
+[20:43:45] <soundarya> so there will exist a connection between the two of you till the call terminates.
+[20:44:14] <soundarya> the entire bandwidth of the cables is used for your conversation
+[20:44:41] <soundarya> such a fixed connection is called circuit switched network
+[20:44:44] <soundarya> got the idea?
+[20:45:16] <soundarya> yes or a no? :P
+[20:45:21] <vilas> yes :P
+[20:45:29] <vishakh_> yea
+[20:45:51] <soundarya> but what happens in a computer network is not this :P
+[20:46:00] <soundarya> it's something called packet switching.
+[20:46:10] <soundarya> i'm pretty sure you all know what a packet it by now.
+[20:47:03] <soundarya> So the entire data to be sent is broken down into smaller pieces called packets each of them with headers and trailers having important info like packet number, source,dest addr etc
+[20:48:04] <soundarya> so now do you understand why when you download a movie online, the entire movie does not get downloaded at once. instead it says download speed 2Mbps etc etc.
+[20:48:35] <soundarya> And what that download status actually tells you is how many of the total packets have been received.
+[20:49:43] <soundarya> okay so now you know if you have a request  to a distant server, your request is broken down into smaller chunks and reaches the destination via routers. Right?
+[20:50:00] <vilas> yup
+[20:50:05] <soundarya> With this picture in mind, we can now look at the osi model :)
+[20:50:20] <soundarya> Okay so what is osi model?
+[20:50:52] <vilas> no idea :(
+[20:51:03] <soundarya> It is basically a model which represents the network as 7 layers, each dependent on the adjacent ones.
+[20:51:39] <soundarya> The 7 layers in desc order are-
+[20:51:43] <soundarya> 7-Application
+[20:51:59] <soundarya> Append layer to everything :P
+[20:52:02] <soundarya> 6-Presentation
+[20:52:09] <soundarya> 5-Session
+[20:52:14] <soundarya> 4-Transport
+[20:52:21] <soundarya> 3-Network
+[20:52:29] <soundarya> 2-Data-link
+[20:52:39] <soundarya> 1-Physical
+[20:52:57] <soundarya> Stop me if you have doubts, Anytime.
+[20:53:08] <soundarya> I will start off with the 7th layer now
+[20:53:55] <soundarya> Application layer- so this is where the user is provided with an interface to request for and receive data
+[20:54:08] <soundarya> so all the web browsers fall in this layer
+[20:54:22] <soundarya> Also Outlook etc
+[20:54:48] <soundarya> The most important protocol in this layer is HTTP. This is used in the internet
+[20:55:08] <soundarya> So how do you actually make a request at this level?
+[20:55:36] <soundarya> You make a request by typing in the url.(search engines help u find them ofc)
+[20:55:49] <soundarya> https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Karnataka
+[20:56:02] <soundarya> So consider the above URL 
+[20:56:15] <soundarya> I'm hoping all of you know what a URL is.
+[20:56:53] <soundarya> So here, the first word before the colon specifies the protocol used
+[20:57:25] <soundarya> And wikipedia.org tells u the name of the web server you have to request
+[20:57:54] <soundarya> And the remaining part specifies the location of the web resource you are looking for at the server.
+[20:58:07] <soundarya> Cool?
+[20:58:12] <vilas> yup
+[20:58:23] <soundarya> :)
+[20:58:33] <soundarya> Okay this is all about the application layer
+[20:58:36] <soundarya> Now moving on
+[20:58:45] <soundarya> Presentation layer-
+[20:58:59] <soundarya> Has three main roles--
+[20:59:13] <soundarya> 1)Translation 2)Compression 3)Encryption
+[21:00:09] <soundarya> In a network we can have different systems connected. For ex: Windows systems, Macintosh systems, Servers, Mainframes etc
+[21:00:34] <soundarya> And all these will have their own features. For example they can have different character sets.
+[21:00:59] <soundarya> This layer basically tries to hide the differences between these systems
+[21:01:11] <soundarya> This is nothing but translation
+[21:01:50] <soundarya> Compression- Sometimes you might want to compress data and send it over the network.
+[21:02:06] <soundarya> This layer comes to aid in that case too
+[21:02:22] <soundarya> And most importantly encryption.
+[21:02:51] <soundarya> A lot of confidential data gets sent over the network all the time. Like credit card details, password etc 
+[21:03:37] <soundarya> If they are sent as plain texts, an eavesdropper will easily get all this data
+[21:03:54] <soundarya> In order to prevent this from happening, encryption techniques are used.
+[21:04:15] <soundarya> One such famous encryption protocol is SSL
+[21:04:23] <soundarya> Stands for Secure Socket Layer
+[21:04:35] <soundarya> The 's' in https stands for ssl
+[21:05:07] <soundarya> Also all pages which are encrypted have a 'green lock' in the beginning of the url.
+[21:05:30] <soundarya> Some browswers let you click on them to view the SSL Certificate
+[21:05:38] <soundarya> You can try it out right now
+[21:06:19] <soundarya> So this certificate basically contains details like public key, private key and session key, all of which are required for encryption. 
+[21:06:21] <vilas> gmail log in page :P
+[21:06:28] <soundarya> Yes :)
+[21:06:33] <vishakh_> okay
+[21:06:49] <soundarya> So were u able to see the certificate?
+[21:07:11] <vilas> yup
+[21:07:16] <soundarya> Okay cool :)
+[21:07:27] <soundarya> Moving on, now we shall see the next layer. 
+[21:07:35] <soundarya> Session layer-
+[21:08:07] <soundarya> So this basically establishes, manages and terminates sessions between two nodes on the network
+[21:08:20] <soundarya> I'll tell you what a session is 
+[21:08:36] <soundarya> And btw, a node is any device on the network
+[21:09:24] <soundarya> Session basically means logical linking between two application processes to allow them exchange data over a prolonged period of time
+[21:09:35] <soundarya> too complex uh?
+[21:09:41] <soundarya> okay i'll simplify it :P
+[21:09:56] <soundarya> Consider a web server
+[21:10:10] <soundarya> It will have to handle multiple clients at the same time
+[21:10:35] <soundarya> Keeping track of each of these connections is important.
+[21:10:50] <soundarya> Session layers does just that 
+[21:11:23] <soundarya> It helps you manage many clients at once. 
+[21:11:34] <soundarya> Multitasking basically
+[21:11:52] <soundarya> Okay now next layer- Transport layer
+[21:12:06] <soundarya> This is one of the most important layers 
+[21:12:27] <soundarya> This is where the packets come into picture!
+[21:13:01] <soundarya> The data obtained from the sessions layer will now be broken down into packets which can be sent over the network
+[21:13:13] <soundarya> This process is called segmentation
+[21:13:53] <soundarya> This layer will also make sure that all packets reach the destination in order
+[21:14:40] <soundarya> As there will many sessions running at the same time, this layer assigns a port number to each of the sessions 
+[21:14:50] <soundarya> This number is called port number.
+[21:15:13] <soundarya> And this will be present in the header of the data packet
+[21:15:59] <soundarya> Also not all packets will be sent parallel at once across the network
+[21:16:10] <soundarya> this will cause congestion in the network
+[21:16:20] <soundarya> and also buffer overflow at the receiving end
+[21:16:40] <soundarya> Transport layer takes care of flow control too!
+[21:16:49] <soundarya> It uses two mechanisms!
+[21:17:13] <soundarya> 1)Uses ready/not ready signals
+[21:17:54] <soundarya> Once the receiving system's buffer is full, it sends a signal to the sender to stop sending packets
+[21:18:20] <soundarya> once the buffer can accommodate more, it sends a ready signal
+[21:18:36] <soundarya> in this way the packets can be delivered 
+[21:18:50] <soundarya> there is one more technique called "Windowing"
+[21:19:24] <soundarya> I'll explain this with an example
+[21:19:48] <soundarya> Say the sender(A) sends one packet initially to the receiver(B)
+[21:20:31] <soundarya> Once B receives it, it sends an acknowledgment(ack) to A about the successful delivery of packets 
+[21:20:44] <soundarya> Now A sends two packets instead of one
+[21:20:48] <soundarya> B sends ack again
+[21:20:58] <soundarya> Next A sends 4 packets
+[21:21:02] <soundarya> B sends ack
+[21:21:51] <soundarya> In this way, A keeps increasing the "window" size until B fails to send ack, in which case A sends one packet again
+[21:21:59] <soundarya> And the process repeats
+[21:22:24] <soundarya> In this way data flow across the network is taken care by this layer
+[21:22:43] <soundarya> okay now next layer
+[21:22:53] <soundarya> 3- Network layer
+[21:23:13] <soundarya> This is the layer which connects the different networks
+[21:23:20] <soundarya> Routers are present in this layer
+[21:23:40] <soundarya> This is the first layer to have hardware components. 
+[21:23:51] <Salman_> Can I ask a doubt after this layer?
+[21:23:59] <soundarya> Sure :)
+[21:24:04] <Salman_> Don't mean to interrupt ..
+[21:24:09] <Salman_> Yeah continue...
+[21:24:15] <soundarya> Cool
+[21:24:38] <soundarya> So the routers help in routing the packets
+[21:25:03] <soundarya> Basically they help the packets find their way to the destination
+[21:25:22] <soundarya> It does this with the help of an address called "IP Address"
+[21:25:59] <soundarya> IP stands for internet protocol, which is one of the important protocols in  this layer 
+[21:26:35] <soundarya> Oh btw, I forgot to mention, TCP and UDP are two important protocols of the transport layer. 
+[21:27:14] <soundarya> Ok yeah so, EVERY device on a network should have IP addresses to communicate with each ither
+[21:27:33] <soundarya> Without IP there is no Internet
+[21:28:10] <soundarya> An IP addr consists of 4 numbers(each one byte long) separated by '.' 
+[21:28:17] <soundarya> It's like x.x.x.x
+[21:29:10] <soundarya> So the total number of IPs we can get is just 4.2million. But there are more people and one may have more than one device
+[21:29:33] <soundarya> So how to make sure all these devices can be connected at the same time?
+[21:29:50] <soundarya> Thats why Private IP Addresses came into picture
+[21:30:15] <soundarya> These are IPs of the form 10.x.x.x or 192.168.x.x
+[21:30:39] <soundarya> These can be repeated.
+[21:31:03] <Salman_> Repeated as in...?
+[21:31:20] <soundarya> I'll tell you :)
+[21:32:37] <soundarya> Your ISP gives the router you have at home a public IP address. This IP is unique, That is no other device across the world has the same IP
+[21:33:01] <Salman_> ISP?
+[21:33:03] <soundarya> But all your devices at home are connected to this router's network
+[21:33:13] <vilas> internet service provider
+[21:33:19] <Salman_> Oh ok :p
+[21:33:25] <soundarya> Yeah. Like BSNL etc
+[21:33:27] <vilas> like say BSNL :P
+[21:33:32] <vilas> lol
+[21:34:07] <soundarya> So yeah all the devices at home which are connected to your router are given private IPs
+[21:34:44] <soundarya> When I say they came be repeated I mean, two devices connected to two different routers can have the same private IP
+[21:35:22] <Salman_> okay so my laptop has a particular IP address
+[21:35:27] <soundarya> My Private ip is 192.168.1.5. One of yours might probably be the same too!
+[21:35:38] <Salman_> So u r saying ur laptop can have the same IP address as well
+[21:35:46] <soundarya> Yes. You can find that out. Go to your network preferences and check
+[21:35:50] <Salman_> Oh okay
+[21:35:58] <Salman_> Yeah I already checked it :p
+[21:35:59] <soundarya> Yes. Private IP addresses repeat.
+[21:36:05] <soundarya> And what is yours?
+[21:36:36] <soundarya> Okay, so did you get the point i was trying to make? @Salman
+[21:37:27] <Salman_> Yeah
+[21:37:43] <soundarya> All of you can actually type ur Private IPs here. I"m pretty sure that atleast two of yours will be the same.
+[21:38:29] <soundarya> Your ISP basically charge you for giving you a public IP. 
+[21:38:40] <soundarya> And this again is not a static one. Might keep changing
+[21:39:09] <soundarya> To find out your routers public IP, google "what is my ip" or duck it :P
+[21:39:39] <soundarya> My IP for ex is: 117.192.104.250
+[21:40:12] <soundarya> And none of yours will ever be the same. Why?
+[21:40:28] <soundarya> 'Cos public IPs dont repeat
+[21:40:39] <Salman_> Yeah .... 
+[21:41:04] <soundarya> Also this layer will add the source IP and destination IP to your packet
+[21:41:12] <Salman_> So if I say hack is there a possiblity somebody else could be caught for what I did
+[21:41:31] <Salman_> As in there are two same IPs
+[21:41:39] <soundarya> Hack how?
+[21:41:40] <Salman_> How can u distinguish between the two
+[21:41:54] <soundarya> Yeah i'll tell you
+[21:41:55] <Salman_> Say I change the content of the NITK website
+[21:42:03] <Salman_> And forget to delete the log files
+[21:42:12] <Salman_> Which show my presence over there
+[21:42:17] <vishakh_> lol
+[21:42:29] <soundarya> Your routers are the distinguishers. They differentiate you from me, even if we both have the same private IPs
+[21:42:31] <Salman_> I believe they are called digital finger-prints
+[21:42:48] <Salman_> And what if its the same router
+[21:42:55] <Salman_> Say the IT department router
+[21:43:04] <Salman_> Or the ATB Router
+[21:43:11] <soundarya> If its the same router. You cannot possible have two comps with the same IP :P
+[21:43:34] <soundarya> Wait. What are you trying to do? :P
+[21:43:35] <Salman_> But u just said that private IPs can be same
+[21:43:51] <Salman_> And if its the samae network the public IPs will be same as well
+[21:43:58] <Salman_> Not getting caught :p
+[21:43:58] <soundarya> But not within the same network :P
+[21:44:04] <Salman_> Nothing I promise you
+[21:44:08] <soundarya> lol.
+[21:44:17] <vilas> for a same network, private IPs cant be same right :P 
+[21:44:28] <soundarya> See, within the same subnetwork private IPs cannot be the same
+[21:44:32] <Salman_> But private IPs don't change right
+[21:44:39] <Salman_> ?
+[21:44:45] <soundarya> They are dynamic too :)
+[21:44:57] <Salman_> Oho !!!!
+[21:45:08] <Salman_> There go my hacking plans :p
+[21:45:12] <Salman_> Okay got it...
+[21:45:18] <soundarya> So can I go ahead? @Salman :)
+[21:45:18] <Salman_> You can move on...
+[21:45:21] <vilas> Hacking the ATB router :P :P 
+[21:45:30] <vilas> continue :)
+[21:45:32] <soundarya> Lol. Good luck with that. :P
+[21:45:48] <soundarya> Okay shit so where was !?
+[21:45:50] <natasha_> the router assigns ips to the devices in the network and they will assign diff addresses for all
+[21:46:00] <natasha_> just clarifying :P
+[21:46:39] <soundarya> So the packet now has headers from both the transport layer and network layer
+[21:46:46] <soundarya> Now the next one-
+[21:46:56] <soundarya> Layer 2- Data link layer
+[21:47:33] <soundarya> Network layer basically made connections between networks, But layer 2 makes connections with the same network.
+[21:47:51] <soundarya> LAN technologies like Ethernet and all come into picture here
+[21:48:51] <soundarya> This layer uses an other addressing method called MAC Address 
+[21:49:21] <soundarya> This address is basically 6 bytes long, unique to every device. Never repeats unlike IP
+[21:49:42] <soundarya> Every network interface card has a MAC Address
+[21:50:26] <prajwala> MAC stands for Media Access Control
+[21:50:53] <soundarya> This layer also adds headers and trailers to the packet
+[21:51:01] <soundarya> And this layer will be the last one to do so
+[21:51:27] <soundarya> And the last layer- 
+[21:51:40] <soundarya> Is the physical layer
+[21:51:54] <Salman_> Can the MAC address be spoofed?
+[21:52:14] <Salman_> Temporarily maybe??
+[21:52:16] <soundarya> here the packet is converted into 1s and 0s
+[21:52:30] <soundarya> Will be covered in Attacks! Wait for it :P
+[21:52:35] <Salman_> ok
+[21:53:26] <natasha_> yes mac addresses can be spoofed
+[21:53:28] <soundarya> But digital data cannot be directly transferred over any medium. So they are converted into other forms before being sent on the network
+[21:53:49] <natasha_> @salman you won't be changing the mac address cause that can't happen
+[21:54:04] <soundarya> into electrical signals, radio signals etc
+[21:54:32] <soundarya> Even audio signals were used sometime back 
+[21:54:56] <soundarya> Do you know what that device is called? That device which converts digital to audio signals?
+[21:55:10] <vilas> transducer ? 
+[21:55:34] <soundarya> Nah, thats the general term. more specific?
+[21:55:58] <soundarya> Dial-up modems!
+[21:56:23] <soundarya> I'm pretty sure most you must've had them at home before broadband came in!
+[21:56:45] <soundarya> Nowadays, broadband is used, which converts digital to electrical signals.
+[21:57:08] <soundarya> So that's all about OSI Model
+[21:57:11] <soundarya> Uff.
+[21:57:19] <vilas> xD 
+[21:57:31] <prajwala> haha
+[21:57:35] <soundarya> Okay. Now. I'll give you an example to make things clear
+[21:57:37] <Salman_> Lol can v like take a 5 minute break before moving on
+[21:57:44] <natasha_> haha
+[21:57:44] <vilas> Ya^ :P 
+[21:57:46] <Salman_> Its been like 2 hours
+[21:57:47] <soundarya> No wait!
+[21:57:52] <Salman_> Ok
+[21:57:59] <soundarya> I'll finish example, And then ten mins break :P
+[21:58:05] <Salman_> Ok cool
+[21:58:11] <vilas> Alright :)
+[21:58:25] <soundarya> Okay so now say you want to connect to www.google.com
+[21:58:41] <soundarya> You have an IP of 192.168.1.5
+[21:58:49] <soundarya> and your router has an IP 117.192.104.250
+[21:59:03] <soundarya> So let's start with the application layer
+[21:59:13] <soundarya> you type in that url
+[21:59:38] <soundarya> Let's ignore layer 6 and 5 for now, They are never important for analysis
+[22:00:05] <soundarya> Now this request data is broken down into packets at transport layer
+[22:00:43] <soundarya> Also now to send the packets over the internet, i need the IP of the google server. But I don't have it yet. What to do?
+[22:00:58] <soundarya> This is where DNS servers come into good use
+[22:01:26] <soundarya> They have corresponding IPs for every domain name.
+[22:01:38] <soundarya> So these will help you find the IP of google server.
+[22:01:55] <soundarya> And servers always have public IPs remember
+[22:02:24] <soundarya> So now Layer 3 work done
+[22:03:12] <soundarya> And then Data link layer addresses are added to the packet
+[22:03:17] <soundarya> and now sent to layer 1
+[22:03:41] <soundarya> here the packet travels along the network and reaches the server, say
+[22:03:48] <soundarya> I'll come to the routers part later
+[22:04:10] <soundarya> Now at the server's end, it's bottom up.
+[22:04:17] <soundarya> Starts with layer 1
+[22:04:23] <soundarya> Packet received
+[22:05:24] <soundarya> Layer 2- checks for dest MAC address. It checks if they match. In that case, all layer 2 headers are stripped away and now packet is sent to layer 2
+[22:05:30] <soundarya> *3
+[22:06:03] <soundarya> And now at layer 3, destination  IP is checked. If its the same, then that too in stripped away, and sent to Layer 4
+[22:06:32] <soundarya> At layer 4, the packets are reassembled.
+[22:06:58] <soundarya> Observe that complimentary processes happen at the sender's and receiver's ends
+[22:07:38] <soundarya> Now it is passed to the web application which is hosting the google site
+[22:07:41] <soundarya> at layer 7
+[22:08:13] <soundarya> The server then sends an ack file to the client saying the packet is received
+[22:08:30] <soundarya> Followed by the data it requested for.
+[22:09:21] <soundarya> But now the biggest question is, how did the server contact the client?
+[22:09:45] <soundarya> because the dest IP would have been a Private IP and there is no way the server can reach that
+[22:09:55] <soundarya> This is where the router plays a trick
+[22:10:34] <soundarya> When the client sends its request, it first reaches the router to which it is connected. 
+[22:11:04] <soundarya> At that time, the router changes the source IP in the packet to its own IP i.e the public IP
+[22:11:35] <soundarya> It also maintains a table where it keeps track of which node in it's network requested for what.
+[22:11:56] <soundarya> So now when the google server responds back, it will now respond to this router.
+[22:12:35] <soundarya> Now this router will refer to this table and know which computer requested for it. So it will comfortably forward the packet!
+[22:12:51] <soundarya> Hurray! 
+[22:13:02] <soundarya> Done! :D
+[22:13:13] <vilas> :P lol
+[22:13:15] <Salman_> Woah .....
+[22:13:27] <natasha_> I think they understood it really really well :P
+[22:13:35] <prajwala> yeah! :P
+[22:13:38] <vilas> Yup.. :D 
+[22:13:39] <soundarya> And this table is called NAT forwarding table 
+[22:13:43] <Salman_> That was a lot of information btw....
+[22:13:45] <soundarya> Okay cool! :)
+[22:14:08] <soundarya> You can ping me if you have any doubts later or now.
+[22:14:16] <natasha_> you guys want break now :P ?
+[22:14:24] <soundarya> Should have dinner now :P Will be back in a while 
+[22:14:25] <natasha_> or ready to sit for another 20 mins?
+[22:14:30] <vilas> yes :p 10 mins , will have dinner and come back
+[22:14:39] <prajwala> yeah yeah sure!
+[22:14:40] <Salman_> Yes please else nothing will go in 
+[22:14:42] <natasha_> haha ok
+[22:14:47] <soundarya> lol
+[22:15:17] <natasha_> just ping us when you guys are ready
+[22:15:26] <vilas> alright :) brb... 
+[22:15:27] <natasha_> and come fast so that we finish it bfore 11 :P
+[22:15:34] <vinayb> session has been great so far :)
+[22:15:37] <vilas> Haha yea :P 
+[22:15:51] <natasha_> haha great!
+[22:15:59] <kbhat> I'll second that. Good work guys!
+[22:16:21] <Salman_> Yeah truly thank you for taking time off your vacations...
+[22:25:49] <Salman_> Yeah ready when you are ...
+[22:26:16] <natasha_> we'll continue? anyone else gonna join?
+[22:26:29] <natasha_> i think vilas is coming back?
+[22:26:52] <natasha_> ok we'll continue now?
+[22:27:01] <soundarya> Yes :)
+[22:27:01] <Salman_> yup
+[22:27:12] <vilas> yup
+[22:27:20] <natasha_> prajwala you are up :P
+[22:27:24] <prajwala> okay
+[22:28:01] <prajwala> before natasha continues with attacks, lets go a little into network hardware
+[22:28:17] <prajwala> namely hubs,switches and routers
+[22:29:07] <prajwala> well, hubs, switches and routers are all devices that let you connect one or more devices to other computers, networked devices or could be even other networks
+[22:29:39] <prajwala> each of them has one or more ports which are used to make physical connections
+[22:29:49] <prajwala> now lets learn abt hubs
+[22:30:08] <prajwala> these are devices with RJ45 ports
+[22:30:36] <prajwala> RJ stands for Registered Jack and these are ports used in networking hardware basically
+[22:31:12] <prajwala> hubs can range from 4 port to 48 port
+[22:31:31] <prajwala> but the main disadvatage is they generate a lot of unneccessary traffic
+[22:31:40] <prajwala> i'll tell you why
+[22:32:03] <prajwala> they are repeating devices that operate on layer 1 of OSI model
+[22:32:38] <prajwala> so, since they are repeating, they send data packets from one port to every other port on the hub
+[22:33:04] <prajwala> for example, consider a 4 port hub
+[22:33:44] <prajwala> if you need to send data from port 2 to port 4, hub sends data from port 2 to every other device
+[22:34:21] <prajwala> as soundary mentioned earlier, every device has something called MAC address
+[22:34:58] <prajwala> so using these, ports 1,3 decide that the packet is not meant for them and they discard the packet
+[22:35:19] <prajwala> this is what causes unnecessary communication 
+[22:36:07] <prajwala> but hubs make it useful for connecting packet sniffers on a network, you can read about how to connect a packet sniffer later :P
+[22:36:17] <prajwala> clear right?
+[22:36:22] <vilas> yup
+[22:36:39] <prajwala> okay moving on to switches
+[22:37:02] <prajwala> switches are a better alternative to hubs
+[22:37:46] <prajwala> instead of broadcasting the data packets to every other port, switches send data to only intended computers or devices
+[22:37:57] <prajwala> they make use of MAC addresses
+[22:38:14] <prajwala> and they operate on data link layer of OSI model
+[22:38:20] <prajwala> ie: layer 2
+[22:38:32] <prajwala> and switches are full -duplex
+[22:38:52] <prajwala> which means they can send and receive data at the same time
+[22:39:03] <prajwala> whereas hubs are half duplex
+[22:39:19] <prajwala> they can send or receive but not both at the same time
+[22:39:30] <prajwala> thus, switches are used to reduce traffic
+[22:40:00] <prajwala> moving on to routers
+[22:40:28] <prajwala> like soundarya mentioned, they are used to forward packets between two or more networks
+[22:40:47] <prajwala> abd they use IP addresses as you know to uniquely identify devices
+[22:41:21] <prajwala> they operate at the network layer, ie: layer 3 of the osi model
+[22:41:27] <prajwala> and*
+[22:42:13] <prajwala> and modern routers have switches in-built generally
+[22:42:25] <prajwala> if you were wondering where these are :P
+[22:42:45] <prajwala> so yeah, that's it about network hardware
+[22:42:52] <prajwala> any doubts?
+[22:42:58] <vilas> nope
+[22:43:17] <Salman_> no....
+[22:43:28] <prajwala> ok, natasha, you can start off with attacks :)
+[22:43:37] <natasha_> ok ready to spend 15 mins more? we'll be doing network attacks and its pretty self explanatory
+[22:43:42] <natasha_> :P
+[22:43:55] <vilas> ready :D 
+[22:43:59] <natasha_> did you guys see that link to a doc i sent?
+[22:44:12] <natasha_> its pretty much what i'll be doing
+[22:44:39] <natasha_> https://drive.google.com/file/d/0Bw_-b0ljJuyZQjNhdldHTkRFaWM/view?usp=sharing
+[22:44:48] <natasha_> ok this is the link just in case
+[22:45:13] <natasha_> we'll look into phising and spoofing attacks as
+[22:45:25] <natasha_> ignore the 'as' :P
+[22:45:31] <natasha_> ready?
+[22:45:42] <vilas> yea
+[22:45:53] <natasha_> ok cool
+[22:46:23] <natasha_> so basically there are two types of attacks in general
+[22:46:26] <natasha_> passive
+[22:46:29] <natasha_> and active
+[22:46:48] <natasha_> in passive attack you are acting as the spy in a network
+[22:46:57] <natasha_> here by you i mean the attacker
+[22:46:58] <natasha_> :P
+[22:47:26] <natasha_> so you are monitoring everything that goes on in the network and are collecting data
+[22:47:58] <natasha_> but you don't actively participate. as in you don't make any changes and make your presence felt in the network
+[22:48:22] <Salman_> Is it like the passive recon addon which v have on Mozilla ...... ?
+[22:48:28] <natasha_> but in active attack, you modify data,reroute packets, add virus or trojans
+[22:49:16] <natasha_> what does the addon do exactly?
+[22:50:21] <Salman_> Gves information
+[22:50:25] <Salman_> Server details
+[22:50:47] <natasha_> yeah you could put it into this category
+[22:51:08] <Salman_> Ip of the website and so on...
+[22:51:19] <prajwala> @ salman, yes, coz you collect info without the target knowing
+[22:51:27] <natasha_> they are just terms given : one is when you don't make any changes,just sit and watch
+[22:51:35] <Salman_> yeah okay...
+[22:51:41] <natasha_> and the other is when you modify data
+[22:51:47] <natasha_> clear now?
+[22:52:04] <Salman_> So is it like a grey hat hacker and a black hat hacker
+[22:52:25] <Salman_> One uses passive and the other uses active
+[22:52:46] <natasha_> yeah sure
+[22:52:52] <Salman_> ok
+[22:52:58] <Salman_> continue please...
+[22:53:26] <natasha_> ok so those two are the major categories into which you can divide attacks
+[22:53:37] <natasha_> lets look at spoofing
+[22:53:50] <natasha_> you had asked earlier abt mac address spoofing right?
+[22:54:02] <Salman_> yup....
+[22:54:08] <natasha_> mac addresses are hardwired into the nic on manufacture
+[22:54:18] <natasha_> so you can't change them as such
+[22:54:47] <natasha_> but you have tools which can make your os believe that the mac address on the nic is one of your liking
+[22:55:00] <natasha_> so mac address spoofing is possible
+[22:55:14] <natasha_> you guys understand what spoofing is right?
+[22:55:33] <natasha_> i think the doc gives you an idea
+[22:56:03] <vilas> yea
+[22:56:09] <natasha_> ok so
+[22:56:12] <Salman_> Basicallyyup
+[22:56:16] <Salman_> yup*
+[22:56:35] <natasha_> ip address spoofing is when you mimick an ip address of your choice
+[22:56:57] <natasha_> like you have seen earlier, packets have two addresses : source and destination ip address
+[22:57:24] <natasha_> now i can send a packet with a spoofed ip source address to some destination
+[22:57:33] <natasha_> thats spoofing
+[22:57:47] <natasha_> now you may ask what's the point of doing that?
+[22:57:51] <natasha_> well basically
+[22:58:13] <natasha_> say you have a network which uses ip address authentication
+[22:58:32] <natasha_> that is it checks your identity based on ip address
+[22:59:13] <natasha_> so what i as an attacker can do is spoof an address that is considered as trusted by the network and send my packet through the network
+[22:59:53] <natasha_> the net checks for the source address....sees that 'yeah i can trust this packet' and accepts it
+[23:00:16] <natasha_> voila ! you just sent your data into a network where you are not ideally welcome :P
+[23:00:23] <natasha_> got it?
+[23:00:30] <vilas> yup
+[23:00:41] <Salman_> Does it have to with the cache memory.....
+[23:00:59] <natasha_> where does cache come in here?
+[23:01:19] <Salman_> No then how do u know which ip does the network trust
+[23:01:40] <natasha_> no see you set up the network with trusted entities
+[23:02:11] <natasha_> like say you live in an apartment and it is known that all the people in the apartment are trusted
+[23:02:17] <Salman_> Okay....
+[23:02:27] <natasha_> there will be mechanisms to keep track of that
+[23:02:51] <natasha_> all computers or devices connected to your network form your trust group
+[23:03:38] <natasha_> now if i from another apartment want to sent something to your apartment network it won't be accepted cause it doesn't recognise me
+[23:04:14] <natasha_> so i'll say i'm sending data from an address in your apt and then its accepted
+[23:04:28] <natasha_> i hope its clear now?
+[23:04:35] <Salman_> Yup :)
+[23:04:42] <natasha_> there will be a record of all trusted devices
+[23:04:45] <natasha_> ok cool
+[23:05:06] <natasha_> now how can you prevent this or reduce damage due to spoofing?
+[23:05:21] <natasha_> easiest  way
+[23:05:50] <natasha_> you don't allow packets coming from outside which have source address of a device within the network
+[23:06:03] <natasha_> you can do the same for outgoing packets
+[23:06:32] <natasha_> so filtering data coming in is ingress filtering
+[23:06:44] <natasha_> and outgoing is egress filtering
+[23:06:46] <natasha_> simple?
+[23:07:10] <Salman_> ya
+[23:07:22] <natasha_> we'll move on to phishing?
+[23:07:32] <vilas> OK 
+[23:07:50] <natasha_> ok so this is interesting
+[23:08:24] <natasha_> how about i tell you that i can get all login info into a particular site?
+[23:08:36] <natasha_> that can be done with phishing
+[23:09:03] <natasha_> basic principle : you create a fake website which is very very very similar to your actual website
+[23:09:27] <natasha_> somehow trick the user into using this website rather than the original
+[23:10:11] <natasha_> so now as the user enters his username and password i have a prgm running in the background which sends all this info into my mail
+[23:10:44] <natasha_> so i get all username and corresponding passwords and i can do anything i want with them :P
+[23:10:48] <natasha_> cool?
+[23:10:57] <Salman_> yup
+[23:10:59] <vilas> yes :) 
+[23:11:15] <natasha_> eg: i make a website www.faceb00k.com instead of www.facebook.com :P
+[23:11:31] <natasha_> people can be easily confused :P
+[23:11:57] <natasha_> ok so last we'll look at man in the middle attack 
+[23:12:04] <natasha_> very simple 
+[23:12:37] <natasha_> basically i have the attacker communicating with a sender reciever pair like they were the other
+[23:12:40] <natasha_> meaning
+[23:13:01] <natasha_> i talk to sender as the reciever and i talk to the reciever as the sender
+[23:13:14] <natasha_> so i can change data being sent
+[23:13:24] <natasha_> i control communication
+[23:14:04] <natasha_> easy?
+[23:14:12] <vilas> yup
+[23:14:39] <Salman_> ya
+[23:14:44] <natasha_> ok i think we can end attacks here. there are many more attacks 
+[23:14:49] <natasha_> you can google them up
+[23:14:58] <natasha_> http://computernetworkingnotes.com/network-security-access-lists-standards-and-extended/types-of-attack.html
+[23:15:05] <natasha_> https://technet.microsoft.com/en-us/library/cc959354.aspx
+[23:15:18] <natasha_> here are two links you can check if interested :)
+[23:15:31] <natasha_> ok guys any doubts!?
+[23:15:38] <natasha_> that'll be all! :)
+[23:15:46] <natasha_> thanks for your time :)
+[23:16:00] <Salman_> Any chance u can explain what is DoS
+[23:16:15] <Salman_> Since we are on this topic
+[23:16:17] <vilas> That was an amazing session :) Very informative... Thanks a lot Prajwala, Soundarya and Natasha :) 
+[23:16:45] <natasha_> DoS is basically denial of service
+[23:17:10] <prajwala> you're welcome!
+[23:17:31] <natasha_> so here you prevent one of the computers from being of any use to the network
+[23:17:49] <natasha_> ip spoofing is used effectively for this
+[23:18:23] <natasha_> what you do is you flood your target computer with a lot of traffic
+[23:18:52] <natasha_> and you don't care abt what the response to the data you are sending is going to be
+[23:19:09] <natasha_> so you keep sending data with different source addresses
+[23:19:17] <natasha_> basically spoofing
+[23:19:33] <Salman_> So I DoS a computer and then use its IP to do whatever I want.....?
+[23:19:50] <Salman_> Oh what is spoofed over here
+[23:19:57] <Salman_> ?
+[23:20:09] <natasha_> see you are trying to increase traffic at your target
+[23:20:34] <natasha_> you spoof your source address so that all data packets go to your target
+[23:21:05] <natasha_> and the target can't filter what it is recieving cause you are using a diff address evry time
+[23:21:22] <natasha_> got it?
+[23:22:10] <Salman_> yesss
+[23:22:31] <Salman_> DDoS?
+[23:22:42] <natasha_> you may not be able to directly access the DoS comp
+[23:23:00] <natasha_> but you could inject virus or trojan to take control
+[23:23:33] <Salman_> Okay.....
+[23:24:11] <natasha_> https://www.incapsula.com/ddos/ddos-attacks/denial-of-service.html
+[23:24:21] <natasha_> you could see this link for more info
+[23:24:29] <natasha_> i think we'll wind up :P
+[23:25:05] <natasha_> or look at wiki too
+[23:25:21] <natasha_> its explained in simple terms,easy to understand
+[23:25:29] <Salman_> Yess. thank you for being up till this time....
+[23:25:36] <Salman_> I'll check it 
+[23:25:42] <natasha_> sure! no problem!
+[23:25:53] <soundarya> To learn wireshark- which is a really cool networking tool, you could look up this video--
+[23:26:02] <soundarya>  https://www.youtube.com/watch?v=0bazkLeY6b4
+[23:26:07] <natasha_> yeah do look at it
+[23:26:20] <prajwala> you can contact us if you have doubts- my mail id: prajwala.tm@gmail.com 
+[23:26:21] <soundarya> and https://www.youtube.com/watch?v=ZhEf7e4kopM&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7
+[23:26:35] <soundarya> this has a lot of cool videos! Do check this out :)
+[23:26:40] <natasha_> natasha : natasha.jeppu@gmail.com
+[23:26:47] <soundarya> And thanks guys for co-operating with us :)
+[23:26:49] <chinmay_dd> Okay this was probably one of the best sessions for the program!
+[23:26:58] <natasha_> thanks!
+[23:27:08] <soundarya> soundaryaramesh96@gmail.com :)
