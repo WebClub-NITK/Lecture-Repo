@@ -1,0 +1,275 @@
+[20:15:42] <ashish1294> Let's start
+[20:15:45] <vadi> ok
+[20:16:53] <vadi> So game theory is basically applying math to different real life scenarios and analysing the pros and cons  
+[20:17:38] <vadi> it is mostly used in economics, political science and sometimes in biology for analysis of brain etc
+[20:18:25] <vadi> it usually has cases where the decisions an individual makes affects all the players
+[20:18:37] <vadi> lets start with a small game :P
+[20:19:00] <vadi> so all of you should think of a number between 1 and 100
+[20:19:26] <vadi> and the winner will be the one whose number is closest to 2/3 the average of all the numbers 
+[20:19:43] <vadi> got the game?
+[20:20:19] <anand16> yes
+[20:20:21] <subbu_> yeah
+[20:20:38] <vadi> ok so you made your choices?
+[20:21:22] <ajithps> yep
+[20:21:36] <vadi> try to arrive at a number logically
+[20:21:44] <vadi> ok so type your numbers :P
+[20:21:57] <vadi> along with your logic
+[20:22:14] <ajithps> maybe pm numbers ? It's unfair :P
+[20:22:21] <vadi> lol ok
+[20:22:31] <vadi> pm me
+[20:23:41] <vadi> got only 2 
+[20:24:46] <ajithps> anand16: aparna mohit_reddy subbu_ ?
+[20:24:53] <subbu_> done
+[20:25:02] <mohit_reddy> i did
+[20:25:04] <aparna> done
+[20:25:36] <vadi> mohit finalized?
+[20:26:32] <vadi> ok avg is 42.5 and number expected is 28
+[20:26:48] <vadi> so anand came closest with 33
+[20:27:22] <vadi> so the though process should start with guessing the avg
+[20:27:25] <vadi> thought *
+[20:27:39] <vadi> maybe 50 is a good choice
+[20:27:49] <vadi> so 2/3 of 50 would be 33
+[20:28:07] <vadi> but then if you know all ppl would do this then avg may be come 33 :P
+[20:28:15] <vadi> then 2/3 of 33 will be 22
+[20:28:33] <vadi> so eventually 0 might be the best choice and all win XD
+[20:28:57] <vadi> so this is called reaching an equillibrium state
+[20:29:14] <vadi> not all games will have this
+[20:29:42] <vadi> ok so any game theory problem can be reduced to a matrix
+[20:30:50] <vadi> if there are n players and m choices there will be a m^n matrix
+[20:31:10] <vadi> lets take a famous problem called prisoners dilemma
+[20:31:27] <vadi> https://en.wikipedia.org/wiki/Prisoner%27s_dilemma
+[20:31:50] <vadi> you can see the table shown
+[20:32:26] <vadi> so the matrix will have the result of decisions while the row and columns will have the possible decisions
+[20:32:49] <vadi> here the problem is there are 2 prisoners caught
+[20:33:03] <vadi> and they have 2 possible decisions
+[20:33:45] <vadi> one is to confess about the other prisoner and other is to be silent
+[20:34:06] <vadi> if both are silent they serve 1 year each
+[20:34:44] <vadi> if either one confesses and the other is silent the one confessing is set free and the other is given 3 yrs imprisonment 
+[20:35:02] <vadi> and if both confess on each other both get 2 years 
+[20:35:30] <vadi> this is something like that ship scene in  the dark knight :P 
+[20:36:02] <Salman_> Lol
+[20:36:09] <vadi> this scenario is something called nash equllibrium
+[20:36:55] <vadi> you make a decision independent of the other players, Knowing their choices. But your choice alone cant change the outcome
+[20:37:20] <vadi> this state is called nash equillibrium ( beautiful mind :P)
+[20:38:06] <vadi> so the best case of a prisoner is to confess as there is a chance that he may be let out
+[20:38:29] <vadi> but there is a catch that if both confess its worse that both remain silent 
+[20:38:49] <Salman_> But won't we assume that both will act in their self-interest?
+[20:38:55] <vadi> so such problems are very hard to analyse
+[20:39:05] <Salman_> And hence both will confess?
+[20:39:19] <vadi> yeah 
+[20:39:30] <vadi> but in dark knight that didn't happen :P
+[20:39:54] <vadi> ideally if both are smart i guess both will go to prison for 2 years
+[20:41:02] <vadi> this was about non deterministic outcomes where after modelling we get a clear picture and we can take the one with least risk or be greedy and take the one with most profit
+[20:41:31] <vadi> such analysis is done in companies where they want to beat the competitor
+[20:41:49] <vadi> pepsi and coke do lot of such analysis about how to market
+[20:42:36] <vadi> so now lets discuss some problems that can be solved definatively 
+[20:42:56] <vadi> in such problems we have 2 states
+[20:43:19] <vadi> a losing state or winning state there is no other outcome if the game is played optimally
+[20:43:57] <vadi> the most popular deterministic game is the nim game
+[20:44:10] <vadi> we will get to that next
+[20:44:23] <vadi> lets see a smaller version of nim
+[20:44:35] <vadi> lets say we have a pile with n stones
+[20:44:56] <vadi> and in a turn we are allowed to remove only 1,3 or 4 stones 
+[20:45:01] <vadi> its a  player game
+[20:45:22] <vadi> and the 2 switch turns and the person to take the last stone wins
+[20:45:43] <vadi> we can see that for all n either A wins or B
+[20:45:52] <vadi> say n = 1,3,4 
+[20:46:03] <vadi> the player who makes the first move wins
+[20:46:07] <Salman_> Obvio... yeah
+[20:46:18] <vadi> XD ok
+[20:46:28] <vadi> so n=2 the 2nd player wins and so on
+[20:46:58] <vadi> if from n if all n-1 , n-3 or n-4 is a losing state then n is a winning state
+[20:47:23] <vadi> all following ?
+[20:47:28] <mohit_reddy> yeah
+[20:47:30] <aparna> yea
+[20:47:35] <anand16> yes
+[20:47:37] <subbu_> ya ya
+[20:47:43] <vadi> ok so lets get to nim game
+[20:47:54] <vadi> this is very interesting 
+[20:48:16] <vadi> so you have n piles with a a1,a2,...an number of stones
+[20:48:58] <vadi> and in a turn you have to pick a pile then pick any number of stones from that pile  >= 1 and remove it
+[20:49:08] <vadi> the player who removes the last stone wins
+[20:49:29] <vadi> got the question?
+[20:49:32] <vadi> any ideas?
+[20:49:39] <anand16> yes
+[20:49:45] <subbu_> yes
+[20:49:51] <mohit_reddy> yeah
+[20:50:40] <Salman_> yup
+[20:50:52] <vadi> again we can prove that a position is either winning or losing
+[20:52:34] <Salman_> Can u give an example?
+[20:52:53] <Salman_> To prove a position is winning or losing
+[20:53:53] <vadi> ok so lets take 2,2
+[20:54:14] <vadi> this is losing 
+[20:54:24] <vadi> as any move i make ill go to a losing state
+[20:54:54] <Salman_> How?
+[20:55:25] <vadi> so i have 4 choices 1,2 | 0,2 | 1,2 | 2,0 ? 
+[20:55:57] <vadi> 0,2 | 2,0 the other player makes it 0,0 and wins 
+[20:56:12] <vadi> 1,2 | 2,1 the other player makes it 1,1 
+[20:56:17] <vadi> then i make it 1,0 then i lose
+[20:56:45] <vadi> so the proof is hard to think of but its nice to understand
+[20:56:57] <vadi> It is a losing position for the player whose turn it is, if and only if n1 xor n2 xor .. xor nk = 0.
+[20:57:17] <vadi> i hope all know xor here
+[20:57:36] <Salman_> ya
+[20:57:48] <vadi> ok can someone prove why this is so? :P
+[20:59:37] <vadi> for any equation to determine a losing state , from that state we must go only to winning states
+[21:00:01] <vadi> for any equation to determine a winning state , from that state we must go atleast 1 losing state
+[21:00:31] <vadi> if both these criteria are met then that equation is correct
+[21:00:47] <Salman_> Is it because if you change any one term in XOR u change the final answer
+[21:01:20] <vadi> what ans are you refering to?
+[21:01:38] <Salman_> As to why it will be zero
+[21:02:01] <vadi> i didnt get you
+[21:02:24] <Salman_> No no sorry wrong logic.....
+[21:02:33] <Salman_> Continue please.....
+[21:02:58] <vadi> ok so do you agree that a equation determines a state if it satisfies the 2 conditions?
+[21:03:23] <Salman_> I idn't get why it has to go to one losing state
+[21:03:36] <Salman_> atleast 1*
+[21:03:48] <vadi> if it can go to atleast 1 losing state then i will prefer that path
+[21:04:09] <vadi> i dont care if the rest are still winning
+[21:04:16] <vadi> for eg take the previous eg
+[21:04:21] <vadi> of removing 1,3,4
+[21:04:42] <vadi> if n=5
+[21:05:07] <vadi> next move leads to n=4/2/1
+[21:05:20] <vadi> n=1 and n=4 is winning but n=2 is losing 
+[21:05:42] <vadi> n=5 is winning as i has atlest 1 losing 
+[21:05:43] <Salman_> Yes ......
+[21:06:08] <vadi> so i need only 1 losing state to go to not all must be losing
+[21:06:40] <vadi> got it?
+[21:06:43] <mohit_reddy> yeah correct
+[21:06:50] <Salman_> yup....
+[21:07:16] <vadi> ok so do you agree that if the 2 statements hold then that equation determines a state
+[21:07:18] <vadi> ?
+[21:07:41] <vadi> from a losing state we must go only to winning states
+[21:07:43] <Salman_> yup agreed
+[21:07:51] <mohit_reddy> yeah
+[21:07:58] <vadi> ok
+[21:08:23] <vadi> so its enough for us to tell that the xor equation holds if it satisfies the 2  conditions?
+[21:09:04] <vadi> this is a little tricky
+[21:09:47] <vadi> any random equation determines the state of a problem if these 2 conditions are met
+[21:09:57] <vadi> that is if the equation tell that a state is winning 
+[21:10:16] <vadi> after any move it must go only to losing states
+[21:10:59] <vadi> go to atleast 1 losing sorry
+[21:11:19] <vadi> or if the eqn tells that a state is losing it must only go to winning states
+[21:11:40] <vadi> so lets try to verify the eqn of the nim game
+[21:12:01] <vadi> n1 ^ n2 ^ n3 ... nm = 0 
+[21:12:08] <vadi> ^  - > (xor)
+[21:12:30] <Salman_> This is a losing state ryt?
+[21:12:33] <vadi> let the state be losing
+[21:12:38] <Salman_> Ohkay
+[21:12:59] <vadi> so we must prove that we go only to winning states from here
+[21:13:23] <vadi> so what move can we make 
+[21:13:35] <vadi> chose a pile and remove k>=1 stones from it  
+[21:14:01] <vadi> so definately xor which was zero will not be zero after the move?
+[21:14:19] <vadi> as some bits in one number has been changed
+[21:14:20] <mohit_reddy> yeah
+[21:14:26] <Salman_> So basically change any one of the'n's ryt?
+[21:14:32] <vadi> yeah
+[21:14:38] <vadi> so we move only to winning states?
+[21:14:49] <vadi> as a winning state is when xor is not 0
+[21:14:58] <Salman_> Yes because then the xor will not be equal to zero
+[21:15:01] <vadi> so first part is done
+[21:15:11] <vadi> now consider a winning state
+[21:15:28] <vadi> all n1 ^ n2 ^ n3 ...^ nm ! =0
+[21:15:51] <vadi> now can we reach a losing state from here?
+[21:16:49] <vadi> any approaches?
+[21:17:22] <mohit_reddy> yeah
+[21:18:11] <mohit_reddy> we can check for the ith bit for all the numbers. we have to change odd numbers to even number of 1 bits.
+[21:19:02] <vadi> no you have only 1 operation
+[21:19:11] <vadi> you can only reduce 1 number
+[21:19:35] <Salman_> Change the leftmost to an odd
+[21:19:50] <Salman_> Even*
+[21:20:19] <vadi> say the xor is not 0 it is 100101
+[21:20:29] <vadi> how will you make it 0
+[21:21:56] <vadi> as we can only reduce a number we need to find a number which has the 6th bit as 1
+[21:22:39] <vadi> then remaining ones in the answer can be changed from 1to0 or 0to1  to make the final ans 0
+[21:23:20] <vadi> say there were 3 numbers 
+[21:23:24] <vadi> 000101
+[21:23:29] <vadi> 111000
+[21:23:37] <vadi> 011000
+[21:24:06] <vadi> now we choose the 2nd number and set the 6th bit to 0 and modify the rest to make xor 0
+[21:24:20] <vadi> so 2nd number will become 011101
+[21:24:30] <vadi> 011101 < 111000
+[21:24:36] <vadi> and xor is now 0
+[21:25:01] <vadi> so we can reach a losing postion as told by the eqn from any winning position 
+[21:25:11] <vadi> so the algo is correct 
+[21:25:36] <vadi> though i don't know how they thought of the eqn
+[21:25:53] <vadi> understood?
+[21:25:57] <subbu_> yup
+[21:26:49] <anand16> yes
+[21:26:49] <vadi> rest?
+[21:26:54] <aparna> yea
+[21:27:18] <mohit_reddy> yeah
+[21:27:51] <vadi> ok so here is a nice question maybe you have heard it before
+[21:28:06] <vadi> you have a pile of n numbers from 1 to n
+[21:28:46] <vadi> 2 players and each player in a turn chooses a number and removes all divisors of that number including that number
+[21:29:01] <vadi> the player to make the last move wins 
+[21:29:22] <vadi> say n=5
+[21:29:31] <vadi> you have 1,2,3,4,5 and you choose 4
+[21:29:39] <vadi> the pile becomes 3,5
+[21:29:46] <vadi> so who will win?
+[21:29:56] <vadi> and for what n
+[21:30:22] <sachin__> first 
+[21:30:25] <sachin__> player
+[21:30:30] <vadi> why?
+[21:31:06] <sachin__> second will remove either 3 0r 5
+[21:31:17] <vadi> no ok for this n first wins 
+[21:31:21] <sachin__> then first will remove the last no
+[21:31:24] <vadi> in gemeral?
+[21:31:28] <vadi> general?
+[21:31:54] <vadi> for n=5 and first move as 4 first person wins 
+[21:32:37] <vadi> any ideas?
+[21:34:23] <vadi> ok so ill tell?
+[21:34:32] <sachin__> yea
+[21:34:39] <vadi> ok lets consider n
+[21:35:01] <vadi> say i reach winning states if i choose any number from 2 to n
+[21:35:10] <vadi> then i will choose 1
+[21:35:27] <vadi> as 1 will be gone after 1st move anyway as 1 divides anything
+[21:35:40] <sachin__> yea
+[21:35:51] <vadi> if there is a losing state by removing a number from 2-n i will go to that
+[21:35:59] <vadi> so first player always wins :P
+[21:36:16] <vadi> got it?
+[21:36:26] <subbu_> no
+[21:36:51] <vadi> if i choose 1 then the 2nd player will have 2 to n and removing any one will lead to a winning state
+[21:36:53] <mohit_reddy> yeah
+[21:37:26] <vadi> so basically i skip a turn if i choose 1 in my first move
+[21:37:49] <subbu_> hmm ok
+[21:37:53] <vadi> as 1 is gone anyway if i choose any other number so its as if im transfering the first turn 
+[21:38:28] <vadi> so if i cant win by choosing 2-n i transfer or i take a path
+[21:39:02] <vadi> lets do one more
+[21:39:30] <vadi> In a turn, a player can subtract from N any proper divisor (not equal to N) of N. The person who cannot make a move in his/her turn loses the game
+[21:40:18] <vadi> same question who wins and for what N
+[21:42:01] <vadi> any ideas?
+[21:43:15] <aparna> i guess even N is losing and odd N is winning.
+[21:43:18] <mohit_reddy> yeah somewhat but not sure.
+[21:43:33] <mohit_reddy> odd N the first one wins 
+[21:43:44] <mohit_reddy> even N he losses
+[21:44:18] <vadi> yeah logic?
+[21:45:32] <mohit_reddy> if the number is odd we get odd divisors
+[21:45:42] <mohit_reddy> so the resultant will be even
+[21:46:16] <vadi> ok then
+[21:47:38] <mohit_reddy> not sure, even can give odd or even both
+[21:47:53] <vadi> if the number is even just subtract 1 :P
+[21:48:45] <mohit_reddy> oh ok
+[21:49:35] <vadi> so 
+[21:50:10] <vadi> if its odd i lose as i can only make it odd
+[21:50:42] <vadi> even sorry
+[21:50:57] <vadi> and the even guy makes is odd again bu subtracting 1
+[21:51:02] <vadi> till he get 2 
+[21:51:39] <vadi> then he gives  to the other guy
+[21:51:42] <vadi> 1 
+[21:52:10] <vadi> and the other guy has no moves as 1 dose not have proper divisors 
+[21:52:29] <vadi> so if n is even just reduce by 1
+[21:52:43] <vadi> or if its odd you cant help it XD
+[21:53:01] <vadi> got it?
+[21:53:12] <aparna> yes
+[21:53:31] <anand16> yes
+[21:53:36] <mohit_reddy> yes
+[21:53:52] <sachin__> yes
+[21:54:17] <vadi> ok cool we end the session here :P i have to have dinner
+[21:54:41] <sachin__> sure
+[21:54:51] <vadi> thank you for coming on christmas eve. Merry christmas
+[21:55:18] <mohit_reddy> thank you :)
+[21:55:22] <aparna> haha,same to u :)
+[21:55:39] <vadi> Bye!
+[21:55:42] <ajithps> thank you taking the session vadi. and thanks everyone for attending!
+[21:55:54] <ajithps> Merry Christmas to all you too! :D
+[21:56:38] <anand16> Thanks :)
