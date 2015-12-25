@@ -1,0 +1,377 @@
+[09:42:21] <mohit_reddy> so todays session is not just a theory one. you will learn better if you write down those codes and see the outputs yourself.
+[09:44:01] <kbhat> Salman_, knowing Ruby will let you pick up Python faster. Of course, the whole world is divided into Python and Ruby camps; you'll have to decide for yourself. :)
+[09:44:29] <mohit_reddy> ok python is an object oriented programming language.
+[09:44:33] <mohit_reddy> so basics of python 
+[09:45:42] <mohit_reddy> output and input :
+[09:46:07] <mohit_reddy> for printing out a text or any integer , use print var_name
+[09:46:23] <mohit_reddy> say you want to print 10 or mohit or 12.5
+[09:46:38] <mohit_reddy> just use print 10 , print "mohit" , print 12.5
+[09:47:03] <mohit_reddy> and for taking an input use : raw_input("")
+[09:47:17] <mohit_reddy> saw you want to take an integer as an input 
+[09:47:37] <mohit_reddy> and you want to show the message , enter a number of your choice as the text : 
+[09:47:40] <mohit_reddy> use 
+[09:47:57] <mohit_reddy> x=int(raw_input("Enter a number of your choice"))
+[09:49:32] <mohit_reddy> we use int() here because raw_input always takes the input as a string 
+[09:49:46] <mohit_reddy> so explicit type casting as we required an integer.
+[09:49:50] <mohit_reddy> comments : 
+[09:50:00] *** Joins: pypal (75c87c05@gateway/web/freenode/ip.117.200.124.5)
+[09:51:32] <mohit_reddy> single line comments : #
+[09:51:42] <mohit_reddy> any thing after a '#' will be a comment .
+[09:51:50] <mohit_reddy> multiple line comments :
+[09:52:02] <mohit_reddy> '''  ...
+[09:52:03] <mohit_reddy> '''
+[09:52:27] <pypal> Ah. i thought they wee explicitly used for doc strings
+[09:52:28] <mohit_reddy> anything between '''  and  ''' will be ignored by the compiler.
+[09:52:39] <pypal> were*
+[09:53:02] *** Joins: Gotu (40e9ad03@gateway/web/freenode/ip.64.233.173.3)
+[09:53:08] <mohit_reddy> operators : same as c or c++, 
+[09:53:13] <mohit_reddy> print 3+4
+[09:53:18] *** Quits: pypal (75c87c05@gateway/web/freenode/ip.117.200.124.5) (Client Quit)
+[09:53:21] <mohit_reddy> will print the result 7 
+[09:53:42] <mohit_reddy> print 3*4
+[09:53:43] <mohit_reddy> 12
+[09:53:47] <mohit_reddy> print 3-4
+[09:53:48] <mohit_reddy> -1
+[09:53:52] *** Joins: ksk_ (75c87c05@gateway/web/freenode/ip.117.200.124.5)
+[09:53:59] <mohit_reddy> print 3%4
+[09:53:59] <mohit_reddy> 3
+[09:54:08] <mohit_reddy>  it is the modulus function
+[09:54:55] <mohit_reddy> print 3**4
+[09:55:03] <mohit_reddy> same as pow(3,4)
+[09:55:04] <mohit_reddy> 81
+[09:55:14] <mohit_reddy> print 3/4 
+[09:55:15] <mohit_reddy> 0
+[09:55:47] <mohit_reddy> print 3.0/4
+[09:55:51] <mohit_reddy> will give 0.75
+[09:56:47] <mohit_reddy> when we use print "   " , it prints the text inside it and next print statement will print the new text in the new line
+[09:57:33] <mohit_reddy> to print them in the same line you can use , operator
+[09:57:40] <mohit_reddy> like x="NITK" 
+[09:57:45] <mohit_reddy> y="WEBCLUB"
+[09:57:48] <mohit_reddy> print x,y 
+[09:57:56] <mohit_reddy> will print NITK WEBCLUB
+[09:58:01] <mohit_reddy> where as
+[09:58:03] <mohit_reddy> print x
+[09:58:06] <mohit_reddy> print y 
+[09:58:09] <mohit_reddy> will print 
+[09:58:10] <mohit_reddy> NITK
+[09:58:12] <mohit_reddy> WEBCLUB
+[09:58:18] <mohit_reddy> any doubts till now ?
+[09:58:25] <aditya> no
+[09:58:31] <vilas> no
+[09:59:03] <mohit_reddy> actually python is something which cant be taught in 2 hours. 
+[09:59:11] <mohit_reddy> so i will just tell you guys the basics 
+[09:59:51] <mohit_reddy> operators:
+[10:00:00] <mohit_reddy> arithematic over
+[10:00:27] <mohit_reddy> relational : < , >= , <= ....
+[10:00:30] <mohit_reddy> same as c++/c
+[10:00:35] <mohit_reddy> additional :
+[10:00:44] <mohit_reddy> is and is not
+[10:00:54] <mohit_reddy> suppose you have a list 
+[10:01:42] <mohit_reddy> is : object identity
+[10:01:44] *** Joins: Ucantseeme (40e9ad09@gateway/web/freenode/ip.64.233.173.9)
+[10:01:51] <mohit_reddy> suppose you have a list 
+[10:01:56] <mohit_reddy> say y=[1,2,3,4,5]
+[10:02:05] <mohit_reddy> oh sorry i will come to this in a while
+[10:03:38] <mohit_reddy> the data types in python can store very large values
+[10:03:52] <mohit_reddy> to check the ranges you can try this
+[10:04:01] *** Joins: Sheetal (7aace10d@gateway/web/freenode/ip.122.172.225.13)
+[10:04:14] <mohit_reddy> import sys
+[10:04:16] *** Quits: ksk_ (75c87c05@gateway/web/freenode/ip.117.200.124.5) (Ping timeout: 252 seconds)
+[10:04:16] *** Quits: Gotu (40e9ad03@gateway/web/freenode/ip.64.233.173.3) (Ping timeout: 252 seconds)
+[10:04:20] <mohit_reddy> print sys.maxint
+[10:04:33] <mohit_reddy> and you can use the same for the rest of the data types.
+[10:04:35] *** Joins: vinayb (uid134412@gateway/web/irccloud.com/x-wtsjocalmjudclal)
+[10:04:58] <mohit_reddy> so what this kind of helps in competitive programming. suppose you have to deal with large data
+[10:05:02] <mohit_reddy> say more than 10^23
+[10:05:21] <mohit_reddy> you can use python.
+[10:05:33] <mohit_reddy> i started learning python just for that :P
+[10:06:35] <mohit_reddy> i will just discuss about lists
+[10:06:44] <mohit_reddy> there are other data types too
+[10:06:59] <mohit_reddy> you can google them.. like tuples or dictionaries
+[10:08:06] <mohit_reddy> lists are nothing but sequences , and each element of a list is assigned a value and position
+[10:08:30] <mohit_reddy> lists can store anything . unlike array 
+[10:09:00] <mohit_reddy> in arrays , all elements should be of the same data type
+[10:09:22] <mohit_reddy> but in lists : you can store string, int and anything at any position
+[10:09:50] <mohit_reddy> say like list1=[1,"mohit",3,4.5]
+[10:09:58] <mohit_reddy> and the indexing starts from 0
+[10:10:15] <mohit_reddy> and you can access a particular element using its index.
+[10:10:37] <mohit_reddy> suppose you want to print 3
+[10:10:42] <mohit_reddy> so use list1[2]
+[10:11:00] <mohit_reddy> to get the length of the list
+[10:11:25] *** Joins: ksk_ (75c87c05@gateway/web/freenode/ip.117.200.124.5)
+[10:12:13] <mohit_reddy> len(list1)
+[10:13:28] <mohit_reddy> sorry bad network
+[10:13:54] <mohit_reddy> conditional statements :
+[10:14:01] <mohit_reddy> if , else statements:
+[10:14:06] <mohit_reddy> the syntax :
+[10:14:11] <mohit_reddy> if condition :
+[10:14:23] <mohit_reddy>     some operations
+[10:14:29] <mohit_reddy> elif condition :
+[10:14:41] <mohit_reddy>    some operations
+[10:14:44] <mohit_reddy> else :
+[10:14:55] <mohit_reddy>    some operat ions
+[10:14:58] <Salman_> Umm the relational operator for equal to is == or === ???
+[10:15:24] <mohit_reddy> yeah c and c++ a block is can be represented using { } braces
+[10:15:46] *** Joins: anand16_ (~Ananda@106.206.134.37)
+[10:15:48] <mohit_reddy> in python it is indentation
+[10:15:48] *** Quits: ksk_ (75c87c05@gateway/web/freenode/ip.117.200.124.5) (Ping timeout: 252 seconds)
+[10:16:09] <mohit_reddy> suppose the indentation is not proper you may get an error
+[10:16:16] <mohit_reddy> it is == Salman_
+[10:16:22] <Salman_> ty
+[10:16:40] <mohit_reddy> so suppose  if x<12 print less , x==12 , correct and x>12 wrong
+[10:16:48] <mohit_reddy> the syntax will be something like this :
+[10:17:19] <mohit_reddy> if x<12:
+[10:17:19] <mohit_reddy>     print "less"
+[10:17:19] <mohit_reddy> elif x==12:
+[10:17:19] <mohit_reddy>     print "equal"
+[10:17:19] <mohit_reddy> else:
+[10:17:26] *** Quits: anand16 (~Ananda@106.216.138.243) (Ping timeout: 240 seconds)
+[10:17:40] <mohit_reddy>     print "greater"
+[10:17:46] <mohit_reddy> got it ?
+[10:18:29] <Salman_> yup
+[10:18:32] <mohit_reddy> the looping statements : while loop and for loop.
+[10:18:39] <aditya> can we maintain any indentation??
+[10:19:06] *** Quits: vilas (75ca7d69@gateway/web/freenode/ip.117.202.125.105) (Quit: Page closed)
+[10:19:26] <mohit_reddy> for statements in the same block, the indentation should be same.
+[10:20:00] <aditya> ok
+[10:20:26] <mohit_reddy> while loop : syntax : 
+[10:20:30] <mohit_reddy> while condition : 
+[10:20:39] <mohit_reddy>     statements
+[10:21:31] *** Joins: Venkat (40e9ad09@gateway/web/freenode/ip.64.233.173.9)
+[10:22:13] <mohit_reddy> for condition : 
+[10:22:19] <mohit_reddy>    statements 
+[10:22:34] <mohit_reddy> let me make it more clear with this example :
+[10:23:41] <mohit_reddy> using while
+[10:23:52] <mohit_reddy> print first 10 non negative integers
+[10:23:54] <mohit_reddy> x=0
+[10:23:56] <mohit_reddy> while x<10:
+[10:23:59] <mohit_reddy>    print x
+[10:24:03] <mohit_reddy>    x=x+1
+[10:24:09] <mohit_reddy> using for :
+[10:24:29] <mohit_reddy> for x in range(0,10):
+[10:24:32] <mohit_reddy>     print x
+[10:25:00] <mohit_reddy> the statement is for x values in the range [0,10) print x
+[10:25:23] *** Quits: anand16_ (~Ananda@106.206.134.37) (Ping timeout: 264 seconds)
+[10:25:28] <mohit_reddy> so starts from the lower range i.e 0 and go till 9 and print everytime before x changes
+[10:25:31] <mohit_reddy> cool ?
+[10:25:51] <Salman_> It increments automatially?
+[10:26:08] <Salman_> If I wanted to increment by 2 how would I do it
+[10:26:28] <Salman_> Or maybe by and any n < 10 how would I do it?
+[10:26:51] <Salman_> In the for loop?
+[10:27:12] <mohit_reddy> in range(0,10) you can do it only for incrementing it by 1
+[10:27:17] *** Joins: kaushik_ (75c87c05@gateway/web/freenode/ip.117.200.124.5)
+[10:27:31] <Salman_> Ohkay.....
+[10:28:26] *** Joins: anand16 (~Ananda@223.227.36.77)
+[10:28:30] <mohit_reddy> suppose if you want to use for only
+[10:28:40] <kaushik_> if i may add
+[10:28:45] <mohit_reddy> and increment by 2 or anything
+[10:28:48] <mohit_reddy> you can use this
+[10:28:51] <kaushik_> range(0,10,2)
+[10:29:00] <mohit_reddy> arange(low,high,d)
+[10:29:04] <kaushik_> third one is optional 
+[10:29:07] <kaushik_> :)
+[10:29:20] <mohit_reddy> yeah
+[10:29:28] <mohit_reddy> arange is a function in numpy module
+[10:29:51] <Salman_> ok so range (0,10,2) increments by 2?
+[10:30:15] <Salman_> *range(0,10,2):
+[10:31:10] *** Joins: anand16_ (~Ananda@106.216.147.253)
+[10:31:10] <kaushik_> @mohit is numpy in built module ?
+[10:31:11] *** Quits: anand16_ (~Ananda@106.216.147.253) (Read error: Connection reset by peer)
+[10:31:53] <mohit_reddy> sorry again lost connection
+[10:31:55] <mohit_reddy> yeah
+[10:32:19] *** Quits: Ucantseeme (40e9ad09@gateway/web/freenode/ip.64.233.173.9) (Ping timeout: 252 seconds)
+[10:33:19] *** Quits: anand16 (~Ananda@223.227.36.77) (Read error: Connection reset by peer)
+[10:34:16] <mohit_reddy> you can import a module using import module_name
+[10:34:25] <mohit_reddy> say if you want to import numpy 
+[10:34:29] <mohit_reddy> you can do this
+[10:34:32] <mohit_reddy> import numpy
+[10:34:46] <mohit_reddy> but whenever you are using any function under numpy
+[10:34:52] <mohit_reddy> you have to use 
+[10:34:59] <mohit_reddy> numpy.function_name
+[10:35:17] <mohit_reddy> if you dont want to do that ie type such a long module name agaib
+[10:35:19] <Salman_> UMM ... what is numpy @Mohit?
+[10:35:31] <mohit_reddy> numpy is a module in python
+[10:35:56] <mohit_reddy> which supports high level mathematical functions 
+[10:36:11] <mohit_reddy> and high dimensional matrices and vectors
+[10:36:38] <Salman_> Okay...
+[10:36:40] <mohit_reddy> you will see how these modules will help you to make life easier :P
+[10:37:04] <mohit_reddy> yeah so if you dont want to type the module name again before using any of its functions :
+[10:37:09] <mohit_reddy> you can do this
+[10:37:39] <mohit_reddy> import numpy as np
+[10:37:55] <mohit_reddy> now suppose if you want to use arange anywhere
+[10:38:04] <mohit_reddy> you can just do this:
+[10:38:10] <mohit_reddy> np.arange(low,high,d)
+[10:38:19] <mohit_reddy> and not numpy.arange(low,high,d)
+[10:38:33] <mohit_reddy> one more method but sometimes it may give an error
+[10:38:49] <mohit_reddy> is using : from module_name import *
+[10:38:52] <mohit_reddy> say here: 
+[10:38:57] <mohit_reddy> from numpy import *
+[10:39:08] <mohit_reddy> then no need for that np before any of its functions
+[10:39:21] <mohit_reddy> so lets start off with numpy
+[10:40:05] <mohit_reddy> suppose if i want to create a vector or an array
+[10:40:11] <mohit_reddy> we can do this
+[10:40:18] <mohit_reddy> v=array([1,2,3,4])
+[10:40:26] <mohit_reddy> and for a matrix :
+[10:40:39] <mohit_reddy> v=array([ [1,2] , [3,4] ])
+[10:41:08] <mohit_reddy> now suppose you want to check the type and shape of the var
+[10:41:11] <mohit_reddy> you can use this
+[10:41:17] <mohit_reddy> var.shape
+[10:41:34] <mohit_reddy> for the first case here it will show : (4,)
+[10:41:41] <mohit_reddy> it is linear and size 4
+[10:41:52] <mohit_reddy> and for the second case it will show (2,2)
+[10:41:56] <mohit_reddy> its a 2*2 matrix
+[10:42:07] <mohit_reddy> and to check the type of data
+[10:42:12] <mohit_reddy> use type(var)
+[10:42:18] <mohit_reddy> here var is the variable name
+[10:42:41] <mohit_reddy> in both the cases it will show numpy.ndarray
+[10:43:08] <mohit_reddy> and to check the data type of the var you can use : var.dtype
+[10:43:34] <mohit_reddy> suppose you want the matrix as [[1.0,2.0],[3.0,4.0]]
+[10:43:56] <mohit_reddy> we can do this : array([[1,2],[3,4]],dtype=float)
+[10:44:06] <mohit_reddy> her dtype = data type
+[10:44:14] <mohit_reddy> any doubts guys ?
+[10:45:53] <mohit_reddy> okay taking it as a no . next deal with ranges :
+[10:46:01] <mohit_reddy> arange(low,high,d)
+[10:46:14] <mohit_reddy> here the range is [low,high)
+[10:46:22] <mohit_reddy> and the elements differ by d
+[10:47:08] <mohit_reddy> and to include both we use another function : linspace(low,high,number of elements)
+[10:47:26] <mohit_reddy> here the range will be [low,high] -> both are included.
+[10:48:00] <mohit_reddy> there is random function in this : 
+[10:48:11] <mohit_reddy> ramdom.rand(5,5)
+[10:48:33] <mohit_reddy> or generally random.rand(x,y)
+[10:48:56] <mohit_reddy> creates a matrix x*y and the values are random ranging from [0,1].
+[10:49:21] <mohit_reddy> to create a diagonal matrix : function diag is used
+[10:49:34] <mohit_reddy> diag([ the diagonal elements])
+[10:49:58] <mohit_reddy> suppose you wanted to create the same matrix using c++ .
+[10:50:16] <mohit_reddy> it will take atleast 10 lines of code. here just in one line.
+[10:50:36] <mohit_reddy> suppose you want all the element to be zeroes :
+[10:50:41] <mohit_reddy> *zeros
+[10:50:52] <mohit_reddy> we use : zeros((x,y))
+[10:51:06] <mohit_reddy> creates a matrix x*y with all the elements as zeroes
+[10:51:18] <mohit_reddy> and to get all ones : ones((x,y))
+[10:51:24] <mohit_reddy> only for these two : 
+[10:51:42] <mohit_reddy> it same as memset(array_name,value,sizeof(array_name));
+[10:51:44] <mohit_reddy> in c++
+[10:52:05] <mohit_reddy> i use this function alot in my current project on computer vision.
+[10:54:15] <kbhat> Is everyone following along?
+[10:55:16] <aditya> yes
+[10:55:16] <kbhat> aditya, kaushik_, Salman_, Venkat : did you just leave IRC open and leave? :(
+[10:55:17] <mohit_reddy> now that you guys know how to create matrices and access elements in them using loops. 
+[10:55:22] <Salman_> yup....
+[10:55:26] <kbhat> ah good :P
+[10:55:39] <Salman_> Lol no taking notes...
+[10:56:02] <kbhat> wow, awesome
+[10:56:07] <mohit_reddy> just give the syntax how will you do this ? 
+[10:56:17] <mohit_reddy> i want a matrix 4*3 and all ones 
+[10:56:34] <mohit_reddy> and i want to change the diagonal elements to 10
+[10:56:43] <mohit_reddy> ok the matrix be 4*4
+[10:57:41] *** Joins: anand16 (3bb6659f@gateway/web/freenode/ip.59.182.101.159)
+[10:57:49] <mohit_reddy> just a small python code if possible.
+[10:58:09] <Salman_> for x inrange (0,3)
+[10:58:17] <Salman_> for y inrange(0,3)
+[10:58:43] *** Quits: kaushik_ (75c87c05@gateway/web/freenode/ip.117.200.124.5) (Ping timeout: 252 seconds)
+[10:58:43] <Salman_> a[x][y]=1
+[10:58:53] <Salman_> Is it right till here?
+[10:58:58] <Salman_> The syntax?
+[10:59:22] <mohit_reddy> the syntax for for is :  for ... : ( ends with a colon)
+[10:59:46] <mohit_reddy> and range works for [,) it means the upper bound is not included 
+[10:59:59] <aditya> ones((4,4))
+[11:00:00] <Salman_> 0,4 then?
+[11:00:01] <mohit_reddy> so you have to use for x in range(0,4]:
+[11:00:12] <mohit_reddy> yeah.
+[11:00:20] <aditya> for i in range(0,4):
+[11:00:37] <mohit_reddy> aditya made that one line code . good.
+[11:00:43] <mohit_reddy> *range(0,4):
+[11:01:30] <aditya> ones[i][i]=10
+[11:01:45] <mohit_reddy> good (y)
+[11:02:38] <Salman_> Oh that was really fast and small code!!!!
+[11:03:01] <mohit_reddy> yeah thats the cool thing about python
+[11:03:11] <mohit_reddy> now some linear algebra
+[11:03:17] <mohit_reddy> say a array is given
+[11:03:28] <mohit_reddy> and you want to add 2 to every element
+[11:03:43] <mohit_reddy> i c++ you would write a for loop and update
+[11:04:12] *** Quits: Venkat (40e9ad09@gateway/web/freenode/ip.64.233.173.9) (Ping timeout: 252 seconds)
+[11:04:13] <mohit_reddy> magic of python : do arra_name + constant
+[11:04:31] <mohit_reddy> suppose you want to multiply each element by a constant 
+[11:04:37] <mohit_reddy> use array_name*constant
+[11:05:33] <mohit_reddy> and suppose you want the each element of the matrix be given a new value = square of previous one
+[11:05:45] <mohit_reddy> do : array_name*array_name
+[11:05:55] <mohit_reddy> ^ this does element wise multiplication
+[11:06:21] <mohit_reddy> ohk what is the time complexity of matrix multiplication ? 
+[11:06:24] <mohit_reddy> anyone ?
+[11:06:44] <chinmay_dd> n^3?
+[11:07:20] <mohit_reddy> yeah
+[11:07:38] <mohit_reddy> so in c++ we write 3 for loops and get the result.
+[11:07:52] <mohit_reddy> using python : dot(A,B)
+[11:08:00] <mohit_reddy> we get the resultant matrix 
+[11:08:19] <mohit_reddy> number of columns of A = number of rows of B
+[11:08:27] <mohit_reddy> everyone following ?
+[11:08:33] <aditya> yes
+[11:08:41] <Salman_> ya
+[11:09:07] <mohit_reddy> yeah first years please do try all these functions one by one. i will be putting up the links which you can refer at the end of the session
+[11:09:52] <mohit_reddy> there is another type matrix . we were using array data type till now.
+[11:10:11] <mohit_reddy> the syntax is simple 
+[11:10:29] <mohit_reddy> matrix=matrix(A)
+[11:10:50] <mohit_reddy> this is a different data type because it has its own advantages.
+[11:11:06] <mohit_reddy> matrix_name=matrix(A)
+[11:11:17] <mohit_reddy> A could be a ndarray type.
+[11:11:33] <mohit_reddy> to get the transpose of a matrix , just a line of code 
+[11:11:39] <mohit_reddy> so matrix_name.T
+[11:11:41] <mohit_reddy> *do
+[11:12:40] <mohit_reddy> matrix multiplication : M1*M2 , both should be of matrix dtype
+[11:12:52] <mohit_reddy> we can perform linear operations also 
+[11:13:00] <mohit_reddy> like M1*M2 + v also 
+[11:13:23] <mohit_reddy> there is dtype named complex .
+[11:13:31] <mohit_reddy> used to store complex numbers.
+[11:13:38] <Salman_> Woah wait?
+[11:13:48] <mohit_reddy> what happened ?
+[11:13:54] <Salman_> What does M1*M2 +V do?
+[11:14:03] <Salman_> what is v?
+[11:14:19] <mohit_reddy> V is another matrix or n d array of type matrix
+[11:14:25] *** Joins: kapilace6 (25687884@gateway/web/freenode/ip.37.104.120.132)
+[11:14:33] <Salman_> Okay fine....
+[11:14:38] <Salman_> Continue please..
+[11:15:13] <mohit_reddy> let C=matrix([1+1j,2+2j],[3+3j,4+4j])
+[11:15:32] <mohit_reddy> suppose i want to get the conjugate of the matrix :
+[11:15:39] <mohit_reddy> do : conjugate(C)
+[11:16:02] <mohit_reddy> suppose i want to get only the real part of the given matrix :
+[11:16:06] <mohit_reddy> do real(C)
+[11:16:20] <mohit_reddy> for imaginary part of C , do imag(C)
+[11:17:02] <mohit_reddy> suppose i just want the absolute value of each element in the matrix: abs(C)
+[11:17:19] <mohit_reddy> to get the inverse of the matrix : inv(C)
+[11:17:34] <mohit_reddy> to get the determinant of the matrix : det(C)
+[11:18:38] <mohit_reddy> and there are functions for standard deviation , mean, sum variance, trace ,min, max , gaussian means etc 
+[11:18:49] <mohit_reddy> so its a very powerful library.
+[11:19:29] <mohit_reddy> numpy is very useful in data analysis, Machine learning, Computer vision almost everywhere.
+[11:19:44] <mohit_reddy> there is another library : scipy
+[11:20:01] <mohit_reddy> it has almost all scientific functions .
+[11:20:35] <mohit_reddy> another library : matplotlib : used to plot different kinds of graphs/functions. very important library
+[11:20:54] <mohit_reddy> i will be posting the links for each. you can go through them.
+[11:21:57] <mohit_reddy> https://github.com/jrjohansson/scientific-python-lectures
+[11:22:12] <mohit_reddy> you can  go through lectures 1,2,3,4.
+[11:22:58] <mohit_reddy> for any doubts or queries you can contact me : mohitreddy1996@gmail.com
+[11:23:42] <mohit_reddy> i hope you guys now have some idea about python and how powerful it is.
+[11:23:53] <mohit_reddy> that will be all for this session
+[11:23:56] <Salman_> Yup .....
+[11:23:56] <mohit_reddy> any doubts >
+[11:24:08] <aditya> no
+[11:24:17] <Salman_> No I guess....
+[11:24:23] <kbhat> mohit_reddy, thanks for the great intro!
+[11:24:31] <kbhat> 2 hours solo :D
+[11:25:28] <mohit_reddy> good night and thank you all :)
+[11:25:50] <Salman_> Python compiler?
+[11:26:13] *** Parts: mohit_reddy (uid85309@gateway/web/irccloud.com/x-ojpnozqwenkqsiuc) ()
+[11:26:18] <aditya> thank u!!
+[11:26:39] <kbhat> Salman_, Python's an interpreted language. On Linux systems it's usually inbuilt (open terminal, type 'python')
+[11:26:54] <kbhat> On Windows you'll need to jump through a few hoops to get it installed
+[11:27:00] <chinmay_dd> Merry Christmas all and awesome of you to join in today :)
+[11:27:46] <Salman_> What do u write in the end @kbhat
+[11:27:54] <Salman_> Like in c u write helloworld.c
+[11:27:58] <Salman_> ??
+[11:28:01] <chinmay_dd> .py
+[11:28:09] <Salman_> Alright thanx a lot
+[11:28:14] <chinmay_dd> called an extension :)
+[11:28:25] <Salman_> Very well
+[11:28:37] <Salman_> Thanx a lot gn for now :D
+[11:28:53] <chinmay_dd> Good night Salman_ :)
+[11:29:34] *** Quits: aditya (75d8ee4d@gateway/web/freenode/ip.117.216.238.77) (Quit: Page closed)
+[11:29:34] <kbhat> Good night!
