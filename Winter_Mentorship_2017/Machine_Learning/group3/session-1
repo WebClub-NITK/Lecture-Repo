@@ -1,0 +1,414 @@
+U89SV5E85 : <@U89SV5E85> has joined the channel
+
+U88FNP4RE : <@U88FNP4RE> has joined the channel
+
+U896KB3HP : <@U896KB3HP> has joined the channel
+
+U89BENEMB : <@U89BENEMB> has joined the channel
+
+U8ANDHNTY : <@U8ANDHNTY> has joined the channel
+
+U896HPT24 : <@U896HPT24> has joined the channel
+
+U896X0W80 : <@U896X0W80> has joined the channel
+
+U88SM63BL : <@U88SM63BL> has joined the channel
+
+U89591QNN : <@U89591QNN> set the channel purpose: Session 1: Introduction to ML - Moksh Jain(@MJ10)
+
+U89591QNN : ALright
+
+U89591QNN : Good evening everyone
+
+U88E09Q0Z : Good evening
+
+U89591QNN : My name is Salman Shah and I'm one of the mentors here!
+
+U88F3P9CG : good evening!
+
+U89591QNN : I request everyone to start off with their introductions
+
+U88GSUVBK : very good evening
+
+U89591QNN : Please specify name, branch and year
+
+U89591QNN : Salman Shah, 3rd Year IT,
+
+U88GSUVBK : i'm khagapati
+
+U8979KBHT : Praveen Gupta, 2nd yr CSE
+
+U88E09Q0Z : Gauri V. Nair , 1st year, CSE
+
+U89LUMPKM : Nishanth Hebbar, 2nd year IT
+
+U88F3P9CG : Yuvraj Dalia, 1st Year IT
+
+U88GSUVBK : from MCA 1st year
+
+U89BENEMB : Swaraj Mishra, MCA, 1st year
+
+U895AGC00 : Abhishek,1st year , MCA
+
+U89AZV7R8 : Karan Mohadikar , 1st year , MCA
+
+U8A2QMW4E : Srinag 2nd year IT
+
+U896Z7U4V : Sonali Mahayana, MCA 1ST Yr
+
+U88FNP4RE : Adarsh Jha,MCA,1st year
+
+U89TFDG84 : Neeraj, 1st year, IT
+
+U88R2LCCU : Moksh Jain, 2nd Year IT. I'm one of the mentors :slightly_smiling_face:
+
+U899KLSER : Ajit Mujumdar 1st year IT
+
+U88R2LCCU : We'll wait for 5 more minutes for people to join, and then start the session
+
+U88KFEENM : I'm Darshan, 2nd year CSE.
+
+U8ANDHNTY : Anuj ,MCA 1st Year
+
+U88MUQQTD : Anumeha 2nd Year IT. I'm one of the mentors here
+
+U8A7HRNGP : I'm Yash Agarwal 1st year CSE
+
+U88R2LCCU : Before we start with the session, a couple of things: We encourage you to ask any questions you have without hesitation, but please wait till a concept is finished and then we'll ask you if you have any doubts. Please don't ask doubts in between since it becomes difficult to follow for others. And once the session is over, if you feel you're not clear with something, feel free to ask for help from any of the mentors.
+
+U8A1F74T0 : Akash, 2nd year-mining
+
+U89SV5E85 : nihal haneef , 2nd year, CSE
+
+U897CT84V : Hey I m Aditya Varadaraj 2nd year Mech
+
+U88CRKE9W : Chaitany 1st year CSE
+
+U8A7N36J3 : Avinash kumar , MCA 1st yr
+
+U8A92CBCP : Soham Patil. 2 year Cse
+
+U88R2LCCU : Okay, so we'll start with the session now
+
+U88R2LCCU : People joining in later, no need to post your introduction, you can read the messages and continue with the session.
+
+U88R2LCCU : In today's session I'll be briefly Introducing Machine Learning.
+
+U88R2LCCU : So, What is Machine Learning?
+
+U88R2LCCU : Machine Learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.
+
+U88R2LCCU : So, we train a machine to learn how to perform a task, without giving it explicit instructions on how to achieve the said task
+
+U88R2LCCU : For example, if I want to train a computer to recognise a handwritten digit, the naive approach would be to tell it how exactly a '1' looks, how a '2' looks, etc
+
+U88R2LCCU : This would somewhat achieve the required result on some very specific cases but would fail on majority of cases
+
+U88R2LCCU : Also, coding all features for each of the digits would be quite a difficult task.
+
+U88R2LCCU : That's where Machine Learning comes in.
+
+U88R2LCCU : A better approach to the problem would be to give the computer a bunch of images of Handwritten Digits and allow it to learn the 'features' of a particular digit by itself.
+
+U88R2LCCU : An example of these 'features' may be that, the number 8 consists of 2 loops, 9 has one loop and one straight line
+
+U88R2LCCU : And this is kind of what a Machine Learning model would learn.
+
+U88R2LCCU : This is a high level idea of what Machine Learning does. There are a number of models which can solve this problem.
+
+U88R2LCCU : Any doubts so far?
+
+U88CRKE9W : No
+
+U8AHYQNRL : No
+
+U8A24N7T7 : no
+
+U897URNU8 : No
+
+U8A2QMW4E : No
+
+U88GSUVBK : No
+
+U88E09Q0Z : No
+
+U8A7N36J3 : no
+
+U8981ES56 : Doubt 
+
+U88R2LCCU : Yes?
+
+U8981ES56 : Basically, if suppose let's assume you want to use brute force method itself. So how would you tell the computer how a digit looks like. ?
+
+U88R2LCCU : We would tell it how each pixel would look like in the image of a handwritten digit.
+
+U88R2LCCU : Also, please don't post 'No's, just clutters the chat. Post the doubt if you have any.
+
+U88R2LCCU : Any other doubts?
+
+U897CT84V : what is brute force method?
+
+U8981ES56 : Brute force as in you just attack the problem without any pre planning
+
+U897CT84V : Oh...ok
+
+U897CT84V : <@U897CT84V> pinned a message to this channel.
+
+U8981ES56 : We would tell it how each pixel would look like in the image of a handwritten digit.
+
+U8A92CBCP : It's just trial and error method 
+
+U8981ES56 : So you can't do without an image?
+
+U88R2LCCU : That would be the only way to show the computer a 'handwritten' digit
+
+U88R2LCCU : Also, please don't get stuck on the specifics
+
+U88R2LCCU : Today's session is more about giving you a general idea of what Machine Learning does
+
+U88R2LCCU : We'll talk in detail about some of the approaches in the upcoming sessions.
+
+U897CT84V : So..is it only software and coding or does it deal or can be integrated with hardware like microcontrollers in some cases
+
+U88R2LCCU : Can you elaborate please? What is your question?
+
+U88R2LCCU : We'll move ahead now.
+
+U88R2LCCU : The terms Artificial Intelligence and Machine Learning are often used interchangeably
+
+U88R2LCCU : However they are not the same.
+
+U88R2LCCU : Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.
+
+U88R2LCCU : Machine Learning is a current application of AI based around the idea that we should really just be able to give machines access to data and let them learn for themselves.
+
+U88R2LCCU : What that basically means is that AI refers to the idea of Machines having 'intelligence' like us humans. Whereas Machine Learning is just providing the machines with data and allowing them to learn from that data.
+
+U88R2LCCU : In this way, Machine Learning is much more specific.
+
+U88R2LCCU : Machine Learning models can't really generalise to tasks outside their training
+
+U88R2LCCU : On the other hand we would expect an AI to use it's knowledge from one task in another if required
+
+U88R2LCCU : Doubts?
+
+U88SM63BL : Am I right in understanding that machine learning could lead to AI?
+
+U88R2LCCU : Yes, though not directly.
+
+U88SM63BL : Ok
+
+U88R2LCCU : Any other doubts?
+
+U88R2LCCU : Okay, so we'll continue.
+
+U8981ES56 : Doubt
+
+U88R2LCCU : Yes?
+
+U8981ES56 : So the machine learns from the data we provide right?
+
+U88R2LCCU : Yes
+
+U8981ES56 : So we allow enough time it'll pick up anything it wants and make accurate guesses given sufficient data 
+
+U88R2LCCU : Yes, but for a very specific tasks we trained it for. Machine Learning, at least for now, lacks the ability to generalise
+
+U8981ES56 : So ultimately we can say it can predict the future right?
+
+U89RXD407 : Yes, you give it a set of data and also provide it with a particular machine learning algorithm. It uses this algorithm to create a mathematical model that can make predictions for new data based on the past data that it has seen.
+
+U8981ES56 : For a very specific task atleast?
+
+U8A92CBCP : So it's probabilistic and uses statistical analysis <@U89RXD407>?
+
+U88R2LCCU : Now, as I mentioned earlier, Machine Learning is good for learning very specific tasks. So, what are these tasks?
+
+U89RXD407 : Absolutely.
+
+U88R2LCCU : 1. Classification
+
+U88R2LCCU : Given a set of inputs, map each to one or more of a predefined set of categories.
+
+U89RXD407 : There are certain parameters associated with the probabilistic model. Based on past data, these parameters will be given values. 
+So for new data, we can predict the output value using this model
+
+U88R2LCCU : The earlier example of recognising a handwritten digit would be a Classification task.
+
+U88R2LCCU : Or for example, we are given the synopsis and we would like to categorise the movie based on the genre
+
+U89RXD407 : Example would be if you have a model to which you give details of thousands of houses with details like area, number of bedrooms, etc along with cost of the house. The model would learn these patterns.
+Now given the details of a new house, the model wwill predict the expected cost
+
+U88R2LCCU : 2. Regression
+
+U88R2LCCU : Given a set of inputs, map each to one or more of a predefined set of categories
+
+U88R2LCCU : Sorry, that was incorrect.
+
+U88R2LCCU : Given a set of inputs, map them to a continuous function
+
+U88R2LCCU : So, we are given the inputs and outputs of a continuous real-valued function
+
+U88R2LCCU : And we would like to learn the function and use it to obtain the output for other unseen inputs.
+
+U88R2LCCU : 3. Clustering
+
+U88R2LCCU : Task of grouping a set of objects in such a way that objects in the same group are more similar (in some sense or another) to each other than to those in other groups (clusters)
+
+U88R2LCCU : For example if we have a points of 3 different colours and we to cluster them into 3 groups.
+
+U88R2LCCU : It is different from Classification as we don't give any predefined meaning to the groups, as we would in a Classification task.
+
+U88R2LCCU : 4. Dimensional Reduction
+
+U88R2LCCU : Simplify a given input mapping it to lower dimensional space
+
+U88R2LCCU : Suppose we have 12 attributes for a given list of objects, and we want to visualise these attributes, that can be done only if the reduce them to 2D/3D data.
+
+U88R2LCCU : Any doubts? If you don't have a doubt, give a thumbs up to this message.
+
+U88SM63BL : Could u give an example for regression.
+
+U88R2LCCU : Suppose I'm given the input output pairs (1,1) (2,2) (3,3) .. The function here would be f(x) = x. So I would expect the output to be k if I give k as the input
+
+U8A92CBCP : An example for dimension reduction please !
+
+U88F3P9CG : can you please explain dimensional reduction giving another example?
+
+U88R2LCCU : Okay
+
+U88SM63BL : Ok.
+
+U88R2LCCU : Suppose that you are given details for 1000 houses, the area, no. of bedrooms, no. of floors, lawn area.
+
+U88R2LCCU : So you have 4 features for a house. Now, to plot this data, I'll require 4 dimensions.
+
+U88R2LCCU : But that is not possible, so I would like to reduce the data to only two features, while retaining all the meaning of the data.
+
+U88R2LCCU : That is dimensionality reduction
+
+U88R2LCCU : Is that clear?
+
+U88R2LCCU : Now, Machine Learning models can be broadly classified into 3 major categories.
+
+U88R2LCCU : 1. Supervised Learning
+
+U88R2LCCU : Here, the model is given data and corresponding output, to learn a general function that maps input to output.
+
+U88R2LCCU : So, classification and regression are generally achieved through Supervised learning.
+
+U88R2LCCU : 2. Unsupervised Learning
+
+U88R2LCCU : Here, the model is given only the data, and is expected to discover hidden patterns and/or structure in the data.
+
+U88R2LCCU : For example, clustering is achieved through Unsupervised Learning since we are not given any explicit labels based on which the data is to be clustered.
+
+U88R2LCCU : 3. Reinforcement Learning
+
+U88R2LCCU : Here, the model learns from the feedback from the environment to the actions that it takes.
+
+U88R2LCCU : This is kind of like trial and error.
+
+U88R2LCCU : The model makes a certain actions, and then receives feedback of how effective that action was and based on that makes it's future actions.
+
+U88R2LCCU : Doubts?
+
+U8981ES56 : Feedback from ?
+
+U88R2LCCU : Feedback from the environment.
+
+U88R2LCCU : For example
+
+U899KLSER : Like YouTube and Facebook do in form of recommendations?
+
+U88R2LCCU : While learning to play a game, the model makes certain actions and then the feedback would be whether that action got a point or not.
+
+U88SM63BL : So the Google AI which learned to 'run'. ..that was though reinforced learning?
+
+U88R2LCCU : <@U899KLSER> , not exactly, but that is quite similar to the idea
+
+U88R2LCCU : Yes, <@U88SM63BL>
+
+U88SM63BL : Ok.
+
+U8981ES56 : You mean Alpha go?
+
+U88R2LCCU : So, is everyone clear with everything till now? (GIve a thumbs up if yes. Else post your doubt)
+
+U88R2LCCU : Yes, Alpha Go used Reinforcement Learning to 'learn' the  game of Go
+
+U88SM63BL : I don't remember the name.
+
+U89591QNN : <@U89591QNN> set the channel topic: Session 1: Introduction to Machine Learning - Moksh Jain
+
+U88R2LCCU : Okay, so now I will talk a bit about the importance of data.
+
+U89591QNN : <@U89591QNN> set the channel purpose: Winter Mentorship Program for Web Enthusiasts Club, NITK Surathkal, Machine Learning Track - 3
+
+U88R2LCCU : Data is very important in the field of Machine Learning, along with Compute Power obviously.
+
+U88R2LCCU : "Your model is as good as the data it is fed"
+
+U88R2LCCU : This is seen from the fact that the most of the foundational ideas for popular algorithms and models were proposed in 1980s, but insufficient data and compute power hindered progress then
+
+U88R2LCCU : Now, those ideas are revived due to the easy availability of data, along with increased compute power.
+
+U88R2LCCU : Now, when I talk about the importance of data, both quality and quantity are equally important.
+
+U88R2LCCU : You can't give the model 1000 pictures of the same dog and expect it to recognise some other dog.
+
+U88R2LCCU : It is also very important to select the model according to the data you have.
+
+U88R2LCCU : We will be talking in more detail about this in future sessions where we cover the models.
+
+U88R2LCCU : Before we wind up the session, I would like to demonstrate some 'cool' things that Machine Learning can do :stuck_out_tongue:
+
+U88R2LCCU : As you all might be knowing Google heavily uses Machine Learning for Speech Recognition, Translation. Ads, in the new Google Assistant. Youtube's recommender system is also ML based
+
+U88R2LCCU : The self-driving cars are also enabled by Machine Learning.
+
+U88R2LCCU : Recently a Model from OpenAI beat the Dota World Champion: <https://www.youtube.com/watch?v=l92J1UvHf6M>
+
+U88R2LCCU : This is a video of a Model learning to play Flappy Bird, from scratch. <https://www.youtube.com/watch?v=OJw4HTWvGdY>
+
+U88R2LCCU : Here's some music generated by another ML model <https://www.youtube.com/watch?v=0aN9tKNCYxM>
+
+U88R2LCCU : Here's a live demo of the digit recognition example we discussed <http://myselph.de/neuralNet.html>
+
+U88R2LCCU : These are just a few examples which I wanted to highlight to demonstrate that you can do a lot of cool things using Machine Learning
+
+U88R2LCCU : That will be all for today's session. The objective was to give you guys a general overview of the field. Some of the topics mentioned will be covered in future sessions.
+
+U89591QNN : Thank you Moksh
+
+U88R2LCCU : If you have any doubts, feel  free to discuss them with any of the mentors :slightly_smiling_face:
+
+U89591QNN : ANyone has any other doubts?
+
+U89591QNN : You can either PM us or put it up here!
+
+U89591QNN : Either one of them will do
+
+U88E09Q0Z : Thank you
+
+U8981ES56 : Can we have logs like irc ?
+
+U8A92CBCP : Thank you
+
+U8A1F74T0 : Thanks you
+
+U89591QNN : <@U8981ES56> yes sir
+
+U89591QNN : Patience :stuck_out_tongue:
+
+U88R2LCCU : The logs will be uploaded to Github. We'll post the link soon :slightly_smiling_face:
+
+U8981ES56 : Ok Sir
+
+U89591QNN : Logs will be put up by tomorrow afternoon.
+
+U8981ES56 : Can we leave?
+
+U89591QNN : We have no reason to hold you hostage :stuck_out_tongue:
+

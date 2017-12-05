@@ -1,0 +1,1741 @@
+[
+    {
+        "user": "U89SV5E85",
+        "text": "<@U89SV5E85> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512463860.000311"
+    },
+    {
+        "user": "U88FNP4RE",
+        "text": "<@U88FNP4RE> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512480900.000431"
+    },
+    {
+        "user": "U896KB3HP",
+        "text": "<@U896KB3HP> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512480983.000117"
+    },
+    {
+        "user": "U89BENEMB",
+        "text": "<@U89BENEMB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512481064.000555"
+    },
+    {
+        "user": "U8ANDHNTY",
+        "text": "<@U8ANDHNTY> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512481332.000496"
+    },
+    {
+        "user": "U896HPT24",
+        "text": "<@U896HPT24> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512481617.000126"
+    },
+    {
+        "user": "U896X0W80",
+        "text": "<@U896X0W80> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512481767.000027"
+    },
+    {
+        "user": "U88SM63BL",
+        "text": "<@U88SM63BL> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512481767.000157"
+    },
+    {
+        "user": "U89591QNN",
+        "purpose": "Session 1: Introduction to ML - Moksh Jain(@MJ10)",
+        "text": "<@U89591QNN> set the channel purpose: Session 1: Introduction to ML - Moksh Jain(@MJ10)",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1512483121.000224"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ALright",
+        "ts": "1512484258.000119"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Good evening everyone",
+        "ts": "1512484265.000493"
+    },
+    {
+        "type": "message",
+        "user": "U88E09Q0Z",
+        "text": "Good evening",
+        "ts": "1512484276.000716"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "My name is Salman Shah and I'm one of the mentors here!",
+        "ts": "1512484284.000619"
+    },
+    {
+        "type": "message",
+        "user": "U88F3P9CG",
+        "text": "good evening!",
+        "ts": "1512484285.000268"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "I request everyone to start off with their introductions",
+        "ts": "1512484299.000437"
+    },
+    {
+        "type": "message",
+        "user": "U88GSUVBK",
+        "text": "very good evening",
+        "ts": "1512484302.000489"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Please specify name, branch and year",
+        "ts": "1512484308.000615"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Salman Shah, 3rd Year IT,",
+        "ts": "1512484316.000552"
+    },
+    {
+        "type": "message",
+        "user": "U88GSUVBK",
+        "text": "i'm khagapati",
+        "ts": "1512484325.000084"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Praveen Gupta, 2nd yr CSE",
+        "ts": "1512484335.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88E09Q0Z",
+        "text": "Gauri V. Nair , 1st year, CSE",
+        "ts": "1512484341.000340"
+    },
+    {
+        "type": "message",
+        "user": "U89LUMPKM",
+        "text": "Nishanth Hebbar, 2nd year IT",
+        "ts": "1512484342.000142"
+    },
+    {
+        "type": "message",
+        "user": "U88F3P9CG",
+        "text": "Yuvraj Dalia, 1st Year IT",
+        "ts": "1512484343.000229"
+    },
+    {
+        "type": "message",
+        "user": "U88GSUVBK",
+        "text": "from MCA 1st year",
+        "ts": "1512484346.000659"
+    },
+    {
+        "type": "message",
+        "user": "U89BENEMB",
+        "text": "Swaraj Mishra, MCA, 1st year",
+        "ts": "1512484354.000723"
+    },
+    {
+        "type": "message",
+        "user": "U895AGC00",
+        "text": "Abhishek,1st year , MCA",
+        "ts": "1512484362.000110"
+    },
+    {
+        "type": "message",
+        "user": "U89AZV7R8",
+        "text": "Karan Mohadikar , 1st year , MCA",
+        "ts": "1512484377.000050"
+    },
+    {
+        "type": "message",
+        "user": "U8A2QMW4E",
+        "text": "Srinag 2nd year IT",
+        "ts": "1512484378.000554"
+    },
+    {
+        "type": "message",
+        "user": "U896Z7U4V",
+        "text": "Sonali Mahayana, MCA 1ST Yr",
+        "ts": "1512484379.000069"
+    },
+    {
+        "type": "message",
+        "user": "U88FNP4RE",
+        "text": "Adarsh Jha,MCA,1st year",
+        "ts": "1512484379.000457"
+    },
+    {
+        "type": "message",
+        "user": "U89TFDG84",
+        "text": "Neeraj, 1st year, IT",
+        "ts": "1512484408.000356"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Moksh Jain, 2nd Year IT. I'm one of the mentors :slightly_smiling_face:",
+        "ts": "1512484416.000526"
+    },
+    {
+        "type": "message",
+        "user": "U899KLSER",
+        "text": "Ajit Mujumdar 1st year IT",
+        "ts": "1512484464.000492"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We'll wait for 5 more minutes for people to join, and then start the session",
+        "ts": "1512484515.000121"
+    },
+    {
+        "type": "message",
+        "user": "U88KFEENM",
+        "text": "I'm Darshan, 2nd year CSE.",
+        "ts": "1512484736.000071"
+    },
+    {
+        "type": "message",
+        "user": "U8ANDHNTY",
+        "text": "Anuj ,MCA 1st Year",
+        "ts": "1512484739.000500"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Anumeha 2nd Year IT. I'm one of the mentors here",
+        "ts": "1512484798.000311"
+    },
+    {
+        "type": "message",
+        "user": "U8A7HRNGP",
+        "text": "I'm Yash Agarwal 1st year CSE",
+        "ts": "1512484799.000482"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Before we start with the session, a couple of things: We encourage you to ask any questions you have without hesitation, but please wait till a concept is finished and then we'll ask you if you have any doubts. Please don't ask doubts in between since it becomes difficult to follow for others. And once the session is over, if you feel you're not clear with something, feel free to ask for help from any of the mentors.",
+        "ts": "1512484826.000183",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8979KBHT",
+                    "U88SM63BL",
+                    "U8A2QMW4E",
+                    "U896Z7U4V",
+                    "U88E09Q0Z",
+                    "U88KFEENM",
+                    "U8A7HRNGP",
+                    "U88F3P9CG",
+                    "U89BENEMB",
+                    "U895AGC00",
+                    "U899KLSER",
+                    "U88CRKE9W",
+                    "U88MUQQTD",
+                    "U8A92CBCP",
+                    "U897CT84V"
+                ],
+                "count": 15
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A1F74T0",
+        "text": "Akash, 2nd year-mining",
+        "ts": "1512484861.000152"
+    },
+    {
+        "type": "message",
+        "user": "U89SV5E85",
+        "text": "nihal haneef , 2nd year, CSE",
+        "ts": "1512484900.000173"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "Hey I m Aditya Varadaraj 2nd year Mech",
+        "ts": "1512484959.000520"
+    },
+    {
+        "type": "message",
+        "user": "U88CRKE9W",
+        "text": "Chaitany 1st year CSE",
+        "ts": "1512484968.000263"
+    },
+    {
+        "type": "message",
+        "user": "U8A7N36J3",
+        "text": "Avinash kumar , MCA 1st yr",
+        "ts": "1512484979.000511"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "Soham Patil. 2 year Cse",
+        "ts": "1512484995.000061"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so we'll start with the session now",
+        "ts": "1512485046.000270"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "People joining in later, no need to post your introduction, you can read the messages and continue with the session.",
+        "ts": "1512485087.000207"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "In today's session I'll be briefly Introducing Machine Learning.",
+        "ts": "1512485118.000090"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, What is Machine Learning?",
+        "ts": "1512485168.000689"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Machine Learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.",
+        "ts": "1512485194.000646"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, we train a machine to learn how to perform a task, without giving it explicit instructions on how to achieve the said task",
+        "ts": "1512485245.000201"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "For example, if I want to train a computer to recognise a handwritten digit, the naive approach would be to tell it how exactly a '1' looks, how a '2' looks, etc",
+        "ts": "1512485329.000397"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This would somewhat achieve the required result on some very specific cases but would fail on majority of cases",
+        "ts": "1512485381.000086"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Also, coding all features for each of the digits would be quite a difficult task.",
+        "ts": "1512485412.000382"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That's where Machine Learning comes in.",
+        "ts": "1512485425.000185"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "A better approach to the problem would be to give the computer a bunch of images of Handwritten Digits and allow it to learn the 'features' of a particular digit by itself.",
+        "ts": "1512485489.000649"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "An example of these 'features' may be that, the number 8 consists of 2 loops, 9 has one loop and one straight line",
+        "ts": "1512485550.000435"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And this is kind of what a Machine Learning model would learn.",
+        "ts": "1512485581.000461"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is a high level idea of what Machine Learning does. There are a number of models which can solve this problem.",
+        "ts": "1512485645.000826"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Any doubts so far?",
+        "ts": "1512485657.000396"
+    },
+    {
+        "type": "message",
+        "user": "U88CRKE9W",
+        "text": "No",
+        "ts": "1512485667.000099"
+    },
+    {
+        "type": "message",
+        "user": "U8AHYQNRL",
+        "text": "No",
+        "ts": "1512485676.000123"
+    },
+    {
+        "type": "message",
+        "user": "U8A24N7T7",
+        "text": "no",
+        "ts": "1512485676.000144"
+    },
+    {
+        "type": "message",
+        "user": "U897URNU8",
+        "text": "No",
+        "ts": "1512485687.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8A2QMW4E",
+        "text": "No",
+        "ts": "1512485687.000301"
+    },
+    {
+        "type": "message",
+        "user": "U88GSUVBK",
+        "text": "No",
+        "ts": "1512485688.000069"
+    },
+    {
+        "type": "message",
+        "user": "U88E09Q0Z",
+        "text": "No",
+        "ts": "1512485689.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8A7N36J3",
+        "text": "no",
+        "ts": "1512485707.000517"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Doubt ",
+        "ts": "1512485724.000490"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes?",
+        "ts": "1512485734.000156"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Basically, if suppose let's assume you want to use brute force method itself. So how would you tell the computer how a digit looks like. ?",
+        "ts": "1512485783.000536"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We would tell it how each pixel would look like in the image of a handwritten digit.",
+        "attachments": [
+            {
+                "fallback": "[December 5th, 2017 6:56 AM] ashwinshenoy05: Basically, if suppose let's assume you want to use brute force method itself. So how would you tell the computer how a digit looks like. ?",
+                "ts": "1512485783.000536",
+                "author_id": "U8981ES56",
+                "author_subname": "Ashwin Shenoy",
+                "channel_id": "C89U5C4MU",
+                "channel_name": "ml_group3",
+                "is_msg_unfurl": true,
+                "text": "Basically, if suppose let's assume you want to use brute force method itself. So how would you tell the computer how a digit looks like. ?",
+                "author_name": "Ashwin Shenoy",
+                "author_link": "https:\/\/wintermentorship.slack.com\/team\/U8981ES56",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/ea16cfcf92febb2ec95c366832ef33e2.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0003-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/wintermentorship.slack.com\/archives\/C89U5C4MU\/p1512485783000536",
+                "is_share": true,
+                "footer": "Posted in #ml_group3"
+            }
+        ],
+        "ts": "1512485834.000179"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Also, please don't post 'No's, just clutters the chat. Post the doubt if you have any.",
+        "ts": "1512485876.000525"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Any other doubts?",
+        "ts": "1512485910.000405"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "what is brute force method?",
+        "ts": "1512485927.000238"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Brute force as in you just attack the problem without any pre planning",
+        "ts": "1512485962.000581"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "Oh...ok",
+        "ts": "1512485978.000557"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U897CT84V",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[December 5th, 2017 6:57 AM] mokshjn00: We would tell it how each pixel would look like in the image of a handwritten digit.",
+                "ts": "1512485834.000179",
+                "author_id": "U88R2LCCU",
+                "author_subname": "Moksh Jain",
+                "channel_id": "C89U5C4MU",
+                "channel_name": "ml_group3",
+                "is_msg_unfurl": true,
+                "text": "We would tell it how each pixel would look like in the image of a handwritten digit.",
+                "author_name": "Moksh Jain",
+                "author_link": "https:\/\/wintermentorship.slack.com\/team\/U88R2LCCU",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/c89ce3e7d56f53477e5e39b4d7469c21.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F3654%2Fimg%2Favatars%2Fava_0021-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U897CT84V> pinned a message to this channel.",
+        "ts": "1512486000.000395"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "We would tell it how each pixel would look like in the image of a handwritten digit.",
+        "ts": "1512486016.000426"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "It's just trial and error method ",
+        "ts": "1512486024.000894"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "So you can't do without an image?",
+        "thread_ts": "1512486028.000694",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512486076.000399"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512486028.000694"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That would be the only way to show the computer a 'handwritten' digit",
+        "thread_ts": "1512486028.000694",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486076.000399"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Also, please don't get stuck on the specifics",
+        "ts": "1512486095.000055"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Today's session is more about giving you a general idea of what Machine Learning does",
+        "ts": "1512486128.000002"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We'll talk in detail about some of the approaches in the upcoming sessions.",
+        "ts": "1512486159.000156"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "So..is it only software and coding or does it deal or can be integrated with hardware like microcontrollers in some cases",
+        "thread_ts": "1512486177.000515",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512486218.000329"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512486177.000515"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Can you elaborate please? What is your question?",
+        "thread_ts": "1512486177.000515",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512486218.000329"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We'll move ahead now.",
+        "ts": "1512486236.000552"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The terms Artificial Intelligence and Machine Learning are often used interchangeably",
+        "ts": "1512486274.000543"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "However they are not the same.",
+        "ts": "1512486285.000596"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.",
+        "ts": "1512486298.000458"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Machine Learning is a current application of AI based around the idea that we should really just be able to give machines access to data and let them learn for themselves.",
+        "ts": "1512486319.000100"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "What that basically means is that AI refers to the idea of Machines having 'intelligence' like us humans. Whereas Machine Learning is just providing the machines with data and allowing them to learn from that data.",
+        "ts": "1512486417.000477"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "In this way, Machine Learning is much more specific.",
+        "ts": "1512486449.000182"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Machine Learning models can't really generalise to tasks outside their training",
+        "ts": "1512486486.000387"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "On the other hand we would expect an AI to use it's knowledge from one task in another if required",
+        "ts": "1512486538.000541"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Doubts?",
+        "ts": "1512486554.000122"
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "Am I right in understanding that machine learning could lead to AI?",
+        "thread_ts": "1512486593.000155",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512486652.000455"
+            },
+            {
+                "user": "U88SM63BL",
+                "ts": "1512486671.000490"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512486593.000155"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes, though not directly.",
+        "thread_ts": "1512486593.000155",
+        "parent_user_id": "U88SM63BL",
+        "ts": "1512486652.000455"
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "Ok",
+        "thread_ts": "1512486593.000155",
+        "parent_user_id": "U88SM63BL",
+        "ts": "1512486671.000490"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Any other doubts?",
+        "ts": "1512486691.000409"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so we'll continue.",
+        "ts": "1512486732.000106"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Doubt",
+        "thread_ts": "1512486764.000069",
+        "reply_count": 12,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512486773.000489"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512486796.000344"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512486805.000036"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512486845.000137"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512486904.000195"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512486941.000746"
+            },
+            {
+                "user": "U89RXD407",
+                "ts": "1512486957.000171"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512486982.000890"
+            },
+            {
+                "user": "U8A92CBCP",
+                "ts": "1512487024.000863"
+            },
+            {
+                "user": "U89RXD407",
+                "ts": "1512487057.000576"
+            },
+            {
+                "user": "U89RXD407",
+                "ts": "1512487135.000111"
+            },
+            {
+                "user": "U89RXD407",
+                "ts": "1512487238.000550"
+            }
+        ],
+        "unread_count": 12,
+        "ts": "1512486764.000069"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes?",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486773.000489"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "So the machine learns from the data we provide right?",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486796.000344"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486805.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "So we allow enough time it'll pick up anything it wants and make accurate guesses given sufficient data ",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486845.000137"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes, but for a very specific tasks we trained it for. Machine Learning, at least for now, lacks the ability to generalise",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486904.000195"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "So ultimately we can say it can predict the future right?",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486941.000746"
+    },
+    {
+        "type": "message",
+        "user": "U89RXD407",
+        "text": "Yes, you give it a set of data and also provide it with a particular machine learning algorithm. It uses this algorithm to create a mathematical model that can make predictions for new data based on the past data that it has seen.",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486957.000171"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "For a very specific task atleast?",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512486982.000890"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "So it's probabilistic and uses statistical analysis <@U89RXD407>?",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512487024.000863"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, as I mentioned earlier, Machine Learning is good for learning very specific tasks. So, what are these tasks?",
+        "ts": "1512487050.000452"
+    },
+    {
+        "type": "message",
+        "user": "U89RXD407",
+        "text": "Absolutely.",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512487057.000576"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "1. Classification",
+        "ts": "1512487065.000178"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Given a set of inputs, map each to one or more of a predefined set of categories.",
+        "ts": "1512487078.000113"
+    },
+    {
+        "type": "message",
+        "user": "U89RXD407",
+        "text": "There are certain parameters associated with the probabilistic model. Based on past data, these parameters will be given values. \nSo for new data, we can predict the output value using this model",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512487135.000111"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The earlier example of recognising a handwritten digit would be a Classification task.",
+        "ts": "1512487169.000206"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Or for example, we are given the synopsis and we would like to categorise the movie based on the genre",
+        "ts": "1512487233.000066"
+    },
+    {
+        "type": "message",
+        "user": "U89RXD407",
+        "text": "Example would be if you have a model to which you give details of thousands of houses with details like area, number of bedrooms, etc along with cost of the house. The model would learn these patterns.\nNow given the details of a new house, the model wwill predict the expected cost",
+        "thread_ts": "1512486764.000069",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512487238.000550",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U88SM63BL",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "2. Regression",
+        "ts": "1512487248.000446"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Given a set of inputs, map each to one or more of a predefined set of categories",
+        "ts": "1512487259.000169"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Sorry, that was incorrect.",
+        "ts": "1512487305.000619"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Given a set of inputs, map them to a continuous function",
+        "ts": "1512487309.000055"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, we are given the inputs and outputs of a continuous real-valued function",
+        "ts": "1512487346.000361"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And we would like to learn the function and use it to obtain the output for other unseen inputs.",
+        "ts": "1512487382.000244"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "3. Clustering",
+        "ts": "1512487388.000108"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Task of grouping a set of objects in such a way that objects in the same group are more similar (in some sense or another) to each other than to those in other groups (clusters)",
+        "ts": "1512487403.000537"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "For example if we have a points of 3 different colours and we to cluster them into 3 groups.",
+        "ts": "1512487484.000779"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is different from Classification as we don't give any predefined meaning to the groups, as we would in a Classification task.",
+        "ts": "1512487530.000106"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "4. Dimensional Reduction",
+        "ts": "1512487551.000054"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Simplify a given input mapping it to lower dimensional space",
+        "ts": "1512487571.000421"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Suppose we have 12 attributes for a given list of objects, and we want to visualise these attributes, that can be done only if the reduce them to 2D\/3D data.",
+        "ts": "1512487658.000703"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Any doubts? If you don't have a doubt, give a thumbs up to this message.",
+        "ts": "1512487699.000105",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89AZV7R8",
+                    "U88E09Q0Z",
+                    "U895AGC00",
+                    "U89606LEQ",
+                    "U8979KBHT",
+                    "U899KLSER",
+                    "U8A1F74T0"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "Could u give an example for regression.",
+        "thread_ts": "1512487720.000690",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512487848.000679"
+            },
+            {
+                "user": "U8A92CBCP",
+                "ts": "1512487894.000465"
+            },
+            {
+                "user": "U88SM63BL",
+                "ts": "1512487966.000007"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512487720.000690",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AHYQNRL",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Suppose I'm given the input output pairs (1,1) (2,2) (3,3) .. The function here would be f(x) = x. So I would expect the output to be k if I give k as the input",
+        "thread_ts": "1512487720.000690",
+        "parent_user_id": "U88SM63BL",
+        "ts": "1512487848.000679"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "An example for dimension reduction please !",
+        "thread_ts": "1512487720.000690",
+        "parent_user_id": "U88SM63BL",
+        "ts": "1512487894.000465"
+    },
+    {
+        "type": "message",
+        "user": "U88F3P9CG",
+        "text": "can you please explain dimensional reduction giving another example?",
+        "ts": "1512487899.000584",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89SV5E85",
+                    "U8A92CBCP",
+                    "U89BENEMB",
+                    "U893XH8SG",
+                    "U8A7HRNGP"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay",
+        "ts": "1512487933.000314"
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "Ok.",
+        "thread_ts": "1512487720.000690",
+        "parent_user_id": "U88SM63BL",
+        "ts": "1512487966.000007"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Suppose that you are given details for 1000 houses, the area, no. of bedrooms, no. of floors, lawn area.",
+        "ts": "1512488007.000531"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So you have 4 features for a house. Now, to plot this data, I'll require 4 dimensions.",
+        "ts": "1512488057.000274"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But that is not possible, so I would like to reduce the data to only two features, while retaining all the meaning of the data.",
+        "ts": "1512488130.000667"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That is dimensionality reduction",
+        "ts": "1512488141.000699"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is that clear?",
+        "ts": "1512488164.000459",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U88F3P9CG",
+                    "U89BENEMB",
+                    "U8981ES56",
+                    "U896Z7U4V",
+                    "U88SM63BL",
+                    "U88E09Q0Z",
+                    "U8A1F74T0",
+                    "U88KFEENM",
+                    "U8AHYQNRL",
+                    "U8979KBHT"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, Machine Learning models can be broadly classified into 3 major categories.",
+        "ts": "1512488232.000579"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "1. Supervised Learning",
+        "ts": "1512488247.000297"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here, the model is given data and corresponding output, to learn a general function that maps input to output.",
+        "ts": "1512488273.000518"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, classification and regression are generally achieved through Supervised learning.",
+        "ts": "1512488316.000221"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "2. Unsupervised Learning",
+        "ts": "1512488326.000281"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here, the model is given only the data, and is expected to discover hidden patterns and\/or structure in the data.",
+        "ts": "1512488358.000499"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "For example, clustering is achieved through Unsupervised Learning since we are not given any explicit labels based on which the data is to be clustered.",
+        "ts": "1512488416.000147"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "3. Reinforcement Learning",
+        "ts": "1512488427.000592"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here, the model learns from the feedback from the environment to the actions that it takes.",
+        "ts": "1512488455.000504"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is kind of like trial and error.",
+        "ts": "1512488481.000552"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The model makes a certain actions, and then receives feedback of how effective that action was and based on that makes it's future actions.",
+        "ts": "1512488527.000485"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Doubts?",
+        "ts": "1512488539.000345"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Feedback from ?",
+        "thread_ts": "1512488547.000333",
+        "reply_count": 11,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512488588.000315"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512488591.000559"
+            },
+            {
+                "user": "U899KLSER",
+                "ts": "1512488643.000416"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512488650.000882"
+            },
+            {
+                "user": "U88SM63BL",
+                "ts": "1512488701.000253"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512488719.000138"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512488733.000136"
+            },
+            {
+                "user": "U88SM63BL",
+                "ts": "1512488768.000403"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512488812.000439"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512488854.000607"
+            },
+            {
+                "user": "U88SM63BL",
+                "ts": "1512488854.000944"
+            }
+        ],
+        "unread_count": 11,
+        "ts": "1512488547.000333",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U88SM63BL",
+                    "U899KLSER",
+                    "U88BTGVSM",
+                    "U8981ES56"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Feedback from the environment.",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488588.000315"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "For example",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488591.000559"
+    },
+    {
+        "type": "message",
+        "user": "U899KLSER",
+        "text": "Like YouTube and Facebook do in form of recommendations?",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488643.000416"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "While learning to play a game, the model makes certain actions and then the feedback would be whether that action got a point or not.",
+        "edited": {
+            "user": "U88R2LCCU",
+            "ts": "1512488669.000000"
+        },
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488650.000882"
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "So the Google AI which learned to 'run'. ..that was though reinforced learning?",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488701.000253"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "<@U899KLSER> , not exactly, but that is quite similar to the idea",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488719.000138"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes, <@U88SM63BL>",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488733.000136"
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "Ok.",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488768.000403"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "You mean Alpha go?",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488812.000439"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, is everyone clear with everything till now? (GIve a thumbs up if yes. Else post your doubt)",
+        "ts": "1512488816.000611",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A2QMW4E",
+                    "U88SM63BL",
+                    "U88E09Q0Z",
+                    "U89591QNN",
+                    "U88F3P9CG",
+                    "U8979KBHT",
+                    "U88BTGVSM",
+                    "U893XH8SG",
+                    "U88GSUVBK",
+                    "U89SV5E85",
+                    "U89BENEMB",
+                    "U899KLSER",
+                    "U8A1F74T0",
+                    "U895AGC00"
+                ],
+                "count": 14
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes, Alpha Go used Reinforcement Learning to 'learn' the  game of Go",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488854.000607"
+    },
+    {
+        "type": "message",
+        "user": "U88SM63BL",
+        "text": "I don't remember the name.",
+        "thread_ts": "1512488547.000333",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512488854.000944"
+    },
+    {
+        "user": "U89591QNN",
+        "topic": "Session 1: Introduction to Machine Learning - Moksh Jain",
+        "text": "<@U89591QNN> set the channel topic: Session 1: Introduction to Machine Learning - Moksh Jain",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1512488898.000331"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so now I will talk a bit about the importance of data.",
+        "ts": "1512488934.000310"
+    },
+    {
+        "user": "U89591QNN",
+        "purpose": "Winter Mentorship Program for Web Enthusiasts Club, NITK Surathkal, Machine Learning Track - 3",
+        "text": "<@U89591QNN> set the channel purpose: Winter Mentorship Program for Web Enthusiasts Club, NITK Surathkal, Machine Learning Track - 3",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1512488963.000905"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Data is very important in the field of Machine Learning, along with Compute Power obviously.",
+        "ts": "1512488986.000133"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "\"Your model is as good as the data it is fed\"",
+        "ts": "1512489008.000633"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is seen from the fact that the most of the foundational ideas for popular algorithms and models were proposed in 1980s, but insufficient data and compute power hindered progress then",
+        "ts": "1512489088.000481"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, those ideas are revived due to the easy availability of data, along with increased compute power.",
+        "ts": "1512489126.000813"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, when I talk about the importance of data, both quality and quantity are equally important.",
+        "ts": "1512489192.000499"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "You can't give the model 1000 pictures of the same dog and expect it to recognise some other dog.",
+        "ts": "1512489235.000140"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is also very important to select the model according to the data you have.",
+        "ts": "1512489263.000209"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We will be talking in more detail about this in future sessions where we cover the models.",
+        "ts": "1512489302.000310"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Before we wind up the session, I would like to demonstrate some 'cool' things that Machine Learning can do :stuck_out_tongue:",
+        "ts": "1512489347.000540"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "As you all might be knowing Google heavily uses Machine Learning for Speech Recognition, Translation. Ads, in the new Google Assistant. Youtube's recommender system is also ML based",
+        "ts": "1512489431.000192"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The self-driving cars are also enabled by Machine Learning.",
+        "ts": "1512489478.000260"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Recently a Model from OpenAI beat the Dota World Champion: <https:\/\/www.youtube.com\/watch?v=l92J1UvHf6M>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "OpenAI + Dota 2",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=l92J1UvHf6M",
+                "author_name": "OpenAI",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCXZCJLdBC09xxGZ6gcdrc6A",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/l92J1UvHf6M\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: OpenAI + Dota 2",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/l92J1UvHf6M?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=l92J1UvHf6M",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1512489532.000864"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is a video of a Model learning to play Flappy Bird, from scratch. <https:\/\/www.youtube.com\/watch?v=OJw4HTWvGdY>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "FlappyBird Machine Learning Hack (Full Video)",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=OJw4HTWvGdY",
+                "author_name": "Sarvagya Vaish",
+                "author_link": "https:\/\/www.youtube.com\/user\/sarvagyav",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/OJw4HTWvGdY\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: FlappyBird Machine Learning Hack (Full Video)",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/OJw4HTWvGdY?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=OJw4HTWvGdY",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1512489574.000404"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here's some music generated by another ML model <https:\/\/www.youtube.com\/watch?v=0aN9tKNCYxM>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Best samples of MuseGAN",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=0aN9tKNCYxM",
+                "author_name": "Hao-Wen Dong",
+                "author_link": "https:\/\/www.youtube.com\/user\/salu133445",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/0aN9tKNCYxM\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Best samples of MuseGAN",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/0aN9tKNCYxM?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=0aN9tKNCYxM",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1512489622.000438"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here's a live demo of the digit recognition example we discussed <http:\/\/myselph.de\/neuralNet.html>",
+        "attachments": [
+            {
+                "title": "Neural Net for Handwritten Digit Recognition in JavaScript",
+                "title_link": "http:\/\/myselph.de\/neuralNet.html",
+                "text": "Interactive Javascript Simulation of the Hodgkin-Huxley Model for Action Potential Generation in the Squid Giant Axon",
+                "fallback": "Neural Net for Handwritten Digit Recognition in JavaScript",
+                "from_url": "http:\/\/myselph.de\/neuralNet.html",
+                "service_icon": "http:\/\/myselph.de\/favicon.ico",
+                "service_name": "myselph.de",
+                "id": 1
+            }
+        ],
+        "ts": "1512489672.000593"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "These are just a few examples which I wanted to highlight to demonstrate that you can do a lot of cool things using Machine Learning",
+        "ts": "1512489728.000513"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That will be all for today's session. The objective was to give you guys a general overview of the field. Some of the topics mentioned will be covered in future sessions.",
+        "ts": "1512489860.000230"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Thank you Moksh",
+        "ts": "1512489885.000405"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "If you have any doubts, feel  free to discuss them with any of the mentors :slightly_smiling_face:",
+        "ts": "1512489890.000318",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANyone has any other doubts?",
+        "ts": "1512489893.000077"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "You can either PM us or put it up here!",
+        "ts": "1512489904.000365"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Either one of them will do",
+        "ts": "1512489909.000761"
+    },
+    {
+        "type": "message",
+        "user": "U88E09Q0Z",
+        "text": "Thank you",
+        "ts": "1512489924.000133"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Can we have logs like irc ?",
+        "thread_ts": "1512489954.000425",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512490034.000541"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512489954.000425"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "Thank you",
+        "ts": "1512489957.000440"
+    },
+    {
+        "type": "message",
+        "user": "U8A1F74T0",
+        "text": "Thanks you",
+        "ts": "1512489963.000372"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8981ES56> yes sir",
+        "ts": "1512490015.000139"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Patience :stuck_out_tongue:",
+        "ts": "1512490018.000855",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The logs will be uploaded to Github. We'll post the link soon :slightly_smiling_face:",
+        "thread_ts": "1512489954.000425",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512490034.000541"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Ok Sir",
+        "ts": "1512490035.000262"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Logs will be put up by tomorrow afternoon.",
+        "ts": "1512490084.000756"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Can we leave?",
+        "ts": "1512490621.000581"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "We have no reason to hold you hostage :stuck_out_tongue:",
+        "ts": "1512490646.000050",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89606LEQ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
