@@ -1,0 +1,570 @@
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AFEGWAE/2017.csv|2017.csv> and commented: download this csv file, it's for working with pandas
+
+<http://www.annedawson.net/Python_Installation.htm> :- for windows users to run pytho interpreter
+
+Hello everyone , we'll start in 5 mins
+
+ok
+
+Please put a thumbsup if you have python and the libraries we asked you to install
+
+hi everyone, I am Chenna Keshava.
+
+I will be mentoring this session with <@U88MUQQTD>
+
+Okay so lets start off with session
+
+How many of you are familiar with python ?
+
+me
+
+Okay not an issue if you arent also , and in case you havent downloaded the libraries yet its alright I will put up code snippets run them later
+
+Me
+
+So today we will be covering pandas, numpy , matplotlib and sklearn
+
+Lets start of with numpy
+
+Does anyone know what numpy is /
+
+? *
+
+Numerical Python
+
+yes correct
+
+NumPy, which stands for Numerical Python, is a library which basically allows you to perform logical and mathematical operations on an array. The most important object defined in NumPy is an N-dimensional array type called ndarray
+
+used for mathematical multi dimensional arrays and basically higher maths oriented programs
+
+yeah exactly
+
+Numpy's arrays are very compact and reading and writing items is very fast .
+
+So when we are dealing with huge amounts of data which needs to be processed as arrays numpy is very useful
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8BCP8N30/importing_numpy.py|Importing numpy>
+
+Now to use numpy in any python script we need to import is first . Here we use np for convention purposes /
+
+Try running import numpy in your python interpreters
+
+Any doubts?
+
+Please respond with a thumbs up so I can proceed
+
+What's the difference between 
+Import numpy as np   And 
+Import numpy ?
+
+it's easy to type np instead of numpy everytime
+
+its a short form
+
+Oh! Nice :+1:
+
+So now lets create a 2 D array with numpy
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8A1E222D/creating_an_array.py|Creating an array>
+
+Try running this code
+
+In this example we are creating a 2x2 array and assigning it to a variable a.
+
+Any doubts ?
+
+Whats the output you guys get?
+
+[[1 2]
+ [3 4]]
+
+Yes correct
+
+Yeah
+
+Now a is basically a 2D array and you can perform lot of manipulations on this
+
+Suppose I have some data , say a 2*3 array ( which has 6 entries) and i want to reshape it to a 3*2 array .
+
+we can do this using numpy
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8AHXFJSG/-.py|Untitled>
+
+numpy has a function called reshape which takes in the new dimension as arguments
+
+Try running this code and put thumbs up if you dont have any doubts
+
+do we have to import numpy everytime?
+
+before using any classes/functions of numpy
+
+You just need to import it once
+
+In a general script just once
+
+does reshape() have any restrictions on order of array?
+
+That's just at the beginning right? Once you import you can use it any time in the environment until you exit the CMD ?
+
+yes
+
+as in?
+
+What about the rest ?
+
+dimensions
+
+yeah.dimensions?
+
+<@U88R2LCCU> set the channel topic: Session 2: Introduction to numpy, pandas, sklearn, matplotlib - Anumeha and Chenna Keshava
+
+Nope not really . You just cant exceed the number of entries
+
+like if theres a 2*3 array
+
+you cant reshape it to 9 *7
+
+ok
+
+Shall I proceed?
+
+yup
+
+is 1*6 valid?
+
+Okay so now there are several functions in numpy for creating an array of ones of zeros
+
+no, the number of elements must match exactly
+
+just try out these on the interpreter, and see the type of errors you get
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8AELR5SP/-.py|Untitled>
+
+Ok
+
+Try running this code amd tell me the output
+
+1*6 has 6 elements just like 2*3.
+I don’t have an interpreter rn so, will it be valid?
+
+oh, yeah : in this case it's valid. 1*6, 2*3 = 6; row_num * col_num = total_num_of_elements
+
+[[ 0.  0.]
+ [ 0.  0.]]
+[[ 1.  1.]]
+
+Zeroes and ones in the matrix
+
+You get a 2D array of zeros and ones
+
+2D for zeros
+
+Yes correct
+
+You can change the dimensions as you wish
+
+One very interesting thing about numpy is that it supports a lot of different datatypes
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8A1P6A0Z/-.py|Untitled>
+
+So here in this code we are trying to force a datatype to an array
+
+this is done using dtype
+
+i can also convert this to float using dtype=np.float64
+
+Any doubts so far ?
+
+what does 64 signify?(bits consumed?)
+
+When you declare 
+a=np.array(). What is it's data type ? 
+
+yeah , you also have int32
+
+it infers thr datatype. if all elements are int, it will be int64 on a 64 bit computer
+
+cool
+
+if a floating point value, or NaN is present in the array, it will be float64
+
+you need to define some values in array()
+
+doesnt take empty object
+
+Okay
+
+Can i proceed ?
+
+So one last thing in numpy
+
+There is something called slicing and indexing
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8BK3TJET/-.py|Untitled>
+
+In the above example, an ndarray object is prepared by arange() function. Then a slice object is defined with start, stop, and step values 2, 7, and 2 respectively. When this slice object is passed to the ndarray, a part of it starting with index 2 up to 7 with a step of 2 is sliced.
+
+np.arrange creates an array of numbers from 0-9
+
+Any doubts?
+
+Okay now lets start with Pandas
+
+<@U8AV51H47> over to you
+
+ok, I hope everyone has downloaded the 2017.csv dataset
+
+One of the reasons pandas is preferred over numpy for taking in data, data preprocessing, etc is that we can have heterogenous data in a Pandas dataframe, unlike numpy
+
+also, it's I/O capabilities are easy and efficient, we can easily pull from a MySQL database
+
+we can also refer to column names here, while working with pandas
+
+so, as with numpy, we need to import pandas, before using it's classes
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AJCBQKE/-.txt|Untitled>
+
+include the second line, if you are starting with a fresh session
+
+also, please know the location of 2017.csv dataset. Preferably pull it  ti your current working directory, or else you will have to paste the entire path in the code
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AH3RLH0/-.txt|Untitled>
+
+read_csv function is used to load a csv file into a pandas DataFrame
+
+is everyone able to load the dataset?
+
+the sep = ',' specifies that the file is a comma seperated file
+
+we can use sep='\t' for a tab seperared file, and different syntaxes for other types of files
+
+Is it ' , ' or ','?
+
+comma
+
+without spaces
+
+also, there is a parameter called header. It's used to specify which row of the data-set is to be used for the names of columns
+
+If the dataset doesn't have a header, just put header=None. If the first row of the csv file has col names, specify header=0, etc
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AF2ETCK/-.txt|Untitled>
+
+what's the output of this?
+
+first 5 rows
+
+yeah, it's helpful to see the different cols present, the few rows etc
+
+we can put a number inside the parenthesis, to get that many number of rows displayed on the screen
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AF3UML3/-.txt|Untitled>
+
+It's customary to use X for the input dataset, and y for target values in ML
+
+so the describe() command, tells us a lot of statistics about the data in the dataset columnwise
+
+we have to give this attribute in read_csv?
+
+is everyone with me so far?
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F89TEPG3S/-.txt|Untitled>
+
+it's not compulsory, as in this case
+
+but header=None will give a default column names starting from 0,1,2,3...
+
+this command prints out the datatypes of all the different columns
+
+ive got a doubt
+
+ok
+
+it will be useful to decide if we have to go for One-Hot encoding of certain categorical values like age, sex, marital status, etc for using some algorithms
+
+yeah, go ahead
+
+Also, it's useful to see the dimensions of the DataFrame upfront
+
+Mine isnt showing any output for any of these pandas functions.Idk why
+
+does describe() always give the same statistics or can it be customized?
+
+it gives these value for a DataFrame, and different values for a Series
+
+ok.
+
+doubt
+
+yeah ask
+
+Mine isnt showing any output for any of these pandas functions.Idk why
+
+you could load the dataset without any errors?
+
+send a screenshot
+
+<http://yeah.No|yeah.No> errors
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AHFV2KU/-.txt|Untitled> and commented: this returns a tuple contaning X and Y dimensions. They can be individually accessed as X.shape[0] and X.shape[1]
+
+Send a screenshot of the commands
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AFBR29Z/-.txt|Untitled> and commented: column names used in X
+
+Everytime we use csv file.. default value will be same or it may change?
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BKNNTRD/-.txt|Untitled> and commented: shows the indexing of rows
+
+if we use a datetime datatype for indexing, it will show up here
+
+So all elements in a particular column can be accessed as : X['column_name']
+
+is everyone able to  see appropriate output for these commands?
+
+now let's try adding a new row to our dataset
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AFELGGK/-.txt|Untitled>
+
+<@U897CT84V> uploaded a file: <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt> and commented: Mine isnt showing any output for any of these pandas functions.Idk why
+
+<@U8A6B048M> commented on <@U8AV51H47>’s file <https://wintermentorship.slack.com/files/U8AV51H47/F8BKNNTRD/-.txt|Untitled>: For X.index output is RangeIndex(start=0,stop=155,step=1)
+Meaning?
+
+<@U8AV51H47> commented on <@U8AV51H47>’s file <https://wintermentorship.slack.com/files/U8AV51H47/F8BKNNTRD/-.txt|Untitled>: it means row numbers start from 0, end at 155. All of them differ/increase by 1
+
+<@U8AV51H47> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: 2017.csv is not in you current working directory
+
+<@U8AV51H47> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: it may be in the downloads folder
+
+<@U8AV51H47> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: just paste the entire file path instead of 2017.csv, or move the folder to your current/present folder in which you have opened the interpreter
+
+we need not fill in all the values in the dataset. the missing ones will be filled with numpy's NaN (Not a Number)
+
+<@U897CT84V> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: got it
+
+<@U897CT84V> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: runs now
+
+<@U8AV51H47> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: there's an IOError at the bottom, that gives the hint
+
+<@U897CT84V> commented on <@U897CT84V>’s file <https://wintermentorship.slack.com/files/U897CT84V/F8AHLAKPU/intro.txt|intro.txt>: actually was not that. The line below that. I wasnt printing anything.I thought head() prints by itself
+
+I planned to cover a lot, but due to paucity of time, I will give the link of the jupyter notebook
+
+We will move on to matplotlib
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AK0C5L4/happiness_index.ipynb|happiness index.ipynb> and commented: If you any doubts, do get back to us
+
+We will tell you how to run this jupyter file at the end
+
+So shall we move on?
+
+ok
+
+''Matplotlib'' is probably the single most used Python package for 2D-graphics. It provides both a very quick way to visualize data. So when you are working with a dataset you would want to see data visually to get a better idea of the data or display the data to convey their results to someone.
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8BKX0S0P/import_matplotlib.py|import matplotlib>
+
+There is something called pyplot
+
+matplotlib.pyplot is a collection of functions that make matplotlib work. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc.
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8AK2FZBN/linear_plot.py|Linear plot>
+
+In this example we are plotting points - (1,1),(2,4),(3,9),(4,16) For every x, y pair of arguments, there is an optional third argument which is the format string that indicates the color and line type of the plot. So here ro is red 'o' which represents the point
+
+Try running this code and tell me the output
+
+plt.plot() is a function which basically created this graph and plt.axis() is used to define the boundaries of the axes
+
+Any doubts?
+
+Please respond.
+
+no doubts
+
+in plt.axis, do the first two represt the x axis and the second two numbers, the y axis?
+
+Yea
+
+ok.
+
+Okay so moving on
+
+Usually we would use barplots , histograms , scatter plots to plot data
+
+Guys please put a thumbs up in case you have no doubts
+
+So lets see barplot
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8BL35KLP/barplot.txt|Barplot>
+
+In this example we use a function called plt.bar() . This takes in x and y as arguments .
+
+Can someone tell me the output for this
+
+It's a bar graph
+
+Wow! Cool
+
+Did you all get the graph?
+
+<@U8A1F74T0> uploaded a file: <https://wintermentorship.slack.com/files/U8A1F74T0/F8AFVHWCB/img_20171206_212020.jpg|IMG_20171206_212020.jpg>
+
+Great !
+
+In case of the previous snippet, is there a way to connect the dots?
+
+Okay so usually we would be dealing with large datasets and not just numbers so using pandas we can actually plot data and see it visually
+
+you mean a linear equation?
+
+No, the previous code we plotted a parabola as dots. Can we join those dots?
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8BL7JNMD/-.txt|Untitled>
+
+Here i have used housing.csv
+
+you guys can change that address to the csv file's address which you guys downloaded
+
+So here we are creating a scatter plot with two features namely on x and y coordinate
+
+I will share the csv file at the end of the session so try this code then
+
+We can also plot three features on the same graph , plot a complex equation and a lot more
+
+Any doubts so far ?
+
+We will move on to sklearn . Put a thumbs up if everything is clear
+
+<@U8981ES56> do you mean a line graph?
+
+<@U8A6B048M> commented on <@U88MUQQTD>’s file <https://wintermentorship.slack.com/files/U88MUQQTD/F8BL7JNMD/-.txt|Untitled>: x='longitude' what does it mean? Is it something related to housing.csv file?
+
+Yes 
+
+<@U88MUQQTD> commented on <@U88MUQQTD>’s file <https://wintermentorship.slack.com/files/U88MUQQTD/F8BL7JNMD/-.txt|Untitled>: yeah thats a feature in that dataset
+
+sklearn has a lot of useful functions and classes
+
+If I'm not mistaken plt.plot defaults to a line graph
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AKGQG84/-.txt|Untitled> and commented: filling in random numbers for input and output datasets
+
+whenever random numbers are used, a seed is specified in the beginning
+
+<https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html>
+
+But it's just giving a bunch of points. Shaped like a parabola 
+
+so that, we can debug easily, and see the output for a particular input
+
+we will need to split our data into train and test sets
+
+we will train the any algorithm on the train set, and see if it generalises well on the test set
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8ANJA0NR/-.txt|Untitled>
+
+<@U8981ES56> I'm not quite sure what you're referring to could you link it?
+
+the newer versions of sklearn have the above module in model_selection, so you may need to change accordingly
+
+in the train_test_split function, shuffle parameter will be True by default
+
+that is, the records are shuffled before being partitioned into train and test sets
+
+everyone with me so far?
+
+<https://wintermentorship.slack.com/files/U88MUQQTD/F8AK2FZBN/linear_plot.py> is it this?
+
+<@U89RBDCMD> mentioned a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8AK2FZBN/linear_plot.py|Linear_plot.py>.
+
+also, np.random.randn(10,3) gives numbers distributed normally or according to gaussian distribution
+
+just np.random.rand() just gives a random numbers
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AG6NVHR/-.txt|Untitled>
+
+We can create an instance of a linear model(specifically of LinearRegression()) as shown above
+
+<@U8A6B048M> commented on <@U8AV51H47>’s file <https://wintermentorship.slack.com/files/U8AV51H47/F8ANJA0NR/-.txt|Untitled>: I'm getting a import error.
+
+Similar classes can be used for LogisticRegression(), SVM, etc
+
+<@U88MUQQTD> commented on <@U8AV51H47>’s file <https://wintermentorship.slack.com/files/U8AV51H47/F8ANJA0NR/-.txt|Untitled>: Please send screenshot
+
+<@U8AV51H47> commented on <@U8AV51H47>’s file <https://wintermentorship.slack.com/files/U8AV51H47/F8ANJA0NR/-.txt|Untitled>: try using sklearn.model_selection instead
+
+so let's fit our linear model to the training dataset
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BELUKPY/-.txt|Untitled>
+
+<@U8A6B048M> uploaded a file: <https://wintermentorship.slack.com/files/U8A6B048M/F8AJDRT26/img_20171206_213701.jpg|IMG_20171206_213701.jpg> and commented: I cross checked. Sklearn is installed in the system.
+
+In a few sessions, you will see that ,this is tantamount to fitting a best-possible straight line for a group of data-points
+
+<@U8A6B048M> commented on <@U8AV51H47>’s file <https://wintermentorship.slack.com/files/U8AV51H47/F8ANJA0NR/-.txt|Untitled>: Getting same error
+
+<@U89RBDCMD> commented on <@U8A6B048M>’s file <https://wintermentorship.slack.com/files/U8A6B048M/F8AJDRT26/img_20171206_213701.jpg|IMG_20171206_213701.jpg>: It seems scipy is not installed?
+
+<@U88MUQQTD> commented on <@U8A6B048M>’s file <https://wintermentorship.slack.com/files/U8A6B048M/F8AJDRT26/img_20171206_213701.jpg|IMG_20171206_213701.jpg>: Yeah install scipy first
+
+now, let's use our trained model, to make our predictions
+
+<@U89RBDCMD> commented on <@U8A6B048M>’s file <https://wintermentorship.slack.com/files/U8A6B048M/F8AJDRT26/img_20171206_213701.jpg|IMG_20171206_213701.jpg>: also are you using windows?
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8ANQ0961/-.txt|Untitled> and commented: it's better to store the answer in a seperate variable, for checking accuracy and other scores
+
+<@U8A6B048M> commented on <@U8A6B048M>’s file <https://wintermentorship.slack.com/files/U8A6B048M/F8AJDRT26/img_20171206_213701.jpg|IMG_20171206_213701.jpg>: Ya scipy is missing. Well I didn't know we need to install that too.
+No I'm working on kali.
+
+now, ans contains the predictions on the data-points in X_test
+
+Warning (from warnings module):
+  File "C:\Python27\lib\site-packages\sklearn\cross_validation.py", line 41
+    "This module will be removed in 0.20.", DeprecationWarning)
+DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+
+but wkt the ground truth for these points is stored in y_test
+
+<@U89RBDCMD> commented on <@U8A6B048M>’s file <https://wintermentorship.slack.com/files/U8A6B048M/F8AJDRT26/img_20171206_213701.jpg|IMG_20171206_213701.jpg>: Future tip before installing a library check their documentation they will most likely have a list of dependencies you will need to install
+
+I am getting this warning
+
+so let's see how well we performed
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8A3BG3LZ/-.txt|Untitled>
+
+Yes in that coffee
+
+*code
+
+this is a commonly used cost function, to see the deviations from our predictions and correct answers
+
+Yeah that's fine sklearn redid it's structure so they moved their train_test_split to sklearn.model_selection the warning should go away if you use it from there
+
+We get a set of points right? Can we join them by a curve is what I'm asking
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AJHEBLJ/-.txt|Untitled> and commented: please include this line, before the prev line
+
+we can also use r2 scores, f2 scores,etc if required, and import the appropriate modules from sklearn.metrics
+
+that's it for this session, I guess
+
+I will post the pandas jupyter notebook, with a few more comments
+
+Okay so go through the logs once again . We will send the logs and transcripts
+
+<https://classroom.udacity.com/courses/ud1111/lessons/c6a12f2e-63f2-4007-a2c3-dd3e5f06f3cb/concepts/4cdc5a26-1e54-4a69-8eb4-f15e37aaab7b#>
+
+Try completing this course on Anaconda and Jupyter notebook
+
+Feel free to ask any doubts
+
+GoodNight:sweat_smile:
+
+Thanks for a brief review of the libraries.
+
+Thank you Anumeha and Chenna Keshava
+
