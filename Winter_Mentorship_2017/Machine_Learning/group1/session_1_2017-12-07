@@ -1,0 +1,448 @@
+
+U8B7TH3HT:
+<@U8B7TH3HT> has joined the channel
+
+U8B1AL28J:
+<@U8B1AL28J> has joined the channel
+
+U8B3TR1DG:
+<@U8B3TR1DG> has joined the channel
+
+Utkarsh:
+Hello guys! I'm Utkarsh, 2nd year IT. I'm one of your mentors. Everyone please introduce yourselves.
+
+Utkarsh:
+Name, Year, Branch
+
+U8A5P033K:
+<@U8A5P033K> has joined the channel
+
+Shashank:
+Hello everyone. I am Shashank, 2nd year CSE. I'm also one of your mentors.
+
+Utkarsh:
+We'll wait for about 5 mins more, then we'll start
+In the meantime guys please introduce yourselves
+
+U8AC9FWU8:
+<@U8AC9FWU8> has joined the channel
+
+U8B85SCH3:
+<@U8B85SCH3> has joined the channel
+
+Shashank:
+Guys reply with a :+1: atleast if you are there
+
+U8AC9FWU8:
+:+1: 
+
+U8BCTU6HM:
+<@U8BCTU6HM> has joined the channel
+
+Utkarsh:
+Also a small intro wouldn't hurt guys
+We have to be able to communicate if you guys are interested in learning :slightly_smiling_face:
+
+U8AJLFZA7:
+:+1::skin-tone-3:
+
+U8AC9FWU8:
+I'm HIMANSHU from 1year MCA 
+
+U8A5P033K:
+This is Shireesh,2nd yr IT
+
+U8BCTU6HM:
+Jahnwee MCA 1st year
+
+U896Z7U4V:
+Sonali  , MCA, 1st year
+
+Utkarsh:
+Alright let's get started then
+
+Utkarsh:
+So the Agenda for today:
+
+Utkarsh:
+- What is Machine Learning?
+
+Utkarsh:
+- How it differs from Artificial Intelligence
+
+Utkarsh:
+- Types of Tasks that Machine Learning can accomplish
+
+Utkarsh:
+- Different Types of Machine Learning models and a brief on each of these
+
+Utkarsh:
+Let's start off with 'What is Machine Learning?'
+
+Utkarsh:
+The formal definition:
+Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.
+
+Utkarsh:
+I think the best way to understand things is through examples so, I'll be stating the formal definition and then put forward examples and try to make things clear
+
+Utkarsh:
+So if anyone has any doubts, please feel free to put that up and we'll try to clear it
+
+Utkarsh:
+*Getting back to the topic*
+
+Utkarsh:
+So keep in mind the formal definition, we'll go through some examples of problems that machine learning can solve
+
+Utkarsh:
+1) Predicting on a given set of features like size, shape, time elapsed since diagnosis etc if a particular tumor is malignant or benign.
+
+Utkarsh:
+So if you know features about a particular tumor and you have data from previously diagnosed tumors of other patients along with the outcome, whether it was benign or malignant
+
+Utkarsh:
+the machine learning model will try to predict whether this tumor is benign or malignant
+
+Utkarsh:
+2)  Predicting housing prices based on size of rooms, area of the house, median income in a specified radius from its location etc.
+
+Utkarsh:
+3) Recognizing handwritten digits based on images of a set of handwritten digits provided to the machine.
+
+Utkarsh:
+I hope everyone is getting an idea of the kind of problems machine learning can solve
+
+Utkarsh:
+Put a :+1: if you're following or ask any doubts you have
+
+U8AJLFZA7:
+:+1::skin-tone-3:
+
+U8BCTU6HM:
+:+1: 
+
+U8A5P033K:
+:+1:
+
+U8B85SCH3:
+🖒
+
+Utkarsh:
+Alright cool so let's move onto how Machine learning differs from Artificial Intelligence
+
+Utkarsh:
+*Artificial Intelligence*
+Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.
+
+U8A29QM0Q:
+<@U8A29QM0Q> has joined the channel
+
+Utkarsh:
+*So one approach towards achieving AI is Machine Learning.*
+
+Utkarsh:
+*But Machine Learning is merely an approach towards achieving Artificial Intelligence.*
+
+Utkarsh:
+Just to give you a small example, not quite a good one but it'll do the job.
+
+Utkarsh:
+Consider a very simple obstacle tackling bot. All it does it move forward, if it comes across an obstacle within say 300 cm, which it will detect using a sensor onto it, it stops and changes its direction and moves forward again.
+
+Utkarsh:
+Now we can say that this bot has "Intelligence" but ofcourse *it doesn't use any machine learning at all.*
+
+Utkarsh:
+In a way if you were to visualise machine learning, it is like a subset of Artificial Intelligence
+
+Utkarsh:
+Infact a lot of Self driving cars identify themselves with "AI" and do not make use of a lot of Machine Learning
+
+Utkarsh:
+I hope I've made the point clear
+
+Utkarsh:
+Put a :+1: if you're following or ask any doubts you have
+
+U8AJLFZA7:
+:+1::skin-tone-3:
+
+U8B85SCH3:
+🖒
+
+U8BCTU6HM:
+:+1: 
+
+U8A5HS1DE:
+<@U8A5HS1DE> has joined the channel
+
+Utkarsh:
+Alright let's move on then
+
+Utkarsh:
+There are quite a lot of tasks that machine learning can accomplish
+
+Utkarsh:
+A thing to note is, what you'll be seeing up ahead you may not grasp completely. You will completely grasp it only in the upcoming sessions when we learn about the various models, but until then its important to know these types.
+
+Utkarsh:
+So broadly they are:
+1. Classification
+2. Regression
+3. Clustering
+4. Dimensional Reduction
+
+Utkarsh:
+1. Classification - Given a set of inputs, map each to one or more of a predefined set of categories.
+
+Utkarsh:
+There are certain parameters/features, associated with the a model. Based on past data, these parameters will be given values. 
+So for new data, we can predict the output value using this model.
+
+Utkarsh:
+I'm sorry in the above message, parameters~/features~
+
+Utkarsh:
+parameters/ ~features~
+
+Utkarsh:
+consider the same example of tumors, in that the predefined set of categories is "malignant or "benign"
+
+Utkarsh:
+the tumors example is a binary classification problem, but we can have multiple outcomes too
+
+Utkarsh:
+those are multiclassification problems
+
+Utkarsh:
+any doubts?
+
+U8AJLFZA7:
+No
+
+Utkarsh:
+Moving onto regression then
+
+Utkarsh:
+2. Regression - Given a set of inputs, map them to a continuous function
+
+Utkarsh:
+So, we are given the inputs and outputs of a continuous real-valued function.
+And we would like to learn the function and use it to obtain the output for other unseen inputs.
+
+Utkarsh:
+A nice way to understand this would be the housing prices prediction
+
+Utkarsh:
+let's say, for the sake of this example, that you have only 1 feature called "size of the house" and the outcome is ofcourse the price
+
+Utkarsh:
+so your data has two columns, one for size and the other for price
+
+Utkarsh:
+now if you plot this on an x-y plane, for "size of the house" vs "price" you get various points on the graph
+
+Utkarsh:
+the challenge for our model is to construct a curve for this x-y graph such that for any new size of the house, it provides the most accurate prediction of its corresponding price on the graph
+
+Utkarsh:
+was this clear? feel free to ask any doubts you might have
+
+Utkarsh:
+I'm trying to give a very high level intuition of how these models work
+
+U8BCTU6HM:
+:+1: 
+
+U8AEMSF6C:
+<@U8AEMSF6C> has joined the channel
+
+Utkarsh:
+so next let's look at Clustering
+
+Utkarsh:
+3. Clustering - Task of grouping a set of objects in such a way that objects in the same group are more similar (in some sense or another) to each other than to those in other groups (clusters)
+
+Utkarsh:
+4. Dimensional Reduction - Simplify a given input mapping it to lower dimensional space
+
+Utkarsh:
+We use dimentsonal reduction when suppose we have 12 attributes for a given list of objects, and we want to visualise these attributes, that can be done only if the reduce them to 2D/3D data.
+
+Utkarsh:
+dimensional*
+
+Utkarsh:
+So I think we can move onto our final Topic for the day, types of machine learning models
+
+Utkarsh:
+Before I do, I hope everyone is following, if not please go ahead and ask doubts
+
+Utkarsh:
+Alright so types of machine learning models:
+1) Supervised Learning
+
+Utkarsh:
+Here, the model is given data and corresponding output, to learn a general function that maps input to output.
+So, classification and regression are generally achieved through Supervised learning.
+
+Utkarsh:
+We've already looked at classification and regression above
+
+Utkarsh:
+2) Unsupervised Learning
+
+Utkarsh:
+Here, the model is given only the data, and is expected to discover hidden patterns and/or structure in the data.
+For example, clustering is achieved through Unsupervised Learning since we are not given any explicit labels based on which the data is to be clustered.
+
+Utkarsh:
+I think I'll wait for about 3-4 minutes here, you guys can read through this once more
+
+Utkarsh:
+So guys if you have any doubts, anything you want to understand better please go ahead and ask
+
+Utkarsh:
+<@U888HQS7K> will take over from here
+
+Shashank:
+Thank you <@U88K2UW8Z>
+
+Shashank:
+First of all, how many of you are still here? reply with a thumbs up
+
+U8BCTU6HM:
+:+1: 
+
+Shashank:
+Coming to the 3rd type of machine learning called "Reinforcement learning"
+
+Shashank:
+Reinforcement learning is different from supervised and unsupervised learning. In reinforcement learning, you are not provided with data like those in supervised and unsupervised.
+
+Shashank:
+Here you have 'environment' and 'agents'.
+
+Shashank:
+Reinforcement learning is a type of learning where an agent receives rewards from its environment and based on the rewards it gets, the agent learns what actions to take.
+
+Shashank:
+These rewards can be positive or negative.
+
+Shashank:
+Positive rewards mean the agent is making some improvement, while negative rewards mean that the agent is making ‘mistakes’.
+
+Shashank:
+Let me try to give a real life analogy of reinforcement learning.
+
+Shashank:
+Remember the time when you learnt to ride a bicycle.
+
+Shashank:
+Sometimes you would fall, sometimes you would be able to cycle for some distance.
+
+Shashank:
+By practising more, you eventually learnt to ride a bicycle.
+
+Shashank:
+Can someone identify the 'agent' and 'environment' here and tell me?
+
+Shashank:
+Ok I will tell you. The agent here would be the person riding the bicycle.
+
+Shashank:
+And environment would be the cycle and the road.
+
+Shashank:
+Any doubts till here? If any please ask. If not reply with a thumbs up
+
+Shashank:
+Ok I ll carry on. Stop me if you don't understand.
+
+Shashank:
+An example of reinforcement learning - consider a problem where a robot needs to reach the center of a maze from one corner of the maze.
+
+Shashank:
+Here the robot is the agent and maze is the environment.
+
+Shashank:
+Initially, the robot does not know anything about the maze, so it explores the maze.
+
+Shashank:
+As it explores the maze, it learns about the characteristics of the maze like the different paths it can go, check if there are dead ends, etc.
+
+Shashank:
+For each action it takes there is a reward, positive or negative.
+
+Shashank:
+Using reinforcement learning algorithms to learn from its successes and mistakes, the robot will eventually find the center of the maze.
+
+Shashank:
+This is just a simple intro to reinforcement learning. I don't think we ll be covering reinforcement learning in depth in this mentorship due to constraints in time.
+
+Shashank:
+There is an amazing lecture series by Prof. David Silver on youtube  if you are interested to know more about reinforcement learning.
+
+Shashank:
+Any doubts till here?
+
+Shashank:
+Now I will be telling you about some of the wonderful applications of machine learning.
+
+Shashank:
+Machine learning has wide applications computer vision, natural language processing, medical, business, education, social media, entertainment.
+
+Shashank:
+Almost everywhere
+
+Shashank:
+An app called 'Socratic' was termed the best app of 2017 on Google Play. The app converts hand-written sentences to digital text. It has trained on millions of sample data.
+
+Shashank:
+You may have heard of AlphaGo, a computer program that plays the board game Go. In 2015, it defeated a human professional Go player. It was made to play with itself a large number of times and using reinforcement learning it became better at the game.
+
+Shashank:
+<https://newatlas.com/open-ai-dota2-machine-learning/50882/>
+
+Shashank:
+Computers have become better than humans in certain games all because of machine learning
+
+Shashank:
+In the field of computer vision, computers have become as good as humans in detecting objects like animals, vehicles,  etc
+
+Shashank:
+<https://www.youtube.com/watch?v=Vj17JK3J1JU>
+
+Shashank:
+<http://myselph.de/neuralNet.html>
+
+Shashank:
+Check this site, where you write a number and computer detects what number you have written using neural networks.
+
+Shashank:
+<https://www.youtube.com/watch?v=VCdxqn0fcnE>
+
+Shashank:
+This video shows a helicopter which has learnt to make complex manoeuvres using reinforcement learning
+
+Shashank:
+Also you might be familiar with recommender systems like the movie recommender system used by Netflix.
+
+Shashank:
+<https://www.youtube.com/watch?v=T1os88EvPc4>
+
+Shashank:
+This documentary(after 41;00) explains two machine learning algorithms and its impact. First one is a model to identify parts of the body used in real time games. Second is the movie recommender system.
+
+Shashank:
+Other applications include those in self driving cars, stock market analysis.
+
+Shashank:
+Hope you guys are inspired by the power of machine learning.
+
+Shashank:
+This ends the session. If you have any doubts, feel free to ask any of the mentors. Thank you
+
+Utkarsh:
+That's about it then
