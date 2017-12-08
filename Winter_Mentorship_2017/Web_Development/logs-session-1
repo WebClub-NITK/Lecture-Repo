@@ -1,0 +1,560 @@
+Please make sure you have installed one of the text editors before the session
+
+<@U8AAM6VLJ> set the channel topic: HTML and CSS
+
+Okay so we will start the session in 10 mins . Till then introductions please
+
+I am Anumeha 2nd year IT . I am one of your mentors.
+
+I'm Moksh, 2nd year IT. I'm one of your mentors.
+
+Guys please introduce :stuck_out_tongue: Its not school so dont worry not punishing anyone xP
+
+Aditya rastogi 1st year cse
+
+Hi , I am Madhuparna 1st year IT, from S2
+
+I'm Arqum Shaikh 1st year cse.
+
+Meenakshi MCA 1st year
+
+i am soham , first year metallurgy :stuck_out_tongue:
+
+Chaitany ,1st year CSE
+
+Hello all,
+I'm Sagar. 3rd year CSE.
+People from group 2 will be joining this group as well.
+
+Hie
+I'm Hrishi
+3rd yr CSE
+you can ping any doubts during the session to me
+
+Hi! I am Nikhil Gandudi, 2nd year ECE
+
+Hii . I am sangamesh . 1st year mechanical
+
+Hey guys! I'm Utkarsh, 2nd year IT, I'm one of your mentors
+
+I'm Mishal , 2nd Year CSE, one of your mentors
+
+Sachin Goud here, ECE 2nd yr
+
+I'm Sahana, 1st year EEE
+
+I'm Sudha 
+Second year EEE
+
+Okay so in todays session we will be covering HTML and CSS and itll be a hands on session so keep your text editors open alongside :slightly_smiling_face:
+
+I'm Jamithra, 2nd yr IT
+
+hey! I'm Sharanya, 2nd yr CSE. One of your mentors
+
+Post your doubts in the 'doubts' channel. This is make sure your doubts don't interfere with the main session. Any mentor who is free will clear it there.
+
+I'm Vaishakha, second year EEE. 
+
+Hi, I'm Praveen, 2nd yr CSE. One of the mentors.
+
+You'll have to join the doubts channel first
+
+hmm kk
+
+So shall we start the session?
+
+hmm okay
+
+Hmm.....kkkkk
+
+Welcome to the 1st session on Web Development
+
+Today the topics which we'll be covering are HTML,CSS
+
+Under HTML, this will be the topics covered
+&gt; Introduction to WebDevelopment
+&gt; Getting started with HTML
+&gt; Metadata in HTML
+&gt; HTML text fundamentals
+&gt; HTML Hyperlinks
+&gt; Forms
+
+Don't worry if you don't understand any of the terms now, you'll come to know in this session
+
+Also be a bit active during the session
+The session will be more hands-on session so, make sure you do not lose the flow.
+
+So let's get started with the 1st topic `Introduction to Web Development`
+
+All of you know about Websites
+But what all does it take to build a website?
+Any ideas?
+
+a  front end and a back end layer
+
+Lots and lots of code ;)
+
+not yet
+
+backend and frontend
+
+HTML coding for layout ,Javascript for interactive forms etc
+
+Basic is HTML and CSS
+
+Javascript is final piece
+
+To be complete we need
+Softwares, deciding the layout,content,purpose of the website, Team, deciding the language(backend, frontend languages/frameworks) and finally publishing the website.
+
+Web Development is mainly divided into 2 broad divisions 
+1) Front-End Development (Client side)
+2) Back-End Development (Server Side)
+
+Front-End Development mainly uses `HTML`, `CSS`, `JavaScript` (you can also use some other frameworks but the basics remain of the above mentioned)
+
+Back-End Development can be done in any of the following `PHP`,`Ruby on Rails`,`<http://ASP.NET|ASP.NET>`,`Perl`,`Java`,`Node.js`,`Python`
+
+I know a lot of people want to learn Web Development, as they want to create the next Facebook. :stuck_out_tongue: But it's a good choice if you want general introduction to coding, since it's super easy to get started :stuck_out_tongue:
+
+But don't worry to make a choice to learn Web Development is one of the smartest decisions you have made :grin:
+
+u being the mentor adds more weight to it
+
+Now lets start with `Introduction to HTML`
+
+We’ll be focusing on the basics of HTML, and won’t be focusing too much on the features of HTML5, due to shortage of time. But please feel free to read up on HTML5 features, they’re pretty cool.
+
+Before starting please download this file
+<https://drive.google.com/file/d/1_Rz2DprBpO7BL0OUsREcI1218llIpNiE/view?usp=sharing>
+
+could we get the material?
+
+Has everyone downloaded it?
+
+We'll post links after the session
+
+Great
+HTML (Hypertext Markup Language) is not a *programming language* ; it is a markup language used to tell your browser how to structure the webpages you visit.
+
+HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way.
+
+In simple words, tags are used to render the content of your browser.
+
+&lt;p&gt;Web Development Session1&lt;/p&gt;
+
+Here &lt;p&gt; is opening tag
+&lt;/p&gt; is closing tag
+
+Web Development Session1 is the content
+
+and `&lt;p&gt;Web Development Session1&lt;/p&gt;` is an element
+
+You can put elements inside other elements too — this is called nesting.
+
+Any doubts so far?
+
+Know the two important categories of elements in HTML —
+block-level elements(&lt;div&gt;, &lt;p&gt;, lists) and inline elements(&lt;em&gt;, &lt;strong&gt;).
+
+Difference between the two is:
+ - block-level elements begin on new lines.
+- It can contain another block level as well as inline elements.
+
+- Inline can contain data and other inline elements.
+- By default, inline elements do not begin on new lines.
+
+Class and id attributes are important for styling and manipulation with css and js
+Will be covered more in CSS.
+
+If you have any doubts
+Do stop me
+
+now let's start with `MetaData in HTML`
+
+Everyone open the downloaded file in your text editor
+I'll explain the terms in it.
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8BPR5ZBM/basic_html.html|basic html>
+
+This is how a basic HTML looks like
+
+Metadata is written within the `head` tag of your html file.
+
+The content in the `head` is not displayed on the webpage
+
+So what's the use of it?
+
+styling and linking other metadata?
+
+comments?
+
+Documentation, I guess
+
+It's displayed as the tab heading or something.. 
+
+
+Well these content can be used 
+- to display your website 1st in any search engine
+- displaying icon
+- linking css/js files
+- writing about the author/description of the webpage
+
+its used to display heading tab in browser plus can link metadata,scripts...so not directly useful but has functions
+
+Regarding comments
+Comments can be done anywhere in your webpage
+
+In the file you have downloaded
+
+`&lt;meta charset="utf-8"&gt;`
+
+This is used for encoding your webpage
+
+Why do we need to encode?
+
+If you would have seen, google asks to translate a webpage
+If that is encoded in a universal way, then it becomes easier for them to translate from one language to other.
+
+That meta tag specifies what character set is your website written with,and encode i guess to publish it on www?
+
+No.
+That is automaticllay rendered by browsers
+
+` &lt;meta name="description" content=""&gt;`
+
+ok..got it...
+
+This is used for SEO
+It becomes easier for search engines to search from this.
+You can mention about your site in the description
+you can write about the author
+
+SEO?
+
+Search Engine Optimization
+
+Search Engine Optimization
+
+What do we write in the content attribute? 
+
+
+We write the description in the content
+
+Also, why is there no content within the first &lt;title&gt; tag?
+
+The name of the meta tag is description
+
+if the name is "author", you write the author's name in the content
+
+It doesnt matter its not necessary to give in content there
+
+&lt;meta name="author" content="Author Name"&gt;
+
+alright!
+
+Thanks.. 
+
+` &lt;link rel="apple-touch-icon" href="icon.png"&gt;` 
+Using this you can set the icon on a webpage
+The icon you see on the top corner of your tab in browser
+
+` &lt;link rel="stylesheet" href="css/main.css"&gt;`
+This is used to link a css file
+
+&lt;link .. /&gt; Is it a meta tag or something else...
+
+If you write css within your html file
+It is a bad programming habit, so we link a CSS file
+
+its a link tag
+
+Similarly, a JS file can also be linked.
+Will be told in JS session
+
+`&lt;html lang="en"&gt;`
+
+This is to set the default language of your browser
+
+browser or our website in particular?
+
+Now lets head to 3rd topic
+`HTML text fundamentals`
+
+sorry got confused with metadata and meta tag, thank you.
+
+webpage.
+
+hmm kk
+
+There are a lot of tags
+We'll be covering only few important ones here
+
+Website in particular
+
+Webpage*
+
+`&lt;hx&gt;` tags are header tags
+
+x=1 to 6
+
+haan samjha
+
+h1 has the maximum size
+
+h6 - minimum
+
+If you open the webpageyou all downloaded, you can see the different sizes
+
+`&lt;p&gt;` is paragraph tag
+
+Note these tags need to be closed `&lt;/p&gt;`
+
+There are some tags called empty tags, which do not need to be closed
+
+eg. `&lt;br&gt;`
+
+`&lt;br&gt;` is break line tag
+
+`&lt;div&gt;` , `&lt;hx&gt;`, `&lt;p&gt;` are blockline elements
+
+&lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;u&gt;, &lt;i&gt; are inline text formatting tags
+
+Strong, emphazies, bold, underline, italics respectively
+
+Any doubts?
+
+^what is div for?
+
+Division element
+To specify a particular division on your webpage
+
+could u give one eg. ?
+
+`&lt;pre&gt;` tag is used to display the text in same format as given
+
+Open the webpage you all have downloaded
+
+Difference between &lt;div&gt; and &lt;span&gt; tag?
+
+See that the formatting of the text in pre tag remains the same.
+
+suppose you want to apply same css properties to one entire section of you webpage, you put that section within a div tag
+
+Is everyone following?
+
+then apply the properties to that div
+
+` &lt;pre&gt;
+                1
+               2 2
+              3 3 3
+             4 4 4 4  
+ &lt;/pre&gt;`
+
+This was the example for pre tag in the file given to you
+
+span is inline whereas div is block level
+
+Now suppose you want to display the data as lists
+
+Is it pre formated text or something like that?
+
+so span can be used to apply specific styles to a part of the sentence
+
+Then we use `&lt;ol&gt;` or `&lt;ul&gt;` tags
+
+ya
+
+ol = ordered lists
+ul = unordered lists
+
+thanks..
+
+div is generally for an entire block on the page
+
+yes
+
+If you start with `ol` and specify list tag `&lt;li&gt;`, the content will be displayed in ordered format
+
+If you start with `ul` and specify list tag `&lt;li&gt;`, the content will be displayed in unordered format
+
+If we use &lt;div&gt;,it'll start in a new line?
+
+Check the difference in the file given to you
+
+``` &lt;div align="center" style="color:red"&gt;
+  &lt;h3&gt;Heading&lt;/h3&gt;
+  &lt;p&gt;This is a paragraph. Hmmm &lt;/p&gt;
+&lt;/div&gt; 
+```
+
+yes
+
+We'll now move to next topic `Hyperlinks`
+
+They allow us to link our documents to any other document (or other resource) we want to, we can also link to specific parts of documents, and we can make apps available at a simple web address
+
+okay..
+
+li means integer numbering in ol ;; what does it mean in ul?
+
+li stands for list
+
+It is common in both
+
+okay
+
+A very basic example of it is:
+`&lt;a href= "" &gt;abcd&lt;/a&gt;`
+
+See the a href tag in the file given to you
+If you specify the url to be followed in the href, it will be redirected to it.
+
+You can also see YouTube video in your webpage by the use of `iframe`tag
+
+&lt;iframe src="video link here"&gt;&lt;/iframe&gt;
+
+Now the last topic  `Forms in HTML` will be covered by <@U89QN8DR7>
+
+So, forms are used quite widely on the internet
+
+The given file has a basic form
+
+What if I want the display text to be xyz and clicking that should take me somewhere else?
+
+Before that, Do you all know how to render HTML document? As in the 'output' of HTML?
+
+Save it with ".html" extension right?
+
+&lt;a href="link"&gt; xyz&lt;/a&gt;
+In place of link specify the url
+
+Yes, set the text to be xyz
+And mention the link in href 
+&lt;a href= "url" &gt;xyz&lt;/a&gt;`
+
+Oh! My bad! Thanks <@U8B6NRYES> <@U89RH5UF3> 
+
+Yes. And open with a browser. Try changing the HTML document and reload the page on the browser after every change. You can see what each tag does and learn along as the mentors tell you about different tags.
+
+You can also use 'inspect element'. Right click in the browser and click on 'Inspect Element' option. You will be shown the HTML document associated with your page. You can change anything and witness changes on the go.
+
+Continue :stuck_out_tongue:
+
+Actually you just gave them the life saver. 
+
+okay so, `&lt;form&gt;` is used to indicate the start of a form.
+
+It has two attributes
+
+action and method
+
+action is used to indicate to what URL the data in the  form is to be sent
+
+and method indicates how the data is to be sent.
+
+method can be POST or GET.
+
+POST and GET requests are huge topics themselves, so we won't be covering them now.
+
+Is everyone following?
+
+Now, within the form tag, we have several 'form elements'
+
+`label` is used to indicate the label for a particular field
+
+it has a for attribute which indicates to which field this label belongs
+
+so in the given example, the label Name corresponds to the input tag with the id 'name'
+
+An `input` tag is used to take user input
+
+The attribute type is used to specify what kind of input is to be accepted.
+
+so it can be text, or numbers for example.
+
+HTML5 supports a number of other input types.
+
+the name attribute defines the name of that data being input.
+
+so, as I mentioned earlier, the form data is sent to some other url to be processed
+
+there to refer to a particular field we use it's name in the form
+
+Is this clear so far?
+
+What about the id attribute?
+
+You mean name is used to access that particular field later for other purposes?
+
+The id attribute is used to refer to the element itself, by other HTML elements or JS (Will be dicussed later in the course)
+
+Moving ahead
+
+The next is an input and label for email
+
+You can reference the element later in javascript which you specify using name.
+
+similar to the name input, only difference being the input type is email
+
+Next we have a `&lt;textarea&gt;`
+
+What about id?
+
+This tag is used for accepting a large amount of text as input, on multiple lines
+
+an example would be the area where you write facebook posts
+
+Other example
+```&lt;input type="radio" name="gender"&gt; Male&lt;br&gt;
+  &lt;input type="radio" name="gender"&gt; Female&lt;br&gt;```
+
+finally, we have a button
+
+`&lt;button&gt;` as the name suggests, defines a button :stuck_out_tongue:
+
+name does not have to be unique for elements unlike id
+
+Oh! Thanks....k
+
+Here as both input tags have same name they form a group.
+
+The button is assigned the attribute with value submit, this indicates that this particular button is used to perform the 'submit' action for the form it belongs to
+
+The button can also be assigned other tasks, using JS, which will be discussed in future sessions.
+
+Oh! Okay...the css can be applied at once to both or something like that?
+
+Due to time constraints we won't be able to conduct the CSS session today.
+
+The session will be conducted later. The timings will be informed soon.
+
+That is all for today's session.
+
+We hope you got a good idea about HTML
+
+If you have any doubt, you can approach any of the mentors
+
+Thanks <@U8B6NRYES> <@U89QN8DR7>
+
+class is used when such a case is required.
+
+The logs for today's session will be posted soon.
+
+Hmmm...k
+
+that was really awesome
+
+That will be covered in upcoming sessions.
+
+what is the logs of today's session
+
+i mean what does it mean
+
+In case you want to refer any of the messages again
+It is kind of history of the messages
+
+oh ok i got it
+
