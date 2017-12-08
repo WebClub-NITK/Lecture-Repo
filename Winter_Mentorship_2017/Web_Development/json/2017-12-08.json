@@ -1,0 +1,2725 @@
+[
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Please make sure you have installed one of the text editors before the session",
+        "ts": "1512744399.000113"
+    },
+    {
+        "user": "U8AAM6VLJ",
+        "topic": "HTML and CSS",
+        "text": "<@U8AAM6VLJ> set the channel topic: HTML and CSS",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1512744617.000200"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Okay so we will start the session in 10 mins . Till then introductions please",
+        "ts": "1512745209.000430"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "I am Anumeha 2nd year IT . I am one of your mentors.",
+        "ts": "1512745224.000750"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "I'm Moksh, 2nd year IT. I'm one of your mentors.",
+        "ts": "1512745289.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Guys please introduce :stuck_out_tongue: Its not school so dont worry not punishing anyone xP",
+        "ts": "1512745489.000248"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "Aditya rastogi 1st year cse",
+        "ts": "1512745527.000380"
+    },
+    {
+        "type": "message",
+        "user": "U8BSP9U4E",
+        "text": "Hi , I am Madhuparna 1st year IT, from S2",
+        "ts": "1512745534.000239"
+    },
+    {
+        "type": "message",
+        "user": "U8B2CUQM8",
+        "text": "I'm Arqum Shaikh 1st year cse.",
+        "ts": "1512745540.000096"
+    },
+    {
+        "type": "message",
+        "user": "U8BRF7128",
+        "text": "Meenakshi MCA 1st year",
+        "ts": "1512745612.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8CQP0PB9",
+        "text": "i am soham , first year metallurgy :stuck_out_tongue:",
+        "ts": "1512745619.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "Chaitany ,1st year CSE",
+        "ts": "1512745655.000419"
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "Hello all,\nI'm Sagar. 3rd year CSE.\nPeople from group 2 will be joining this group as well.",
+        "ts": "1512745698.000351"
+    },
+    {
+        "type": "message",
+        "user": "U8BA5RRED",
+        "text": "Hie\nI'm Hrishi\n3rd yr CSE\nyou can ping any doubts during the session to me",
+        "ts": "1512745759.000299",
+        "reactions": [
+            {
+                "name": "relieved",
+                "users": [
+                    "U8B877LJD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "heart",
+                "users": [
+                    "U8B5K5Y8Y"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Hi! I am Nikhil Gandudi, 2nd year ECE",
+        "ts": "1512745790.000123",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "U8B877LJD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AD8EY6L",
+        "text": "Hii . I am sangamesh . 1st year mechanical",
+        "ts": "1512745800.000308"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Hey guys! I'm Utkarsh, 2nd year IT, I'm one of your mentors",
+        "ts": "1512745813.000679"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "I'm Mishal , 2nd Year CSE, one of your mentors",
+        "ts": "1512745820.000377",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8CQP0PB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "Sachin Goud here, ECE 2nd yr",
+        "ts": "1512745821.000409",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CQP0PB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B9B7V09",
+        "text": "I'm Sahana, 1st year EEE",
+        "ts": "1512745827.000372"
+    },
+    {
+        "type": "message",
+        "user": "U8AE2A272",
+        "text": "I'm Sudha \nSecond year EEE",
+        "ts": "1512745846.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Okay so in todays session we will be covering HTML and CSS and itll be a hands on session so keep your text editors open alongside :slightly_smiling_face:",
+        "ts": "1512745849.000088"
+    },
+    {
+        "type": "message",
+        "user": "U8B291X42",
+        "text": "I'm Jamithra, 2nd yr IT",
+        "ts": "1512745851.000471"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "hey! I'm Sharanya, 2nd yr CSE. One of your mentors",
+        "ts": "1512745854.000473"
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "Post your doubts in the 'doubts' channel. This is make sure your doubts don't interfere with the main session. Any mentor who is free will clear it there.",
+        "thread_ts": "1512745873.000050",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8CTBT11V",
+                "ts": "1512745921.000069"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512745873.000050"
+    },
+    {
+        "type": "message",
+        "user": "U8BTRDLVB",
+        "text": "I'm Vaishakha, second year EEE. ",
+        "ts": "1512745897.000627"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "Hi, I'm Praveen, 2nd yr CSE. One of the mentors.",
+        "thread_ts": "1512745898.000377",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8B877LJD",
+                "ts": "1512745933.000689"
+            },
+            {
+                "user": "U8CQP0PB9",
+                "ts": "1512745951.000474"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512745968.000228"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512745898.000377",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8CQP0PB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "You'll have to join the doubts channel first",
+        "thread_ts": "1512745873.000050",
+        "parent_user_id": "U8CTBT11V",
+        "ts": "1512745921.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "hmm kk",
+        "thread_ts": "1512745898.000377",
+        "parent_user_id": "U8C55GJ5D",
+        "ts": "1512745933.000689"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So shall we start the session?",
+        "ts": "1512745945.000736",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8BP0MAE7",
+                    "U8B7P03QD",
+                    "U8B877LJD",
+                    "U8C2UBX1D",
+                    "U8BSD2U6Q",
+                    "U8AAM6VLJ",
+                    "U8BU06C0N",
+                    "U8BRF7128",
+                    "U8B4UNL2H",
+                    "U8CTFES9M",
+                    "U8C66434N",
+                    "U8C6GFS87",
+                    "U8B291X42",
+                    "U8B9B7V09",
+                    "U8CLC2PAS",
+                    "U8CT9FKU7"
+                ],
+                "count": 16
+            },
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U8CQP0PB9",
+                    "U8BSP9U4E",
+                    "U8C6GFS87",
+                    "U8ATV8M3M",
+                    "U8CLC2PAS"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CQP0PB9",
+        "text": "hmm okay",
+        "thread_ts": "1512745898.000377",
+        "parent_user_id": "U8C55GJ5D",
+        "ts": "1512745951.000474"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Hmm.....kkkkk",
+        "thread_ts": "1512745898.000377",
+        "parent_user_id": "U8C55GJ5D",
+        "ts": "1512745968.000228",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8B877LJD",
+                    "U8C55GJ5D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Welcome to the 1st session on Web Development",
+        "ts": "1512745992.000064",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CQP0PB9",
+                    "U8ATV8M3M",
+                    "U8B877LJD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Today the topics which we'll be covering are HTML,CSS",
+        "ts": "1512746013.000146"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Under HTML, this will be the topics covered\n&gt; Introduction to WebDevelopment\n&gt; Getting started with HTML\n&gt; Metadata in HTML\n&gt; HTML text fundamentals\n&gt; HTML Hyperlinks\n&gt; Forms",
+        "ts": "1512746033.000203"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Don't worry if you don't understand any of the terms now, you'll come to know in this session",
+        "ts": "1512746058.000474"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Also be a bit active during the session\nThe session will be more hands-on session so, make sure you do not lose the flow.",
+        "ts": "1512746075.000087",
+        "reactions": [
+            {
+                "name": "beers",
+                "users": [
+                    "U8B877LJD",
+                    "U8C6GFS87",
+                    "U8AF3PK5X",
+                    "U8CT9FKU7"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U8B4T3B6H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So let's get started with the 1st topic `Introduction to Web Development`",
+        "ts": "1512746091.000321"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "All of you know about Websites\nBut what all does it take to build a website?\nAny ideas?",
+        "ts": "1512746110.000126"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "a  front end and a back end layer",
+        "ts": "1512746138.000224"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Lots and lots of code ;)",
+        "ts": "1512746142.000259",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8B877LJD",
+                    "U8B5K5Y8Y",
+                    "U8B4T3B6H"
+                ],
+                "count": 3
+            },
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8C55GJ5D"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C6GFS87",
+        "text": "not yet",
+        "ts": "1512746144.000684"
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "backend and frontend",
+        "ts": "1512746147.000086"
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "HTML coding for layout ,Javascript for interactive forms etc",
+        "ts": "1512746179.000120",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89QYNMUH",
+                    "U8ATV8M3M",
+                    "U8C2UBX1D",
+                    "U8B877LJD",
+                    "U8AUCD03S"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "Basic is HTML and CSS",
+        "ts": "1512746213.000011"
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "Javascript is final piece",
+        "ts": "1512746233.000042",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "To be complete we need\nSoftwares, deciding the layout,content,purpose of the website, Team, deciding the language(backend, frontend languages\/frameworks) and finally publishing the website.",
+        "ts": "1512746264.000043",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CTFES9M",
+                    "U8BP0MAE7",
+                    "U8CQP0PB9",
+                    "U8AF3PK5X",
+                    "U8C2UBX1D",
+                    "U8B877LJD",
+                    "U8ATV8M3M",
+                    "U8AUCD03S",
+                    "U8B64M7PA",
+                    "U8B4UNL2H"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Web Development is mainly divided into 2 broad divisions \n1) Front-End Development (Client side)\n2) Back-End Development (Server Side)",
+        "ts": "1512746302.000676"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Front-End Development mainly uses `HTML`, `CSS`, `JavaScript` (you can also use some other frameworks but the basics remain of the above mentioned)",
+        "ts": "1512746317.000399"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Back-End Development can be done in any of the following `PHP`,`Ruby on Rails`,`<http:\/\/ASP.NET|ASP.NET>`,`Perl`,`Java`,`Node.js`,`Python`",
+        "ts": "1512746333.000444"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "I know a lot of people want to learn Web Development, as they want to create the next Facebook. :stuck_out_tongue: But it's a good choice if you want general introduction to coding, since it's super easy to get started :stuck_out_tongue:",
+        "ts": "1512746366.000013",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8B877LJD",
+                    "U8ATV8M3M",
+                    "U8AF3PK5X",
+                    "U8CQP0PB9",
+                    "U8CT9FKU7"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "But don't worry to make a choice to learn Web Development is one of the smartest decisions you have made :grin:",
+        "thread_ts": "1512746390.000117",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B877LJD",
+                "ts": "1512746419.000646"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512746390.000117",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8AF3PK5X",
+                    "U8ATV8M3M",
+                    "U8C55GJ5D",
+                    "U8CQP0PB9"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "u being the mentor adds more weight to it",
+        "thread_ts": "1512746390.000117",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512746419.000646",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U8CQP0PB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Now lets start with `Introduction to HTML`",
+        "ts": "1512746426.000317"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We’ll be focusing on the basics of HTML, and won’t be focusing too much on the features of HTML5, due to shortage of time. But please feel free to read up on HTML5 features, they’re pretty cool.",
+        "thread_ts": "1512746446.000393",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1512746494.000539"
+            },
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512746549.000504"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512746446.000393",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8AF3PK5X",
+                    "U8B877LJD",
+                    "U8CQP0PB9",
+                    "U8BRF7128"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Before starting please download this file\n<https:\/\/drive.google.com\/file\/d\/1_Rz2DprBpO7BL0OUsREcI1218llIpNiE\/view?usp=sharing>",
+        "ts": "1512746493.000221"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "could we get the material?",
+        "thread_ts": "1512746446.000393",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512746494.000539"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Has everyone downloaded it?",
+        "ts": "1512746541.000388",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8B877LJD",
+                    "U8C2UBX1D",
+                    "U8CQP0PB9",
+                    "U8CTFES9M",
+                    "U8BP0MAE7",
+                    "U8AF3PK5X",
+                    "U8BSD2U6Q",
+                    "U8C3DD53R",
+                    "U8BGN1L2G",
+                    "U8B9B7V09",
+                    "U8B4UNL2H",
+                    "U8C6GFS87",
+                    "U8CLC2PAS",
+                    "U8AE2A272",
+                    "U8B7P03QD",
+                    "U8B64M7PA",
+                    "U8AUCD03S",
+                    "U8BSQCMU6",
+                    "U8ATUURM1"
+                ],
+                "count": 20
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "We'll post links after the session",
+        "thread_ts": "1512746446.000393",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512746549.000504",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8B877LJD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Great\nHTML (Hypertext Markup Language) is not a *programming language* ; it is a markup language used to tell your browser how to structure the webpages you visit.",
+        "ts": "1512746606.000141",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AF3PK5X",
+                    "U8C2UBX1D",
+                    "U8CQP0PB9",
+                    "U8ATV8M3M",
+                    "U8B4UNL2H",
+                    "U8B64M7PA",
+                    "U8ATUURM1",
+                    "U8C6GFS87",
+                    "U8CLC2PAS",
+                    "U8CTBT11V",
+                    "U8C3DD53R"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way.",
+        "ts": "1512746648.000389"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "In simple words, tags are used to render the content of your browser.",
+        "ts": "1512746671.000785"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "&lt;p&gt;Web Development Session1&lt;\/p&gt;\n\nHere &lt;p&gt; is opening tag\n&lt;\/p&gt; is closing tag",
+        "ts": "1512746728.000423"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Web Development Session1 is the content",
+        "ts": "1512746743.000615"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "and `&lt;p&gt;Web Development Session1&lt;\/p&gt;` is an element",
+        "ts": "1512746759.000530"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "You can put elements inside other elements too — this is called nesting.",
+        "ts": "1512746792.000146"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Any doubts so far?",
+        "ts": "1512746799.000314",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8BP0MAE7",
+                    "U8ATV8M3M",
+                    "U8B7P03QD",
+                    "U8AF3PK5X",
+                    "U8B64M7PA",
+                    "U8BSD2U6Q",
+                    "U8C2UBX1D",
+                    "U8BRF7128",
+                    "U8CQP0PB9",
+                    "U8B9B7V09",
+                    "U8C6GFS87",
+                    "U8BA12ZMX",
+                    "U8CLC2PAS",
+                    "U8ATUURM1",
+                    "U8CT9FKU7",
+                    "U8CTFES9M",
+                    "U8CN67YES"
+                ],
+                "count": 17
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Know the two important categories of elements in HTML —\nblock-level elements(&lt;div&gt;, &lt;p&gt;, lists) and inline elements(&lt;em&gt;, &lt;strong&gt;).",
+        "ts": "1512746914.000578",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AF3PK5X",
+                    "U8C2UBX1D",
+                    "U8CT9FKU7",
+                    "U8C6GFS87",
+                    "U8BU06C0N",
+                    "U8CLC2PAS",
+                    "U8CTFES9M",
+                    "U8BRMPAUA"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Difference between the two is:\n - block-level elements begin on new lines.\n- It can contain another block level as well as inline elements.\n\n- Inline can contain data and other inline elements.\n- By default, inline elements do not begin on new lines.",
+        "ts": "1512747013.000426",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8B877LJD",
+                    "U8CLC2PAS",
+                    "U8AF3PK5X",
+                    "U8C6GFS87",
+                    "U8CTFES9M"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Class and id attributes are important for styling and manipulation with css and js\nWill be covered more in CSS.",
+        "edited": {
+            "user": "U8B6NRYES",
+            "ts": "1512747105.000000"
+        },
+        "ts": "1512747088.000762",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8CQP0PB9",
+                    "U8C6GFS87",
+                    "U8AF3PK5X"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you have any doubts\nDo stop me",
+        "ts": "1512747139.000146",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B877LJD",
+                    "U8C6GFS87",
+                    "U8AF3PK5X"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "now let's start with `MetaData in HTML`",
+        "ts": "1512747146.000080"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Everyone open the downloaded file in your text editor\nI'll explain the terms in it.",
+        "ts": "1512747176.000046",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CLC2PAS",
+                    "U8BSQCMU6",
+                    "U8BP0MAE7",
+                    "U8B9B7V09",
+                    "U8B877LJD",
+                    "U8CTFES9M",
+                    "U8C66434N",
+                    "U8C3DD53R",
+                    "U8AF3PK5X",
+                    "U8C6GFS87"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8BPR5ZBM\/basic_html.html|basic html>",
+        "file": {
+            "id": "F8BPR5ZBM",
+            "created": 1512747268,
+            "timestamp": 1512747268,
+            "name": "basic_html.html",
+            "title": "basic html",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 86,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BPR5ZBM\/basic_html.html?t=xoxe-282397760404-283938521538-285010539911-a4505bc3226ab832a6990eeb2eda0f2b",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BPR5ZBM\/download\/basic_html.html?t=xoxe-282397760404-283938521538-285010539911-a4505bc3226ab832a6990eeb2eda0f2b",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8BPR5ZBM\/basic_html.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BPR5ZBM-9d8de7acff",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8BPR5ZBM\/basic_html.html\/edit",
+            "preview": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title><\/title>\r\n<\/head>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 9,
+            "lines_more": 4,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1512747268.000603"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This is how a basic HTML looks like",
+        "ts": "1512747301.000008",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CQP0PB9",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Metadata is written within the `head` tag of your html file.",
+        "ts": "1512747343.000377"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "The content in the `head` is not displayed on the webpage",
+        "ts": "1512747365.000313"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So what's the use of it?",
+        "ts": "1512747375.000438"
+    },
+    {
+        "type": "message",
+        "user": "U8CQP0PB9",
+        "text": "styling and linking other metadata?",
+        "ts": "1512747398.000257",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8B4UNL2H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "comments?",
+        "ts": "1512747406.000678"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Documentation, I guess",
+        "ts": "1512747427.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "It's displayed as the tab heading or something.. \n",
+        "ts": "1512747450.000048",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Well these content can be used \n- to display your website 1st in any search engine\n- displaying icon\n- linking css\/js files\n- writing about the author\/description of the webpage",
+        "ts": "1512747497.000063",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CTFES9M",
+                    "U8B61JKC5",
+                    "U8C3DD53R",
+                    "U8BRF7128"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "its used to display heading tab in browser plus can link metadata,scripts...so not directly useful but has functions",
+        "ts": "1512747512.000481",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Regarding comments\nComments can be done anywhere in your webpage",
+        "ts": "1512747516.000085",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B877LJD",
+                    "U8C3DD53R",
+                    "U8CQP0PB9",
+                    "U8B61JKC5"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "In the file you have downloaded",
+        "ts": "1512747548.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;meta charset=\"utf-8\"&gt;`",
+        "ts": "1512747561.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This is used for encoding your webpage",
+        "ts": "1512747573.000260"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Why do we need to encode?",
+        "ts": "1512747582.000292"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you would have seen, google asks to translate a webpage\nIf that is encoded in a universal way, then it becomes easier for them to translate from one language to other.",
+        "ts": "1512747657.000188",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8CTFES9M",
+                    "U8CQP0PB9",
+                    "U8BRMPAUA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "That meta tag specifies what character set is your website written with,and encode i guess to publish it on www?",
+        "thread_ts": "1512747667.000763",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512747743.000627"
+            },
+            {
+                "user": "U8CTFES9M",
+                "ts": "1512747768.000268"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512747667.000763"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "No.\nThat is automaticllay rendered by browsers",
+        "thread_ts": "1512747667.000763",
+        "parent_user_id": "U8CTFES9M",
+        "ts": "1512747743.000627"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "` &lt;meta name=\"description\" content=\"\"&gt;`",
+        "ts": "1512747766.000288"
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "ok..got it...",
+        "thread_ts": "1512747667.000763",
+        "parent_user_id": "U8CTFES9M",
+        "ts": "1512747768.000268"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This is used for SEO\nIt becomes easier for search engines to search from this.\nYou can mention about your site in the description\nyou can write about the author",
+        "ts": "1512747831.000547"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "SEO?",
+        "thread_ts": "1512747852.000256",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512747869.000536"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512747852.000256"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Search Engine Optimization",
+        "ts": "1512747867.000741",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B877LJD",
+                    "U8B61JKC5",
+                    "U8BRF7128",
+                    "U8C3DD53R"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Search Engine Optimization",
+        "thread_ts": "1512747852.000256",
+        "parent_user_id": "U8B877LJD",
+        "ts": "1512747869.000536"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "What do we write in the content attribute? \n",
+        "thread_ts": "1512747920.000279",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512747979.000775"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512747994.000375"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512748010.000527"
+            },
+            {
+                "user": "U8C3DD53R",
+                "ts": "1512748049.000763"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512747920.000279"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We write the description in the content",
+        "thread_ts": "1512747920.000279",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512747979.000775"
+    },
+    {
+        "type": "message",
+        "user": "U8B9B7V09",
+        "text": "Also, why is there no content within the first &lt;title&gt; tag?",
+        "thread_ts": "1512747990.000536",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8AAM6VLJ",
+                "ts": "1512748039.000485"
+            },
+            {
+                "user": "U8B9B7V09",
+                "ts": "1512748052.000200"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512747990.000536"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "The name of the meta tag is description",
+        "thread_ts": "1512747920.000279",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512747994.000375"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "if the name is \"author\", you write the author's name in the content",
+        "thread_ts": "1512747920.000279",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748010.000527"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "It doesnt matter its not necessary to give in content there",
+        "thread_ts": "1512747990.000536",
+        "parent_user_id": "U8B9B7V09",
+        "ts": "1512748039.000485"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "&lt;meta name=\"author\" content=\"Author Name\"&gt;",
+        "thread_ts": "1512747920.000279",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748049.000763",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8BA12ZMX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B9B7V09",
+        "text": "alright!",
+        "thread_ts": "1512747990.000536",
+        "parent_user_id": "U8B9B7V09",
+        "ts": "1512748052.000200"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "Thanks.. ",
+        "attachments": [
+            {
+                "fallback": "[December 8th, 2017 9:15 PM] likhithabhu1999: What do we write in the content attribute? \n",
+                "ts": "1512747920.000279",
+                "author_id": "U8B61JKC5",
+                "author_subname": "Likhitha D",
+                "channel_id": "C8ABPV2DS",
+                "channel_name": "group1",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "What do we write in the content attribute? \n",
+                "author_name": "Likhitha D",
+                "author_link": "https:\/\/wintermentorshipweb.slack.com\/team\/U8B61JKC5",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/03f4e9102d954c9a2a72f0b3724cc870.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0018-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/wintermentorshipweb.slack.com\/archives\/C8ABPV2DS\/p1512747920000279?thread_ts=1512747920000279&cid=C8ABPV2DS",
+                "is_share": true,
+                "footer": "Thread in #group1"
+            }
+        ],
+        "ts": "1512748076.000291"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "` &lt;link rel=\"apple-touch-icon\" href=\"icon.png\"&gt;` \nUsing this you can set the icon on a webpage\nThe icon you see on the top corner of your tab in browser",
+        "edited": {
+            "user": "U8B6NRYES",
+            "ts": "1512748114.000000"
+        },
+        "thread_ts": "1512748102.000444",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1512748175.000262"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512748220.000622"
+            },
+            {
+                "user": "U8C3DD53R",
+                "ts": "1512748329.000035"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512748102.000444",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CTFES9M",
+                    "U8C2UBX1D",
+                    "U8CQP0PB9",
+                    "U8C3DD53R",
+                    "U8BU06C0N"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "` &lt;link rel=\"stylesheet\" href=\"css\/main.css\"&gt;`\nThis is used to link a css file",
+        "ts": "1512748144.000491"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "&lt;link .. \/&gt; Is it a meta tag or something else...",
+        "thread_ts": "1512748102.000444",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748175.000262"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you write css within your html file\nIt is a bad programming habit, so we link a CSS file",
+        "ts": "1512748203.000059"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "its a link tag",
+        "thread_ts": "1512748102.000444",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748220.000622",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Similarly, a JS file can also be linked.\nWill be told in JS session",
+        "ts": "1512748221.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;html lang=\"en\"&gt;`",
+        "ts": "1512748237.000571"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This is to set the default language of your browser",
+        "thread_ts": "1512748248.000624",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "U8B877LJD",
+                "ts": "1512748280.000372"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512748339.000387"
+            },
+            {
+                "user": "U8B877LJD",
+                "ts": "1512748347.000478"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512748354.000160"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512748360.000280"
+            },
+            {
+                "user": "U8B877LJD",
+                "ts": "1512748405.000446"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1512748248.000624"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "browser or our website in particular?",
+        "thread_ts": "1512748248.000624",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748280.000372"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Now lets head to 3rd topic\n`HTML text fundamentals`",
+        "ts": "1512748311.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "sorry got confused with metadata and meta tag, thank you.",
+        "thread_ts": "1512748102.000444",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748329.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "webpage.",
+        "thread_ts": "1512748248.000624",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748339.000387"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "hmm kk",
+        "thread_ts": "1512748248.000624",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748347.000478"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "There are a lot of tags\nWe'll be covering only few important ones here",
+        "ts": "1512748350.000550",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Website in particular",
+        "thread_ts": "1512748248.000624",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748354.000160"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Webpage*",
+        "thread_ts": "1512748248.000624",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748360.000280"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;hx&gt;` tags are header tags",
+        "ts": "1512748393.000373"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "x=1 to 6",
+        "ts": "1512748398.000210"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "haan samjha",
+        "thread_ts": "1512748248.000624",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748405.000446",
+        "reactions": [
+            {
+                "name": "laughing",
+                "users": [
+                    "U8CQP0PB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "h1 has the maximum size",
+        "ts": "1512748408.000379"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "h6 - minimum",
+        "ts": "1512748415.000480"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you open the webpageyou all downloaded, you can see the different sizes",
+        "ts": "1512748444.000630"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;p&gt;` is paragraph tag",
+        "ts": "1512748465.000315"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Note these tags need to be closed `&lt;\/p&gt;`",
+        "ts": "1512748484.000655"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "There are some tags called empty tags, which do not need to be closed",
+        "ts": "1512748503.000024"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "eg. `&lt;br&gt;`",
+        "ts": "1512748510.000098"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;br&gt;` is break line tag",
+        "ts": "1512748531.000366"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;div&gt;` , `&lt;hx&gt;`, `&lt;p&gt;` are blockline elements",
+        "ts": "1512748580.000285"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "&lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;u&gt;, &lt;i&gt; are inline text formatting tags",
+        "ts": "1512748603.000681"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Strong, emphazies, bold, underline, italics respectively",
+        "ts": "1512748627.000296"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Any doubts?",
+        "ts": "1512748632.000407"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "^what is div for?",
+        "ts": "1512748663.000208"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Division element\nTo specify a particular division on your webpage",
+        "thread_ts": "1512748684.000362",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8B877LJD",
+                "ts": "1512748697.000270"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512748785.000222"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512748826.000539"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512749005.000691"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512748684.000362"
+    },
+    {
+        "type": "message",
+        "user": "U8B877LJD",
+        "text": "could u give one eg. ?",
+        "edited": {
+            "user": "U8B877LJD",
+            "ts": "1512748723.000000"
+        },
+        "thread_ts": "1512748684.000362",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748697.000270"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "`&lt;pre&gt;` tag is used to display the text in same format as given",
+        "ts": "1512748719.000538"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Open the webpage you all have downloaded",
+        "ts": "1512748734.000380"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "Difference between &lt;div&gt; and &lt;span&gt; tag?",
+        "thread_ts": "1512748740.000227",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512748868.000110"
+            },
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512748897.000311"
+            },
+            {
+                "user": "U8B61JKC5",
+                "ts": "1512748920.000453"
+            },
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512748921.000087"
+            },
+            {
+                "user": "U8B61JKC5",
+                "ts": "1512748989.000707"
+            },
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512749026.000363"
+            },
+            {
+                "user": "U8B61JKC5",
+                "ts": "1512749059.000057"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1512748740.000227"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See that the formatting of the text in pre tag remains the same.",
+        "ts": "1512748771.000423"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "suppose you want to apply same css properties to one entire section of you webpage, you put that section within a div tag",
+        "thread_ts": "1512748684.000362",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748785.000222"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Is everyone following?",
+        "ts": "1512748812.000276",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U8BP0MAE7",
+                    "U8BU06C0N",
+                    "U8B61JKC5",
+                    "U8B64M7PA",
+                    "U8C3DD53R",
+                    "U8CN67YES"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "then apply the properties to that div",
+        "thread_ts": "1512748684.000362",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748826.000539"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "` &lt;pre&gt;\n                1\n               2 2\n              3 3 3\n             4 4 4 4  \n &lt;\/pre&gt;`",
+        "thread_ts": "1512748830.000431",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512748873.000860"
+            },
+            {
+                "user": "U8CTFES9M",
+                "ts": "1512748901.000125"
+            },
+            {
+                "user": "U89QN8DR7",
+                "ts": "1512748935.000573"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512748830.000431"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This was the example for pre tag in the file given to you",
+        "ts": "1512748844.000127",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CQP0PB9",
+                    "U8CN67YES"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "span is inline whereas div is block level",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748868.000110"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Now suppose you want to display the data as lists",
+        "ts": "1512748870.000395"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Is it pre formated text or something like that?",
+        "thread_ts": "1512748830.000431",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748873.000860"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "so span can be used to apply specific styles to a part of the sentence",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748897.000311"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Then we use `&lt;ol&gt;` or `&lt;ul&gt;` tags",
+        "ts": "1512748898.000345"
+    },
+    {
+        "type": "message",
+        "user": "U8CTFES9M",
+        "text": "ya",
+        "thread_ts": "1512748830.000431",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748901.000125",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "ol = ordered lists\nul = unordered lists",
+        "ts": "1512748913.000328"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "thanks..",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748920.000453"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "div is generally for an entire block on the page",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748921.000087"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "yes",
+        "thread_ts": "1512748830.000431",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512748935.000573",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you start with `ol` and specify list tag `&lt;li&gt;`, the content will be displayed in ordered format",
+        "ts": "1512748954.000419"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you start with `ul` and specify list tag `&lt;li&gt;`, the content will be displayed in unordered format",
+        "thread_ts": "1512748975.000701",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8CQP0PB9",
+                "ts": "1512749080.000345"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512749094.000627"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512749101.000384"
+            },
+            {
+                "user": "U8CQP0PB9",
+                "ts": "1512749108.000804"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512748975.000701"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "If we use &lt;div&gt;,it'll start in a new line?",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512748989.000707"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Check the difference in the file given to you",
+        "ts": "1512748991.000135"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "``` &lt;div align=\"center\" style=\"color:red\"&gt;\n  &lt;h3&gt;Heading&lt;\/h3&gt;\n  &lt;p&gt;This is a paragraph. Hmmm &lt;\/p&gt;\n&lt;\/div&gt; \n```",
+        "thread_ts": "1512748684.000362",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749005.000691"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "yes",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512749026.000363"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We'll now move to next topic `Hyperlinks`",
+        "ts": "1512749027.000433"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "They allow us to link our documents to any other document (or other resource) we want to, we can also link to specific parts of documents, and we can make apps available at a simple web address",
+        "ts": "1512749057.000526"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "okay..",
+        "thread_ts": "1512748740.000227",
+        "parent_user_id": "U8B61JKC5",
+        "ts": "1512749059.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8CQP0PB9",
+        "text": "li means integer numbering in ol ;; what does it mean in ul?",
+        "thread_ts": "1512748975.000701",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749080.000345"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "li stands for list",
+        "thread_ts": "1512748975.000701",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749094.000627"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It is common in both",
+        "thread_ts": "1512748975.000701",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749101.000384"
+    },
+    {
+        "type": "message",
+        "user": "U8CQP0PB9",
+        "text": "okay",
+        "thread_ts": "1512748975.000701",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749108.000804"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "A very basic example of it is:\n`&lt;a href= \"\" &gt;abcd&lt;\/a&gt;`",
+        "ts": "1512749109.000498"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See the a href tag in the file given to you\nIf you specify the url to be followed in the href, it will be redirected to it.",
+        "thread_ts": "1512749196.000527",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512749409.000226"
+            },
+            {
+                "user": "U89RH5UF3",
+                "ts": "1512749509.000318"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512749515.000232"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512749541.000175"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512749196.000527"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "You can also see YouTube video in your webpage by the use of `iframe`tag",
+        "ts": "1512749265.000312"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "&lt;iframe src=\"video link here\"&gt;&lt;\/iframe&gt;",
+        "ts": "1512749295.000480"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Now the last topic  `Forms in HTML` will be covered by <@U89QN8DR7>",
+        "thread_ts": "1512749333.000170",
+        "reply_count": 0,
+        "replies": [],
+        "ts": "1512749333.000170",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89QN8DR7",
+                    "U89RH5UF3",
+                    "U8CN67YES"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "So, forms are used quite widely on the internet",
+        "ts": "1512749382.000661"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The given file has a basic form",
+        "ts": "1512749396.000342"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "What if I want the display text to be xyz and clicking that should take me somewhere else?",
+        "thread_ts": "1512749196.000527",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749409.000226"
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "Before that, Do you all know how to render HTML document? As in the 'output' of HTML?",
+        "ts": "1512749425.000604"
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "Save it with \".html\" extension right?",
+        "ts": "1512749496.000766"
+    },
+    {
+        "type": "message",
+        "user": "U89RH5UF3",
+        "text": "&lt;a href=\"link\"&gt; xyz&lt;\/a&gt;\nIn place of link specify the url",
+        "edited": {
+            "user": "U89RH5UF3",
+            "ts": "1512749547.000000"
+        },
+        "thread_ts": "1512749196.000527",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749509.000318"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes, set the text to be xyz\nAnd mention the link in href \n&lt;a href= \"url\" &gt;xyz&lt;\/a&gt;`",
+        "thread_ts": "1512749196.000527",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749515.000232"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! My bad! Thanks <@U8B6NRYES> <@U89RH5UF3> ",
+        "thread_ts": "1512749196.000527",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512749541.000175"
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "Yes. And open with a browser. Try changing the HTML document and reload the page on the browser after every change. You can see what each tag does and learn along as the mentors tell you about different tags.",
+        "ts": "1512749624.000215",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8B61JKC5",
+                    "U8B5K5Y8Y",
+                    "U8C2UBX1D",
+                    "U8BP0MAE7",
+                    "U8B6P9BFA",
+                    "U8CQP0PB9",
+                    "U8B9B7V09",
+                    "U8B6NRYES",
+                    "U8BU06C0N",
+                    "U8CN67YES"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "You can also use 'inspect element'. Right click in the browser and click on 'Inspect Element' option. You will be shown the HTML document associated with your page. You can change anything and witness changes on the go.",
+        "thread_ts": "1512749760.000694",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B5K5Y8Y",
+                "ts": "1512749853.000532"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512749760.000694"
+    },
+    {
+        "type": "message",
+        "user": "U8CTBT11V",
+        "text": "Continue :stuck_out_tongue:",
+        "ts": "1512749778.000851",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89QN8DR7"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B5K5Y8Y",
+        "text": "Actually you just gave them the life saver. ",
+        "thread_ts": "1512749760.000694",
+        "parent_user_id": "U8CTBT11V",
+        "ts": "1512749853.000532",
+        "reactions": [
+            {
+                "name": "grimacing",
+                "users": [
+                    "U8CTBT11V"
+                ],
+                "count": 1
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            },
+            {
+                "name": "grin",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "okay so, `&lt;form&gt;` is used to indicate the start of a form.",
+        "ts": "1512749854.000648"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "It has two attributes",
+        "ts": "1512749872.000386"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "action and method",
+        "ts": "1512749882.000018"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "action is used to indicate to what URL the data in the  form is to be sent",
+        "ts": "1512749921.000457"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "and method indicates how the data is to be sent.",
+        "ts": "1512749947.000143"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "method can be POST or GET.",
+        "ts": "1512749972.000033"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "POST and GET requests are huge topics themselves, so we won't be covering them now.",
+        "ts": "1512750009.000341"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Is everyone following?",
+        "ts": "1512750034.000510",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C2UBX1D",
+                    "U8CTFES9M",
+                    "U8B4UNL2H",
+                    "U8CLC2PAS",
+                    "U8B9B7V09",
+                    "U8BU06C0N",
+                    "U8BSD2U6Q",
+                    "U8BRMPAUA",
+                    "U8C3DD53R",
+                    "U8B6P9BFA",
+                    "U8BTTQ4UU"
+                ],
+                "count": 12
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Now, within the form tag, we have several 'form elements'",
+        "ts": "1512750108.000494"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "`label` is used to indicate the label for a particular field",
+        "ts": "1512750134.000330"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "it has a for attribute which indicates to which field this label belongs",
+        "ts": "1512750168.000366"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "so in the given example, the label Name corresponds to the input tag with the id 'name'",
+        "ts": "1512750200.000800"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "An `input` tag is used to take user input",
+        "ts": "1512750221.000254"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The attribute type is used to specify what kind of input is to be accepted.",
+        "ts": "1512750267.000183"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "so it can be text, or numbers for example.",
+        "ts": "1512750294.000109"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "HTML5 supports a number of other input types.",
+        "ts": "1512750312.000151"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "the name attribute defines the name of that data being input.",
+        "ts": "1512750346.000798"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "so, as I mentioned earlier, the form data is sent to some other url to be processed",
+        "ts": "1512750368.000651"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "there to refer to a particular field we use it's name in the form",
+        "thread_ts": "1512750398.000631",
+        "reply_count": 11,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512750494.000650"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512750631.000480"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512750710.000303"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512750745.000246"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512750789.000715"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512750812.000353"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512750818.000086"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512750894.000320"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512751020.000332"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512751057.000240"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512751151.000279"
+            }
+        ],
+        "unread_count": 11,
+        "ts": "1512750398.000631"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Is this clear so far?",
+        "ts": "1512750424.000447",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8B61JKC5",
+                    "U8BSD2U6Q",
+                    "U8B4UNL2H",
+                    "U8BP0MAE7"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B61JKC5",
+        "text": "What about the id attribute?",
+        "thread_ts": "1512750480.000319",
+        "reply_count": 0,
+        "replies": [],
+        "ts": "1512750480.000319"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "You mean name is used to access that particular field later for other purposes?",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750494.000650"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The id attribute is used to refer to the element itself, by other HTML elements or JS (Will be dicussed later in the course)",
+        "ts": "1512750526.000630",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8B61JKC5"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Moving ahead",
+        "ts": "1512750595.000693"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The next is an input and label for email",
+        "ts": "1512750618.000269"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "You can reference the element later in javascript which you specify using name.",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750631.000480"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "similar to the name input, only difference being the input type is email",
+        "ts": "1512750639.000766"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Next we have a `&lt;textarea&gt;`",
+        "ts": "1512750663.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "What about id?",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750710.000303"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "This tag is used for accepting a large amount of text as input, on multiple lines",
+        "ts": "1512750712.000270"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "an example would be the area where you write facebook posts",
+        "ts": "1512750729.000569"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "Other example\n```&lt;input type=\"radio\" name=\"gender\"&gt; Male&lt;br&gt;\n  &lt;input type=\"radio\" name=\"gender\"&gt; Female&lt;br&gt;```",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750745.000246"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "finally, we have a button",
+        "ts": "1512750766.000250"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "`&lt;button&gt;` as the name suggests, defines a button :stuck_out_tongue:",
+        "ts": "1512750789.000064"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "name does not have to be unique for elements unlike id",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750789.000715"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! Thanks....k",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750812.000353"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "Here as both input tags have same name they form a group.",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750818.000086"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The button is assigned the attribute with value submit, this indicates that this particular button is used to perform the 'submit' action for the form it belongs to",
+        "ts": "1512750849.000584"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The button can also be assigned other tasks, using JS, which will be discussed in future sessions.",
+        "ts": "1512750886.000736"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! Okay...the css can be applied at once to both or something like that?",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512750894.000320"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "Due to time constraints we won't be able to conduct the CSS session today.",
+        "ts": "1512750947.000418"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The session will be conducted later. The timings will be informed soon.",
+        "ts": "1512750968.000196"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "That is all for today's session.",
+        "ts": "1512750977.000465"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "We hope you got a good idea about HTML",
+        "ts": "1512750989.000161"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "If you have any doubt, you can approach any of the mentors",
+        "thread_ts": "1512751009.000059",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U8CN67YES",
+                "ts": "1512751066.000034"
+            },
+            {
+                "user": "U8CN67YES",
+                "ts": "1512751165.000023"
+            },
+            {
+                "user": "U8CN67YES",
+                "ts": "1512751175.000093"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512751202.000454"
+            },
+            {
+                "user": "U8CN67YES",
+                "ts": "1512751220.000568"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1512751009.000059",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8ATV8M3M",
+                    "U8B4UNL2H",
+                    "U8CN67YES",
+                    "U8B61JKC5"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8CQP0PB9",
+        "text": "Thanks <@U8B6NRYES> <@U89QN8DR7>",
+        "ts": "1512751012.000623"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "class is used when such a case is required.",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751020.000332"
+    },
+    {
+        "type": "message",
+        "user": "U89QN8DR7",
+        "text": "The logs for today's session will be posted soon.",
+        "ts": "1512751028.000482",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8CN67YES",
+                    "U89RH5UF3",
+                    "U8BU06C0N",
+                    "U8ATV8M3M",
+                    "U8B61JKC5",
+                    "U8C3DD53R"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Hmmm...k",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751057.000240"
+    },
+    {
+        "type": "message",
+        "user": "U8CN67YES",
+        "text": "that was really awesome",
+        "thread_ts": "1512751009.000059",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751066.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "That will be covered in upcoming sessions.",
+        "thread_ts": "1512750398.000631",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751151.000279"
+    },
+    {
+        "type": "message",
+        "user": "U8CN67YES",
+        "text": "what is the logs of today's session",
+        "thread_ts": "1512751009.000059",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751165.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8CN67YES",
+        "text": "i mean what does it mean",
+        "thread_ts": "1512751009.000059",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751175.000093"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "In case you want to refer any of the messages again\nIt is kind of history of the messages",
+        "thread_ts": "1512751009.000059",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751202.000454"
+    },
+    {
+        "type": "message",
+        "user": "U8CN67YES",
+        "text": "oh ok i got it",
+        "thread_ts": "1512751009.000059",
+        "parent_user_id": "U89QN8DR7",
+        "ts": "1512751220.000568"
+    }
+]
