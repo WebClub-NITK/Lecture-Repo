@@ -1,0 +1,2303 @@
+[
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hello",
+        "ts": "1512710877.000013"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Anyone home?",
+        "ts": "1512710880.000125"
+    },
+    {
+        "user": "U89591QNN",
+        "topic": "Session 3: Linear Regression - Chenna Keshava, Anumeha and MJ10",
+        "text": "<@U89591QNN> set the channel topic: Session 3: Linear Regression - Chenna Keshava, Anumeha and MJ10",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1512710906.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "hi",
+        "ts": "1512710908.000050"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "can I get a headcount of how many of you are online?",
+        "ts": "1512710942.000043",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U89591QNN",
+                    "U88F3P9CG",
+                    "U8A2QMW4E",
+                    "U88MUQQTD",
+                    "U897CT84V",
+                    "U8979KBHT",
+                    "U893XH8SG",
+                    "U89AZV7R8",
+                    "U88KFEENM",
+                    "U89BENEMB"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we will wait for 5 mins for others",
+        "ts": "1512711042.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Me",
+        "ts": "1512711053.000006"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8981ES56> you're always there! :smile:",
+        "ts": "1512711104.000079"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Yes sir ",
+        "ts": "1512711220.000008"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "I think everyone is still asleep :stuck_out_tongue:",
+        "ts": "1512711339.000150"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "me",
+        "ts": "1512711360.000188"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Lol it's okkay we'll anyways put up logs",
+        "ts": "1512711388.000024"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "We'll start by 11.15",
+        "ts": "1512711392.000189"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "ts": "1512711398.000177"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "how do u open an .ipynb file?",
+        "ts": "1512711444.000145"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "using jupyter notebook",
+        "ts": "1512711466.000190"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Comes with Anaconda",
+        "ts": "1512711728.000184"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "how do u use it?",
+        "thread_ts": "1512711939.000243",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8979KBHT",
+                "ts": "1512712071.000239"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512712594.000105"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512711939.000243"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so let's start off with linear regression",
+        "ts": "1512711993.000053",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89BENEMB",
+                    "U89AZV7R8",
+                    "U8A2QMW4E",
+                    "U897CT84V",
+                    "U8981ES56"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "In linear regression, we will model the data points, assuming that the output can be expressed as a linear combination of input variables",
+        "ts": "1512712045.000174"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "`jupyter-notebook &lt;filename&gt;.ipynb`",
+        "thread_ts": "1512711939.000243",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512712071.000239"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPE3YUD\/variables.jpeg|variables.jpeg> and commented: naming conventions",
+        "file": {
+            "id": "F8BPE3YUD",
+            "created": 1512712086,
+            "timestamp": 1512712086,
+            "name": "variables.jpeg",
+            "title": "variables.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 67164,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPE3YUD\/variables.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPE3YUD\/download\/variables.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPE3YUD-e768dd8b82\/variables_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 720,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPE3YUD\/variables.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BPE3YUD-917b7ef43b",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8CFC97QE",
+                "created": 1512712086,
+                "timestamp": 1512712086,
+                "user": "U8AV51H47",
+                "is_intro": true,
+                "comment": "naming conventions"
+            }
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512712089.000173"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "say we have m training examples with us",
+        "ts": "1512712097.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "each training example will have n number of x's -&gt; these denote the various features used in the problem",
+        "ts": "1512712123.000206"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "say the problem of clicking on ads from the users",
+        "ts": "1512712155.000228"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the features could be, the user history of products, the category of ad issued, the type of product, the demography of the audience where the ad is shown,etc could be used as features",
+        "ts": "1512712237.000106"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "here, y is the ground truth that we already know",
+        "ts": "1512712259.000088"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "linear regression is a type of supervised learning, so we will predict the answer using the x's in every training example",
+        "ts": "1512712289.000115"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BK6K6RY\/non-example.jpeg|non-example.jpeg>",
+        "file": {
+            "id": "F8BK6K6RY",
+            "created": 1512712312,
+            "timestamp": 1512712312,
+            "name": "non-example.jpeg",
+            "title": "non-example.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 41935,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BK6K6RY\/non-example.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BK6K6RY\/download\/non-example.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 179,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 239,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 358,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 398,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 478,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BK6K6RY-59a3fa1118\/non-example_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 510,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 637,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BK6K6RY\/non-example.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BK6K6RY-826f9935e6",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512712317.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we will need to carefully decide, if we need a linear model at all",
+        "ts": "1512712331.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "because, as shown in the above pic, a non linear model can give better results",
+        "ts": "1512712350.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so, for a linear model, the equation for h(x) can be y = m*x + c",
+        "ts": "1512712377.000107"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "this is for a problem having a single feature",
+        "ts": "1512712388.000179"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "In the first pic, the first column of the matrix X(input matrix) has all ones",
+        "ts": "1512712410.000219"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "The 1's are called bias, and they are used to make the hypothesis equation slick and neat",
+        "ts": "1512712451.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the biases are multiplied with the constant term (c) or theta0",
+        "ts": "1512712482.000127"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so in the matrix form, the hypothesis equation becomes just X * theta",
+        "ts": "1512712500.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "often in ML problem, there might be millions of features. So that's where linear algebra and matrix manipulations helps us",
+        "ts": "1512712542.000150"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "We can initialise the weights ie the theta vector to zero or any random value",
+        "ts": "1512712569.000109"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "The initialization here, isn't of critical importance unlike neural nets",
+        "ts": "1512712593.000061"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "thanks",
+        "thread_ts": "1512711939.000243",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512712594.000105"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we will use a cost function, to see, how much we are deviating from the ground truth ' y '",
+        "ts": "1512712628.000232"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8AVAEKFA\/cost_function.jpeg|cost function.jpeg>",
+        "file": {
+            "id": "F8AVAEKFA",
+            "created": 1512712640,
+            "timestamp": 1512712640,
+            "name": "cost function.jpeg",
+            "title": "cost function.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 55674,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8AVAEKFA\/cost_function.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8AVAEKFA\/download\/cost_function.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8AVAEKFA-d3744abb71\/cost_function_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 720,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8AVAEKFA\/cost_function.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8AVAEKFA-1a69909afd",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512712643.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "there are a few important features for a cost function",
+        "ts": "1512712656.000210"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "our goal in linear regression(LR) is to find the optimum set of theta values, so that the cost function is minimum",
+        "ts": "1512712709.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we can find the best set of coefficients through analytical linear algebra ways",
+        "ts": "1512712775.000107"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "like using normal equations, but there are many drawbacks of using this",
+        "ts": "1512712805.000150"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8B4366RF\/normal_equation.jpeg|normal equation.jpeg>",
+        "file": {
+            "id": "F8B4366RF",
+            "created": 1512712814,
+            "timestamp": 1512712814,
+            "name": "normal equation.jpeg",
+            "title": "normal equation.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 57438,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8B4366RF\/normal_equation.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8B4366RF\/download\/normal_equation.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8B4366RF-c26ab8f5b7\/normal_equation_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 720,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8B4366RF\/normal_equation.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8B4366RF-c9ca7b0937",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512712816.000200"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the problems are, normal equations can't be used for other algorithms like logistic regression",
+        "ts": "1512712859.000117"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "also, matrix multiplication and finding inverses of matrices are expensive operations, when we have millions of features and large training sets",
+        "ts": "1512712896.000187"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so we need another way to find out the optimum parameters",
+        "ts": "1512712910.000230"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that's why we use optimization algorithms",
+        "ts": "1512712934.000177"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "any doubts?",
+        "ts": "1512712941.000162"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "No crystal clear",
+        "ts": "1512712963.000078",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A2QMW4E",
+                    "U897CT84V"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "nope.",
+        "ts": "1512712966.000004"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "I mean no doubts",
+        "ts": "1512712976.000149"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "ok, to use an optimization algo, we will have to find the partial derivatives of the cost function wrt all the different coefficients",
+        "ts": "1512713025.000248"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that implies that, the cost function has to be differentiable",
+        "ts": "1512713042.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "otherwise we could have taken the absolute value of (h - y), and summed over all training examples",
+        "ts": "1512713072.000137"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "or, for that matter, used some other cost function",
+        "ts": "1512713085.000172"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok.So the code will depend on our cost function or hypothesis function and be case-specific in such cases?",
+        "thread_ts": "1512713107.000059",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512713213.000188"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512713305.000200"
+            },
+            {
+                "user": "U8AV51H47",
+                "ts": "1512713336.000094"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512713348.000072"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512713107.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "One other point is: the cost functions also need to be convex in nature",
+        "ts": "1512713112.000115"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "I will explain this after some time",
+        "ts": "1512713120.000091"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "So, we will use an optimisation algo called Gradient Descent",
+        "ts": "1512713142.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we will see how the cost varies, when every coefficient is changed by a very small amount, this is obtained by the partial derivative of the cost wrt a coefficient.",
+        "ts": "1512713195.000164"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The cost function is the same, regardless of your hypothesis function.",
+        "thread_ts": "1512713107.000059",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512713213.000188"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "for example, if the cost increases if theta1 is increased by epsilon, then it means that I have to decrease theta1 in every step by small amounts , and vice versa",
+        "ts": "1512713248.000024"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we will find the partial derivatives for all the coefficients in a step",
+        "ts": "1512713295.000029"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "I mean the optimization part will depend on cost function and will be valid for only that type of cost function?",
+        "thread_ts": "1512713107.000059",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512713305.000200"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "yes, the optimisation depends on the PD of coeff wrt the cost function",
+        "thread_ts": "1512713107.000059",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512713336.000094"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "thread_ts": "1512713107.000059",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512713348.000072"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "and then, we will multiply that PD with factor called alpha",
+        "ts": "1512713350.000087"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "alpha is the learning rate or the step size",
+        "ts": "1512713359.000193"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "we can specify, in every step, by how much we want to inch toward the optimum value(min of the cost function)",
+        "ts": "1512713395.000137"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so, we will subtract this product from the old value of the coefficient",
+        "ts": "1512713428.000079"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BH56A0K\/gd-1.jpg|gd-1.jpg> and commented: gere f(x) is the cost function",
+        "file": {
+            "id": "F8BH56A0K",
+            "created": 1512713465,
+            "timestamp": 1512713465,
+            "name": "gd-1.jpg",
+            "title": "gd-1.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 42540,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BH56A0K\/gd-1.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BH56A0K\/download\/gd-1.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 193,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 257,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 385,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 428,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BH56A0K-4aabe2f02e\/gd-1_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 514,
+            "image_exif_rotation": 1,
+            "original_w": 979,
+            "original_h": 524,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BH56A0K\/gd-1.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BH56A0K-f5c5fb2531",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8BKAMDV0",
+                "created": 1512713465,
+                "timestamp": 1512713465,
+                "user": "U8AV51H47",
+                "is_intro": true,
+                "comment": "gere f(x) is the cost function"
+            }
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512713467.000163"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "*here",
+        "ts": "1512713497.000078"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "suppose the coeff after random initialization are at x1",
+        "ts": "1512713535.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "here x is the only feature",
+        "ts": "1512713555.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so PD of f(x) wrt x gives a negative value, implying we will have to increase x, to decrease f",
+        "ts": "1512713595.000067"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that's why we subtract alpha*PD from the old value of the coeff",
+        "ts": "1512713613.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "any doubts?",
+        "ts": "1512713620.000228"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "No crystal clear",
+        "ts": "1512713645.000040",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V",
+                    "U8A2QMW4E"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "basically : New_coeff = old_coeff - alpha * PD",
+        "ts": "1512713650.000112"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "but there is a slight problem",
+        "ts": "1512713679.000145"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CMFTJ7R\/gd_with_non-convex_cost_function.png|gd with non-convex cost function.png>",
+        "file": {
+            "id": "F8CMFTJ7R",
+            "created": 1512713691,
+            "timestamp": 1512713691,
+            "name": "gd with non-convex cost function.png",
+            "title": "gd with non-convex cost function.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 231209,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CMFTJ7R\/gd_with_non-convex_cost_function.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CMFTJ7R\/download\/gd_with_non-convex_cost_function.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMFTJ7R-6ffc7e82a4\/gd_with_non-convex_cost_function_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMFTJ7R-6ffc7e82a4\/gd_with_non-convex_cost_function_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMFTJ7R-6ffc7e82a4\/gd_with_non-convex_cost_function_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 187,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMFTJ7R-6ffc7e82a4\/gd_with_non-convex_cost_function_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 250,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMFTJ7R-6ffc7e82a4\/gd_with_non-convex_cost_function_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 703,
+            "original_h": 366,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CMFTJ7R\/gd_with_non-convex_cost_function.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CMFTJ7R-dcfbaf03a9",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512713693.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "J is the cost function here",
+        "ts": "1512713704.000240"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so as you can see, we are reaching different points of minima, when we start from different initializations",
+        "ts": "1512713740.000066"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "This problems are encountered if the cost function has local minimas or saddle points",
+        "ts": "1512713766.000171"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "GD can get stuck at these points, and may never move on",
+        "ts": "1512713786.000145"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "That's what we want right?",
+        "thread_ts": "1512713804.000051",
+        "reply_count": 19,
+        "replies": [
+            {
+                "user": "U8AV51H47",
+                "ts": "1512713826.000199"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512713850.000153"
+            },
+            {
+                "user": "U8AV51H47",
+                "ts": "1512713879.000033"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512713912.000174"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512713936.000210"
+            },
+            {
+                "user": "U8981ES56",
+                "ts": "1512713946.000222"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512714002.000056"
+            },
+            {
+                "user": "U8AV51H47",
+                "ts": "1512714068.000170"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512714098.000030"
+            },
+            {
+                "user": "U8AV51H47",
+                "ts": "1512714128.000059"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512714152.000106"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1512714194.000100"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512714268.000019"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512714287.000008"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512714312.000133"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1512714313.000049"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1512714390.000019"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512714474.000093"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1512714591.000136"
+            }
+        ],
+        "unread_count": 19,
+        "ts": "1512713804.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that's why, usually cost functions are convex functions",
+        "ts": "1512713809.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Ok sorry for typing in between ",
+        "ts": "1512713826.000107"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "no, what we need is a global minimum of the cost function",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512713826.000199",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Find all the minima and then find the minimum of all of them?",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512713850.000153"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "no, finding the minimas of a non convex function is an NP hard problem:joy:",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512713879.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so when cost functions are convex, we are guarenteed that GD will converge to the global minimum",
+        "ts": "1512713894.000170"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "use another optimization algo I guess",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512713912.000174"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the above sum of squared error cost function is also convex",
+        "ts": "1512713933.000134"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "for non convex",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512713936.000210"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Ya but here the ps clearly states only convex ones right?",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512713946.000222"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "but the thing is, there are techniques like heavy ball method, that are used for GD with non convex functions",
+        "ts": "1512713969.000099"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "Check this paper if you have free time - <https:\/\/arxiv.org\/abs\/1602.04915>",
+        "ts": "1512713989.000049",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "Yeah but the last pic is of a nonconvex one",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714002.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "ok, everyone with me?",
+        "ts": "1512714032.000154",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A2QMW4E",
+                    "U897CT84V",
+                    "U89AZV7R8",
+                    "U88KFEENM"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "there are other algos like BFGS, C-BFGS in matlab, but I am not sure if they can be used with non convex functions also",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714068.000170"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "can they not be used in python?Those algos?",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714098.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "now, another point is that the updates of the coefficients in GD must be performed simultaneously",
+        "ts": "1512714110.000119"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "I am not sure, if we already have their implementations...",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714128.000059"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BLMDZU4\/simul_update.jpeg|simul_update.jpeg>",
+        "file": {
+            "id": "F8BLMDZU4",
+            "created": 1512714142,
+            "timestamp": 1512714142,
+            "name": "simul_update.jpeg",
+            "title": "simul_update.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 70301,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BLMDZU4\/simul_update.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BLMDZU4\/download\/simul_update.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLMDZU4-d71f006af6\/simul_update_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 720,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BLMDZU4\/simul_update.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BLMDZU4-589b77e2a8",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714145.000056"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714152.000106"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "when implementing GD, follow the above pic",
+        "ts": "1512714167.000129"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "non simultaneous updates also may lead to convergence",
+        "ts": "1512714185.000141"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "i think we can try with bigger alpha and check",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714194.000100"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "they might be even faster in some cases",
+        "ts": "1512714195.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "but, in non simultaneous updates: we will be taking one step in the x direction, and from there another step in the y direction",
+        "ts": "1512714224.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "But what we actually need is a single step, that is the optimum from that point. So, simultaneous updates squashes two steps, into a single one, and that is what we need.",
+        "ts": "1512714239.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "simultaneous updates are more natural and intuitive",
+        "ts": "1512714261.000006"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "No, using a bigger alpha might lead to over shooting",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714268.000019"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "you might miss the minima, and start diverging",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714287.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "now, there are different types of implementations of GD",
+        "ts": "1512714291.000126"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "Batch GD : here we take the entire training set, and start performing the updates",
+        "ts": "1512714312.000101"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is always a good idea to use a sufficiently small alpha",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714312.000133"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "ok",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714313.000049"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "but the problem is, for very large datasets, this might take a large amount of time",
+        "ts": "1512714336.000147"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the above equations implement batch GD",
+        "ts": "1512714347.000144"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the other choice is stochastic GD for large inputs",
+        "ts": "1512714367.000140"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "First, randomise the order of training examples",
+        "ts": "1512714377.000140"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "bigger alpha may help us to skip local minima",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714390.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "Then perform updation of coeff and calculate the cost after going through every training example.",
+        "ts": "1512714399.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "learning happens very quickly with SGD, and only few 10’s of passes are required",
+        "ts": "1512714413.000223"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "SGD?",
+        "ts": "1512714434.000122"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "The updates and cost function might be very noisy, as they are done after every training example.",
+        "ts": "1512714436.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "SGD - stochastic GD",
+        "ts": "1512714445.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But it might also lead to skipping any minima entirely",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714474.000093"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so, we can plot\/observe the average cost function after 10's of updates",
+        "ts": "1512714487.000214"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "during implementation, one easy way to check if GD is working properly, is by plotting Cost function versus the number if iterations",
+        "ts": "1512714524.000154"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CMJQ95M\/cost_history.png|cost_history.png>",
+        "file": {
+            "id": "F8CMJQ95M",
+            "created": 1512714549,
+            "timestamp": 1512714549,
+            "name": "cost_history.png",
+            "title": "cost_history.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 20967,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CMJQ95M\/cost_history.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CMJQ95M\/download\/cost_history.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMJQ95M-3938e16848\/cost_history_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMJQ95M-3938e16848\/cost_history_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMJQ95M-3938e16848\/cost_history_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 257,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMJQ95M-3938e16848\/cost_history_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 343,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CMJQ95M-3938e16848\/cost_history_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 547,
+            "original_h": 391,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CMJQ95M\/cost_history.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CMJQ95M-4610a2c076",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714550.000127"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "GD will ensure that all the successive steps will find decreasing points of cost",
+        "ts": "1512714583.000134"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "ok",
+        "thread_ts": "1512713804.000051",
+        "parent_user_id": "U8981ES56",
+        "ts": "1512714591.000136"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "So, if the cost is not decreasing, it implies there is a problem with the alpha that we have chosen",
+        "ts": "1512714614.000121"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "because, that's the only variable, that has beenn left to our choice :sweat_smile:",
+        "ts": "1512714639.000011"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPP58SH\/alpha.jpg|alpha.jpg>",
+        "file": {
+            "id": "F8BPP58SH",
+            "created": 1512714655,
+            "timestamp": 1512714655,
+            "name": "alpha.jpg",
+            "title": "alpha.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 70657,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPP58SH\/alpha.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPP58SH\/download\/alpha.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPP58SH-e0b2a1fc89\/alpha_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPP58SH-e0b2a1fc89\/alpha_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPP58SH-e0b2a1fc89\/alpha_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 184,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPP58SH-e0b2a1fc89\/alpha_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 246,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPP58SH-e0b2a1fc89\/alpha_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 545,
+            "original_h": 279,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPP58SH\/alpha.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BPP58SH-4e35f49bfc",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714659.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "as shown, if alpha is too large, GD might keep on oscillation and may never converge to minimum",
+        "ts": "1512714695.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "w is the parameter vector here",
+        "ts": "1512714707.000206"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "but if the value of alpha is very small, it may  take eternity to converge, and may not be feasible for our needs",
+        "ts": "1512714734.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "A nice way to choose optimum alpha is to start from a lower bound like 0.001, and keep tripling upwards, until cost function doesn’t decrease with the number of iterations like: 0.001, 0.003, 0.01, 0.03, 0.1, 0.3,...",
+        "ts": "1512714747.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "any doubts?",
+        "ts": "1512714775.000042"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "no",
+        "ts": "1512714785.000122",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8981ES56"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so practically, GD might mean something like this",
+        "ts": "1512714807.000076"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPPMZLM\/learning-1.png|learning-1.png>",
+        "file": {
+            "id": "F8BPPMZLM",
+            "created": 1512714817,
+            "timestamp": 1512714817,
+            "name": "learning-1.png",
+            "title": "learning-1.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 26253,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPPMZLM\/learning-1.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPPMZLM\/download\/learning-1.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPPMZLM-6e469282d0\/learning-1_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPPMZLM-6e469282d0\/learning-1_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPPMZLM-6e469282d0\/learning-1_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 261,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPPMZLM-6e469282d0\/learning-1_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 348,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPPMZLM-6e469282d0\/learning-1_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 540,
+            "original_h": 391,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPPMZLM\/learning-1.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BPPMZLM-93f93a420c",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714818.000196"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "consider the problem of finding how many units of a product will be sold, when we are provided with the info on the money spent by a company on radio ads",
+        "ts": "1512714870.000084"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "if all weights are zero\/very small, we will have the above line",
+        "ts": "1512714899.000058"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CML3AQP\/learning-2.png|learning-2.png>",
+        "file": {
+            "id": "F8CML3AQP",
+            "created": 1512714912,
+            "timestamp": 1512714912,
+            "name": "learning-2.png",
+            "title": "learning-2.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 27147,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CML3AQP\/learning-2.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CML3AQP\/download\/learning-2.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML3AQP-54d21e6bd8\/learning-2_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML3AQP-54d21e6bd8\/learning-2_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML3AQP-54d21e6bd8\/learning-2_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 261,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML3AQP-54d21e6bd8\/learning-2_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 348,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML3AQP-54d21e6bd8\/learning-2_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 540,
+            "original_h": 391,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CML3AQP\/learning-2.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CML3AQP-6e29d577e4",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714914.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CML44VD\/learning-3.png|learning-3.png>",
+        "file": {
+            "id": "F8CML44VD",
+            "created": 1512714915,
+            "timestamp": 1512714915,
+            "name": "learning-3.png",
+            "title": "learning-3.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 27707,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CML44VD\/learning-3.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CML44VD\/download\/learning-3.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML44VD-bbcd7bb2e7\/learning-3_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML44VD-bbcd7bb2e7\/learning-3_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML44VD-bbcd7bb2e7\/learning-3_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 261,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML44VD-bbcd7bb2e7\/learning-3_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 348,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CML44VD-bbcd7bb2e7\/learning-3_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 540,
+            "original_h": 391,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8CML44VD\/learning-3.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CML44VD-0618f87c5d",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714917.000047"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPQ38LD\/learning-4.png|learning-4.png>",
+        "file": {
+            "id": "F8BPQ38LD",
+            "created": 1512714920,
+            "timestamp": 1512714920,
+            "name": "learning-4.png",
+            "title": "learning-4.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 27478,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPQ38LD\/learning-4.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BPQ38LD\/download\/learning-4.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPQ38LD-f96cd07d7b\/learning-4_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPQ38LD-f96cd07d7b\/learning-4_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPQ38LD-f96cd07d7b\/learning-4_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 261,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPQ38LD-f96cd07d7b\/learning-4_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 348,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BPQ38LD-f96cd07d7b\/learning-4_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 540,
+            "original_h": 391,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BPQ38LD\/learning-4.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BPQ38LD-9515147368",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512714921.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "gradually, GD keeps finding better parameters\/weights until we have the  best fit for the given data",
+        "ts": "1512714946.000114"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "Linear Regression is fitting the best possible straight line for the given data points",
+        "ts": "1512714995.000156"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "cost function that we have used here, finds the perpendicular distance between every point and the line",
+        "ts": "1512715030.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "it squares that value, and then finds it's average",
+        "ts": "1512715048.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that's the geometric interpretation",
+        "thread_ts": "1512715062.000107",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U893XH8SG",
+                "ts": "1512715172.000148"
+            },
+            {
+                "user": "U8AV51H47",
+                "ts": "1512715203.000107"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1512715226.000222"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512715062.000107"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "but in higher dimensions, the hypothesis corresponds to a hyper plane, corresponding to the different features",
+        "ts": "1512715103.000095"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "also, for interested ones, here is a proof of the normal equation method - <https:\/\/eli.thegreenplace.net\/2014\/derivation-of-the-normal-equation-for-linear-regression>",
+        "ts": "1512715140.000092"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "in sgd we are not using mean squared error\nwe r using perpendicular distance for cost function?",
+        "thread_ts": "1512715062.000107",
+        "parent_user_id": "U8AV51H47",
+        "ts": "1512715172.000148"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BHB6G11\/gd_with_many_features.jpeg|GD with many features.jpeg> and commented: steps in GD",
+        "file": {
+            "id": "F8BHB6G11",
+            "created": 1512715174,
+            "timestamp": 1512715174,
+            "name": "GD with many features.jpeg",
+            "title": "GD with many features.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 68674,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BHB6G11\/gd_with_many_features.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BHB6G11\/download\/gd_with_many_features.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 188,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 250,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 375,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 417,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 500,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BHB6G11-c8f1edfb07\/gd_with_many_features_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 534,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 667,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BHB6G11\/gd_with_many_features.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BHB6G11-44da31c6a2",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8CMM1QP9",
+                "created": 1512715174,
+                "timestamp": 1512715174,
+                "user": "U8AV51H47",
+                "is_intro": true,
+                "comment": "steps in GD"
+            }
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512715176.000160"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "no, the mean squared error, corresponds to this geometric interpretation",
+        "thread_ts": "1512715062.000107",
+        "parent_user_id": "U8AV51H47",
+        "ts": "1512715203.000107"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "ok",
+        "thread_ts": "1512715062.000107",
+        "parent_user_id": "U8AV51H47",
+        "ts": "1512715226.000222"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "also, when implementing linear regression, try to vectorise the code",
+        "ts": "1512715240.000129"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "vectorization is : Using inbuilt numerical algebra libraries for computation, and avoid using explicit for loops. It improves efficiency and it also improves readability",
+        "ts": "1512715278.000089"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "vectorization tutorial - <http:\/\/ufldl.stanford.edu\/wiki\/index.php\/Vectorization>",
+        "ts": "1512715304.000143"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "also, one more thing is: GD might take a lot of time to converge if our inputs\/features are out of scale",
+        "ts": "1512715365.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that is, if the scale if inputs vary greatly, GD becomes inefficient",
+        "ts": "1512715407.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so, we will need to scale them to -1 to 1, or use other standarsization techniques",
+        "ts": "1512715429.000060"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "some common ones are feature scaling and mean normalization",
+        "ts": "1512715444.000115"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "<http:\/\/sebastianraschka.com\/Articles\/2014_about_feature_scaling.html> - this provides a nice overview",
+        "attachments": [
+            {
+                "service_name": "Sebastian Raschka's Website",
+                "title": "About Feature Scaling and Normalization",
+                "title_link": "http:\/\/sebastianraschka.com\/Articles\/2014_about_feature_scaling.html",
+                "text": "Sections",
+                "fallback": "Sebastian Raschka's Website: About Feature Scaling and Normalization",
+                "ts": 1405069200,
+                "from_url": "http:\/\/sebastianraschka.com\/Articles\/2014_about_feature_scaling.html",
+                "service_icon": "http:\/\/sebastianraschka.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1512715465.000164"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "any doubts?",
+        "ts": "1512715501.000054",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "no",
+        "ts": "1512715542.000065"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AV51H47> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BLSFC6Q\/gd_and_normal_equation.jpeg|GD and normal equation.jpeg> and commented: self-explanatory comparison",
+        "file": {
+            "id": "F8BLSFC6Q",
+            "created": 1512715587,
+            "timestamp": 1512715587,
+            "name": "GD and normal equation.jpeg",
+            "title": "GD and normal equation.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U8AV51H47",
+            "editable": false,
+            "size": 85577,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BLSFC6Q\/gd_and_normal_equation.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BLSFC6Q\/download\/gd_and_normal_equation.jpeg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_64.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_80.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_360.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 218,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_480.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 290,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_160.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_720.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 435,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_800.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 484,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_960.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 581,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BLSFC6Q-34e8fddd00\/gd_and_normal_equation_1024.jpg?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 619,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 774,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8AV51H47\/F8BLSFC6Q\/gd_and_normal_equation.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BLSFC6Q-8e6ef4fe61",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8BHCMB6F",
+                "created": 1512715587,
+                "timestamp": 1512715587,
+                "user": "U8AV51H47",
+                "is_intro": true,
+                "comment": "self-explanatory comparison"
+            }
+        },
+        "user": "U8AV51H47",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ckeshavabs",
+        "bot_id": null,
+        "ts": "1512715590.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "that's it for today, then!",
+        "ts": "1512715609.000202",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8A2QMW4E",
+                    "U8979KBHT",
+                    "U897CT84V"
+                ],
+                "count": 3
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U893XH8SG",
+                    "U897CT84V",
+                    "U8A6B048M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Again, if you have any doubts, feel free to approach any of the mentors :slightly_smiling_face:",
+        "ts": "1512715679.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Wait. Explain what's O(n3) thing. :see_no_evil:",
+        "ts": "1512715697.000084"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "it's actually big-oh notation",
+        "ts": "1512715712.000082"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so, suppose you have an n by n matrix",
+        "ts": "1512715727.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "it tells that, we will have to do atmost constant * n^3 operations to find the inverse",
+        "ts": "1512715751.000255"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "the constant can be anything independent of n",
+        "ts": "1512715762.000130"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "big-oh will be delt in detail in algorithm classes(DSA)",
+        "ts": "1512715783.000174"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "ts": "1512715794.000128"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Okie ",
+        "ts": "1512715795.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8AV51H47",
+        "text": "so, have fun in the holidays! :grin:",
+        "ts": "1512715853.000022",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "So no more sessions?",
+        "ts": "1512716243.000090",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "we do have more sessions :stuck_out_tongue:",
+        "ts": "1512716271.000104"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "That's good. ",
+        "ts": "1512716292.000081"
+    }
+]
