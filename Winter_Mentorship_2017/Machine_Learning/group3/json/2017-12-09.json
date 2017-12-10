@@ -1,0 +1,1668 @@
+[
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Everyone who has joined thumbs up this message. We'll start soon.",
+        "ts": "1512883646.000031",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89AZV7R8",
+                    "U897CT84V",
+                    "U89BENEMB",
+                    "U893XH8SG",
+                    "U8A2QMW4E"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We'll wait till 11.10 for others to join, and then start the session",
+        "ts": "1512884000.000025"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, we'll start now. Others can read through the messages when they join :stuck_out_tongue:",
+        "ts": "1512884463.000050",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, in the last session we discussed Linear Regression",
+        "ts": "1512884488.000010"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That model was used to to perform a regression task, discussed in the first session.",
+        "ts": "1512884517.000027"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Another important task is the Classification task",
+        "ts": "1512884537.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, given a set of attributes we have to decide to which of the available categories a certain sample belongs to",
+        "ts": "1512884570.000042"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We will start the discussion with a simple example of Binary Classification (Two categories only) and later about Multiclass Classification",
+        "ts": "1512884635.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "An example of a binary classification task would we be the following:",
+        "ts": "1512884706.000050"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We are given the age, nationality, ticket class for every passenger on the Titanic and we have to predict whether that passenger survives or not.",
+        "ts": "1512884777.000054",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89BENEMB"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So here, for every passenger we have 2 classes. Survives and Does not survive.",
+        "ts": "1512884818.000040"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We can denote Survives as y=1 and Does not survive as y=0",
+        "ts": "1512884877.000054"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And the features as x1, x2, x3 respectively.",
+        "ts": "1512884906.000027"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So the problem we have to solve here is given x1, x2, x3 what will be y.",
+        "ts": "1512884953.000027"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is this clear?",
+        "ts": "1512884967.000021",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89BENEMB",
+                    "U8A2QMW4E",
+                    "U89AZV7R8",
+                    "U897CT84V"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, now you can see that the problem formulation is very similar to what we had for Linear Regression.",
+        "ts": "1512885091.000018"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But we cannot use Linear Regression for this problem.",
+        "ts": "1512885120.000023"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Can anyone give me a reason why?",
+        "ts": "1512885153.000023"
+    },
+    {
+        "user": "U88MUQQTD",
+        "topic": "Session 4: Logistic Regression - MJ10",
+        "text": "<@U88MUQQTD> set the channel topic: Session 4: Logistic Regression - MJ10",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1512885159.000063"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It's okay if you're wrong, feel free to try. We're not giving you marks :stuck_out_tongue:",
+        "ts": "1512885213.000004"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "because y output can take only specific discrete outputs",
+        "ts": "1512885289.000004"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "and not continuous",
+        "ts": "1512885306.000007"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes, that's one reason.",
+        "ts": "1512885322.000066"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So basically, instead of directly predicting the value of y, a better way to go about this task would be working with probabilities.",
+        "ts": "1512885374.000035"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, we can instead predict, what is the probability that y=1",
+        "ts": "1512885411.000002"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And probabilities are continuous, so we can use an approach similar to, but with some changes, as Linear Regression",
+        "ts": "1512885460.000023"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Any doubts till here?",
+        "ts": "1512885477.000032"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "no doubts",
+        "ts": "1512885510.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A2QMW4E"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so this modified version of Linear Regression that we'll be looking at today is Logistic Regressin",
+        "ts": "1512885575.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "*Regression",
+        "ts": "1512885580.000022"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "why is it still a regression algo if we are using it for classification?",
+        "thread_ts": "1512885631.000056",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512885658.000044"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512885671.000083"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512886282.000023"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512885631.000056"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8D75QLF8\/image.png|image.png>",
+        "file": {
+            "id": "F8D75QLF8",
+            "created": 1512885634,
+            "timestamp": 1512885634,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 672215,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D75QLF8\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D75QLF8\/download\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 347,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 462,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 693,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 770,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 924,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D75QLF8-65fae8ca5e\/image_1024.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 986,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 1232,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8D75QLF8\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D75QLF8-0fb6c071b1",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512885638.000071"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Great question. I'll be discussing that later :slightly_smiling_face:",
+        "thread_ts": "1512885631.000056",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512885658.000044"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "thank u",
+        "thread_ts": "1512885631.000056",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512885671.000083"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here h(x) is the hypothesis function we'll be using.",
+        "ts": "1512885689.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "g(x) is called the sigmoid function\/logistic function(That's why the name Logistic Regression)",
+        "ts": "1512885739.000005"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So you can see, instead of the linear function as Linear Regression, we use this sigmoid function as our hypothesis.",
+        "ts": "1512885786.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BM2MTLG\/image__1_.png|image (1).png>",
+        "file": {
+            "id": "F8BM2MTLG",
+            "created": 1512885821,
+            "timestamp": 1512885821,
+            "name": "image (1).png",
+            "title": "image (1).png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 46560,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BM2MTLG\/image__1_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BM2MTLG\/download\/image__1_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 251,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 334,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 501,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 557,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 668,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM2MTLG-dd5d42c120\/image__1__1024.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 713,
+            "image_exif_rotation": 1,
+            "original_w": 1204,
+            "original_h": 838,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BM2MTLG\/image__1_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BM2MTLG-4df6c44fce",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512885824.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is what the graph of sigmoid function looks like",
+        "ts": "1512885849.000048"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, as discussed earlier, we are trying to predict the probability that y=1, so h(x) basically gives the probability that y=1",
+        "ts": "1512885914.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Probability can be in the range [0,1]. Which is why we use the sigmoid function, since it gives only values in the range [0,1]",
+        "ts": "1512885976.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, now we know what the probability that y=1 is, so how do we make a concrete prediction whether y=0 or y=1?",
+        "ts": "1512886041.000036"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We impose a threshold",
+        "ts": "1512886055.000036"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8C8USPJ7\/image__2_.png|image (2).png>",
+        "file": {
+            "id": "F8C8USPJ7",
+            "created": 1512886076,
+            "timestamp": 1512886076,
+            "name": "image (2).png",
+            "title": "image (2).png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 235110,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C8USPJ7\/image__2_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C8USPJ7\/download\/image__2_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 146,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 195,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 293,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 325,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 390,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8USPJ7-b6543a2f45\/image__2__1024.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 416,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 520,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8C8USPJ7\/image__2_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C8USPJ7-f805c79f16",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512886080.000013"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, this decision boundary tells us to which category a particular sample belongs",
+        "ts": "1512886148.000001"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Every sample with h(x) &lt; 0.5 belongs to category y-0",
+        "ts": "1512886184.000003"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "*y=0",
+        "ts": "1512886188.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, in other words, we can see that in Logistic Regression, when we optimise for the parameters(theta) we are basically finding the proper decision boundary.",
+        "ts": "1512886261.000065"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "question not answered yet",
+        "thread_ts": "1512885631.000056",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512886282.000023"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8C8V5WHH\/image__3_.png|image (3).png>",
+        "file": {
+            "id": "F8C8V5WHH",
+            "created": 1512886296,
+            "timestamp": 1512886296,
+            "name": "image (3).png",
+            "title": "image (3).png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 25496,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C8V5WHH\/image__3_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C8V5WHH\/download\/image__3_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 180,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 240,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 360,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8V5WHH-265e0b491f\/image__3__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 400,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 400,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8C8V5WHH\/image__3_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C8V5WHH-5cbb365968",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512886298.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here you can see that the line is the decision boundary",
+        "ts": "1512886338.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Everything to the left of the line is y=0",
+        "ts": "1512886357.000051"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And to the right is y=1",
+        "ts": "1512886365.000025"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now as <@U897CT84V> asked, why is this Logistic 'Regression' even though we are performing a classification task",
+        "ts": "1512886414.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The thing is, even though we are performing a classification task, the method we use to achieve that is predicting probabilities",
+        "ts": "1512886513.000040"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So what we are doing in essence is learning a function that gives me the probability that a sample belongs to a particular category(y=1)",
+        "ts": "1512886534.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Which is regression",
+        "ts": "1512886553.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That is why it is Logistic 'Regression'",
+        "ts": "1512886565.000016"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Clear?",
+        "ts": "1512886568.000003",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V",
+                    "U8A2QMW4E",
+                    "U8A6B048M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Sorry for the late join. ",
+        "ts": "1512886722.000052"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Don't interrupt <@U8981ES56> ",
+        "ts": "1512886759.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so basically we are trying to learn the equation of the line that can separate the two categories, that is the geometric interpretation of this model.",
+        "ts": "1512886765.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, we have a line here since we are using a linear model, we can also have polynomial terms in the hypothesis function, giving us non-linear decision boundaries. That depends on the distribution of the data",
+        "thread_ts": "1512886844.000044",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "U897CT84V",
+                "ts": "1512886942.000032"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512886983.000014"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512887041.000047"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512887211.000057"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512888007.000005"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512888037.000021"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512888071.000048"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512888122.000051"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1512886844.000044"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, coming to the learning part, what would be the cost function here?",
+        "ts": "1512886890.000036"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We cannot use the cost function for Linear Regression here.",
+        "ts": "1512886908.000018"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "that can happen only in multiclass right?",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512886942.000032"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We need a function that can capture the error in predicting the categories.",
+        "ts": "1512886955.000010"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "No, even in binary classification that is possible",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512886983.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Use the error function ? ",
+        "ts": "1512887020.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BM47CTS\/image__4_.png|image (4).png>",
+        "file": {
+            "id": "F8BM47CTS",
+            "created": 1512887017,
+            "timestamp": 1512887017,
+            "name": "image (4).png",
+            "title": "image (4).png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 408843,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BM47CTS\/image__4_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BM47CTS\/download\/image__4_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 240,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 320,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 480,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 533,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 640,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM47CTS-d21c083142\/image__4__1024.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 682,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 853,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BM47CTS\/image__4_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BM47CTS-fdd809b96b",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512887022.000001"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is the cost function we use.",
+        "ts": "1512887041.000023"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "oh..but u have only two outputs how can a polynomial ever satisfy the hypothesis?",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512887041.000047"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "As you can see, the model is penalised highly if it predicts a low probability even though the actual class is y=1",
+        "ts": "1512887107.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "and same for predicting a high probability even though the actual class is y=0",
+        "ts": "1512887137.000068"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Basically, this function will penalise the model appropriately based on it's predictions and ground truth.",
+        "ts": "1512887195.000028"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "can u explain with an example?",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512887211.000057"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, as in linear regression, we would like to minimise this cost.",
+        "ts": "1512887225.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Any doubts?",
+        "ts": "1512887237.000045"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "in binary u have only two outputs how can a polynomial ever satisfy the hypothesis?can u explain with an example?",
+        "ts": "1512887303.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, wait",
+        "ts": "1512887344.000064"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BM4K95W\/image.png|image.png>",
+        "file": {
+            "id": "F8BM4K95W",
+            "created": 1512887360,
+            "timestamp": 1512887360,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 14961,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BM4K95W\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BM4K95W\/download\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM4K95W-a8bb481989\/image_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM4K95W-a8bb481989\/image_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM4K95W-a8bb481989\/image_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 251,
+            "thumb_360_h": 201,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BM4K95W-a8bb481989\/image_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 251,
+            "original_h": 201,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BM4K95W\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BM4K95W-0e366bfba9",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512887361.000045"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Look at this example",
+        "ts": "1512887370.000032"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here we have two categories, red and green",
+        "ts": "1512887383.000066"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "You can see that if we want to separate them properly, we cannot use a line",
+        "ts": "1512887407.000110"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "this graph is of what vs what?",
+        "thread_ts": "1512887416.000031",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512887441.000022"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512887459.000029"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512887463.000076"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1512887471.000036"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1512887507.000014"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1512887416.000031"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Both axes are the features, x1 and x2",
+        "thread_ts": "1512887416.000031",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512887441.000022"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "that is input data?",
+        "thread_ts": "1512887416.000031",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512887459.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And each point is a sample",
+        "thread_ts": "1512887416.000031",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512887463.000076"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The classes are red and green",
+        "thread_ts": "1512887416.000031",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512887471.000036"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok.Clear",
+        "thread_ts": "1512887416.000031",
+        "parent_user_id": "U897CT84V",
+        "ts": "1512887507.000014"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Which is why, we have to use a polynomial decision boundary, instead of a linear one.",
+        "ts": "1512887529.000022"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Everyone clear?",
+        "ts": "1512887535.000022",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, we can minimise this function using Gradient Descent",
+        "ts": "1512887606.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8CB35J2W\/image__5_.png|image (5).png>",
+        "file": {
+            "id": "F8CB35J2W",
+            "created": 1512887619,
+            "timestamp": 1512887619,
+            "name": "image (5).png",
+            "title": "image (5).png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 408268,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CB35J2W\/image__5_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CB35J2W\/download\/image__5_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 297,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 396,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 593,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 659,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 791,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CB35J2W-0200bcbccf\/image__5__1024.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 844,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 1055,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8CB35J2W\/image__5_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CB35J2W-a511f55b32",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512887622.000030"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The formulation comes to be the same as Linear Regression.",
+        "ts": "1512887667.000021"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "You can verify this by calculating the partial derivative of the cost function wrt theta",
+        "ts": "1512887695.000036"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8DD6CH0X\/image__6_.png|image (6)>",
+        "file": {
+            "id": "F8DD6CH0X",
+            "created": 1512887744,
+            "timestamp": 1512887744,
+            "name": "image (6).png",
+            "title": "image (6)",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 184692,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DD6CH0X\/image__6_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DD6CH0X\/download\/image__6_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 141,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 189,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 283,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 314,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 377,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8DD6CH0X-9964d4b926\/image__6__1024.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 402,
+            "image_exif_rotation": 1,
+            "original_w": 1280,
+            "original_h": 503,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8DD6CH0X\/image__6_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DD6CH0X-bffe253dd8",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512887747.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So in summary, you can see that this is a simple optimisation problem, of minimising the cost function",
+        "ts": "1512887782.000006"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is everyone clear with whatever has been covered till now?",
+        "ts": "1512887812.000001",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V",
+                    "U8981ES56"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We do not have two outputs for the hypothesis",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512888007.000005"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The hypothesis is a continuous function that outputs the probability that y=1",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512888037.000021"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The polynomial part would be in the vector x in the hypothesis function.",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512888071.000048"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "When we apply sigmoid to the vector theta.x we get the probability that y=1",
+        "thread_ts": "1512886844.000044",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1512888122.000051"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Before we move ahead, I'll clear the doubt <@U897CT84V> has here, with a simple example",
+        "ts": "1512888184.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Suppose theta = [theta0, theta1, theta2, theta3, theta4] and x = [1, x1, x2, x1^2, x2^2]",
+        "ts": "1512888264.000044"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8C8XJN67\/image.png|image.png>",
+        "file": {
+            "id": "F8C8XJN67",
+            "created": 1512888297,
+            "timestamp": 1512888297,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 14961,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C8XJN67\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C8XJN67\/download\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8XJN67-c055fed0f8\/image_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8XJN67-c055fed0f8\/image_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8XJN67-c055fed0f8\/image_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 251,
+            "thumb_360_h": 201,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8C8XJN67-c055fed0f8\/image_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "image_exif_rotation": 1,
+            "original_w": 251,
+            "original_h": 201,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8C8XJN67\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C8XJN67-33102e4984",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512888298.000034"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Suppose the axes here are x1 and x2",
+        "ts": "1512888312.000016"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We can see that a if the hypothesis does not have polynomial features in x1 and x2, the decision boundary will be a simple line.",
+        "ts": "1512888371.000068"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That would not be desirable for the given data, that's why we introduce the polynomial terms.",
+        "ts": "1512888409.000032"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Because looking at the data it is easy for us to see that the optimal decision boundary would somewhat a circle",
+        "ts": "1512888458.000047"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, we want the model to learn a somewhat circular decision boundary, which is possible only we add the x1^2 and x2^2 terms",
+        "ts": "1512888509.000027"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Does this make it clear <@U897CT84V>?",
+        "ts": "1512888523.000082"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "clear",
+        "ts": "1512888527.000042"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "crystal",
+        "ts": "1512888532.000003"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay :stuck_out_tongue:",
+        "ts": "1512888551.000045",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A6B048M",
+                    "U897CT84V",
+                    "U8981ES56"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We'll move on to the final topic for today",
+        "ts": "1512888565.000054"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Multiclass classification",
+        "ts": "1512888575.000032"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BRC9TL1\/image__7_.png|image (7).png>",
+        "file": {
+            "id": "F8BRC9TL1",
+            "created": 1512888593,
+            "timestamp": 1512888593,
+            "name": "image (7).png",
+            "title": "image (7).png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 153974,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRC9TL1\/image__7_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRC9TL1\/download\/image__7_.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 179,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 239,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 358,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 398,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BRC9TL1-d6e35a17fb\/image__7__960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 478,
+            "image_exif_rotation": 1,
+            "original_w": 965,
+            "original_h": 480,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8BRC9TL1\/image__7_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BRC9TL1-bd177ce964",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512888596.000025"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here you can see the difference between a binary classification and a multi class classification problem",
+        "ts": "1512888635.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Based on binary classification can anyone suggest an approach to the multi-class classification problem?",
+        "ts": "1512888745.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "I think you have multiple cases and apply gradient descent to them. ",
+        "ts": "1512888874.000045"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "take 3 different values of y",
+        "ts": "1512888946.000050"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "How do you have multiple classes :stuck_out_tongue: The binary classification formulation gives me probability that y=1",
+        "ts": "1512888947.000046"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes if there are 3 different values of y is one Logistic regression model enough to predict the class?",
+        "ts": "1512888989.000016"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "no.we need 3",
+        "ts": "1512889011.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Yes, correct.",
+        "ts": "1512889032.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We can have 3 regression models, each predicting the probability that a sample belongs to one class",
+        "ts": "1512889111.000036"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8D7A4QTG\/image.png|image.png>",
+        "file": {
+            "id": "F8D7A4QTG",
+            "created": 1512889139,
+            "timestamp": 1512889139,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 333066,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7A4QTG\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7A4QTG\/download\/image.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_64.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_80.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_360.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_360_w": 360,
+            "thumb_360_h": 196,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_480.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_480_w": 480,
+            "thumb_480_h": 262,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_160.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_720.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_720_w": 720,
+            "thumb_720_h": 392,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_800.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_800_w": 800,
+            "thumb_800_h": 436,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7A4QTG-ece863bbb3\/image_960.png?t=xoxe-280931420101-283724714784-284382913234-63795fabc870cc7bf2b01ef319a339bb",
+            "thumb_960_w": 960,
+            "thumb_960_h": 523,
+            "image_exif_rotation": 1,
+            "original_w": 1013,
+            "original_h": 552,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8D7A4QTG\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7A4QTG-4f725edd85",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1512889141.000052"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is the one vs all approach",
+        "ts": "1512889158.000018"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "While considering one class, we consider that all the other classes are the same",
+        "ts": "1512889185.000064"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And we do this for each class",
+        "ts": "1512889195.000051"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, we learn the theta for 3 different hypothesis functions, one for each class",
+        "ts": "1512889235.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is this clear?",
+        "ts": "1512889258.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "Yes. Crystal clear",
+        "ts": "1512889399.000059",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V",
+                    "U8A6B048M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Alright.",
+        "ts": "1512889410.000024"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That's all for today",
+        "ts": "1512889419.000026"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Thanks for attending on a Sunday morning :stuck_out_tongue:",
+        "ts": "1512889437.000010",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U897CT84V",
+                    "U8A6B048M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "If anyone is not clear with anything discussed, feel free to approach any of the mentors",
+        "ts": "1512889476.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8981ES56",
+        "text": "You guys also took classes on a Sunday morning for us. So no need to thank us. We must be thanking you. ",
+        "ts": "1512889500.000032",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Also, we'll be posting details regarding the first assignment on Whatsapp, please take a look",
+        "ts": "1512889513.000071"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "ts": "1512889571.000009"
+    }
+]

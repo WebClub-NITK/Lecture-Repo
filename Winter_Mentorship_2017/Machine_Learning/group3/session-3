@@ -1,0 +1,385 @@
+Hello
+
+Anyone home?
+
+<@U89591QNN> set the channel topic: Session 3: Linear Regression - Chenna Keshava, Anumeha and MJ10
+
+hi
+
+can I get a headcount of how many of you are online?
+
+we will wait for 5 mins for others
+
+Me
+
+<@U8981ES56> you're always there! :smile:
+
+Yes sir 
+
+I think everyone is still asleep :stuck_out_tongue:
+
+me
+
+Lol it's okkay we'll anyways put up logs
+
+We'll start by 11.15
+
+ok
+
+how do u open an .ipynb file?
+
+using jupyter notebook
+
+Comes with Anaconda
+
+how do u use it?
+
+so let's start off with linear regression
+
+In linear regression, we will model the data points, assuming that the output can be expressed as a linear combination of input variables
+
+`jupyter-notebook &lt;filename&gt;.ipynb`
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BPE3YUD/variables.jpeg|variables.jpeg> and commented: naming conventions
+
+say we have m training examples with us
+
+each training example will have n number of x's -&gt; these denote the various features used in the problem
+
+say the problem of clicking on ads from the users
+
+the features could be, the user history of products, the category of ad issued, the type of product, the demography of the audience where the ad is shown,etc could be used as features
+
+here, y is the ground truth that we already know
+
+linear regression is a type of supervised learning, so we will predict the answer using the x's in every training example
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BK6K6RY/non-example.jpeg|non-example.jpeg>
+
+we will need to carefully decide, if we need a linear model at all
+
+because, as shown in the above pic, a non linear model can give better results
+
+so, for a linear model, the equation for h(x) can be y = m*x + c
+
+this is for a problem having a single feature
+
+In the first pic, the first column of the matrix X(input matrix) has all ones
+
+The 1's are called bias, and they are used to make the hypothesis equation slick and neat
+
+the biases are multiplied with the constant term (c) or theta0
+
+so in the matrix form, the hypothesis equation becomes just X * theta
+
+often in ML problem, there might be millions of features. So that's where linear algebra and matrix manipulations helps us
+
+We can initialise the weights ie the theta vector to zero or any random value
+
+The initialization here, isn't of critical importance unlike neural nets
+
+thanks
+
+we will use a cost function, to see, how much we are deviating from the ground truth ' y '
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8AVAEKFA/cost_function.jpeg|cost function.jpeg>
+
+there are a few important features for a cost function
+
+our goal in linear regression(LR) is to find the optimum set of theta values, so that the cost function is minimum
+
+we can find the best set of coefficients through analytical linear algebra ways
+
+like using normal equations, but there are many drawbacks of using this
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8B4366RF/normal_equation.jpeg|normal equation.jpeg>
+
+the problems are, normal equations can't be used for other algorithms like logistic regression
+
+also, matrix multiplication and finding inverses of matrices are expensive operations, when we have millions of features and large training sets
+
+so we need another way to find out the optimum parameters
+
+that's why we use optimization algorithms
+
+any doubts?
+
+No crystal clear
+
+nope.
+
+I mean no doubts
+
+ok, to use an optimization algo, we will have to find the partial derivatives of the cost function wrt all the different coefficients
+
+that implies that, the cost function has to be differentiable
+
+otherwise we could have taken the absolute value of (h - y), and summed over all training examples
+
+or, for that matter, used some other cost function
+
+ok.So the code will depend on our cost function or hypothesis function and be case-specific in such cases?
+
+One other point is: the cost functions also need to be convex in nature
+
+I will explain this after some time
+
+So, we will use an optimisation algo called Gradient Descent
+
+we will see how the cost varies, when every coefficient is changed by a very small amount, this is obtained by the partial derivative of the cost wrt a coefficient.
+
+The cost function is the same, regardless of your hypothesis function.
+
+for example, if the cost increases if theta1 is increased by epsilon, then it means that I have to decrease theta1 in every step by small amounts , and vice versa
+
+we will find the partial derivatives for all the coefficients in a step
+
+I mean the optimization part will depend on cost function and will be valid for only that type of cost function?
+
+yes, the optimisation depends on the PD of coeff wrt the cost function
+
+ok
+
+and then, we will multiply that PD with factor called alpha
+
+alpha is the learning rate or the step size
+
+we can specify, in every step, by how much we want to inch toward the optimum value(min of the cost function)
+
+so, we will subtract this product from the old value of the coefficient
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BH56A0K/gd-1.jpg|gd-1.jpg> and commented: gere f(x) is the cost function
+
+*here
+
+suppose the coeff after random initialization are at x1
+
+here x is the only feature
+
+so PD of f(x) wrt x gives a negative value, implying we will have to increase x, to decrease f
+
+that's why we subtract alpha*PD from the old value of the coeff
+
+any doubts?
+
+No crystal clear
+
+basically : New_coeff = old_coeff - alpha * PD
+
+but there is a slight problem
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8CMFTJ7R/gd_with_non-convex_cost_function.png|gd with non-convex cost function.png>
+
+J is the cost function here
+
+so as you can see, we are reaching different points of minima, when we start from different initializations
+
+This problems are encountered if the cost function has local minimas or saddle points
+
+GD can get stuck at these points, and may never move on
+
+That's what we want right?
+
+that's why, usually cost functions are convex functions
+
+Ok sorry for typing in between 
+
+no, what we need is a global minimum of the cost function
+
+Find all the minima and then find the minimum of all of them?
+
+no, finding the minimas of a non convex function is an NP hard problem:joy:
+
+so when cost functions are convex, we are guarenteed that GD will converge to the global minimum
+
+use another optimization algo I guess
+
+the above sum of squared error cost function is also convex
+
+for non convex
+
+Ya but here the ps clearly states only convex ones right?
+
+but the thing is, there are techniques like heavy ball method, that are used for GD with non convex functions
+
+Check this paper if you have free time - <https://arxiv.org/abs/1602.04915>
+
+Yeah but the last pic is of a nonconvex one
+
+ok, everyone with me?
+
+there are other algos like BFGS, C-BFGS in matlab, but I am not sure if they can be used with non convex functions also
+
+can they not be used in python?Those algos?
+
+now, another point is that the updates of the coefficients in GD must be performed simultaneously
+
+I am not sure, if we already have their implementations...
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BLMDZU4/simul_update.jpeg|simul_update.jpeg>
+
+ok
+
+when implementing GD, follow the above pic
+
+non simultaneous updates also may lead to convergence
+
+i think we can try with bigger alpha and check
+
+they might be even faster in some cases
+
+but, in non simultaneous updates: we will be taking one step in the x direction, and from there another step in the y direction
+
+But what we actually need is a single step, that is the optimum from that point. So, simultaneous updates squashes two steps, into a single one, and that is what we need.
+
+simultaneous updates are more natural and intuitive
+
+No, using a bigger alpha might lead to over shooting
+
+you might miss the minima, and start diverging
+
+now, there are different types of implementations of GD
+
+Batch GD : here we take the entire training set, and start performing the updates
+
+It is always a good idea to use a sufficiently small alpha
+
+ok
+
+but the problem is, for very large datasets, this might take a large amount of time
+
+the above equations implement batch GD
+
+the other choice is stochastic GD for large inputs
+
+First, randomise the order of training examples
+
+bigger alpha may help us to skip local minima
+
+Then perform updation of coeff and calculate the cost after going through every training example.
+
+learning happens very quickly with SGD, and only few 10’s of passes are required
+
+SGD?
+
+The updates and cost function might be very noisy, as they are done after every training example.
+
+SGD - stochastic GD
+
+But it might also lead to skipping any minima entirely
+
+so, we can plot/observe the average cost function after 10's of updates
+
+during implementation, one easy way to check if GD is working properly, is by plotting Cost function versus the number if iterations
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8CMJQ95M/cost_history.png|cost_history.png>
+
+GD will ensure that all the successive steps will find decreasing points of cost
+
+ok
+
+So, if the cost is not decreasing, it implies there is a problem with the alpha that we have chosen
+
+because, that's the only variable, that has beenn left to our choice :sweat_smile:
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BPP58SH/alpha.jpg|alpha.jpg>
+
+as shown, if alpha is too large, GD might keep on oscillation and may never converge to minimum
+
+w is the parameter vector here
+
+but if the value of alpha is very small, it may  take eternity to converge, and may not be feasible for our needs
+
+A nice way to choose optimum alpha is to start from a lower bound like 0.001, and keep tripling upwards, until cost function doesn’t decrease with the number of iterations like: 0.001, 0.003, 0.01, 0.03, 0.1, 0.3,...
+
+any doubts?
+
+no
+
+so practically, GD might mean something like this
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BPPMZLM/learning-1.png|learning-1.png>
+
+consider the problem of finding how many units of a product will be sold, when we are provided with the info on the money spent by a company on radio ads
+
+if all weights are zero/very small, we will have the above line
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8CML3AQP/learning-2.png|learning-2.png>
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8CML44VD/learning-3.png|learning-3.png>
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BPQ38LD/learning-4.png|learning-4.png>
+
+gradually, GD keeps finding better parameters/weights until we have the  best fit for the given data
+
+Linear Regression is fitting the best possible straight line for the given data points
+
+cost function that we have used here, finds the perpendicular distance between every point and the line
+
+it squares that value, and then finds it's average
+
+that's the geometric interpretation
+
+but in higher dimensions, the hypothesis corresponds to a hyper plane, corresponding to the different features
+
+also, for interested ones, here is a proof of the normal equation method - <https://eli.thegreenplace.net/2014/derivation-of-the-normal-equation-for-linear-regression>
+
+in sgd we are not using mean squared error
+we r using perpendicular distance for cost function?
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BHB6G11/gd_with_many_features.jpeg|GD with many features.jpeg> and commented: steps in GD
+
+no, the mean squared error, corresponds to this geometric interpretation
+
+ok
+
+also, when implementing linear regression, try to vectorise the code
+
+vectorization is : Using inbuilt numerical algebra libraries for computation, and avoid using explicit for loops. It improves efficiency and it also improves readability
+
+vectorization tutorial - <http://ufldl.stanford.edu/wiki/index.php/Vectorization>
+
+also, one more thing is: GD might take a lot of time to converge if our inputs/features are out of scale
+
+that is, if the scale if inputs vary greatly, GD becomes inefficient
+
+so, we will need to scale them to -1 to 1, or use other standarsization techniques
+
+some common ones are feature scaling and mean normalization
+
+<http://sebastianraschka.com/Articles/2014_about_feature_scaling.html> - this provides a nice overview
+
+any doubts?
+
+no
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8BLSFC6Q/gd_and_normal_equation.jpeg|GD and normal equation.jpeg> and commented: self-explanatory comparison
+
+that's it for today, then!
+
+Again, if you have any doubts, feel free to approach any of the mentors :slightly_smiling_face:
+
+Wait. Explain what's O(n3) thing. :see_no_evil:
+
+it's actually big-oh notation
+
+so, suppose you have an n by n matrix
+
+it tells that, we will have to do atmost constant * n^3 operations to find the inverse
+
+the constant can be anything independent of n
+
+big-oh will be delt in detail in algorithm classes(DSA)
+
+ok
+
+Okie 
+
+so, have fun in the holidays! :grin:
+
+So no more sessions?
+
+we do have more sessions :stuck_out_tongue:
+
+That's good. 
+

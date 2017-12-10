@@ -1,0 +1,282 @@
+Everyone who has joined thumbs up this message. We'll start soon.
+
+We'll wait till 11.10 for others to join, and then start the session
+
+Okay, we'll start now. Others can read through the messages when they join :stuck_out_tongue:
+
+So, in the last session we discussed Linear Regression
+
+That model was used to to perform a regression task, discussed in the first session.
+
+Another important task is the Classification task
+
+So, given a set of attributes we have to decide to which of the available categories a certain sample belongs to
+
+We will start the discussion with a simple example of Binary Classification (Two categories only) and later about Multiclass Classification
+
+An example of a binary classification task would we be the following:
+
+We are given the age, nationality, ticket class for every passenger on the Titanic and we have to predict whether that passenger survives or not.
+
+So here, for every passenger we have 2 classes. Survives and Does not survive.
+
+We can denote Survives as y=1 and Does not survive as y=0
+
+And the features as x1, x2, x3 respectively.
+
+So the problem we have to solve here is given x1, x2, x3 what will be y.
+
+Is this clear?
+
+Okay, now you can see that the problem formulation is very similar to what we had for Linear Regression.
+
+But we cannot use Linear Regression for this problem.
+
+Can anyone give me a reason why?
+
+<@U88MUQQTD> set the channel topic: Session 4: Logistic Regression - MJ10
+
+It's okay if you're wrong, feel free to try. We're not giving you marks :stuck_out_tongue:
+
+because y output can take only specific discrete outputs
+
+and not continuous
+
+Yes, that's one reason.
+
+So basically, instead of directly predicting the value of y, a better way to go about this task would be working with probabilities.
+
+So, we can instead predict, what is the probability that y=1
+
+And probabilities are continuous, so we can use an approach similar to, but with some changes, as Linear Regression
+
+Any doubts till here?
+
+no doubts
+
+Okay, so this modified version of Linear Regression that we'll be looking at today is Logistic Regressin
+
+*Regression
+
+why is it still a regression algo if we are using it for classification?
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8D75QLF8/image.png|image.png>
+
+Great question. I'll be discussing that later :slightly_smiling_face:
+
+thank u
+
+Here h(x) is the hypothesis function we'll be using.
+
+g(x) is called the sigmoid function/logistic function(That's why the name Logistic Regression)
+
+So you can see, instead of the linear function as Linear Regression, we use this sigmoid function as our hypothesis.
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8BM2MTLG/image__1_.png|image (1).png>
+
+This is what the graph of sigmoid function looks like
+
+So, as discussed earlier, we are trying to predict the probability that y=1, so h(x) basically gives the probability that y=1
+
+Probability can be in the range [0,1]. Which is why we use the sigmoid function, since it gives only values in the range [0,1]
+
+So, now we know what the probability that y=1 is, so how do we make a concrete prediction whether y=0 or y=1?
+
+We impose a threshold
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8C8USPJ7/image__2_.png|image (2).png>
+
+So, this decision boundary tells us to which category a particular sample belongs
+
+Every sample with h(x) &lt; 0.5 belongs to category y-0
+
+*y=0
+
+So, in other words, we can see that in Logistic Regression, when we optimise for the parameters(theta) we are basically finding the proper decision boundary.
+
+question not answered yet
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8C8V5WHH/image__3_.png|image (3).png>
+
+Here you can see that the line is the decision boundary
+
+Everything to the left of the line is y=0
+
+And to the right is y=1
+
+Now as <@U897CT84V> asked, why is this Logistic 'Regression' even though we are performing a classification task
+
+The thing is, even though we are performing a classification task, the method we use to achieve that is predicting probabilities
+
+So what we are doing in essence is learning a function that gives me the probability that a sample belongs to a particular category(y=1)
+
+Which is regression
+
+That is why it is Logistic 'Regression'
+
+Clear?
+
+Sorry for the late join. 
+
+Don't interrupt <@U8981ES56> 
+
+Okay, so basically we are trying to learn the equation of the line that can separate the two categories, that is the geometric interpretation of this model.
+
+Now, we have a line here since we are using a linear model, we can also have polynomial terms in the hypothesis function, giving us non-linear decision boundaries. That depends on the distribution of the data
+
+Now, coming to the learning part, what would be the cost function here?
+
+We cannot use the cost function for Linear Regression here.
+
+that can happen only in multiclass right?
+
+We need a function that can capture the error in predicting the categories.
+
+No, even in binary classification that is possible
+
+Use the error function ? 
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8BM47CTS/image__4_.png|image (4).png>
+
+This is the cost function we use.
+
+oh..but u have only two outputs how can a polynomial ever satisfy the hypothesis?
+
+As you can see, the model is penalised highly if it predicts a low probability even though the actual class is y=1
+
+and same for predicting a high probability even though the actual class is y=0
+
+Basically, this function will penalise the model appropriately based on it's predictions and ground truth.
+
+can u explain with an example?
+
+Now, as in linear regression, we would like to minimise this cost.
+
+Any doubts?
+
+in binary u have only two outputs how can a polynomial ever satisfy the hypothesis?can u explain with an example?
+
+Okay, wait
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8BM4K95W/image.png|image.png>
+
+Look at this example
+
+Here we have two categories, red and green
+
+You can see that if we want to separate them properly, we cannot use a line
+
+this graph is of what vs what?
+
+Both axes are the features, x1 and x2
+
+that is input data?
+
+And each point is a sample
+
+The classes are red and green
+
+ok.Clear
+
+Which is why, we have to use a polynomial decision boundary, instead of a linear one.
+
+Everyone clear?
+
+Now, we can minimise this function using Gradient Descent
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8CB35J2W/image__5_.png|image (5).png>
+
+The formulation comes to be the same as Linear Regression.
+
+You can verify this by calculating the partial derivative of the cost function wrt theta
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8DD6CH0X/image__6_.png|image (6)>
+
+So in summary, you can see that this is a simple optimisation problem, of minimising the cost function
+
+Is everyone clear with whatever has been covered till now?
+
+We do not have two outputs for the hypothesis
+
+The hypothesis is a continuous function that outputs the probability that y=1
+
+The polynomial part would be in the vector x in the hypothesis function.
+
+When we apply sigmoid to the vector theta.x we get the probability that y=1
+
+Before we move ahead, I'll clear the doubt <@U897CT84V> has here, with a simple example
+
+Suppose theta = [theta0, theta1, theta2, theta3, theta4] and x = [1, x1, x2, x1^2, x2^2]
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8C8XJN67/image.png|image.png>
+
+Suppose the axes here are x1 and x2
+
+We can see that a if the hypothesis does not have polynomial features in x1 and x2, the decision boundary will be a simple line.
+
+That would not be desirable for the given data, that's why we introduce the polynomial terms.
+
+Because looking at the data it is easy for us to see that the optimal decision boundary would somewhat a circle
+
+So, we want the model to learn a somewhat circular decision boundary, which is possible only we add the x1^2 and x2^2 terms
+
+Does this make it clear <@U897CT84V>?
+
+clear
+
+crystal
+
+Okay :stuck_out_tongue:
+
+We'll move on to the final topic for today
+
+Multiclass classification
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8BRC9TL1/image__7_.png|image (7).png>
+
+Here you can see the difference between a binary classification and a multi class classification problem
+
+Based on binary classification can anyone suggest an approach to the multi-class classification problem?
+
+I think you have multiple cases and apply gradient descent to them. 
+
+take 3 different values of y
+
+How do you have multiple classes :stuck_out_tongue: The binary classification formulation gives me probability that y=1
+
+Yes if there are 3 different values of y is one Logistic regression model enough to predict the class?
+
+no.we need 3
+
+Yes, correct.
+
+We can have 3 regression models, each predicting the probability that a sample belongs to one class
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8D7A4QTG/image.png|image.png>
+
+This is the one vs all approach
+
+While considering one class, we consider that all the other classes are the same
+
+And we do this for each class
+
+So, we learn the theta for 3 different hypothesis functions, one for each class
+
+Is this clear?
+
+Yes. Crystal clear
+
+Alright.
+
+That's all for today
+
+Thanks for attending on a Sunday morning :stuck_out_tongue:
+
+If anyone is not clear with anything discussed, feel free to approach any of the mentors
+
+You guys also took classes on a Sunday morning for us. So no need to thank us. We must be thanking you. 
+
+Also, we'll be posting details regarding the first assignment on Whatsapp, please take a look
+
+ok
+
