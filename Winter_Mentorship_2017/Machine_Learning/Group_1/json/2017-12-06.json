@@ -1,0 +1,81 @@
+[
+    {
+        "user": "U888HQS7K",
+        "text": "<@U888HQS7K> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512582708.000072"
+    },
+    {
+        "user": "U88K2UW8Z",
+        "inviter": "U888HQS7K",
+        "text": "<@U88K2UW8Z> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512582708.000382"
+    },
+    {
+        "user": "U888HQS7K",
+        "purpose": "Machine learning mentorship group 1",
+        "text": "<@U888HQS7K> set the channel purpose: Machine learning mentorship group 1",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1512582708.000397"
+    },
+    {
+        "user": "U8AJGSP6F",
+        "text": "<@U8AJGSP6F> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512583131.000115"
+    },
+    {
+        "user": "U8A5H9JGZ",
+        "text": "<@U8A5H9JGZ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512583461.000106"
+    },
+    {
+        "user": "U8BGXQP8W",
+        "text": "<@U8BGXQP8W> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512583506.000442"
+    },
+    {
+        "user": "U8AJLFZA7",
+        "text": "<@U8AJLFZA7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512583570.000151"
+    },
+    {
+        "user": "U896Z7U4V",
+        "text": "<@U896Z7U4V> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512584008.000400"
+    },
+    {
+        "user": "U8969RVPX",
+        "text": "<@U8969RVPX> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512585058.000697"
+    },
+    {
+        "user": "U8BPTL1TR",
+        "text": "<@U8BPTL1TR> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512591466.000049"
+    },
+    {
+        "user": "U8A92CBCP",
+        "text": "<@U8A92CBCP> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512616127.000078"
+    }
+]

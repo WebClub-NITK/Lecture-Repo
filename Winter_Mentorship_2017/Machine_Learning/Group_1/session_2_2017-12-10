@@ -1,0 +1,1124 @@
+
+Shashank:
+Those who have installed anaconda  and jupyter notebook successfully give a thumbs up
+
+U8B7TH3HT:
+:+1:
+
+Utkarsh:
+Those of you who're facing installation issues please put up your issues here
+
+Shashank:
+hit the windows key -&gt; enter environment -&gt; choose from settings -&gt; edit environment variables for your account -&gt; select Path variable -&gt; Edit -&gt; New.
+Try adding environment variables manually <@U8AEMSF6C>
+
+U8AEMSF6C:
+Tried that too 
+
+U8B1AL28J:
+:+1:
+
+Shashank:
+Restart and see if its working otherwise remove and reinstall anaconda. <@U8AEMSF6C>
+
+U8AEMSF6C:
+Okay 
+
+Utkarsh:
+so for now, only 3 people have installed or tried installing?
+
+Utkarsh:
+so let's get started then
+
+Utkarsh:
+Today we'll be focusing on python libraries that we use for playing around with data, that includes manipulating it, visualizing it, using it in various ML models etc
+
+Shashank:
+If you guys have python atleast you can follow most of it
+
+Utkarsh:
+**Today's topics:**
+1. Numpy
+2. Matplotlib
+
+Utkarsh:
+3. Pandas
+4.  Scikit-learn
+
+Utkarsh:
+so first I'll be taking up numpy, then shashank will be taking up pandas, then I'll be donig Matplotlib and finally shashank wil b doing scikit-learn
+
+Utkarsh:
+**Numpy**
+this is a library in python used very often for the purposes of scientific computing
+
+Utkarsh:
+It lets you manipulate data and work with multidimensional arrays, perform operations on these arrays etc
+
+Utkarsh:
+Let's get started then
+
+Utkarsh:
+from your terminal or cmd, run `jupyter notebook` and it should start a jupyter notebook at some localhost
+
+Utkarsh:
+on the top left corner you'll see a `new` button, click on that and open a new Python3 jupyter notebook
+
+Utkarsh:
+post a :+1: once you guys are done with this
+
+U8B1AL28J:
+u mean top right ?
+
+Utkarsh:
+oh yeah my bad top right
+
+U8B1AL28J:
+i started python[conda root] is that fine ?
+
+U8B1AL28J:
+the other option was python[default]
+
+Shashank:
+Isn't there an option for python 3?
+
+U8B1AL28J:
+nope
+
+Shashank:
+Use python
+
+Utkarsh:
+alright cool
+
+U8B1AL28J:
+:+1:
+
+Utkarsh:
+so there are various cells that you can make in the notebook, these cells are blocks of code that get executed separately
+
+Utkarsh:
+so initially in the first cell, type the following code and see if it runs without any error
+
+Utkarsh:
+```
+import numpy as np 
+a = np.array([[1, 2], [3, 4], [5, 6]]) 
+a
+```
+
+Utkarsh:
+it should output something like this
+
+Utkarsh:
+```
+array([[1, 2],
+       [3, 4],
+       [5, 6]])
+```
+
+Utkarsh:
+to run, to go Cell &gt; Run All
+
+Utkarsh:
+is this working guys? post a :+1:
+
+U8B1AL28J:
+:+1:
+
+U8B7TH3HT:
+:+1:
+
+Utkarsh:
+alright cool
+
+Utkarsh:
+so in that code snippet you imported numpy as np, so that everywhere that you are supposed to reference to numpy, you'll be referencing np instead
+
+Utkarsh:
+next run the following
+
+Utkarsh:
+```
+a = np.array([[1,2,3],[4,5,6]])
+print(a.shape)
+b = a.reshape(1,6)
+b
+```
+
+Utkarsh:
+and post your output here
+
+Utkarsh:
+oh and
+
+Utkarsh:
+this block of code goes into the next cell
+
+Utkarsh:
+in your notebook
+
+U8B7TH3HT:
+(2, 3)
+Out[4]: array([[1, 2, 3, 4, 5, 6]])
+
+Utkarsh:
+<@U8B1AL28J>?
+
+U8B1AL28J:
+(2, 3)
+Out[6]:
+array([[1, 2, 3, 4, 5, 6]])
+
+Utkarsh:
+alright please respond guys, let's make it interactive so its easier for both you and me
+
+Utkarsh:
+so yeah <@U8AEMSF6C> this is what you'll be getting
+```
+(2, 3)
+array([[1, 2, 3, 4, 5, 6]])
+```
+
+Utkarsh:
+initially we had a 2x3 array with 6 elements in it
+
+Utkarsh:
+we reshape it to be a 1x6 array
+
+Utkarsh:
+I hope that's clear
+
+Utkarsh:
+stop me if you guys have a doubt in anything
+
+Utkarsh:
+next run the following
+```
+a = np.zeros((2,2))   # Create an array of all zeros
+print(a)  
+
+
+b = np.ones((1,2))    # Create an array of all ones
+print(b)    
+```
+
+Utkarsh:
+and post the output here
+
+Utkarsh:
+this also goes into the next cell, that follows for every block of code I post
+
+U8B1AL28J:
+[[ 0.  0.]
+ [ 0.  0.]]
+
+U8B1AL28J:
+[[ 1.  1.]]
+
+Utkarsh:
+right and <@U8B7TH3HT>?
+
+U8B7TH3HT:
+yeah the same
+
+Utkarsh:
+lets see the type of every element in numpy next
+
+Utkarsh:
+```
+x = np.random.rand(3, 4) # Let numpy choose the datatype
+print(x)
+print(x.dtype) 
+```
+
+Utkarsh:
+if you run this block of code, x is a 3x4 matrix whose elements are random
+
+Utkarsh:
+numpy chooses a default value for these elements
+
+Utkarsh:
+the output should be something like this
+```
+[[ 0.99166274  0.72803762  0.41437122  0.21090893]
+ [ 0.53071238  0.02582412  0.65022296  0.50336604]
+ [ 0.34092904  0.6199465   0.38519392  0.64097601]]
+float64
+```
+
+Utkarsh:
+float64 is the type of each element
+
+Utkarsh:
+```
+x = np.random.rand(3, 4).astype(np.float32) # Let numpy choose the datatype
+print(x)
+print(x.dtype)
+```
+
+Utkarsh:
+forgot to mention, dtype is what's outputing the datatype, `float64` in the previous case
+
+Utkarsh:
+in this code, the x.dtype outputs `float32`
+
+U8B7TH3HT:
+astype()?
+
+Utkarsh:
+astype() is to make every element of x, of the type np.float32
+
+Utkarsh:
+by default we say it was np.float64 in the previous block of code
+
+Utkarsh:
+saw*
+
+Utkarsh:
+any other doubts?
+
+U8B1AL28J:
+no
+
+Utkarsh:
+execute this and post the output
+
+Utkarsh:
+```
+x = np.array([[1,2],[4,8]])
+
+print(np.sum(x))  
+print(np.sum(x, axis=0)) 
+print(np.sum(x, axis=1)) 
+```
+
+Utkarsh:
+and try to reason why the output might be what it is, its quite easy to figure out
+
+Utkarsh:
+<@U8AEMSF6C> 
+this is the output
+```
+[[ 0.26277223  0.69125736  0.39613783  0.57321984]
+ [ 0.18501349  0.67984188  0.73111135  0.12525496]
+ [ 0.21667904  0.31175652  0.66793585  0.88748068]]
+float32
+```
+
+U8B1AL28J:
+15
+[ 5 10]
+[ 3 12]
+
+Utkarsh:
+once you guys get it, post :+1:
+
+Utkarsh:
+yeah that's right <@U8B1AL28J>
+
+U8B7TH3HT:
+:+1:
+
+U8AEMSF6C:
+:+1::skin-tone-2:
+
+Utkarsh:
+okay so the output for this first
+```
+15
+[ 5 10]
+[ 3 12]
+```
+
+Utkarsh:
+the second line, axis=0 is for columns and axis=1 is for rows
+
+U8B1AL28J:
+:+1:
+
+Utkarsh:
+so when you pass the argument axis=0, it computes the sum of each column and output a 2d array
+
+Utkarsh:
+similarly for axis=1
+
+Utkarsh:
+```
+x = np.array([[1,2],[4,8]])
+x.T
+
+Utkarsh:
+```
+x = np.array([[1,2],[4,8]])
+x.T
+```
+
+Utkarsh:
+`.T` gives the transpose of a matrix
+
+Utkarsh:
+so the output for this would be 
+```
+array([[1, 4],
+       [2, 8]])
+```
+
+Utkarsh:
+any doubts so far?
+
+U8B1AL28J:
+:+1:
+
+Utkarsh:
+Shashank will take on from here, he'll be doing pandas now
+
+Shashank:
+Ok
+
+U8B1AL28J:
+thanks <@U88K2UW8Z>
+
+Shashank:
+pandas is a python library used to manage data
+
+Shashank:
+It provides high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+
+Shashank:
+We ll go through the basics of pandas for now
+
+Shashank:
+Pandas deals with the following three data structures −
+Series
+DataFrame
+Panel
+
+Shashank:
+We ll be discussing series and dataframe only
+
+Shashank:
+First 'Series'. Series is a one-dimensional array like structure with homogeneous(of same datatype) data.
+
+Shashank:
+Datatypes may be integer, string, float, python objects, etc.
+
+Shashank:
+For example,  7,4,6,5,3,6 is a series of integers.
+
+Shashank:
+You can import pandas by "import pandas as pd"
+
+Shashank:
+import pandas as pd
+import numpy as np
+data1 = np.array([5,8,2,1])
+s1 = pd.Series(data1)
+print(s1)
+
+Shashank:
+run this snippet of code and tell what the output is
+
+U8B1AL28J:
+<@U8B1AL28J> uploaded a file: <https://wintermentorship.slack.com/files/U8B1AL28J/F8BMF2TJL/-.txt|Untitled>
+
+Shashank:
+good
+
+Shashank:
+the left most column is the index column
+
+Shashank:
+and column on the right is the series
+
+Shashank:
+you can change the index column values
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8BRMDGAD/-.txt|Untitled>
+
+Shashank:
+what is the output?
+
+U8B7TH3HT:
+11    a
+12    b
+13    c
+14    d
+dtype: object
+
+U8B1AL28J:
+:+1:
+
+Shashank:
+good. So you see the index values are 11, 12, 13, and 14
+
+U8B1AL28J:
+object here is ?
+
+Shashank:
+datatype of each element in the series
+
+Shashank:
+Now to access the row with particular index, say 13, you can use s2[13]
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8C97BS2F/-.txt|Untitled>
+
+U8B1AL28J:
+so characters here are reffered as objects ?
+
+Shashank:
+you can construct a series with a dictionary data structure
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8DDGU6MD/-.txt|Untitled>
+
+Utkarsh:
+I meant to say 1d array with 2 elements :sweat_smile:
+
+Shashank:
+you will see that the index are the indices of the dictionary(a, b, c)
+
+U8B1AL28J:
+:+1:
+
+Shashank:
+No objects and characters are different
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CCMAH36/-.txt|Untitled>
+
+Shashank:
+You can also initialise a series with same values. Try this code above.
+
+Shashank:
+It is important to note that series is 0-indexed, i.e the starting index starts from 0, like in C language
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CFN2ZMK/-.txt|Untitled>
+
+Shashank:
+s3[1:3] selects 2nd and 3rd rows
+
+Shashank:
+i.e s3[1] and s3[2]
+
+Shashank:
+any doubts?
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8C987J7M/-.txt|Untitled>
+
+Shashank:
+s6[1:5] selects 2nd to 5th row
+
+Shashank:
+Are you following??
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8DDHS695/-.txt|Untitled>
+
+Shashank:
+You can also select rows in series based on index values. Run this code above to be clear.
+
+Shashank:
+Shall I proceed?
+
+U8B7TH3HT:
+print(s6['b', 'e', 'c']) why wont this work?
+
+U8B7TH3HT:
+I mean why do you need the double brackets?
+
+Shashank:
+the syntax is series[list of indices]. Since a list also has brackets, there are 2 brackets.
+
+U8B7TH3HT:
+:+1:
+
+Shashank:
+This ends discussion on series. Now I will discuss about dataframes, which is very important
+
+Shashank:
+DataFrame is a two-dimensional array with heterogeneous data.
+
+Shashank:
+Basically its similar to a 2d table with rows and columns, like that in ms excel
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CBFCU1Y/-.txt|Untitled>
+
+Shashank:
+what is the output?
+
+U8B7TH3HT:
+0
+0  a
+1  b
+2  c
+3  d
+
+Shashank:
+Good. this looks like a series because it is 1 dimensional
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CBFHREE/-.txt|Untitled>
+
+Shashank:
+This is 2D. What is the output?
+
+U8B7TH3HT:
+<@U8B7TH3HT> uploaded a file: <https://wintermentorship.slack.com/files/U8B7TH3HT/F8DDJR2QP/-.txt|Untitled>
+
+Shashank:
+cool
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7LUWQ6/-.txt|Untitled>
+
+Shashank:
+This is dataframe created using dictionary. Also see that index values are explicitly defined.
+
+Shashank:
+To get a particular column of dataframe, try this
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8BMHPBMW/-.txt|Untitled>
+
+Shashank:
+and to get consecutive rows of dataframe, say 2nd to 4th, do this
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8BRQ3RT3/-.txt|Untitled>
+
+Shashank:
+All clear??
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7MDZK8/-.txt|Untitled>
+
+Shashank:
+You can also select the columns that you need using "columns=[list of column names]" parameter
+
+Shashank:
+you will see that df6 contains only columns 'b' and 'c' of df5
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8DDKHW5D/-.txt|Untitled>
+
+Shashank:
+A dataframe can also be defined using series
+
+Shashank:
+Shall i proceed?
+
+Shashank:
+If you want to access a particular row, say the 3rd row, do this
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7MUF4N/-.txt|Untitled>
+
+Shashank:
+remember that dataframe is 0 indexed
+
+Shashank:
+Now, coming to deletion of columns
+
+Shashank:
+You can delete using "del" or "pop"
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8DDL07RV/-.txt|Untitled>
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8C9AFP5H/-.txt|Untitled>
+
+Shashank:
+You ll find that the dataframe is empty because the dataframe had 2 columns and both have been deleted.
+
+Shashank:
+You can also append 2 dataframes by rows
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CBH18NN/-.txt|Untitled>
+
+Shashank:
+Here, rows of df9 are appended to df8
+
+Shashank:
+Rows can be deleted based on their index values, say you want to delete rows with index=1.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7NAXB8/-.txt|Untitled>
+
+Shashank:
+Here rows with index 1 are "dropped"(deleted)
+
+Shashank:
+Any doubts?
+
+Utkarsh:
+Alright thanks <@U888HQS7K>, I'll be doing matplotlib now
+
+Utkarsh:
+*Matplotlib* is probably the single most used Python package for 2D-graphics. It provides both a very quick way to visualize data. So when you are working with a dataset you would want to see data visually to get a better idea of the data or display the data to convey their results to someone.
+
+Utkarsh:
+```
+import matplotlib
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+```
+
+Utkarsh:
+running this block of code without any errors will ensure matplotlib is installed properly
+
+Utkarsh:
+```
+plt.plot([1,2,3,4], [1,4,9,16], 'ro')
+plt.axis([0, 6, 0, 20])
+plt.show()
+```
+A basic graph that you can visualise using matplotlib in your notebook
+
+Utkarsh:
+post a :+1: if your notebook runs both the block one after the other successfully
+
+U8B7TH3HT:
+:+1:
+
+U8B7TH3HT:
+Didn't understand though
+
+Utkarsh:
+yeah I'll be explaining ofc I just wanna make sure no ones running into any errors with matplotlib
+
+Utkarsh:
+so I hope this works out well for everyone
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8CBJ6BFC/bb.png|bb.png>
+
+Utkarsh:
+that's what the graph looks like
+
+Utkarsh:
+so plt.plot takes in 3 args
+
+Utkarsh:
+first is a list, second is also a list and third is a string
+
+Utkarsh:
+the first corresponds to x values on the graph, second to the y values
+
+Utkarsh:
+so you can see the points plotted are (1,1) (2,4) (3,9) (4,16)
+
+Utkarsh:
+its x^2 graph
+
+Utkarsh:
+the third argument 'ro' just says that these points to be plotted are red dots
+
+Utkarsh:
+the second line plt.axis takes in one argument, which is a 1d list of 4 elements
+
+Utkarsh:
+the first two elements specify the range of values for x axis, the second for range of values for y axis
+
+Utkarsh:
+plt.show is what invokes matplotlib to show the graph
+
+Utkarsh:
+any doubts?
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8BRSQWEM/housing.csv|housing.csv>
+
+Utkarsh:
+download this file, we'll be using it in a plot
+
+Utkarsh:
+later one
+
+Utkarsh:
+on*
+
+Utkarsh:
+if you guys understood post a :+1:
+
+Utkarsh:
+okay I'm assuming you guys understood, but feel free to stop me and clear any doubt
+
+Utkarsh:
+so next let's see how we can use numpy with matplotlib to visualize data
+
+Utkarsh:
+```
+# evenly sampled at 0.1 interval
+t = np.arange(0,2,0.1)
+
+# red dashes, blue squares and green triangles
+plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')
+plt.show()
+```
+
+Utkarsh:
+run this code block
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8CFT27S9/bb.png|bb.png>
+
+Utkarsh:
+your plot should look something like this
+
+Utkarsh:
+so we're plotting 3 curves here, one is a linear curve, second is x^2 (blue) and third if x^3 (green)
+
+Utkarsh:
+that's why we have 9 arguments in plot, 3 for each graph
+
+Utkarsh:
+what each of these 3 arguments represent is the same as what I said about the last plot
+
+Utkarsh:
+```
+t = array([ 0. ,  0.1,  0.2,  0.3,  0.4,  0.5,  0.6,  0.7,  0.8,  0.9,  1. ,
+        1.1,  1.2,  1.3,  1.4,  1.5,  1.6,  1.7,  1.8,  1.9])
+```
+
+Utkarsh:
+that's what is evaluated as, using np.arrange, so from 0 to 2, at every 0.1 interval
+
+Utkarsh:
+what t is evaluated as **
+
+Utkarsh:
+and since we don't specify plt.axis, the default range ensures that all the points in the graph are visible
+
+Utkarsh:
+let's look at how we can represent bar graphs
+
+Utkarsh:
+```
+x = [5,8,10] 
+y = [12,16,6]  
+plt.bar(x, y, align = 'center') 
+plt.title('Bar graph') 
+plt.ylabel('Y axis') 
+plt.xlabel('X axis')  
+
+plt.show()
+```
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8BMMLZH6/bb.png|bb.png>
+
+Utkarsh:
+that's what your bar graph will look like
+
+Utkarsh:
+so in plt.bar you have 3 arguments, first list corresponding to x, second to y and the third is alignment which is centered
+
+Utkarsh:
+I think this code block is quite easy to understand, .title is for title of the bar graph, xlabel is the label for x axis, similarly for y axis
+
+Utkarsh:
+finally let's look at one last thing, that's using dataframes in pandas to display data from a csv file in matplotlib
+
+Utkarsh:
+I hope you've downloaded the housing.csv file that I'd uploaded
+
+Utkarsh:
+we'll be using this
+
+Utkarsh:
+```
+housing=pd.read_csv('housing.csv')
+housing.plot(kind="scatter",x='longitude',y='latitude')
+plt.show()
+```
+
+Utkarsh:
+now in this there's quite a few things happening so I'll explain each of them
+
+Utkarsh:
+pd.read_csv reads the data from housing.csv as a dataframe
+
+Utkarsh:
+if you open up housing.csv, it contains the columns `longitude,latitude,housing_median_age,total_rooms,total_bedrooms,population,households,median_income,median_house_value,ocean_proximity`
+
+Utkarsh:
+housing['latitude'] outputs the following
+```
+0    37.88
+1    37.86
+2    37.85
+3    37.85
+4    37.85
+Name: latitude, dtype: float64
+
+Utkarsh:
+```
+0    37.88
+1    37.86
+2    37.85
+3    37.85
+4    37.85
+.....
+Name: latitude, dtype: float64
+```
+
+Utkarsh:
+so you can run the pllot function on this dataframe
+
+Utkarsh:
+the function takes in 3 arguments, kind which is scatter in our plot, x which is the latitude field from our housing dataframe and y which is the longitude field from our dataframe housing
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8CFULE13/bb.png|bb.png>
+
+Utkarsh:
+this is what the output looks like
+
+Utkarsh:
+was this clear?
+
+U8B7TH3HT:
+kind = 'scatter', what other kinds do we have?
+
+Utkarsh:
+<https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html>
+you can check the kind parameter here
+
+Utkarsh:
+there are a lot of them
+
+U8B7TH3HT:
+:+1:
+
+Utkarsh:
+you can change the argument from scatter to density and check
+
+Utkarsh:
+its quite an interesting graph
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8D7SCP2A/bb.png|bb.png>
+
+Utkarsh:
+Any doubts?
+
+Shashank:
+Coming to the last topic for today- scikit-learn
+
+Shashank:
+scikit-learn has many inbuilt functions to implement machine learning models easily.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7SPKML/data.csv|data.csv>
+
+Shashank:
+download this csv file
+
+Shashank:
+It has two columns x and y, where x is the feature and y is target
+
+Shashank:
+our goal here will be to train a model to predict y given x.
+
+Shashank:
+We ll use a simple linear regression model. You will learn in-depth about linear regression later.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CBMR55G/-.txt|Untitled>
+
+Shashank:
+First read the cs file and store it in dataframe.
+
+Shashank:
+Done?
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8BMPTNKS/-.txt|Untitled>
+
+Shashank:
+You can print first 5 values of x and y values if you want
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8BMPUWKA/-.txt|Untitled>
+
+Shashank:
+Separate x and y values from the dataframe
+
+Shashank:
+Done?
+
+Shashank:
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state = 0)
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7TF0B0/-.txt|Untitled>
+
+Shashank:
+split the data into training and testing sets
+
+Shashank:
+Training set is the data that we use to train the model
+
+Shashank:
+Testing set is the data we use to test how accurate the model is
+
+Shashank:
+Any doubts?
+
+U8B7TH3HT:
+X = data_array[:, 0]
+y = data_array[:, 1]
+
+U8B7TH3HT:
+Didn't understand this
+
+U8B7TH3HT:
+It is splitting x and y values
+
+U8B7TH3HT:
+But how? [:, 0] means?
+
+Shashank:
+The first column is X and the second column is y right?
+
+Shashank:
+X = data_array[row_numbers, column_numbers]. This is the syntax.
+
+Shashank:
+":" means all rows/columns and 0 is the 1st column
+
+Shashank:
+So X contains all rows of column "0" which is x
+
+Shashank:
+Clear?
+
+U8B7TH3HT:
+Yes thanks :+1:
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CCW7D0U/-.txt|Untitled>
+
+Shashank:
+This reshapes the 1D array to 2D array of dimension (length, 1), which is required later to train the model.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8C9GL16X/-.txt|Untitled>
+
+Shashank:
+This plots a graph of training data. Did you get the graph with blue points?
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8DDSDYA3/-.txt|Untitled>
+
+Shashank:
+This is an inbuilt linear regression function.
+
+Shashank:
+model.fit() tells the model to train on the parameters passed
+
+Shashank:
+X_train and y_train (training data) are the parameters here
+
+Shashank:
+what is the output?
+
+U8B7TH3HT:
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
+
+Shashank:
+cool
+
+Shashank:
+Now the model has finished training using the training data
+
+Shashank:
+Lets predict the y values from the x values of test data(i.e, X_test)
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8CCX97EG/-.txt|Untitled>
+
+Shashank:
+Done?
+
+U8B7TH3HT:
+yes
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8C9HLGAF/-.txt|Untitled>
+
+Shashank:
+This calculates the accuracy of the model, using the original y values of test data(y_test)
+
+Shashank:
+What is the accuracy?
+
+U8B7TH3HT:
+99.122932802130123
+
+Shashank:
+cool
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8BMS177S/-.txt|Untitled>
+
+Shashank:
+Now plot the predictions from the model on the graph
+
+Shashank:
+What do you observe?
+
+U8B7TH3HT:
+straight line
+
+Shashank:
+Yes, this is a linear regression model.
+
+U8B7TH3HT:
+Okay so above were the steps to test and train data for a model, is it?
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8D7VK5GW/-.txt|Untitled> and commented: Here I forgot to mention that test_size = 0.4 means split the data randomly such that 60% is training data and 40% is test data
+
+U8B7TH3HT:
+and yeah dataframe.values means?
+
+Shashank:
+The model is trained on a part of the data called the training data.
+
+U8B7TH3HT:
+converts them into an array?
+
+Shashank:
+Test data is the new data which the model has not seen before. Using the model trained initially, we predict the y values of X_test
+
+Shashank:
+Gets the value from the data frame and creates a 2D list
+
+Shashank:
+list of lists i mean
+
+Shashank:
+So thats it for today. Hope you learnt a lot.
+
+U8B7TH3HT:
+Thanks :+1:
+
+Shashank:
+Feel free to post doubts here
+
+Shashank:
+print(data_array) check the output
+
+U8AC9FWU8:
+g
