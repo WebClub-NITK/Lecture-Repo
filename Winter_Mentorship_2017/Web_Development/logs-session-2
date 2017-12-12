@@ -1,0 +1,602 @@
+<@U8B6NRYES> has joined the channel
+
+<@U8B6NRYES> set the channel purpose: CSS session
+
+<@U8C55GJ5D> has joined the channel
+
+<@U8AAM6VLJ> has joined the channel
+
+<@U8B61JKC5> has joined the channel
+
+<@U8BS4JEJ2> has joined the channel
+
+<@U8AAM6VLJ> set the channel topic: CSS
+
+<@U8CT9FKU7> has joined the channel
+
+<@U8B4YMT7A> has joined the channel
+
+<@U8C2UBX1D> has joined the channel
+
+<@U8B647JVB> has joined the channel
+
+<@U8BSX9W3Y> has joined the channel
+
+<@U89QYNMUH> has joined the channel
+
+<@U89QN8DR7> has joined the channel
+
+<@U8AESMM0R> has joined the channel
+
+<@U8C6GFS87> has joined the channel
+
+<@U8BBB0VD0> has joined the channel
+
+We will wait for another 5 mins for everyone to join. Hope you guys have revised everything that was taught in the last session
+
+<@U8B291X42> has joined the channel
+
+<@U8B1NPW4B> has joined the channel
+
+<@U8ATV8M3M> has joined the channel
+
+<@U8B2CUQM8> has joined the channel
+
+<@U8B7P03QD> has joined the channel
+
+Okay so lets start
+
+In today's session we will cover : 
+1)Introduction to CSS and syntax
+2) Colours 
+3) Navigation bar 
+4) Inheritance
+
+So what is CSS ? Does anyone have an idea ?
+
+Cascading stylesheets
+
+yeah correct
+
+CSS stands for Cascading Style Sheets
+CSS is a language that describes the style of an HTML document. It adds colour , font , shadow etc  and  modifies its visual appearence.
+
+You can use css in three ways in a file
+1)One is by including a .css file with the HTML document o using &lt;style&gt; tag in the HTML document itself or inline styling.
+
+or *
+
+In huge websites , it is always preferred to use a separate css file because it helps in managing files better and is considered a good practice
+
+However here for demonstration I will mostly be using the &lt;style &gt; tag
+
+When you use a separate css file , you save that file with a .css extension and the content of that file is the same as the &lt;style&gt; tag except that you dont explicitly use &lt;style&gt; &lt;/style&gt; tags
+
+Now lets move to the syntax of css
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8DDXT4KH/selector.gif|selector.gif>
+
+The syntax is basically composed of selector and a declaration block
+
+the selector is the element you wish to style , and the declaration block consists of the property followed by its value separated by a colon
+
+Is everyone clear with this ?
+
+That means all h1 tags will have same style?
+
+
+Yes in this example
+
+Now lets see an example
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CG2PQPP/-.css|Untitled>
+
+Cool. can we have different styles for different h1s?
+
+Here p refers to &lt;p&gt; element and all the elements having this tag now have a font color red and is centre aligned..
+Sometimes you would want to apply a change only to some elements having the tag and not all of them . So here you can use the id or class selector.
+
+Yes
+We can do that by giving different id's or classes
+
+Let me descibe the class selector.
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8DDY8DCP/-.css|Untitled>
+
+Here the element would be described as &lt;p class=”para1” &gt;
+
+The id selector would also serve the same purpose but there is a big difference between them
+
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+
+So if the same element was to have a ID selector , &lt;p id="paraid"&gt;
+
+And when you want to refer this element by its ID then we say
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8C9P0TDZ/-.css|Untitled>
+
+Now we will look at an example and add color , fonts etc to it . So please open your text editors and copy this code
+
+Save it with .html extension
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8DDYKKNK/-.html|Untitled>
+
+Whats the difference between .para1 and #para1?
+
+So lets proceed any doubts ?
+
+# para1 is when an element is referred by is
+
+.para1 is for classes
+#para1 for id
+
+ID *
+
+Okay so first lets add colour to the paragraph text
+
+With CSS, a color is most often specified by:
+a valid color name - like "red" 
+a HEX value - like "#ff0000" 
+an RGB value - like "rgb(255,0,0)"
+
+Now in that same HTML document add a style tag
+
+As you guys know each tag has its opening and closing complimentary tags
+
+Without # or . is for the in-built tags?
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CD35CH2/Untitled.html|Untitled>
+
+Your document should look like this
+
+Sorry my bad its .para1{}
+
+Please make that change
+
+Is everyone with me?
+
+Not-necessarily in-built
+You can define your own tags, and giving the styling without . or #
+
+Nothing happen
+
+Each colour has a different hex value(#rrggbb) and different values for r,g,b and this can be found through a color chart.
+
+So here i m using the rgb format with the color attribute
+
+change the quotes to "
+
+And why do we have a link to my.html?
+
+In the sample code...
+
+Where?
+
+class="para1"
+
+the quotation marks are a little different
+
+thanx
+
+Okayy so now you can also set the background colour of a document
+
+You can also have a background color or  image and this is specifies in the body tag.
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8DDZE1PH/-.html|Untitled>
+
+add this under your style tag
+
+Is everyone with me ?
+
+Now one thing , there are a lot of colours but everything cannot be specified by just typing the colour name , so be careful with that
+
+Similarly background image can be applied by :- 
+ background-image: url("hello.gif");
+
+this comes under the body tag too
+
+but make sure you have the image downloaded and specify its path in the url
+
+Now lets move on to padding
+
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left). When we say padding : 20px. This applies padding in top bottom right and left direction . You can individually do it just for the top as well like :- padding-top=20px;
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8BS4SWGZ/-.html|Untitled>
+
+Add this code within your .para1 tag and see the difference
+
+What do you observe?
+
+Tab space
+
+Of 20px
+
+yeah , padding is a very commonly used attribute while working with website and its a quick hack to a lot of problems which you might face :stuck_out_tongue:
+
+text moved to 20 px
+
+Yeah
+
+So now we will see height and width attributes
+
+As the name suggests the height and width properties are used to set the height and width of an element.
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8D82DW6A/-.css|Untitled>
+
+Now lets say I have an image element and I explicitly want to specify it height
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8BS5HPL1/-.html|Untitled>
+
+Your code would look something like this
+
+Specify the path of the image in the src attribute
+
+Is everyone clear with this ?
+
+<@U8BBB0VD0> commented on <@U8AAM6VLJ>’s file <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CD35CH2/Untitled.html|Untitled>: why this problem occurred ?
+
+What is the difference between px and % ?
+
+<@U8C9NATL3> commented on <@U8AAM6VLJ>’s file <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CD35CH2/Untitled.html|Untitled>: try changing " in code.
+
+Please change the quotations to " "  in the class para1 and in case you guys are getting an error
+
+Also i forgot to mention one more thing ,
+
+- Pixels (px) are browser dependent. It is the absolute size that you would see on your screen.
+- % referrs to the base text size.
+
+You can also have background gradients instead of just plain colour
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8D8379JA/-.html|Untitled>
+
+<@U8BBB0VD0> commented on <@U8AAM6VLJ>’s file <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CD35CH2/Untitled.html|Untitled>: ya I got that..... but what's the diff?
+
+padding: 20%;
+Pushes the text down too?
+
+Why title is displayed with tags?
+
+It does in all 4 directions
+
+padding?
+
+<@U89QYNMUH> commented on <@U8AAM6VLJ>’s file <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CD35CH2/Untitled.html|Untitled>: the quotations are a bit different... even tiny differences matter in programming :wink:
+
+Yes
+
+Now lets look at Pseudo Classes
+
+A pseudo-class is used to define a special state of an element.
+For example, it can be used to:
+Style an element when a user mouses over it 
+Style visited and unvisited links differently
+
+** Please the change the quotations of my.html to " " **
+
+Just a second
+Sorry for interrupting <@U8AAM6VLJ>
+
+Yeah
+
+Please note `padding:20px;`
+If it is mentioned in box, in all the directions, 20px space will be seen (upper,lower,left,right)
+
+Difference between px and %
+- Pixels (px) are browser dependent. It is the absolute size that you would see on your screen.
+- % referrs to the base text size.
+
+Continue <@U8AAM6VLJ>
+
+Why do we have a link to my.html?
+
+So lets look at the anchor tag first
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CG69Z0V/Untitled.html|Untitled>
+
+add some text within the &lt;a&gt; &lt;/a&gt; tags
+
+Now href is basically used to provide a link to the page which is opened on a mouse click
+
+we are going to see visited, unvisited properties
+
+It can be another Html document or a website
+
+doesnt make a difference, you can ignore
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8BN0QSP2/-.html|Untitled>
+
+<@U8AAM6VLJ> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8AAM6VLJ/F8CBZ27K4/-.css|Untitled>
+
+And add this under the style tag
+
+So in pseudo class we define multiple states of an element in different scenarios
+
+its syntax is element:property{
+
+so here link , visited and hover are different states of the link
+
+Are you all following this ?
+
+i mean ignore the &lt;h1&gt; tag
+
+Notice the changes after you add this css
+
+Explain use of each plz.
+
+Yeah
+
+so hover is basically used to define properties when you just move the mouse over the link without clicking it
+
+visited is used to define properties after the link has been clicked on
+
+and link is used to define the initial property of the anchor link
+
+You would have seen the link colour change to purple when you click on a link after googling something
+
+once visited ,hover doesn't work right?
+
+They use the visited property to do so
+
+Now Sharanya will continue with Nav Bars and Inheritance
+
+Hover will still work
+
+Hi
+
+So now that you got to know the syntax of various attributes, we'll use them to make a basic navigation bar
+
+its stops changing color once i have visited even if i hover over it..
+
+Having easy-to-use navigation is important for any web site.
+A navigation bar needs standard HTML as a base.
+
+I'm going to put up the code for a simple nav bar... execute it and give a thumbs up when you are done
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8DE3C1TR/-.html|Untitled>
+
+Have you used the css for each of the anchor tags in the same order as I showed because  a:hover must come after a:link and a:visited in the CSS definition in order to be effective
+
+ok that's the mistake, thanks
+
+You may be remembering the meta tags from last session, so i wont be explaining that
+
+see the html part of the code
+
+We are making the nav bar using a list... so there's the html code for that
+
+And we are styling the list using css
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CC13DT4/-.css|Untitled> and commented: This prevents the list from having any bullets or anything
+
+You can try deleting this line from the code, what happens?
+
+People reply
+A question is asked
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CC1FTCJ/-.css|Untitled> and commented: We add this because we dont want any space between the nav bar and the screen
+
+I see bullets!
+
+good!
+
+same
+
+Hey!!!
+
+<@U8BBB0VD0> commented on <@U89QYNMUH>’s file <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CC1FTCJ/-.css|Untitled>: what is default padding ?
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8BN3K1KJ/-.css|Untitled> and commented: Overflow property is used to control what happens to stuff that overflows the element box.
+
+you can try deleting this line to see what happens
+
+I didn't understand!
+
+<@U89QYNMUH> commented on <@U89QYNMUH>’s file <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CC1FTCJ/-.css|Untitled>: It depends on the browser.. we added this line just to be safe
+
+only bullets are visible
+
+blank screen!!
+
+blank screen
+
+but why?
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8BN46656/-.css|Untitled> and commented: To shift the whole list to the left
+
+It is'nt a blank screen
+
+Select the text, you'll come to know there is text there
+
+then?
+
+try adding background-color: #333; to li a {}
+
+:+1:
+
+It should technically make no difference
+
+Do you understand the overflow:hidden property?
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CDAFBB6/-.css|Untitled> and commented: You can set the display style as inline, block, flex and many more...
+
+no
+
+<https://www.w3schools.com/cssref/pr_class_display.asp>
+
+See whenever the text is more then the size of the block, the rest of the content will be hidden
+
+Is everyone with me ?
+
+We don't want text overflow, that is the basic of it
+
+Understood?
+
+:sweat_smile: no
+
+Okay.. what did you not understand?
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CDARSR2/-.css|Untitled> and commented: Remember this: padding values go as top, right, bottom, left
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+div {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: hidden;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h2&gt;CSS Overflow&lt;/h2&gt;
+&lt;p&gt;By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box:&lt;/p&gt;
+
+&lt;div&gt;You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+Run this code in a different file
+
+See the difference 
+when you set `overflow: visible;` instead of `overflow: hidden`
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8D88RB5L/-.css|Untitled> and commented: This is because we dont want any unline for our links... try removing this and see
+
+Got yeah?
+
+<@U8B7P03QD> commented on <@U89QYNMUH>’s file <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8D88RB5L/-.css|Untitled>: links got underlined
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8BSBTXQR/-.css|Untitled> and commented: 'active' is used to change the styles when the element is active i.e when you click on it
+
+<@U8B6NRYES> commented on <@U89QYNMUH>’s file <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8D88RB5L/-.css|Untitled>: Yes correct
+
+So any doubts in this nav bar?
+
+qverflow hidden does not allow the content to flow out of a box?
+
+Yes
+
+I hope now you can create your own pretty nav bars :stuck_out_tongue:
+
+It basically hides the content
+The content will still be there
+
+what decides the box parameters?
+
+Why is text starts aligning one after another down the line, when float : center?
+
+Means?
+
+I did not understand your doubt
+
+Now I'll quickly cover a concept called Inheritance
+
+what's the box size? browser dependent?:sweat_smile:
+
+Because in that line, you chose to keep it in center
+So it takes the center of the browser
+
+By default it is like that.
+
+It can take only 4 values
+
+left,right,none,inherit
+
+A rule that has the !important property will always be applied no matter where that rule appears in the CSS document.
+
+No no
+
+oops sorry ignore that
+
+We gave the box size in the `&lt;div&gt;` tag
+
+See carefully
+
+Oh! So, when I give center, it doesn't understand and simply does it's normal job?
+
+The inherit keyword specifies that a property should inherit its value from its parent element
+
+got it!!
+
+yup.
+
+Yes
+
+Cool
+
+Try keepin it to right also once
+
+See the difference
+
+I did. Thanks
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CDC71NY/-.html|Untitled> and commented: Try this code
+
+What do you understand from this?
+
+......Anyone ?
+
+The second span element 'inherited' the green color from its parent element &lt;div&gt;... Can you see it now?
+
+different divisions get different colors,span responds according to its default except when it acts as a part of its parent class
+
+yes very good
+
+Span always have blue text color?
+
+no we are setting the blue color
+
+see the css part of span
+
+Oh! My bad. Thanks
+
+```
+span {
+    color: blue;
+    border: 1px solid black;
+}
+.extra span {
+    color: inherit;
+}
+```
+
+Hmm...k
+
+All span have prop's of first one except child of extra class.
+
+where color attribute is overwritten
+
+So we have covered inheritance
+
+so, inherited from claas:extra, correct?
+
+Oh! Thanks
+
+yup.
+
+<@U8BBB0VD0> yeah
+
+I'll just put up a code for making an image gallery... Ask doubts where you dont understand.
+
+<@U89QYNMUH> uploaded a file: <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CDDB3AQ/-.html|Untitled> and commented: Execute this
+
+Ill also post links for buttons and grids. Consider them as  "homework" xD
+
+<https://www.w3schools.com/css/css3_buttons.asp>
+
+<https://www.w3schools.com/css/css_grid.asp>
+
+So thats it for today! Keep experimenting with different styles. <http://W3schools.com|W3schools.com> has a lot to offer. Any doubts are welcome.
+
+We will be giving a small assignment soon 
+Make sure you do that
+
+<@U89QYNMUH> commented on <@U89QYNMUH>’s file <https://wintermentorshipweb.slack.com/files/U89QYNMUH/F8CDDB3AQ/-.html|Untitled>: Put a valid image link for the last 2 pictures
+

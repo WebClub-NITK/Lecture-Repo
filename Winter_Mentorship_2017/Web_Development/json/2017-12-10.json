@@ -1,0 +1,4119 @@
+[
+    {
+        "user": "U8B6NRYES",
+        "text": "<@U8B6NRYES> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512904968.000015"
+    },
+    {
+        "user": "U8B6NRYES",
+        "purpose": "CSS session",
+        "text": "<@U8B6NRYES> set the channel purpose: CSS session",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1512904969.000036"
+    },
+    {
+        "user": "U8C55GJ5D",
+        "text": "<@U8C55GJ5D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512904990.000094"
+    },
+    {
+        "user": "U8AAM6VLJ",
+        "text": "<@U8AAM6VLJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905004.000041"
+    },
+    {
+        "user": "U8B61JKC5",
+        "text": "<@U8B61JKC5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905010.000017"
+    },
+    {
+        "user": "U8BS4JEJ2",
+        "text": "<@U8BS4JEJ2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905098.000056"
+    },
+    {
+        "user": "U8AAM6VLJ",
+        "topic": "CSS",
+        "text": "<@U8AAM6VLJ> set the channel topic: CSS",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1512905124.000055"
+    },
+    {
+        "user": "U8CT9FKU7",
+        "text": "<@U8CT9FKU7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905130.000093"
+    },
+    {
+        "user": "U8B4YMT7A",
+        "text": "<@U8B4YMT7A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905132.000017"
+    },
+    {
+        "user": "U8C2UBX1D",
+        "text": "<@U8C2UBX1D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905142.000009"
+    },
+    {
+        "user": "U8B647JVB",
+        "text": "<@U8B647JVB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905167.000052"
+    },
+    {
+        "user": "U8BSX9W3Y",
+        "text": "<@U8BSX9W3Y> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905276.000047"
+    },
+    {
+        "user": "U89QYNMUH",
+        "text": "<@U89QYNMUH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905277.000027"
+    },
+    {
+        "user": "U89QN8DR7",
+        "text": "<@U89QN8DR7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905333.000029"
+    },
+    {
+        "user": "U8AESMM0R",
+        "text": "<@U8AESMM0R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905385.000032"
+    },
+    {
+        "user": "U8C6GFS87",
+        "text": "<@U8C6GFS87> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905401.000002"
+    },
+    {
+        "user": "U8BBB0VD0",
+        "text": "<@U8BBB0VD0> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905415.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "We will wait for another 5 mins for everyone to join. Hope you guys have revised everything that was taught in the last session",
+        "ts": "1512905419.000039"
+    },
+    {
+        "user": "U8B291X42",
+        "text": "<@U8B291X42> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905420.000009"
+    },
+    {
+        "user": "U8B1NPW4B",
+        "text": "<@U8B1NPW4B> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905502.000056"
+    },
+    {
+        "user": "U8ATV8M3M",
+        "text": "<@U8ATV8M3M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905508.000009"
+    },
+    {
+        "user": "U8B2CUQM8",
+        "text": "<@U8B2CUQM8> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905519.000021"
+    },
+    {
+        "user": "U8B7P03QD",
+        "text": "<@U8B7P03QD> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512905538.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Okay so lets start",
+        "ts": "1512905709.000041",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8B61JKC5",
+                    "U8C2UBX1D",
+                    "U8B647JVB",
+                    "U8B9B7V09",
+                    "U8B7P03QD",
+                    "U8CCE8CTW"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "In today's session we will cover : \n1)Introduction to CSS and syntax\n2) Colours \n3) Navigation bar \n4) Inheritance",
+        "ts": "1512905778.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So what is CSS ? Does anyone have an idea ?",
+        "ts": "1512905794.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Cascading stylesheets",
+        "ts": "1512905815.000045",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8B6NRYES",
+                    "U8ATV8M3M",
+                    "U8C55GJ5D",
+                    "U8CLD0XP0"
+                ],
+                "count": 4
+            },
+            {
+                "name": "clap",
+                "users": [
+                    "U8B6NRYES",
+                    "U89QYNMUH"
+                ],
+                "count": 2
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U8B6NRYES",
+                    "U8BFS3UE4"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "yeah correct",
+        "ts": "1512905833.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "CSS stands for Cascading Style Sheets\nCSS is a language that describes the style of an HTML document. It adds colour , font , shadow etc  and  modifies its visual appearence.",
+        "ts": "1512905837.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "You can use css in three ways in a file\n1)One is by including a .css file with the HTML document o using &lt;style&gt; tag in the HTML document itself or inline styling.",
+        "ts": "1512905865.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "or *",
+        "ts": "1512905871.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "In huge websites , it is always preferred to use a separate css file because it helps in managing files better and is considered a good practice",
+        "ts": "1512905925.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "However here for demonstration I will mostly be using the &lt;style &gt; tag",
+        "ts": "1512905946.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "When you use a separate css file , you save that file with a .css extension and the content of that file is the same as the &lt;style&gt; tag except that you dont explicitly use &lt;style&gt; &lt;\/style&gt; tags",
+        "ts": "1512906011.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now lets move to the syntax of css",
+        "ts": "1512906060.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDXT4KH\/selector.gif|selector.gif>",
+        "file": {
+            "id": "F8DDXT4KH",
+            "created": 1512906073,
+            "timestamp": 1512906073,
+            "name": "selector.gif",
+            "title": "selector.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U8AAM6VLJ",
+            "editable": false,
+            "size": 5839,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDXT4KH\/selector.gif?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDXT4KH\/download\/selector.gif?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_64.png?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_80.png?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_360.png?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 75,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_480.png?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 100,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_160.png?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_360.gif?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "image_exif_rotation": 1,
+            "original_w": 569,
+            "original_h": 119,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8DDXT4KH-e7e9525705\/selector_deanimate_gif.png?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDXT4KH\/selector.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8DDXT4KH-9a53a414f2",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512906074.000092"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "The syntax is basically composed of selector and a declaration block",
+        "ts": "1512906102.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "the selector is the element you wish to style , and the declaration block consists of the property followed by its value separated by a colon",
+        "thread_ts": "1512906143.000022",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512906192.000070"
+            },
+            {
+                "user": "U8AAM6VLJ",
+                "ts": "1512906206.000014"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512906253.000072"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512906294.000023"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512906143.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Is everyone clear with this ?",
+        "ts": "1512906152.000062",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B61JKC5",
+                    "U8B1NPW4B",
+                    "U8C9NATL3",
+                    "U8B7P03QD",
+                    "U8C2UBX1D",
+                    "U8ATV8M3M",
+                    "U8B9B7V09",
+                    "U8BFS3UE4"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "That means all h1 tags will have same style?\n",
+        "thread_ts": "1512906143.000022",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906192.000070"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Yes in this example",
+        "thread_ts": "1512906143.000022",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906206.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now lets see an example",
+        "ts": "1512906223.000029"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CG2PQPP\/-.css|Untitled>",
+        "file": {
+            "id": "F8CG2PQPP",
+            "created": 1512906251,
+            "timestamp": 1512906251,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 54,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CG2PQPP\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CG2PQPP\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CG2PQPP\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CG2PQPP-94668ae31e",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CG2PQPP\/-.css\/edit",
+            "preview": "p {\r\n    color: red;\r\n    text-align: center;\r\n}",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">p<\/span> {<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">color<\/span>: <span class=\"cm-keyword\">red<\/span>;<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">text-align<\/span>: <span class=\"cm-atom\">center<\/span>;<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512906252.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Cool. can we have different styles for different h1s?",
+        "thread_ts": "1512906143.000022",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906253.000072"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Here p refers to &lt;p&gt; element and all the elements having this tag now have a font color red and is centre aligned..\nSometimes you would want to apply a change only to some elements having the tag and not all of them . So here you can use the id or class selector.",
+        "ts": "1512906270.000085"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes\nWe can do that by giving different id's or classes",
+        "thread_ts": "1512906143.000022",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906294.000023",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Let me descibe the class selector.",
+        "ts": "1512906316.000093"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDY8DCP\/-.css|Untitled>",
+        "file": {
+            "id": "F8DDY8DCP",
+            "created": 1512906322,
+            "timestamp": 1512906322,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 97,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDY8DCP\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDY8DCP\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDY8DCP\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8DDY8DCP-d65e374ef3",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDY8DCP\/-.css\/edit",
+            "preview": "Let me descibe the class selector.\r\n\r\n.para1 {\r\n    text-align: center;\r\n    color: red;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">Let<\/span> <span class=\"cm-tag\">me<\/span> <span class=\"cm-tag\">descibe<\/span> <span class=\"cm-tag\">the<\/span> <span class=\"cm-tag\">class<\/span> <span class=\"cm-tag\">selector<\/span>.<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-qualifier\">.para1<\/span> {<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">text-align<\/span>: <span class=\"cm-atom\">center<\/span>;<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">color<\/span>: <span class=\"cm-keyword\">red<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512906323.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Here the element would be described as &lt;p class=”para1” &gt;",
+        "thread_ts": "1512906340.000004",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512906585.000032"
+            },
+            {
+                "user": "U8AAM6VLJ",
+                "ts": "1512906637.000055"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512906641.000080"
+            },
+            {
+                "user": "U8AAM6VLJ",
+                "ts": "1512906643.000034"
+            },
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512906768.000010"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512906860.000003"
+            },
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512906973.000055"
+            },
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512906981.000043"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1512906340.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "The id selector would also serve the same purpose but there is a big difference between them",
+        "ts": "1512906367.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.",
+        "ts": "1512906394.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So if the same element was to have a ID selector , &lt;p id=\"paraid\"&gt;",
+        "ts": "1512906438.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "And when you want to refer this element by its ID then we say",
+        "ts": "1512906463.000035"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8C9P0TDZ\/-.css|Untitled>",
+        "file": {
+            "id": "F8C9P0TDZ",
+            "created": 1512906487,
+            "timestamp": 1512906487,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 60,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8C9P0TDZ\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8C9P0TDZ\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8C9P0TDZ\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8C9P0TDZ-ca90535f4a",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8C9P0TDZ\/-.css\/edit",
+            "preview": "#paraid {\r\n    text-align: center;\r\n    color: red;\r\n}",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">#paraid<\/span> {<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">text-align<\/span>: <span class=\"cm-atom\">center<\/span>;<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">color<\/span>: <span class=\"cm-keyword\">red<\/span>;<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512906488.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now we will look at an example and add color , fonts etc to it . So please open your text editors and copy this code",
+        "ts": "1512906533.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Save it with .html extension",
+        "ts": "1512906546.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDYKKNK\/-.html|Untitled>",
+        "file": {
+            "id": "F8DDYKKNK",
+            "created": 1512906579,
+            "timestamp": 1512906579,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 164,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDYKKNK\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDYKKNK\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDYKKNK\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8DDYKKNK-dba07ec97f",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDYKKNK\/-.html\/edit",
+            "preview": "<html>\r\n<title>\r\n<h1> Hello Word <\/h1>\r\n<\/title>\r\n<body>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span> Hello Word <span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">body<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 9,
+            "lines_more": 4,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512906580.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Whats the difference between .para1 and #para1?",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906585.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So lets proceed any doubts ?",
+        "ts": "1512906607.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "# para1 is when an element is referred by is",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906637.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": ".para1 is for classes\n#para1 for id",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906641.000080"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "ID *",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906643.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Okay so first lets add colour to the paragraph text",
+        "ts": "1512906660.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "With CSS, a color is most often specified by:\na valid color name - like \"red\" \na HEX value - like \"#ff0000\" \nan RGB value - like \"rgb(255,0,0)\"",
+        "ts": "1512906684.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now in that same HTML document add a style tag",
+        "ts": "1512906722.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "As you guys know each tag has its opening and closing complimentary tags",
+        "ts": "1512906744.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Without # or . is for the in-built tags?",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906768.000010"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html|Untitled>",
+        "file": {
+            "id": "F8CD35CH2",
+            "created": 1512906780,
+            "timestamp": 1512906780,
+            "name": "Untitled.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/download\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CD35CH2-56de7ccd31",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html\/edit",
+            "preview": "<html>\r\n<title>\r\n<h1> Hello Word <\/h1>\r\n<\/title>\r\n<body>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span> Hello Word <span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">body<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 16,
+            "lines_more": 11,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 4
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512906781.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Your document should look like this",
+        "ts": "1512906797.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Sorry my bad its .para1{}",
+        "thread_ts": "1512906815.000081",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512906891.000091"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512906954.000062"
+            },
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512906991.000029"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512907002.000055"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512907033.000025"
+            },
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512907034.000014"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1512906815.000081"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Please make that change",
+        "ts": "1512906820.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Is everyone with me?",
+        "ts": "1512906839.000008",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8B4UNL2H",
+                    "U8B61JKC5",
+                    "U8CCE8CTW",
+                    "U8CT9FKU7"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Not-necessarily in-built\nYou can define your own tags, and giving the styling without . or #",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906860.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "Nothing happen",
+        "thread_ts": "1512906815.000081",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906891.000091"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Each colour has a different hex value(#rrggbb) and different values for r,g,b and this can be found through a color chart.",
+        "ts": "1512906892.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So here i m using the rgb format with the color attribute",
+        "ts": "1512906941.000064"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "change the quotes to \"",
+        "thread_ts": "1512906815.000081",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906954.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "And why do we have a link to my.html?",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906973.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "In the sample code...",
+        "thread_ts": "1512906340.000004",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906981.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "Where?",
+        "thread_ts": "1512906815.000081",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512906991.000029"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "class=\"para1\"",
+        "thread_ts": "1512906815.000081",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907002.000055"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "the quotation marks are a little different",
+        "thread_ts": "1512906815.000081",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907033.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "thanx",
+        "thread_ts": "1512906815.000081",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907034.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Okayy so now you can also set the background colour of a document",
+        "ts": "1512907049.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "You can also have a background color or  image and this is specifies in the body tag.",
+        "ts": "1512907064.000020"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDZE1PH\/-.html|Untitled>",
+        "file": {
+            "id": "F8DDZE1PH",
+            "created": 1512907088,
+            "timestamp": 1512907088,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 35,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDZE1PH\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DDZE1PH\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDZE1PH\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8DDZE1PH-9149828073",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8DDZE1PH\/-.html\/edit",
+            "preview": "body{\r\n\r\nbackground-color:red;\r\n\r\n}",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>body{<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>background-color:red;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512907089.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "add this under your style tag",
+        "ts": "1512907093.000068"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Is everyone with me ?",
+        "ts": "1512907133.000009",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C9NATL3",
+                    "U8B4UNL2H",
+                    "U8ATV8M3M",
+                    "U8B61JKC5",
+                    "U8BBB0VD0",
+                    "U8B1NPW4B",
+                    "U8B7P03QD",
+                    "U8CT9FKU7"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now one thing , there are a lot of colours but everything cannot be specified by just typing the colour name , so be careful with that",
+        "ts": "1512907190.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Similarly background image can be applied by :- \n background-image: url(\"hello.gif\");",
+        "ts": "1512907233.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "this comes under the body tag too",
+        "ts": "1512907240.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "but make sure you have the image downloaded and specify its path in the url",
+        "ts": "1512907270.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now lets move on to padding",
+        "ts": "1512907313.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "The CSS padding properties are used to generate space around an element's content, inside of any defined borders.\nWith CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left). When we say padding : 20px. This applies padding in top bottom right and left direction . You can individually do it just for the top as well like :- padding-top=20px;",
+        "ts": "1512907320.000027"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BS4SWGZ\/-.html|Untitled>",
+        "file": {
+            "id": "F8BS4SWGZ",
+            "created": 1512907336,
+            "timestamp": 1512907336,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 13,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BS4SWGZ\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BS4SWGZ\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BS4SWGZ\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BS4SWGZ-86fcc97c9b",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BS4SWGZ\/-.html\/edit",
+            "preview": "padding:20px;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>padding:20px;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512907336.000097"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Add this code within your .para1 tag and see the difference",
+        "ts": "1512907355.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "What do you observe?",
+        "ts": "1512907374.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Tab space",
+        "ts": "1512907413.000003",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8B6NRYES",
+                    "U8C2UBX1D",
+                    "U8ATV8M3M",
+                    "U8BS4JEJ2",
+                    "U8CLD0XP0"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Of 20px",
+        "ts": "1512907424.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "yeah , padding is a very commonly used attribute while working with website and its a quick hack to a lot of problems which you might face :stuck_out_tongue:",
+        "ts": "1512907464.000052"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "text moved to 20 px",
+        "ts": "1512907472.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Yeah",
+        "ts": "1512907489.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So now we will see height and width attributes",
+        "ts": "1512907509.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "As the name suggests the height and width properties are used to set the height and width of an element.",
+        "ts": "1512907524.000001"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8D82DW6A\/-.css|Untitled>",
+        "file": {
+            "id": "F8D82DW6A",
+            "created": 1512907548,
+            "timestamp": 1512907548,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 27,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D82DW6A\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D82DW6A\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8D82DW6A\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8D82DW6A-6f65a32232",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8D82DW6A\/-.css\/edit",
+            "preview": "height: 200px;\r\nwidth: 50%;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">height<\/span>: <span class=\"cm-number\">200px<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-tag\">width<\/span>: <span class=\"cm-number\">50%<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512907548.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now lets say I have an image element and I explicitly want to specify it height",
+        "ts": "1512907630.000008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BS5HPL1\/-.html|Untitled>",
+        "file": {
+            "id": "F8BS5HPL1",
+            "created": 1512907679,
+            "timestamp": 1512907679,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 97,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BS5HPL1\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BS5HPL1\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BS5HPL1\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BS5HPL1-47ab6dcfc3",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BS5HPL1\/-.html\/edit",
+            "preview": "<img src=\"xyz\" class=\"image1\">\r\n<style>\r\n\t.image1{\r\n\t\theight: 200px;\r\n\t\twidth: 50%;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">img<\/span> <span class=\"cm-attribute\">src<\/span>=<span class=\"cm-string\">&quot;xyz&quot;<\/span> <span class=\"cm-attribute\">class<\/span>=<span class=\"cm-string\">&quot;image1&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">style<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-qualifier\">.image1<\/span>{<\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-property\">height<\/span>: <span class=\"cm-number\">200px<\/span>;<\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-property\">width<\/span>: <span class=\"cm-number\">50%<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 7,
+            "lines_more": 2,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512907680.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Your code would look something like this",
+        "ts": "1512907694.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Specify the path of the image in the src attribute",
+        "thread_ts": "1512907706.000045",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512907773.000006"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512907892.000035"
+            },
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512907934.000010"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512907949.000052"
+            },
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512907974.000032"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512907980.000018"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1512907706.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Is everyone clear with this ?",
+        "ts": "1512907754.000001",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B1NPW4B",
+                    "U8C9NATL3",
+                    "U8B4UNL2H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8BBB0VD0> commented on <@U8AAM6VLJ>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html|Untitled>: why this problem occurred ?",
+        "file": {
+            "id": "F8CD35CH2",
+            "created": 1512906780,
+            "timestamp": 1512906780,
+            "name": "Untitled.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/download\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CD35CH2-56de7ccd31",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html\/edit",
+            "preview": "<html>\r\n<title>\r\n<h1> Hello Word <\/h1>\r\n<\/title>\r\n<body>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span> Hello Word <span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">body<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 16,
+            "lines_more": 11,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 4
+        },
+        "comment": {
+            "id": "Fc8CBXNN90",
+            "created": 1512907769,
+            "timestamp": 1512907769,
+            "user": "U8BBB0VD0",
+            "is_intro": false,
+            "comment": "why this problem occurred ?"
+        },
+        "is_intro": false,
+        "ts": "1512907769.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "What is the difference between px and % ?",
+        "thread_ts": "1512907706.000045",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907773.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8C9NATL3> commented on <@U8AAM6VLJ>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html|Untitled>: try changing \" in code.",
+        "file": {
+            "id": "F8CD35CH2",
+            "created": 1512906780,
+            "timestamp": 1512906780,
+            "name": "Untitled.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/download\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CD35CH2-56de7ccd31",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html\/edit",
+            "preview": "<html>\r\n<title>\r\n<h1> Hello Word <\/h1>\r\n<\/title>\r\n<body>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span> Hello Word <span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">body<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 16,
+            "lines_more": 11,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 4
+        },
+        "comment": {
+            "id": "Fc8C9RGDD1",
+            "created": 1512907836,
+            "timestamp": 1512907836,
+            "user": "U8C9NATL3",
+            "is_intro": false,
+            "comment": "try changing \" in code."
+        },
+        "is_intro": false,
+        "ts": "1512907836.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Please change the quotations to \" \"  in the class para1 and in case you guys are getting an error",
+        "ts": "1512907851.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Also i forgot to mention one more thing ,",
+        "ts": "1512907866.000011"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "- Pixels (px) are browser dependent. It is the absolute size that you would see on your screen.\n- % referrs to the base text size.",
+        "thread_ts": "1512907706.000045",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907892.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "You can also have background gradients instead of just plain colour",
+        "ts": "1512907893.000053"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8D8379JA\/-.html|Untitled>",
+        "file": {
+            "id": "F8D8379JA",
+            "created": 1512907913,
+            "timestamp": 1512907913,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 58,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D8379JA\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D8379JA\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8D8379JA\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8D8379JA-2940c3b46b",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8D8379JA\/-.html\/edit",
+            "preview": "body{\r\n\tbackground-image: radial-gradient(red, yellow);\r\n}",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>body{<\/pre><\/div>\n<div><pre>\tbackground-image: radial-gradient(red, yellow);<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512907914.000015"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8BBB0VD0> commented on <@U8AAM6VLJ>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html|Untitled>: ya I got that..... but what's the diff?",
+        "file": {
+            "id": "F8CD35CH2",
+            "created": 1512906780,
+            "timestamp": 1512906780,
+            "name": "Untitled.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/download\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CD35CH2-56de7ccd31",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html\/edit",
+            "preview": "<html>\r\n<title>\r\n<h1> Hello Word <\/h1>\r\n<\/title>\r\n<body>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span> Hello Word <span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">body<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 16,
+            "lines_more": 11,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 4
+        },
+        "comment": {
+            "id": "Fc8CG5RSNR",
+            "created": 1512907926,
+            "timestamp": 1512907926,
+            "user": "U8BBB0VD0",
+            "is_intro": false,
+            "comment": "ya I got that..... but what's the diff?"
+        },
+        "is_intro": false,
+        "ts": "1512907926.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "padding: 20%;\nPushes the text down too?",
+        "thread_ts": "1512907706.000045",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907934.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "Why title is displayed with tags?",
+        "thread_ts": "1512907937.000006",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512908237.000012"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512908494.000059"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512907937.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It does in all 4 directions",
+        "thread_ts": "1512907706.000045",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907949.000052"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "padding?",
+        "thread_ts": "1512907706.000045",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907974.000032"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U89QYNMUH> commented on <@U8AAM6VLJ>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html|Untitled>: the quotations are a bit different... even tiny differences matter in programming :wink:",
+        "file": {
+            "id": "F8CD35CH2",
+            "created": 1512906780,
+            "timestamp": 1512906780,
+            "name": "Untitled.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CD35CH2\/download\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CD35CH2-56de7ccd31",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CD35CH2\/Untitled.html\/edit",
+            "preview": "<html>\r\n<title>\r\n<h1> Hello Word <\/h1>\r\n<\/title>\r\n<body>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span> Hello Word <span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">h1<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">body<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 16,
+            "lines_more": 11,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 4
+        },
+        "comment": {
+            "id": "Fc8C9RR1KM",
+            "created": 1512907977,
+            "timestamp": 1512907977,
+            "user": "U89QYNMUH",
+            "is_intro": false,
+            "comment": "the quotations are a bit different... even tiny differences matter in programming :wink:",
+            "reactions": [
+                {
+                    "name": "open_mouth",
+                    "users": [
+                        "U8C55GJ5D",
+                        "U8B6NRYES",
+                        "U8CLD0XP0"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1512907977.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes",
+        "thread_ts": "1512907706.000045",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512907980.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now lets look at Pseudo Classes",
+        "ts": "1512907989.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "A pseudo-class is used to define a special state of an element.\nFor example, it can be used to:\nStyle an element when a user mouses over it \nStyle visited and unvisited links differently",
+        "ts": "1512908006.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "** Please the change the quotations of my.html to \" \" **",
+        "thread_ts": "1512908030.000036",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512908094.000019"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512908139.000039"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512908164.000060"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512908030.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Just a second\nSorry for interrupting <@U8AAM6VLJ>",
+        "ts": "1512908042.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Yeah",
+        "ts": "1512908046.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Please note `padding:20px;`\nIf it is mentioned in box, in all the directions, 20px space will be seen (upper,lower,left,right)",
+        "ts": "1512908056.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Difference between px and %\n- Pixels (px) are browser dependent. It is the absolute size that you would see on your screen.\n- % referrs to the base text size.",
+        "ts": "1512908073.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Continue <@U8AAM6VLJ>",
+        "ts": "1512908085.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Why do we have a link to my.html?",
+        "thread_ts": "1512908030.000036",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908094.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So lets look at the anchor tag first",
+        "ts": "1512908109.000070"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CG69Z0V\/Untitled.html|Untitled>",
+        "file": {
+            "id": "F8CG69Z0V",
+            "created": 1512908135,
+            "timestamp": 1512908135,
+            "name": "Untitled.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 26,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CG69Z0V\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CG69Z0V\/download\/Untitled.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CG69Z0V\/Untitled.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CG69Z0V-c78ece9a57",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CG69Z0V\/Untitled.html\/edit",
+            "preview": "<a href=”my.html”>Content<\/a>",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">a<\/span> <span class=\"cm-attribute\">href<\/span>=<span class=\"cm-string\">”my.html”<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span>Content<span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">a<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512908136.000003"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "add some text within the &lt;a&gt; &lt;\/a&gt; tags",
+        "thread_ts": "1512908030.000036",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908139.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now href is basically used to provide a link to the page which is opened on a mouse click",
+        "ts": "1512908163.000078"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "we are going to see visited, unvisited properties",
+        "thread_ts": "1512908030.000036",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908164.000060",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B1NPW4B"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "It can be another Html document or a website",
+        "ts": "1512908176.000028"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "doesnt make a difference, you can ignore",
+        "thread_ts": "1512907937.000006",
+        "parent_user_id": "U8C9NATL3",
+        "ts": "1512908237.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BN0QSP2\/-.html|Untitled>",
+        "file": {
+            "id": "F8BN0QSP2",
+            "created": 1512908355,
+            "timestamp": 1512908355,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 99,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BN0QSP2\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BN0QSP2\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BN0QSP2\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BN0QSP2-6bdd32778f",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8BN0QSP2\/-.html\/edit",
+            "preview": "For now since change the anchor tag to <a href=\"https:\/\/www.w3schools.com\">Visit W3Schools.com!<\/a>",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>For now since change the anchor tag to <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">a<\/span> <span class=\"cm-attribute\">href<\/span>=<span class=\"cm-string\">&quot;https:\/\/www.w3schools.com&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span>Visit W3Schools.com!<span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">a<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512908356.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8AAM6VLJ> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CBZ27K4\/-.css|Untitled>",
+        "file": {
+            "id": "F8CBZ27K4",
+            "created": 1512908374,
+            "timestamp": 1512908374,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U8AAM6VLJ",
+            "editable": true,
+            "size": 195,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CBZ27K4\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CBZ27K4\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CBZ27K4\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CBZ27K4-333a8add41",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8AAM6VLJ\/F8CBZ27K4\/-.css\/edit",
+            "preview": "\/* unvisited link *\/\r\n\r\na:link {\r\n\r\n    color: #FF0000;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-comment\">\/* unvisited link *\/<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-tag\">a<\/span>:<span class=\"cm-variable-3\">link<\/span> {<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">color<\/span>: <span class=\"cm-atom\">#FF0000<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 25,
+            "lines_more": 20,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8AAM6VLJ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1512908375.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "And add this under the style tag",
+        "ts": "1512908384.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "So in pseudo class we define multiple states of an element in different scenarios",
+        "ts": "1512908406.000067"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "its syntax is element:property{",
+        "ts": "1512908425.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "so here link , visited and hover are different states of the link",
+        "ts": "1512908450.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Are you all following this ?",
+        "ts": "1512908487.000015",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C9NATL3",
+                    "U8B1NPW4B",
+                    "U8C2UBX1D",
+                    "U8B7P03QD",
+                    "U8B4UNL2H",
+                    "U8CT9FKU7"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "i mean ignore the &lt;h1&gt; tag",
+        "thread_ts": "1512907937.000006",
+        "parent_user_id": "U8C9NATL3",
+        "ts": "1512908494.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Notice the changes after you add this css",
+        "ts": "1512908500.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "Explain use of each plz.",
+        "ts": "1512908533.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Yeah",
+        "ts": "1512908536.000084"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "so hover is basically used to define properties when you just move the mouse over the link without clicking it",
+        "ts": "1512908564.000054"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "visited is used to define properties after the link has been clicked on",
+        "thread_ts": "1512908595.000053",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1512908663.000025"
+            },
+            {
+                "user": "U8AAM6VLJ",
+                "ts": "1512908710.000014"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1512908802.000007"
+            },
+            {
+                "user": "U8AAM6VLJ",
+                "ts": "1512908946.000043"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1512908971.000030"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1512908595.000053"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "and link is used to define the initial property of the anchor link",
+        "ts": "1512908621.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "You would have seen the link colour change to purple when you click on a link after googling something",
+        "ts": "1512908652.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "once visited ,hover doesn't work right?",
+        "edited": {
+            "user": "U8C2UBX1D",
+            "ts": "1512908680.000000"
+        },
+        "thread_ts": "1512908595.000053",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908663.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "They use the visited property to do so",
+        "ts": "1512908663.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Now Sharanya will continue with Nav Bars and Inheritance",
+        "ts": "1512908683.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Hover will still work",
+        "thread_ts": "1512908595.000053",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908710.000014"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "Hi",
+        "ts": "1512908742.000088"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "So now that you got to know the syntax of various attributes, we'll use them to make a basic navigation bar",
+        "ts": "1512908781.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "its stops changing color once i have visited even if i hover over it..",
+        "thread_ts": "1512908595.000053",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908802.000007",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "Having easy-to-use navigation is important for any web site.\nA navigation bar needs standard HTML as a base.",
+        "ts": "1512908814.000065"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "I'm going to put up the code for a simple nav bar... execute it and give a thumbs up when you are done",
+        "ts": "1512908860.000075"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8DE3C1TR\/-.html|Untitled>",
+        "file": {
+            "id": "F8DE3C1TR",
+            "created": 1512908909,
+            "timestamp": 1512908909,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 762,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DE3C1TR\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8DE3C1TR\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8DE3C1TR\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8DE3C1TR-0347c36957",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8DE3C1TR\/-.html\/edit",
+            "preview": "<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width\">\r\n  <title>nav bar<\/title>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>  <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">meta<\/span> <span class=\"cm-attribute\">charset<\/span>=<span class=\"cm-string\">&quot;utf-8&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>  <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">meta<\/span> <span class=\"cm-attribute\">name<\/span>=<span class=\"cm-string\">&quot;viewport&quot;<\/span> <span class=\"cm-attribute\">content<\/span>=<span class=\"cm-string\">&quot;width=device-width&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>  <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span>nav bar<span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 48,
+            "lines_more": 43,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U8B1NPW4B",
+                        "U8B2CUQM8",
+                        "U8B7P03QD",
+                        "U8C2UBX1D",
+                        "U8C9NATL3",
+                        "U8ATV8M3M"
+                    ],
+                    "count": 6
+                }
+            ]
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512908910.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8AAM6VLJ",
+        "text": "Have you used the css for each of the anchor tags in the same order as I showed because  a:hover must come after a:link and a:visited in the CSS definition in order to be effective",
+        "thread_ts": "1512908595.000053",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908946.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "ok that's the mistake, thanks",
+        "thread_ts": "1512908595.000053",
+        "parent_user_id": "U8AAM6VLJ",
+        "ts": "1512908971.000030"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "You may be remembering the meta tags from last session, so i wont be explaining that",
+        "ts": "1512909058.000015"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "see the html part of the code",
+        "ts": "1512909156.000023"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "We are making the nav bar using a list... so there's the html code for that",
+        "ts": "1512909193.000049"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "And we are styling the list using css",
+        "ts": "1512909215.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC13DT4\/-.css|Untitled> and commented: This prevents the list from having any bullets or anything",
+        "file": {
+            "id": "F8CC13DT4",
+            "created": 1512909277,
+            "timestamp": 1512909277,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 22,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC13DT4\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC13DT4\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC13DT4\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CC13DT4-12bcd66f01",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC13DT4\/-.css\/edit",
+            "preview": "list-style-type: none;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">list-style-type<\/span>: <span class=\"cm-variable-3\">none<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8BN2TUG0",
+                "created": 1512909277,
+                "timestamp": 1512909277,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "This prevents the list from having any bullets or anything"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512909278.000012"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "You can try deleting this line from the code, what happens?",
+        "thread_ts": "1512909302.000055",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512909491.000023"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512909507.000008"
+            },
+            {
+                "user": "U8B7P03QD",
+                "ts": "1512909531.000030"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512909302.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "People reply\nA question is asked",
+        "thread_ts": "1512909453.000008",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B1NPW4B",
+                "ts": "1512909540.000081"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512909453.000008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css|Untitled> and commented: We add this because we dont want any space between the nav bar and the screen",
+        "file": {
+            "id": "F8CC1FTCJ",
+            "created": 1512909459,
+            "timestamp": 1512909459,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 27,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC1FTCJ\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC1FTCJ\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CC1FTCJ-c65215db56",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css\/edit",
+            "preview": "margin: 0;\r\n    padding: 0;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">margin<\/span>: <span class=\"cm-number\">0<\/span>;<\/pre><\/div>\n<div><pre>    <span class=\"cm-tag\">padding<\/span>: <span class=\"cm-number\">0<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "Fc8CG99MKP",
+                "created": 1512909459,
+                "timestamp": 1512909459,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "We add this because we dont want any space between the nav bar and the screen"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512909459.000070"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "I see bullets!",
+        "thread_ts": "1512909302.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909491.000023",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8BBB0VD0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "good!",
+        "thread_ts": "1512909302.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909507.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8B7P03QD",
+        "text": "same",
+        "thread_ts": "1512909302.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909531.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B1NPW4B",
+        "text": "Hey!!!",
+        "thread_ts": "1512909453.000008",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1512909540.000081",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8B6NRYES",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8BBB0VD0> commented on <@U89QYNMUH>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css|Untitled>: what is default padding ?",
+        "file": {
+            "id": "F8CC1FTCJ",
+            "created": 1512909459,
+            "timestamp": 1512909459,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 27,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC1FTCJ\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC1FTCJ\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CC1FTCJ-c65215db56",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css\/edit",
+            "preview": "margin: 0;\r\n    padding: 0;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">margin<\/span>: <span class=\"cm-number\">0<\/span>;<\/pre><\/div>\n<div><pre>    <span class=\"cm-tag\">padding<\/span>: <span class=\"cm-number\">0<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "Fc8CG99MKP",
+                "created": 1512909459,
+                "timestamp": 1512909459,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "We add this because we dont want any space between the nav bar and the screen"
+            }
+        },
+        "comment": {
+            "id": "Fc8BN3JXDE",
+            "created": 1512909580,
+            "timestamp": 1512909580,
+            "user": "U8BBB0VD0",
+            "is_intro": false,
+            "comment": "what is default padding ?"
+        },
+        "is_intro": false,
+        "ts": "1512909580.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BN3K1KJ\/-.css|Untitled> and commented: Overflow property is used to control what happens to stuff that overflows the element box.",
+        "file": {
+            "id": "F8BN3K1KJ",
+            "created": 1512909582,
+            "timestamp": 1512909582,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 16,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BN3K1KJ\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BN3K1KJ\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BN3K1KJ\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BN3K1KJ-dd9f289052",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BN3K1KJ\/-.css\/edit",
+            "preview": "overflow:hidden;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">overflow<\/span>:<span class=\"cm-variable-3\">hidden<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8CC1Q2H0",
+                "created": 1512909582,
+                "timestamp": 1512909582,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "Overflow property is used to control what happens to stuff that overflows the element box."
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512909582.000049"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "you can try deleting this line to see what happens",
+        "thread_ts": "1512909627.000032",
+        "reply_count": 33,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512909668.000002"
+            },
+            {
+                "user": "U8B7P03QD",
+                "ts": "1512909687.000003"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512909693.000013"
+            },
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512909757.000036"
+            },
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512909807.000009"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512909896.000023"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512909911.000048"
+            },
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512909920.000059"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512910027.000048"
+            },
+            {
+                "user": "U8C9NATL3",
+                "ts": "1512910120.000014"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910123.000003"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910140.000052"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512910171.000020"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910186.000058"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910225.000039"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910266.000023"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512910285.000097"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910298.000043"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910333.000043"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910344.000054"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910382.000024"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910443.000006"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512910538.000009"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910552.000010"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910572.000119"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512910574.000080"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910630.000114"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910640.000029"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512910664.000039"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910770.000024"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910786.000018"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910792.000061"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512910810.000126"
+            }
+        ],
+        "unread_count": 33,
+        "ts": "1512909627.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "I didn't understand!",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909668.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U89QYNMUH> commented on <@U89QYNMUH>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css|Untitled>: It depends on the browser.. we added this line just to be safe",
+        "file": {
+            "id": "F8CC1FTCJ",
+            "created": 1512909459,
+            "timestamp": 1512909459,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 27,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC1FTCJ\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CC1FTCJ\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CC1FTCJ-c65215db56",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CC1FTCJ\/-.css\/edit",
+            "preview": "margin: 0;\r\n    padding: 0;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">margin<\/span>: <span class=\"cm-number\">0<\/span>;<\/pre><\/div>\n<div><pre>    <span class=\"cm-tag\">padding<\/span>: <span class=\"cm-number\">0<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "Fc8CG99MKP",
+                "created": 1512909459,
+                "timestamp": 1512909459,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "We add this because we dont want any space between the nav bar and the screen"
+            }
+        },
+        "comment": {
+            "id": "Fc8C9VL9R9",
+            "created": 1512909669,
+            "timestamp": 1512909669,
+            "user": "U89QYNMUH",
+            "is_intro": false,
+            "comment": "It depends on the browser.. we added this line just to be safe",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U8BBB0VD0",
+                        "U8ATV8M3M"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1512909669.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B7P03QD",
+        "text": "only bullets are visible",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909687.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "blank screen!!",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909693.000013",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "blank screen",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909757.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "but why?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909807.000009",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8BBB0VD0",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BN46656\/-.css|Untitled> and commented: To shift the whole list to the left",
+        "file": {
+            "id": "F8BN46656",
+            "created": 1512909825,
+            "timestamp": 1512909825,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 12,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BN46656\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BN46656\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BN46656\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BN46656-cd7cc69c5c",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BN46656\/-.css\/edit",
+            "preview": "float: left;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">float<\/span>: <span class=\"cm-variable-3\">left<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8BSACEBT",
+                "created": 1512909825,
+                "timestamp": 1512909825,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "To shift the whole list to the left"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512909826.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It is'nt a blank screen",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909896.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Select the text, you'll come to know there is text there",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909911.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": "then?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512909920.000059"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "try adding background-color: #333; to li a {}",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910027.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8C9NATL3",
+        "text": ":+1:",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910120.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It should technically make no difference",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910123.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Do you understand the overflow:hidden property?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910140.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDAFBB6\/-.css|Untitled> and commented: You can set the display style as inline, block, flex and many more...",
+        "file": {
+            "id": "F8CDAFBB6",
+            "created": 1512910161,
+            "timestamp": 1512910161,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 15,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDAFBB6\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDAFBB6\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDAFBB6\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CDAFBB6-a88f6b9700",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDAFBB6\/-.css\/edit",
+            "preview": "display: block;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">display<\/span>: <span class=\"cm-variable-3\">block<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8DE69AK1",
+                "created": 1512910161,
+                "timestamp": 1512910161,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "You can set the display style as inline, block, flex and many more..."
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512910162.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "no",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910171.000020"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "<https:\/\/www.w3schools.com\/cssref\/pr_class_display.asp>",
+        "attachments": [
+            {
+                "title": "CSS display property",
+                "title_link": "https:\/\/www.w3schools.com\/cssref\/pr_class_display.asp",
+                "text": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.",
+                "fallback": "CSS display property",
+                "from_url": "https:\/\/www.w3schools.com\/cssref\/pr_class_display.asp",
+                "service_icon": "https:\/\/www.w3schools.com\/favicon.ico",
+                "service_name": "w3schools.com",
+                "id": 1
+            }
+        ],
+        "ts": "1512910172.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See whenever the text is more then the size of the block, the rest of the content will be hidden",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910186.000058"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "Is everyone with me ?",
+        "ts": "1512910224.000052",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B4UNL2H",
+                    "U8B4YMT7A",
+                    "U8B7P03QD",
+                    "U8B9B7V09",
+                    "U8ATV8M3M",
+                    "U8C2UBX1D",
+                    "U8CT9FKU7"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We don't want text overflow, that is the basic of it",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910225.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Understood?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910266.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": ":sweat_smile: no",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910285.000097"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Okay.. what did you not understand?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910298.000043"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDARSR2\/-.css|Untitled> and commented: Remember this: padding values go as top, right, bottom, left",
+        "file": {
+            "id": "F8CDARSR2",
+            "created": 1512910314,
+            "timestamp": 1512910314,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 30,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDARSR2\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDARSR2\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDARSR2\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CDARSR2-146d45d371",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDARSR2\/-.css\/edit",
+            "preview": " padding: 14px 16px 14px 16px;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre> <span class=\"cm-tag\">padding<\/span>: <span class=\"cm-number\">14px<\/span> <span class=\"cm-number\">16px<\/span> <span class=\"cm-number\">14px<\/span> <span class=\"cm-number\">16px<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8CC3EX50",
+                "created": 1512910314,
+                "timestamp": 1512910314,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "Remember this: padding values go as top, right, bottom, left"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512910315.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\ndiv {\n    background-color: #eee;\n    width: 200px;\n    height: 50px;\n    border: 1px dotted black;\n    overflow: hidden;\n}\n&lt;\/style&gt;\n&lt;\/head&gt;\n&lt;body&gt;\n\n&lt;h2&gt;CSS Overflow&lt;\/h2&gt;\n&lt;p&gt;By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box:&lt;\/p&gt;\n\n&lt;div&gt;You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.&lt;\/div&gt;\n\n&lt;\/body&gt;\n&lt;\/html&gt;",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910333.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Run this code in a different file",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910344.000054"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See the difference \nwhen you set `overflow: visible;` instead of `overflow: hidden`",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910382.000024"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css|Untitled> and commented: This is because we dont want any unline for our links... try removing this and see",
+        "file": {
+            "id": "F8D88RB5L",
+            "created": 1512910387,
+            "timestamp": 1512910387,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 22,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D88RB5L\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D88RB5L\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8D88RB5L-44be838039",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css\/edit",
+            "preview": "text-decoration: none;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">text-decoration<\/span>: <span class=\"cm-variable-3\">none<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "Fc8CDB156Y",
+                "created": 1512910387,
+                "timestamp": 1512910387,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "This is because we dont want any unline for our links... try removing this and see"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512910388.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Got yeah?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910443.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8B7P03QD> commented on <@U89QYNMUH>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css|Untitled>: links got underlined",
+        "file": {
+            "id": "F8D88RB5L",
+            "created": 1512910387,
+            "timestamp": 1512910387,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 22,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D88RB5L\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D88RB5L\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8D88RB5L-44be838039",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css\/edit",
+            "preview": "text-decoration: none;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">text-decoration<\/span>: <span class=\"cm-variable-3\">none<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "Fc8CDB156Y",
+                "created": 1512910387,
+                "timestamp": 1512910387,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "This is because we dont want any unline for our links... try removing this and see"
+            }
+        },
+        "comment": {
+            "id": "Fc8CDB7U1J",
+            "created": 1512910482,
+            "timestamp": 1512910482,
+            "user": "U8B7P03QD",
+            "is_intro": false,
+            "comment": "links got underlined",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U89QYNMUH",
+                        "U8ATV8M3M",
+                        "U8C2UBX1D",
+                        "U8CT9FKU7"
+                    ],
+                    "count": 4
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1512910482.000046"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BSBTXQR\/-.css|Untitled> and commented: 'active' is used to change the styles when the element is active i.e when you click on it",
+        "file": {
+            "id": "F8BSBTXQR",
+            "created": 1512910483,
+            "timestamp": 1512910483,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 72,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BSBTXQR\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8BSBTXQR\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BSBTXQR\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8BSBTXQR-d988fe0c74",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8BSBTXQR\/-.css\/edit",
+            "preview": "li a:active {\r\n\r\n   color:black;\r\n\r\n    background-color: grey; \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">li<\/span> <span class=\"cm-tag\">a<\/span>:<span class=\"cm-variable-3\">active<\/span> {<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>   <span class=\"cm-property\">color<\/span>:<span class=\"cm-keyword\">black<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">background-color<\/span>: <span class=\"cm-keyword\">grey<\/span>; <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 7,
+            "lines_more": 2,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8CGBLC3X",
+                "created": 1512910483,
+                "timestamp": 1512910483,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "'active' is used to change the styles when the element is active i.e when you click on it"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512910484.000010"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8B6NRYES> commented on <@U89QYNMUH>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css|Untitled>: Yes correct",
+        "file": {
+            "id": "F8D88RB5L",
+            "created": 1512910387,
+            "timestamp": 1512910387,
+            "name": "-.css",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "css",
+            "pretty_type": "CSS",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 22,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D88RB5L\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8D88RB5L\/download\/-.css?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8D88RB5L-44be838039",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8D88RB5L\/-.css\/edit",
+            "preview": "text-decoration: none;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag\">text-decoration<\/span>: <span class=\"cm-variable-3\">none<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "Fc8CDB156Y",
+                "created": 1512910387,
+                "timestamp": 1512910387,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "This is because we dont want any unline for our links... try removing this and see"
+            }
+        },
+        "comment": {
+            "id": "Fc8D8945NJ",
+            "created": 1512910506,
+            "timestamp": 1512910506,
+            "user": "U8B6NRYES",
+            "is_intro": false,
+            "comment": "Yes correct"
+        },
+        "is_intro": false,
+        "ts": "1512910506.000070"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "So any doubts in this nav bar?",
+        "thread_ts": "1512910534.000055",
+        "reply_count": 12,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512910630.000034"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910730.000019"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512910730.000051"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512910753.000048"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512910760.000071"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512910802.000158"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512910810.000144"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910814.000062"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512910817.000028"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910826.000100"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1512910830.000086"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512910841.000014"
+            }
+        ],
+        "unread_count": 12,
+        "ts": "1512910534.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "qverflow hidden does not allow the content to flow out of a box?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910538.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910552.000010"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "I hope now you can create your own pretty nav bars :stuck_out_tongue:",
+        "ts": "1512910567.000039",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7P03QD",
+                    "U8BBB0VD0",
+                    "U8B4UNL2H",
+                    "U8C2UBX1D",
+                    "U8CT9FKU7",
+                    "U8ATV8M3M"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It basically hides the content\nThe content will still be there",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910572.000119"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "what decides the box parameters?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910574.000080"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Why is text starts aligning one after another down the line, when float : center?",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910630.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Means?",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910630.000114"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "I did not understand your doubt",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910640.000029"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "Now I'll quickly cover a concept called Inheritance",
+        "ts": "1512910645.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "what's the box size? browser dependent?:sweat_smile:",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910664.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Because in that line, you chose to keep it in center\nSo it takes the center of the browser",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910730.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "By default it is like that.",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910730.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "It can take only 4 values",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910753.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "left,right,none,inherit",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910760.000071",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B6NRYES",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "A rule that has the !important property will always be applied no matter where that rule appears in the CSS document.",
+        "ts": "1512910763.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "No no",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910770.000024"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "oops sorry ignore that",
+        "ts": "1512910778.000070"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We gave the box size in the `&lt;div&gt;` tag",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910786.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See carefully",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910792.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! So, when I give center, it doesn't understand and simply does it's normal job?",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910802.000158"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "The inherit keyword specifies that a property should inherit its value from its parent element",
+        "ts": "1512910803.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "got it!!",
+        "thread_ts": "1512909627.000032",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910810.000126"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "yup.",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910810.000144"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910814.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Cool",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910817.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Try keepin it to right also once",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910826.000100"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See the difference",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910830.000086",
+        "reactions": [
+            {
+                "name": "hushed",
+                "users": [
+                    "U8C55GJ5D",
+                    "U8CQP0PB9"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "I did. Thanks",
+        "thread_ts": "1512910534.000055",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512910841.000014"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDC71NY\/-.html|Untitled> and commented: Try this code",
+        "file": {
+            "id": "F8CDC71NY",
+            "created": 1512910875,
+            "timestamp": 1512910875,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 529,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDC71NY\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDC71NY\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDC71NY\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CDC71NY-681360949e",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDC71NY\/-.html\/edit",
+            "preview": "<html>\r\n<head>\r\n<style>\r\nspan {\r\n    color: blue;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">style<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag\">span<\/span> {<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">color<\/span>: <span class=\"cm-keyword\">blue<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 28,
+            "lines_more": 23,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8DE80Z39",
+                "created": 1512910875,
+                "timestamp": 1512910875,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "Try this code"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512910876.000047"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "What do you understand from this?",
+        "ts": "1512910923.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "......Anyone ?",
+        "ts": "1512911018.000014"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "The second span element 'inherited' the green color from its parent element &lt;div&gt;... Can you see it now?",
+        "thread_ts": "1512911067.000074",
+        "reply_count": 12,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512911130.000071"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512911151.000063"
+            },
+            {
+                "user": "U89QYNMUH",
+                "ts": "1512911159.000047"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512911167.000055"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512911169.000065"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512911183.000004"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512911200.000015"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512911230.000015"
+            },
+            {
+                "user": "U8BBB0VD0",
+                "ts": "1512911239.000071"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512911251.000005"
+            },
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1512911259.000062"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1512911270.000030"
+            }
+        ],
+        "unread_count": 12,
+        "ts": "1512911067.000074",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B4UNL2H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "different divisions get different colors,span responds according to its default except when it acts as a part of its parent class",
+        "ts": "1512911102.000048"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "yes very good",
+        "ts": "1512911118.000038"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Span always have blue text color?",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911130.000071"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "no we are setting the blue color",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911151.000063"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "see the css part of span",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911159.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! My bad. Thanks",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911167.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "```\nspan {\n    color: blue;\n    border: 1px solid black;\n}\n.extra span {\n    color: inherit;\n}\n```",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911169.000065"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Hmm...k",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911183.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "All span have prop's of first one except child of extra class.",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911200.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "where color attribute is overwritten",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911230.000015"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "So we have covered inheritance",
+        "ts": "1512911232.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8BBB0VD0",
+        "text": "so, inherited from claas:extra, correct?",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911239.000071"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! Thanks",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911251.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "yup.",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911259.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "<@U8BBB0VD0> yeah",
+        "thread_ts": "1512911067.000074",
+        "parent_user_id": "U89QYNMUH",
+        "ts": "1512911270.000030"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "I'll just put up a code for making an image gallery... Ask doubts where you dont understand.",
+        "ts": "1512911293.000047"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U89QYNMUH> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDDB3AQ\/-.html|Untitled> and commented: Execute this",
+        "file": {
+            "id": "F8CDDB3AQ",
+            "created": 1512911337,
+            "timestamp": 1512911337,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 1318,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDDB3AQ\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDDB3AQ\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDDB3AQ\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CDDB3AQ-1555502b19",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDDB3AQ\/-.html\/edit",
+            "preview": "<html>\r\n<head>\r\n<style>\r\ndiv.gallery {\r\n    margin: 5px;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">style<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag\">div<\/span><span class=\"cm-qualifier\">.gallery<\/span> {<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">margin<\/span>: <span class=\"cm-number\">5px<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 58,
+            "lines_more": 53,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc8BN7QX24",
+                "created": 1512911337,
+                "timestamp": 1512911337,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "Execute this"
+            }
+        },
+        "user": "U89QYNMUH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sherrykamath",
+        "bot_id": null,
+        "ts": "1512911338.000043"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "Ill also post links for buttons and grids. Consider them as  \"homework\" xD",
+        "ts": "1512911373.000051"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "<https:\/\/www.w3schools.com\/css\/css3_buttons.asp>",
+        "attachments": [
+            {
+                "title": "CSS Buttons",
+                "title_link": "https:\/\/www.w3schools.com\/css\/css3_buttons.asp",
+                "text": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.",
+                "fallback": "CSS Buttons",
+                "from_url": "https:\/\/www.w3schools.com\/css\/css3_buttons.asp",
+                "service_icon": "https:\/\/www.w3schools.com\/favicon.ico",
+                "service_name": "w3schools.com",
+                "id": 1
+            }
+        ],
+        "ts": "1512911392.000030"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "<https:\/\/www.w3schools.com\/css\/css_grid.asp>",
+        "attachments": [
+            {
+                "title": "CSS Grid Layout",
+                "title_link": "https:\/\/www.w3schools.com\/css\/css_grid.asp",
+                "text": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.",
+                "fallback": "CSS Grid Layout",
+                "from_url": "https:\/\/www.w3schools.com\/css\/css_grid.asp",
+                "service_icon": "https:\/\/www.w3schools.com\/favicon.ico",
+                "service_name": "w3schools.com",
+                "id": 1
+            }
+        ],
+        "ts": "1512911406.000086"
+    },
+    {
+        "type": "message",
+        "user": "U89QYNMUH",
+        "text": "So thats it for today! Keep experimenting with different styles. <http:\/\/W3schools.com|W3schools.com> has a lot to offer. Any doubts are welcome.",
+        "ts": "1512911553.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We will be giving a small assignment soon \nMake sure you do that",
+        "ts": "1512911662.000018",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B4UNL2H",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U89QYNMUH> commented on <@U89QYNMUH>’s file <https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDDB3AQ\/-.html|Untitled>: Put a valid image link for the last 2 pictures",
+        "file": {
+            "id": "F8CDDB3AQ",
+            "created": 1512911337,
+            "timestamp": 1512911337,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U89QYNMUH",
+            "editable": true,
+            "size": 1318,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDDB3AQ\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8CDDB3AQ\/download\/-.html?t=xoxe-282397760404-284611473184-286340832199-95a0ef05e8d6be79a1c18c9baa91669a",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDDB3AQ\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8CDDB3AQ-1555502b19",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U89QYNMUH\/F8CDDB3AQ\/-.html\/edit",
+            "preview": "<html>\r\n<head>\r\n<style>\r\ndiv.gallery {\r\n    margin: 5px;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">style<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag\">div<\/span><span class=\"cm-qualifier\">.gallery<\/span> {<\/pre><\/div>\n<div><pre>    <span class=\"cm-property\">margin<\/span>: <span class=\"cm-number\">5px<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 58,
+            "lines_more": 53,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc8BN7QX24",
+                "created": 1512911337,
+                "timestamp": 1512911337,
+                "user": "U89QYNMUH",
+                "is_intro": true,
+                "comment": "Execute this"
+            }
+        },
+        "comment": {
+            "id": "Fc8CA0MVTM",
+            "created": 1512911769,
+            "timestamp": 1512911769,
+            "user": "U89QYNMUH",
+            "is_intro": false,
+            "comment": "Put a valid image link for the last 2 pictures"
+        },
+        "is_intro": false,
+        "ts": "1512911769.000011"
+    }
+]
