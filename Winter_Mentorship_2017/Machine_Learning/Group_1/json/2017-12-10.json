@@ -1,0 +1,3666 @@
+[
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "It lets you manipulate data and work with multidimensional arrays, perform operations on these arrays etc",
+        "ts": "1512892902.000067"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Let's get started then",
+        "ts": "1512892934.000066"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "from your terminal or cmd, run `jupyter notebook` and it should start a jupyter notebook at some localhost",
+        "ts": "1512892959.000044"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "on the top left corner you'll see a `new` button, click on that and open a new Python3 jupyter notebook",
+        "ts": "1512893026.000049",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "post a :+1: once you guys are done with this",
+        "ts": "1512893043.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "u mean top right ?",
+        "ts": "1512893132.000087"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "oh yeah my bad top right",
+        "ts": "1512893150.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "i started python[conda root] is that fine ?",
+        "thread_ts": "1512893253.000045",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U888HQS7K",
+                "ts": "1512893313.000061"
+            },
+            {
+                "user": "U8B1AL28J",
+                "ts": "1512893331.000005"
+            },
+            {
+                "user": "U888HQS7K",
+                "ts": "1512893335.000021"
+            },
+            {
+                "user": "U8B1AL28J",
+                "ts": "1512893347.000009"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1512893253.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "the other option was python[default]",
+        "ts": "1512893296.000010"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Isn't there an option for python 3?",
+        "thread_ts": "1512893253.000045",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512893313.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "nope",
+        "thread_ts": "1512893253.000045",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512893331.000005"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Use python",
+        "thread_ts": "1512893253.000045",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512893335.000021"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "alright cool",
+        "ts": "1512893344.000024"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "thread_ts": "1512893253.000045",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512893347.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so there are various cells that you can make in the notebook, these cells are blocks of code that get executed separately",
+        "ts": "1512893390.000014"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so initially in the first cell, type the following code and see if it runs without any error",
+        "ts": "1512893420.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nimport numpy as np \na = np.array([[1, 2], [3, 4], [5, 6]]) \na\n```",
+        "ts": "1512893447.000027"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "it should output something like this",
+        "ts": "1512893455.000056"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\narray([[1, 2],\n       [3, 4],\n       [5, 6]])\n```",
+        "ts": "1512893466.000019"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "to run, to go Cell &gt; Run All",
+        "ts": "1512893552.000050"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "is this working guys? post a :+1:",
+        "ts": "1512893594.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "ts": "1512893603.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": ":+1:",
+        "ts": "1512893612.000040"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "alright cool",
+        "ts": "1512893631.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so in that code snippet you imported numpy as np, so that everywhere that you are supposed to reference to numpy, you'll be referencing np instead",
+        "ts": "1512893695.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "next run the following",
+        "ts": "1512893725.000002"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\na = np.array([[1,2,3],[4,5,6]])\nprint(a.shape)\nb = a.reshape(1,6)\nb\n```",
+        "ts": "1512893730.000001"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "and post your output here",
+        "ts": "1512893736.000025"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "oh and",
+        "ts": "1512893755.000035"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "this block of code goes into the next cell",
+        "ts": "1512893764.000036"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "in your notebook",
+        "ts": "1512893772.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "(2, 3)\nOut[4]: array([[1, 2, 3, 4, 5, 6]])",
+        "ts": "1512893880.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "<@U8B1AL28J>?",
+        "ts": "1512893902.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "(2, 3)\nOut[6]:\narray([[1, 2, 3, 4, 5, 6]])",
+        "ts": "1512893927.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "alright please respond guys, let's make it interactive so its easier for both you and me",
+        "ts": "1512893954.000028"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so yeah <@U8AEMSF6C> this is what you'll be getting\n```\n(2, 3)\narray([[1, 2, 3, 4, 5, 6]])\n```",
+        "ts": "1512894003.000057"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "initially we had a 2x3 array with 6 elements in it",
+        "ts": "1512894030.000044"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "we reshape it to be a 1x6 array",
+        "ts": "1512894052.000023"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I hope that's clear",
+        "ts": "1512894057.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "stop me if you guys have a doubt in anything",
+        "ts": "1512894068.000052",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AEMSF6C"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "next run the following\n```\na = np.zeros((2,2))   # Create an array of all zeros\nprint(a)  \n\n\nb = np.ones((1,2))    # Create an array of all ones\nprint(b)    \n```",
+        "ts": "1512894102.000052"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "and post the output here",
+        "ts": "1512894116.000034"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "this also goes into the next cell, that follows for every block of code I post",
+        "ts": "1512894177.000011"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "[[ 0.  0.]\n [ 0.  0.]]",
+        "ts": "1512894203.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "[[ 1.  1.]]",
+        "ts": "1512894213.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "right and <@U8B7TH3HT>?",
+        "ts": "1512894237.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "yeah the same",
+        "ts": "1512894284.000047"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "lets see the type of every element in numpy next",
+        "ts": "1512894297.000007"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nx = np.random.rand(3, 4) # Let numpy choose the datatype\nprint(x)\nprint(x.dtype) \n```",
+        "ts": "1512894306.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "if you run this block of code, x is a 3x4 matrix whose elements are random",
+        "ts": "1512894339.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "numpy chooses a default value for these elements",
+        "ts": "1512894351.000046"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the output should be something like this\n```\n[[ 0.99166274  0.72803762  0.41437122  0.21090893]\n [ 0.53071238  0.02582412  0.65022296  0.50336604]\n [ 0.34092904  0.6199465   0.38519392  0.64097601]]\nfloat64\n```",
+        "ts": "1512894366.000071"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "float64 is the type of each element",
+        "ts": "1512894387.000051"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nx = np.random.rand(3, 4).astype(np.float32) # Let numpy choose the datatype\nprint(x)\nprint(x.dtype)\n```",
+        "thread_ts": "1512894423.000021",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U88K2UW8Z",
+                "ts": "1512894761.000005"
+            },
+            {
+                "user": "U8AEMSF6C",
+                "ts": "1512894823.000009"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512894423.000021"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "forgot to mention, dtype is what's outputing the datatype, `float64` in the previous case",
+        "ts": "1512894476.000010"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "in this code, the x.dtype outputs `float32`",
+        "ts": "1512894491.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "astype()?",
+        "ts": "1512894514.000047"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "astype() is to make every element of x, of the type np.float32",
+        "ts": "1512894545.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "by default we say it was np.float64 in the previous block of code",
+        "ts": "1512894577.000040"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "saw*",
+        "ts": "1512894609.000070"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "any other doubts?",
+        "ts": "1512894617.000092"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "no",
+        "ts": "1512894638.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "execute this and post the output",
+        "ts": "1512894663.000098"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nx = np.array([[1,2],[4,8]])\n\nprint(np.sum(x))  \nprint(np.sum(x, axis=0)) \nprint(np.sum(x, axis=1)) \n```",
+        "ts": "1512894667.000061"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "and try to reason why the output might be what it is, its quite easy to figure out",
+        "ts": "1512894697.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "<@U8AEMSF6C> \nthis is the output\n```\n[[ 0.26277223  0.69125736  0.39613783  0.57321984]\n [ 0.18501349  0.67984188  0.73111135  0.12525496]\n [ 0.21667904  0.31175652  0.66793585  0.88748068]]\nfloat32\n```",
+        "thread_ts": "1512894423.000021",
+        "parent_user_id": "U88K2UW8Z",
+        "ts": "1512894761.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "15\n[ 5 10]\n[ 3 12]",
+        "ts": "1512894778.000016"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "once you guys get it, post :+1:",
+        "ts": "1512894779.000003"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "yeah that's right <@U8B1AL28J>",
+        "ts": "1512894791.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": ":+1:",
+        "ts": "1512894797.000065"
+    },
+    {
+        "type": "message",
+        "user": "U8AEMSF6C",
+        "text": ":+1::skin-tone-2:",
+        "thread_ts": "1512894423.000021",
+        "parent_user_id": "U88K2UW8Z",
+        "ts": "1512894823.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "okay so the output for this first\n```\n15\n[ 5 10]\n[ 3 12]\n```",
+        "ts": "1512894858.000028"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the second line, axis=0 is for columns and axis=1 is for rows",
+        "ts": "1512894887.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "ts": "1512894911.000005"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so when you pass the argument axis=0, it computes the sum of each column and output a 2d array",
+        "thread_ts": "1512894914.000012",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U88K2UW8Z",
+                "ts": "1512896055.000016"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1512894914.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "similarly for axis=1",
+        "ts": "1512894932.000022"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nx = np.array([[1,2],[4,8]])\nx.T",
+        "ts": "1512894999.000023"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nx = np.array([[1,2],[4,8]])\nx.T\n```",
+        "ts": "1512895007.000055"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "`.T` gives the transpose of a matrix",
+        "ts": "1512895023.000030"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so the output for this would be \n```\narray([[1, 4],\n       [2, 8]])\n```",
+        "ts": "1512895041.000041"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "any doubts so far?",
+        "ts": "1512895051.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "ts": "1512895065.000043"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Shashank will take on from here, he'll be doing pandas now",
+        "ts": "1512895099.000036"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Ok",
+        "ts": "1512895121.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "thanks <@U88K2UW8Z>",
+        "ts": "1512895153.000008"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "pandas is a python library used to manage data",
+        "ts": "1512895184.000072"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "It provides high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
+        "ts": "1512895203.000005"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "We ll go through the basics of pandas for now",
+        "ts": "1512895239.000059"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Pandas deals with the following three data structures −\nSeries\nDataFrame\nPanel",
+        "ts": "1512895253.000011"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "We ll be discussing series and dataframe only",
+        "ts": "1512895288.000007"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "First 'Series'. Series is a one-dimensional array like structure with homogeneous(of same datatype) data.",
+        "ts": "1512895315.000006"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Datatypes may be integer, string, float, python objects, etc.",
+        "ts": "1512895330.000058"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "For example,  7,4,6,5,3,6 is a series of integers.",
+        "ts": "1512895347.000026"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can import pandas by \"import pandas as pd\"",
+        "ts": "1512895396.000025"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "import pandas as pd\nimport numpy as np\ndata1 = np.array([5,8,2,1])\ns1 = pd.Series(data1)\nprint(s1)",
+        "ts": "1512895417.000003"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "run this snippet of code and tell what the output is",
+        "ts": "1512895460.000041"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B1AL28J> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8B1AL28J\/F8BMF2TJL\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BMF2TJL",
+            "created": 1512895522,
+            "timestamp": 1512895522,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U8B1AL28J",
+            "editable": true,
+            "size": 44,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMF2TJL\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMF2TJL\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8B1AL28J\/F8BMF2TJL\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BMF2TJL-655a578ac2",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U8B1AL28J\/F8BMF2TJL\/-.txt\/edit",
+            "preview": "0    5\r\n1    8\r\n2    2\r\n3    1\r\ndtype: int64",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>0    5<\/pre><\/div>\n<div><pre>1    8<\/pre><\/div>\n<div><pre>2    2<\/pre><\/div>\n<div><pre>3    1<\/pre><\/div>\n<div><pre>dtype: int64<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U8B7TH3HT"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U8B1AL28J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rjshubhamisme",
+        "bot_id": null,
+        "ts": "1512895522.000058"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "good",
+        "ts": "1512895543.000033"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "the left most column is the index column",
+        "ts": "1512895567.000017"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "and column on the right is the series",
+        "ts": "1512895599.000007"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "you can change the index column values",
+        "ts": "1512895631.000007"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BRMDGAD\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BRMDGAD",
+            "created": 1512895654,
+            "timestamp": 1512895654,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 89,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRMDGAD\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRMDGAD\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BRMDGAD\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BRMDGAD-48809c2cfa",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BRMDGAD\/-.txt\/edit",
+            "preview": "data2 = np.array(['a','b','c','d'])\r\ns2 = pd.Series(data2,index=[11,12,13,14])\r\nprint(s2)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data2 = np.array(['a','b','c','d'])<\/pre><\/div>\n<div><pre>s2 = pd.Series(data2,index=[11,12,13,14])<\/pre><\/div>\n<div><pre>print(s2)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512895655.000003"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "what is the output?",
+        "ts": "1512895670.000037"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "11    a\n12    b\n13    c\n14    d\ndtype: object",
+        "ts": "1512895724.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "ts": "1512895734.000007"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "good. So you see the index values are 11, 12, 13, and 14",
+        "ts": "1512895756.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "object here is ?",
+        "thread_ts": "1512895805.000021",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U888HQS7K",
+                "ts": "1512895857.000055"
+            },
+            {
+                "user": "U8B1AL28J",
+                "ts": "1512895904.000033"
+            },
+            {
+                "user": "U888HQS7K",
+                "ts": "1512896077.000039"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512895805.000021"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "datatype of each element in the series",
+        "thread_ts": "1512895805.000021",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512895857.000055"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Now to access the row with particular index, say 13, you can use s2[13]",
+        "ts": "1512895882.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C97BS2F\/-.txt|Untitled>",
+        "file": {
+            "id": "F8C97BS2F",
+            "created": 1512895899,
+            "timestamp": 1512895899,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 13,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C97BS2F\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C97BS2F\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C97BS2F\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C97BS2F-3de6846a42",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C97BS2F\/-.txt\/edit",
+            "preview": "print(s2[13])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(s2[13])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512895899.000038"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": "so characters here are reffered as objects ?",
+        "thread_ts": "1512895805.000021",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512895904.000033"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "you can construct a series with a dictionary data structure",
+        "ts": "1512895960.000024"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDGU6MD\/-.txt|Untitled>",
+        "file": {
+            "id": "F8DDGU6MD",
+            "created": 1512895972,
+            "timestamp": 1512895972,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 72,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDGU6MD\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDGU6MD\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDGU6MD\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DDGU6MD-b35d0fa477",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDGU6MD\/-.txt\/edit",
+            "preview": "data3 = {'a' : 0., 'b' : 1., 'c' : 2.}\r\ns3 = pd.Series(data3)\r\nprint(s3)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data3 = {'a' : 0., 'b' : 1., 'c' : 2.}<\/pre><\/div>\n<div><pre>s3 = pd.Series(data3)<\/pre><\/div>\n<div><pre>print(s3)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512895973.000006"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I meant to say 1d array with 2 elements :sweat_smile:",
+        "thread_ts": "1512894914.000012",
+        "parent_user_id": "U88K2UW8Z",
+        "ts": "1512896055.000016"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "you will see that the index are the indices of the dictionary(a, b, c)",
+        "ts": "1512896055.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "ts": "1512896074.000014"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "No objects and characters are different",
+        "thread_ts": "1512895805.000021",
+        "parent_user_id": "U8B1AL28J",
+        "ts": "1512896077.000039"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCMAH36\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CCMAH36",
+            "created": 1512896116,
+            "timestamp": 1512896116,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 55,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CCMAH36\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CCMAH36\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCMAH36\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CCMAH36-613dce3073",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCMAH36\/-.txt\/edit",
+            "preview": "s5 = pd.Series(10, index=[0, 1, 2, 3, 4, 5])\r\nprint(s5)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>s5 = pd.Series(10, index=[0, 1, 2, 3, 4, 5])<\/pre><\/div>\n<div><pre>print(s5)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512896117.000049"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can also initialise a series with same values. Try this code above.",
+        "ts": "1512896155.000006"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "It is important to note that series is 0-indexed, i.e the starting index starts from 0, like in C language",
+        "ts": "1512896269.000011"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CFN2ZMK\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CFN2ZMK",
+            "created": 1512896326,
+            "timestamp": 1512896326,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 14,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CFN2ZMK\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CFN2ZMK\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CFN2ZMK\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CFN2ZMK-a08e8b9c9d",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CFN2ZMK\/-.txt\/edit",
+            "preview": "print(s3[1:3])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(s3[1:3])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512896326.000026"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "s3[1:3] selects 2nd and 3rd rows",
+        "ts": "1512896403.000079"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "i.e s3[1] and s3[2]",
+        "ts": "1512896428.000045"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "any doubts?",
+        "ts": "1512896438.000017"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C987J7M\/-.txt|Untitled>",
+        "file": {
+            "id": "F8C987J7M",
+            "created": 1512896506,
+            "timestamp": 1512896506,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 73,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C987J7M\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C987J7M\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C987J7M\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C987J7M-a5f0072ecd",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C987J7M\/-.txt\/edit",
+            "preview": "s6 = pd.Series([1,2,3,4,5],index = ['a','b','c','d','e'])\r\nprint(s6[1:5])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>s6 = pd.Series([1,2,3,4,5],index = ['a','b','c','d','e'])<\/pre><\/div>\n<div><pre>print(s6[1:5])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512896506.000049"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "s6[1:5] selects 2nd to 5th row",
+        "ts": "1512896552.000040"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Are you following??",
+        "ts": "1512896560.000080",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDHS695\/-.txt|Untitled>",
+        "file": {
+            "id": "F8DDHS695",
+            "created": 1512896610,
+            "timestamp": 1512896610,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 40,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDHS695\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDHS695\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDHS695\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DDHS695-d9305e434c",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDHS695\/-.txt\/edit",
+            "preview": "print(s6['c'])\r\nprint(s6[['b','e','c']])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(s6['c'])<\/pre><\/div>\n<div><pre>print(s6[['b','e','c']])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512896610.000045"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can also select rows in series based on index values. Run this code above to be clear.",
+        "ts": "1512896664.000045"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Shall I proceed?",
+        "ts": "1512896697.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "print(s6['b', 'e', 'c']) why wont this work?",
+        "ts": "1512896756.000020"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "I mean why do you need the double brackets?",
+        "thread_ts": "1512896780.000071",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U888HQS7K",
+                "ts": "1512896869.000009"
+            },
+            {
+                "user": "U8B7TH3HT",
+                "ts": "1512896888.000077"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512896780.000071"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "the syntax is series[list of indices]. Since a list also has brackets, there are 2 brackets.",
+        "thread_ts": "1512896780.000071",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512896869.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": ":+1:",
+        "thread_ts": "1512896780.000071",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512896888.000077"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This ends discussion on series. Now I will discuss about dataframes, which is very important",
+        "ts": "1512896944.000033"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "DataFrame is a two-dimensional array with heterogeneous data.",
+        "ts": "1512896960.000070"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Basically its similar to a 2d table with rows and columns, like that in ms excel",
+        "ts": "1512897036.000098"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBFCU1Y\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CBFCU1Y",
+            "created": 1512897060,
+            "timestamp": 1512897060,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 66,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBFCU1Y\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBFCU1Y\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBFCU1Y\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CBFCU1Y-320ddbca08",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBFCU1Y\/-.txt\/edit",
+            "preview": "data1 = ['a', 'b', 'c', 'd']\r\ndf1 = pd.DataFrame(data)\r\nprint(df1)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data1 = ['a', 'b', 'c', 'd']<\/pre><\/div>\n<div><pre>df1 = pd.DataFrame(data)<\/pre><\/div>\n<div><pre>print(df1)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897060.000072"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "what is the output?",
+        "ts": "1512897071.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "0\n0  a\n1  b\n2  c\n3  d",
+        "ts": "1512897135.000028"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Good. this looks like a series because it is 1 dimensional",
+        "ts": "1512897171.000031"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBFHREE\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CBFHREE",
+            "created": 1512897183,
+            "timestamp": 1512897183,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 110,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBFHREE\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBFHREE\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBFHREE\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CBFHREE-202843675b",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBFHREE\/-.txt\/edit",
+            "preview": "data2 = [['Alex',10],['Bob',12],['Clarke',13]]\r\ndf2 = pd.DataFrame(data2, columns=['Age', 'Name'])\r\nprint(df2)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data2 = [['Alex',10],['Bob',12],['Clarke',13]]<\/pre><\/div>\n<div><pre>df2 = pd.DataFrame(data2, columns=['Age', 'Name'])<\/pre><\/div>\n<div><pre>print(df2)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897184.000010"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This is 2D. What is the output?",
+        "ts": "1512897207.000016"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B7TH3HT> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U8B7TH3HT\/F8DDJR2QP\/-.txt|Untitled>",
+        "file": {
+            "id": "F8DDJR2QP",
+            "created": 1512897285,
+            "timestamp": 1512897285,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U8B7TH3HT",
+            "editable": true,
+            "size": 62,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDJR2QP\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDJR2QP\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U8B7TH3HT\/F8DDJR2QP\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DDJR2QP-c0d0003328",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U8B7TH3HT\/F8DDJR2QP\/-.txt\/edit",
+            "preview": "     Name  Age\r\n0    Alex   10\r\n1     Bob   12\r\n2  Clarke   13",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>     Name  Age<\/pre><\/div>\n<div><pre>0    Alex   10<\/pre><\/div>\n<div><pre>1     Bob   12<\/pre><\/div>\n<div><pre>2  Clarke   13<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B7TH3HT",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "suyashghuge",
+        "bot_id": null,
+        "ts": "1512897285.000039"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "cool",
+        "ts": "1512897298.000029"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7LUWQ6\/-.txt|Untitled>",
+        "file": {
+            "id": "F8D7LUWQ6",
+            "created": 1512897321,
+            "timestamp": 1512897321,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 150,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7LUWQ6\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7LUWQ6\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7LUWQ6\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7LUWQ6-e8410d03b1",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7LUWQ6\/-.txt\/edit",
+            "preview": "data4 = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}\r\ndf4 = pd.DataFrame(data4, index=['rank1','rank2','rank3','rank4'])\r\nprint(df4)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data4 = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}<\/pre><\/div>\n<div><pre>df4 = pd.DataFrame(data4, index=['rank1','rank2','rank3','rank4'])<\/pre><\/div>\n<div><pre>print(df4)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897321.000077"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This is dataframe created using dictionary. Also see that index values are explicitly defined.",
+        "ts": "1512897394.000010"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "To get a particular column of dataframe, try this",
+        "ts": "1512897451.000096"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMHPBMW\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BMHPBMW",
+            "created": 1512897460,
+            "timestamp": 1512897460,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 18,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMHPBMW\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMHPBMW\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMHPBMW\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BMHPBMW-4b927368a2",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMHPBMW\/-.txt\/edit",
+            "preview": "print(df4['Name'])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(df4['Name'])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897461.000050"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "and to get consecutive rows of dataframe, say 2nd to 4th, do this",
+        "ts": "1512897553.000070"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BRQ3RT3\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BRQ3RT3",
+            "created": 1512897561,
+            "timestamp": 1512897561,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 15,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRQ3RT3\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRQ3RT3\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BRQ3RT3\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BRQ3RT3-6e5b556d3d",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BRQ3RT3\/-.txt\/edit",
+            "preview": "print(df4[1:4])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(df4[1:4])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897561.000031"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "All clear??",
+        "ts": "1512897575.000014",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7MDZK8\/-.txt|Untitled>",
+        "file": {
+            "id": "F8D7MDZK8",
+            "created": 1512897676,
+            "timestamp": 1512897676,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 213,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7MDZK8\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7MDZK8\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7MDZK8\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7MDZK8-d375a55d96",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7MDZK8\/-.txt\/edit",
+            "preview": "data5 = [{'a': 1, 'b': 2, 'c': 3},{'a': 5, 'b': 10, 'c': 20}]\r\ndf5 = pd.DataFrame(data5, index=['first', 'second'])\r\nprint(df5)\r\ndf6 = pd.DataFrame(data5, index=['first', 'second'], columns=['c', 'b'])\r\nprint(df6)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data5 = [{'a': 1, 'b': 2, 'c': 3},{'a': 5, 'b': 10, 'c': 20}]<\/pre><\/div>\n<div><pre>df5 = pd.DataFrame(data5, index=['first', 'second'])<\/pre><\/div>\n<div><pre>print(df5)<\/pre><\/div>\n<div><pre>df6 = pd.DataFrame(data5, index=['first', 'second'], columns=['c', 'b'])<\/pre><\/div>\n<div><pre>print(df6)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897676.000036"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can also select the columns that you need using \"columns=[list of column names]\" parameter",
+        "ts": "1512897745.000002"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "you will see that df6 contains only columns 'b' and 'c' of df5",
+        "ts": "1512897822.000023"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDKHW5D\/-.txt|Untitled>",
+        "file": {
+            "id": "F8DDKHW5D",
+            "created": 1512897835,
+            "timestamp": 1512897835,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 168,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDKHW5D\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDKHW5D\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDKHW5D\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DDKHW5D-0a9d9ccabd",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDKHW5D\/-.txt\/edit",
+            "preview": "d= {'one' : pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd']),\r\n      'two' : pd.Series([2, 4, 6, 8], index=['a', 'b', 'c', 'd'])}\r\n\r\ndf7= pd.DataFrame(d)\r\nprint(df7)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>d= {'one' : pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd']),<\/pre><\/div>\n<div><pre>      'two' : pd.Series([2, 4, 6, 8], index=['a', 'b', 'c', 'd'])}<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>df7= pd.DataFrame(d)<\/pre><\/div>\n<div><pre>print(df7)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512897836.000001"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "A dataframe can also be defined using series",
+        "ts": "1512897857.000055"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Shall i proceed?",
+        "ts": "1512897881.000044",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "If you want to access a particular row, say the 3rd row, do this",
+        "ts": "1512898031.000018"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7MUF4N\/-.txt|Untitled>",
+        "file": {
+            "id": "F8D7MUF4N",
+            "created": 1512898040,
+            "timestamp": 1512898040,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 18,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7MUF4N\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7MUF4N\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7MUF4N\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7MUF4N-6cb7643ddd",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7MUF4N\/-.txt\/edit",
+            "preview": "print(df7.iloc[2])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(df7.iloc[2])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512898040.000049"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "remember that dataframe is 0 indexed",
+        "ts": "1512898063.000008"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Now, coming to deletion of columns",
+        "ts": "1512898086.000078"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can delete using \"del\" or \"pop\"",
+        "ts": "1512898115.000007"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDL07RV\/-.txt|Untitled>",
+        "file": {
+            "id": "F8DDL07RV",
+            "created": 1512898129,
+            "timestamp": 1512898129,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 26,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDL07RV\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDL07RV\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDL07RV\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DDL07RV-47721dd047",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDL07RV\/-.txt\/edit",
+            "preview": "del df7['one']\r\nprint(df7)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>del df7['one']<\/pre><\/div>\n<div><pre>print(df7)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512898130.000034"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9AFP5H\/-.txt|Untitled>",
+        "file": {
+            "id": "F8C9AFP5H",
+            "created": 1512898142,
+            "timestamp": 1512898142,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 26,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C9AFP5H\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C9AFP5H\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9AFP5H\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C9AFP5H-26016727e7",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9AFP5H\/-.txt\/edit",
+            "preview": "df7.pop('two')\r\nprint(df7)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>df7.pop('two')<\/pre><\/div>\n<div><pre>print(df7)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512898142.000067"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You ll find that the dataframe is empty because the dataframe had 2 columns and both have been deleted.",
+        "ts": "1512898183.000003"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can also append 2 dataframes by rows",
+        "ts": "1512898215.000073"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBH18NN\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CBH18NN",
+            "created": 1512898225,
+            "timestamp": 1512898225,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 153,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBH18NN\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBH18NN\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBH18NN\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CBH18NN-e6fa7f6ab0",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBH18NN\/-.txt\/edit",
+            "preview": "df8 = pd.DataFrame([[1, 2], [3, 4]], columns = ['a','b'])\r\ndf9 = pd.DataFrame([[5, 6], [7, 8]], columns = ['a','b'])\r\n\r\ndf8 = df8.append(df9)\r\nprint(df8)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>df8 = pd.DataFrame([[1, 2], [3, 4]], columns = ['a','b'])<\/pre><\/div>\n<div><pre>df9 = pd.DataFrame([[5, 6], [7, 8]], columns = ['a','b'])<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>df8 = df8.append(df9)<\/pre><\/div>\n<div><pre>print(df8)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512898226.000026"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Here, rows of df9 are appended to df8",
+        "ts": "1512898254.000039"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Rows can be deleted based on their index values, say you want to delete rows with index=1.",
+        "ts": "1512898318.000051"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7NAXB8\/-.txt|Untitled>",
+        "file": {
+            "id": "F8D7NAXB8",
+            "created": 1512898331,
+            "timestamp": 1512898331,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 29,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7NAXB8\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7NAXB8\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7NAXB8\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7NAXB8-06e79d414c",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7NAXB8\/-.txt\/edit",
+            "preview": "df8 = df8.drop(1)\r\nprint(df8)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>df8 = df8.drop(1)<\/pre><\/div>\n<div><pre>print(df8)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512898331.000044"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Here rows with index 1 are \"dropped\"(deleted)",
+        "ts": "1512898359.000001"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Any doubts?",
+        "ts": "1512898365.000026"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Alright thanks <@U888HQS7K>, I'll be doing matplotlib now",
+        "ts": "1512898475.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "*Matplotlib* is probably the single most used Python package for 2D-graphics. It provides both a very quick way to visualize data. So when you are working with a dataset you would want to see data visually to get a better idea of the data or display the data to convey their results to someone.",
+        "ts": "1512898536.000003"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nimport matplotlib\nimport matplotlib.pyplot as plt\nimport pandas as pd\nimport numpy as np\n```",
+        "ts": "1512898592.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "running this block of code without any errors will ensure matplotlib is installed properly",
+        "ts": "1512898619.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nplt.plot([1,2,3,4], [1,4,9,16], 'ro')\nplt.axis([0, 6, 0, 20])\nplt.show()\n```\nA basic graph that you can visualise using matplotlib in your notebook",
+        "ts": "1512898691.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "post a :+1: if your notebook runs both the block one after the other successfully",
+        "ts": "1512898716.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": ":+1:",
+        "ts": "1512898809.000020"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "Didn't understand though",
+        "ts": "1512898834.000044"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "yeah I'll be explaining ofc I just wanna make sure no ones running into any errors with matplotlib",
+        "ts": "1512898864.000038"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so I hope this works out well for everyone",
+        "ts": "1512898948.000033"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88K2UW8Z> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8CBJ6BFC\/bb.png|bb.png>",
+        "file": {
+            "id": "F8CBJ6BFC",
+            "created": 1512899007,
+            "timestamp": 1512899007,
+            "name": "bb.png",
+            "title": "bb.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88K2UW8Z",
+            "editable": false,
+            "size": 14231,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBJ6BFC\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBJ6BFC\/download\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_64.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_80.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_360.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360_w": 360,
+            "thumb_360_h": 94,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_480.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_480_w": 480,
+            "thumb_480_h": 125,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_160.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_720.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_720_w": 720,
+            "thumb_720_h": 187,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_800.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_800_w": 800,
+            "thumb_800_h": 208,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_960.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_960_w": 960,
+            "thumb_960_h": 250,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CBJ6BFC-6b598eb7df\/bb_1024.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 266,
+            "image_exif_rotation": 1,
+            "original_w": 1303,
+            "original_h": 339,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8CBJ6BFC\/bb.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CBJ6BFC-040996d723",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88K2UW8Z",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "utkarsh2305",
+        "bot_id": null,
+        "ts": "1512899009.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "that's what the graph looks like",
+        "ts": "1512899027.000016"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so plt.plot takes in 3 args",
+        "ts": "1512899068.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "first is a list, second is also a list and third is a string",
+        "ts": "1512899081.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the first corresponds to x values on the graph, second to the y values",
+        "ts": "1512899098.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so you can see the points plotted are (1,1) (2,4) (3,9) (4,16)",
+        "ts": "1512899122.000019"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "its x^2 graph",
+        "ts": "1512899137.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the third argument 'ro' just says that these points to be plotted are red dots",
+        "ts": "1512899188.000034"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the second line plt.axis takes in one argument, which is a 1d list of 4 elements",
+        "ts": "1512899214.000061"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the first two elements specify the range of values for x axis, the second for range of values for y axis",
+        "ts": "1512899252.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "plt.show is what invokes matplotlib to show the graph",
+        "ts": "1512899305.000043"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "any doubts?",
+        "ts": "1512899309.000017"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88K2UW8Z> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8BRSQWEM\/housing.csv|housing.csv>",
+        "file": {
+            "id": "F8BRSQWEM",
+            "created": 1512899419,
+            "timestamp": 1512899419,
+            "name": "housing.csv",
+            "title": "housing.csv",
+            "mimetype": "text\/csv",
+            "filetype": "csv",
+            "pretty_type": "CSV",
+            "user": "U88K2UW8Z",
+            "editable": false,
+            "size": 1423529,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRSQWEM\/housing.csv?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BRSQWEM\/download\/housing.csv?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8BRSQWEM\/housing.csv",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BRSQWEM-8db1e2c0a2",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88K2UW8Z",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "utkarsh2305",
+        "bot_id": null,
+        "ts": "1512899419.000053"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "download this file, we'll be using it in a plot",
+        "ts": "1512899436.000003"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "later one",
+        "ts": "1512899441.000016"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "on*",
+        "ts": "1512899443.000006"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "if you guys understood post a :+1:",
+        "ts": "1512899477.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "okay I'm assuming you guys understood, but feel free to stop me and clear any doubt",
+        "ts": "1512899603.000048"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so next let's see how we can use numpy with matplotlib to visualize data",
+        "ts": "1512899626.000053"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\n# evenly sampled at 0.1 interval\nt = np.arange(0,2,0.1)\n\n# red dashes, blue squares and green triangles\nplt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')\nplt.show()\n```",
+        "ts": "1512899646.000037"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "run this code block",
+        "ts": "1512899661.000013"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88K2UW8Z> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8CFT27S9\/bb.png|bb.png>",
+        "file": {
+            "id": "F8CFT27S9",
+            "created": 1512899752,
+            "timestamp": 1512899752,
+            "name": "bb.png",
+            "title": "bb.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88K2UW8Z",
+            "editable": false,
+            "size": 20845,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CFT27S9\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CFT27S9\/download\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFT27S9-7a557a7b0b\/bb_64.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFT27S9-7a557a7b0b\/bb_80.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFT27S9-7a557a7b0b\/bb_360.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360_w": 360,
+            "thumb_360_h": 186,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFT27S9-7a557a7b0b\/bb_480.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_480_w": 480,
+            "thumb_480_h": 248,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFT27S9-7a557a7b0b\/bb_160.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "image_exif_rotation": 1,
+            "original_w": 635,
+            "original_h": 328,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8CFT27S9\/bb.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CFT27S9-fc22c09a16",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88K2UW8Z",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "utkarsh2305",
+        "bot_id": null,
+        "ts": "1512899754.000004"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "your plot should look something like this",
+        "ts": "1512899766.000055"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so we're plotting 3 curves here, one is a linear curve, second is x^2 (blue) and third if x^3 (green)",
+        "ts": "1512899825.000038"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "that's why we have 9 arguments in plot, 3 for each graph",
+        "ts": "1512899866.000008"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "what each of these 3 arguments represent is the same as what I said about the last plot",
+        "ts": "1512899894.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nt = array([ 0. ,  0.1,  0.2,  0.3,  0.4,  0.5,  0.6,  0.7,  0.8,  0.9,  1. ,\n        1.1,  1.2,  1.3,  1.4,  1.5,  1.6,  1.7,  1.8,  1.9])\n```",
+        "ts": "1512899945.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "that's what is evaluated as, using np.arrange, so from 0 to 2, at every 0.1 interval",
+        "ts": "1512899980.000026"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "what t is evaluated as **",
+        "ts": "1512900001.000066"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "and since we don't specify plt.axis, the default range ensures that all the points in the graph are visible",
+        "ts": "1512900047.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "let's look at how we can represent bar graphs",
+        "ts": "1512900082.000045"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nx = [5,8,10] \ny = [12,16,6]  \nplt.bar(x, y, align = 'center') \nplt.title('Bar graph') \nplt.ylabel('Y axis') \nplt.xlabel('X axis')  \n\nplt.show()\n```",
+        "ts": "1512900111.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88K2UW8Z> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8BMMLZH6\/bb.png|bb.png>",
+        "file": {
+            "id": "F8BMMLZH6",
+            "created": 1512900148,
+            "timestamp": 1512900148,
+            "name": "bb.png",
+            "title": "bb.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88K2UW8Z",
+            "editable": false,
+            "size": 14056,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMMLZH6\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMMLZH6\/download\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BMMLZH6-7dd00f3389\/bb_64.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BMMLZH6-7dd00f3389\/bb_80.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BMMLZH6-7dd00f3389\/bb_360.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360_w": 360,
+            "thumb_360_h": 180,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BMMLZH6-7dd00f3389\/bb_480.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_480_w": 480,
+            "thumb_480_h": 240,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8BMMLZH6-7dd00f3389\/bb_160.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "image_exif_rotation": 1,
+            "original_w": 709,
+            "original_h": 355,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8BMMLZH6\/bb.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BMMLZH6-617e9e1971",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88K2UW8Z",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "utkarsh2305",
+        "bot_id": null,
+        "ts": "1512900149.000048"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "that's what your bar graph will look like",
+        "ts": "1512900167.000024"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so in plt.bar you have 3 arguments, first list corresponding to x, second to y and the third is alignment which is centered",
+        "ts": "1512900218.000045"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I think this code block is quite easy to understand, .title is for title of the bar graph, xlabel is the label for x axis, similarly for y axis",
+        "ts": "1512900262.000035"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "finally let's look at one last thing, that's using dataframes in pandas to display data from a csv file in matplotlib",
+        "ts": "1512900327.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I hope you've downloaded the housing.csv file that I'd uploaded",
+        "ts": "1512900435.000035"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "we'll be using this",
+        "ts": "1512900439.000001"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\nhousing=pd.read_csv('housing.csv')\nhousing.plot(kind=\"scatter\",x='longitude',y='latitude')\nplt.show()\n```",
+        "ts": "1512900448.000022"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "now in this there's quite a few things happening so I'll explain each of them",
+        "ts": "1512900473.000013"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "pd.read_csv reads the data from housing.csv as a dataframe",
+        "ts": "1512900500.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "if you open up housing.csv, it contains the columns `longitude,latitude,housing_median_age,total_rooms,total_bedrooms,population,households,median_income,median_house_value,ocean_proximity`",
+        "ts": "1512900529.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "housing['latitude'] outputs the following\n```\n0    37.88\n1    37.86\n2    37.85\n3    37.85\n4    37.85\nName: latitude, dtype: float64",
+        "ts": "1512900616.000045"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "```\n0    37.88\n1    37.86\n2    37.85\n3    37.85\n4    37.85\n.....\nName: latitude, dtype: float64\n```",
+        "ts": "1512900631.000025"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so you can run the pllot function on this dataframe",
+        "ts": "1512900680.000074"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the function takes in 3 arguments, kind which is scatter in our plot, x which is the latitude field from our housing dataframe and y which is the longitude field from our dataframe housing",
+        "ts": "1512900746.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88K2UW8Z> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8CFULE13\/bb.png|bb.png>",
+        "file": {
+            "id": "F8CFULE13",
+            "created": 1512900835,
+            "timestamp": 1512900835,
+            "name": "bb.png",
+            "title": "bb.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88K2UW8Z",
+            "editable": false,
+            "size": 60722,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CFULE13\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CFULE13\/download\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_64.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_80.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_360.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360_w": 360,
+            "thumb_360_h": 128,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_480.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_480_w": 480,
+            "thumb_480_h": 171,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_160.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_720.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_720_w": 720,
+            "thumb_720_h": 256,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_800.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_800_w": 800,
+            "thumb_800_h": 284,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8CFULE13-d79906abd6\/bb_960.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_960_w": 960,
+            "thumb_960_h": 341,
+            "image_exif_rotation": 1,
+            "original_w": 971,
+            "original_h": 345,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8CFULE13\/bb.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CFULE13-2028bc9992",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88K2UW8Z",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "utkarsh2305",
+        "bot_id": null,
+        "ts": "1512900836.000064"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "this is what the output looks like",
+        "ts": "1512900847.000001"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "was this clear?",
+        "ts": "1512900884.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "kind = 'scatter', what other kinds do we have?",
+        "ts": "1512900899.000030"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "<https:\/\/pandas.pydata.org\/pandas-docs\/stable\/generated\/pandas.DataFrame.plot.html>\nyou can check the kind parameter here",
+        "ts": "1512900944.000078"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "there are a lot of them",
+        "ts": "1512900950.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": ":+1:",
+        "ts": "1512900958.000028"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "you can change the argument from scatter to density and check",
+        "ts": "1512901012.000024"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "its quite an interesting graph",
+        "ts": "1512901028.000069"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88K2UW8Z> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8D7SCP2A\/bb.png|bb.png>",
+        "file": {
+            "id": "F8D7SCP2A",
+            "created": 1512901058,
+            "timestamp": 1512901058,
+            "name": "bb.png",
+            "title": "bb.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88K2UW8Z",
+            "editable": false,
+            "size": 25784,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7SCP2A\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7SCP2A\/download\/bb.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_64.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_80.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_360.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_360_w": 360,
+            "thumb_360_h": 120,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_480.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_480_w": 480,
+            "thumb_480_h": 160,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_160.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_720.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_720_w": 720,
+            "thumb_720_h": 240,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8D7SCP2A-2698ff0fd5\/bb_800.png?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "thumb_800_w": 800,
+            "thumb_800_h": 266,
+            "image_exif_rotation": 1,
+            "original_w": 925,
+            "original_h": 308,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88K2UW8Z\/F8D7SCP2A\/bb.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7SCP2A-de4640e15e",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88K2UW8Z",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "utkarsh2305",
+        "bot_id": null,
+        "ts": "1512901060.000031"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Any doubts?",
+        "ts": "1512901102.000051"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Coming to the last topic for today- scikit-learn",
+        "ts": "1512901193.000017"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "scikit-learn has many inbuilt functions to implement machine learning models easily.",
+        "ts": "1512901305.000020"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7SPKML\/data.csv|data.csv>",
+        "file": {
+            "id": "F8D7SPKML",
+            "created": 1512901325,
+            "timestamp": 1512901325,
+            "name": "data.csv",
+            "title": "data.csv",
+            "mimetype": "text\/csv",
+            "filetype": "csv",
+            "pretty_type": "CSV",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 10371,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7SPKML\/data.csv?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7SPKML\/download\/data.csv?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7SPKML\/data.csv",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7SPKML-2b73a7f62d",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7SPKML\/data.csv\/edit",
+            "preview": "x,y\n24,21.54945196\n50,47.46446305\n15,17.21865634\n38,36.58639803",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>x,y<\/pre><\/div>\n<div><pre>24,21.54945196<\/pre><\/div>\n<div><pre>50,47.46446305<\/pre><\/div>\n<div><pre>15,17.21865634<\/pre><\/div>\n<div><pre>38,36.58639803<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 701,
+            "lines_more": 696,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512901326.000020"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "download this csv file",
+        "ts": "1512901339.000021"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "It has two columns x and y, where x is the feature and y is target",
+        "ts": "1512901375.000015"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "our goal here will be to train a model to predict y given x.",
+        "ts": "1512901425.000042"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "We ll use a simple linear regression model. You will learn in-depth about linear regression later.",
+        "ts": "1512901473.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBMR55G\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CBMR55G",
+            "created": 1512901500,
+            "timestamp": 1512901500,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 56,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBMR55G\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CBMR55G\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBMR55G\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CBMR55G-02edbda3f0",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CBMR55G\/-.txt\/edit",
+            "preview": "import pandas as pd\r\ndataframe = pd.read_csv('data.csv')",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>import pandas as pd<\/pre><\/div>\n<div><pre>dataframe = pd.read_csv('data.csv')<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512901501.000045"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "First read the cs file and store it in dataframe.",
+        "ts": "1512901517.000062"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Done?",
+        "ts": "1512901520.000053",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMPTNKS\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BMPTNKS",
+            "created": 1512901709,
+            "timestamp": 1512901709,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 52,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMPTNKS\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMPTNKS\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMPTNKS\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BMPTNKS-b9cd6865ec",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMPTNKS\/-.txt\/edit",
+            "preview": "print(dataframe['x'][:5])\r\nprint(dataframe['y'][:5])",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>print(dataframe['x'][:5])<\/pre><\/div>\n<div><pre>print(dataframe['y'][:5])<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512901710.000023"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You can print first 5 values of x and y values if you want",
+        "ts": "1512901730.000004"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMPUWKA\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BMPUWKA",
+            "created": 1512901746,
+            "timestamp": 1512901746,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 73,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMPUWKA\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMPUWKA\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMPUWKA\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BMPUWKA-428c71a47d",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMPUWKA\/-.txt\/edit",
+            "preview": "data_array = dataframe.values\r\nX = data_array[:, 0]\r\ny = data_array[:, 1]",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>data_array = dataframe.values<\/pre><\/div>\n<div><pre>X = data_array[:, 0]<\/pre><\/div>\n<div><pre>y = data_array[:, 1]<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512901746.000048"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Separate x and y values from the dataframe",
+        "ts": "1512901771.000002"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Done?",
+        "ts": "1512901781.000022",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "from sklearn.model_selection import train_test_split\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state = 0)",
+        "ts": "1512901817.000084"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7TF0B0\/-.txt|Untitled>",
+        "file": {
+            "id": "F8D7TF0B0",
+            "created": 1512901827,
+            "timestamp": 1512901827,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 146,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7TF0B0\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7TF0B0\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7TF0B0\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7TF0B0-ee13ea06f4",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7TF0B0\/-.txt\/edit",
+            "preview": "from sklearn.model_selection import train_test_split\r\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state = 0)\r\n",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>from sklearn.model_selection import train_test_split<\/pre><\/div>\n<div><pre>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state = 0)<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512901828.000011"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "split the data into training and testing sets",
+        "ts": "1512901845.000087"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Training set is the data that we use to train the model",
+        "ts": "1512901863.000008"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Testing set is the data we use to test how accurate the model is",
+        "ts": "1512901887.000013"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Any doubts?",
+        "ts": "1512901904.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "X = data_array[:, 0]\ny = data_array[:, 1]",
+        "ts": "1512901926.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "Didn't understand this",
+        "ts": "1512901934.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "It is splitting x and y values",
+        "ts": "1512901945.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "But how? [:, 0] means?",
+        "ts": "1512901956.000042"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "The first column is X and the second column is y right?",
+        "ts": "1512901966.000025"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "X = data_array[row_numbers, column_numbers]. This is the syntax.",
+        "ts": "1512902040.000035"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "\":\" means all rows\/columns and 0 is the 1st column",
+        "ts": "1512902100.000050"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "So X contains all rows of column \"0\" which is x",
+        "ts": "1512902134.000016"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Clear?",
+        "ts": "1512902136.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "Yes thanks :+1:",
+        "ts": "1512902147.000030"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCW7D0U\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CCW7D0U",
+            "created": 1512902178,
+            "timestamp": 1512902178,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 130,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CCW7D0U\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CCW7D0U\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCW7D0U\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CCW7D0U-c829097e83",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCW7D0U\/-.txt\/edit",
+            "preview": "X_train = X_train.reshape(-1, 1)\r\ny_train = y_train.reshape(-1, 1)\r\nX_test = X_test.reshape(-1, 1)\r\ny_test = y_test.reshape(-1, 1)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>X_train = X_train.reshape(-1, 1)<\/pre><\/div>\n<div><pre>y_train = y_train.reshape(-1, 1)<\/pre><\/div>\n<div><pre>X_test = X_test.reshape(-1, 1)<\/pre><\/div>\n<div><pre>y_test = y_test.reshape(-1, 1)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512902179.000037"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This reshapes the 1D array to 2D array of dimension (length, 1), which is required later to train the model.",
+        "ts": "1512902238.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9GL16X\/-.txt|Untitled>",
+        "file": {
+            "id": "F8C9GL16X",
+            "created": 1512902258,
+            "timestamp": 1512902258,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 77,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C9GL16X\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C9GL16X\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9GL16X\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C9GL16X-6609397bac",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9GL16X\/-.txt\/edit",
+            "preview": "import matplotlib.pyplot as plt\r\nplt.plot(X_train, y_train, 'bo')\r\nplt.show()",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>import matplotlib.pyplot as plt<\/pre><\/div>\n<div><pre>plt.plot(X_train, y_train, 'bo')<\/pre><\/div>\n<div><pre>plt.show()<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512902259.000002"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This plots a graph of training data. Did you get the graph with blue points?",
+        "ts": "1512902299.000017",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B7TH3HT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDSDYA3\/-.txt|Untitled>",
+        "file": {
+            "id": "F8DDSDYA3",
+            "created": 1512902428,
+            "timestamp": 1512902428,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 104,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDSDYA3\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8DDSDYA3\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDSDYA3\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8DDSDYA3-704b7322ac",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8DDSDYA3\/-.txt\/edit",
+            "preview": "from sklearn import linear_model\r\n\r\nmodel = linear_model.LinearRegression()\r\nmodel.fit(X_train, y_train)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>from sklearn import linear_model<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>model = linear_model.LinearRegression()<\/pre><\/div>\n<div><pre>model.fit(X_train, y_train)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512902429.000020"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This is an inbuilt linear regression function.",
+        "ts": "1512902463.000024"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "model.fit() tells the model to train on the parameters passed",
+        "ts": "1512902526.000051"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "X_train and y_train (training data) are the parameters here",
+        "ts": "1512902578.000059"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "what is the output?",
+        "ts": "1512902596.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)",
+        "ts": "1512902719.000029"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "cool",
+        "ts": "1512902729.000019"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Now the model has finished training using the training data",
+        "ts": "1512902753.000063"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Lets predict the y values from the x values of test data(i.e, X_test)",
+        "ts": "1512902819.000031"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCX97EG\/-.txt|Untitled>",
+        "file": {
+            "id": "F8CCX97EG",
+            "created": 1512902833,
+            "timestamp": 1512902833,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 30,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CCX97EG\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8CCX97EG\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCX97EG\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8CCX97EG-9ae79ad8da",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8CCX97EG\/-.txt\/edit",
+            "preview": "y_pred = model.predict(X_test)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>y_pred = model.predict(X_test)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512902833.000054"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Done?",
+        "ts": "1512902847.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "yes",
+        "ts": "1512902870.000038"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9HLGAF\/-.txt|Untitled>",
+        "file": {
+            "id": "F8C9HLGAF",
+            "created": 1512902892,
+            "timestamp": 1512902892,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 33,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C9HLGAF\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8C9HLGAF\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9HLGAF\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8C9HLGAF-b78fb280cd",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8C9HLGAF\/-.txt\/edit",
+            "preview": "model.score(X_test, y_test) * 100",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>model.score(X_test, y_test) * 100<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512902893.000043"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This calculates the accuracy of the model, using the original y values of test data(y_test)",
+        "ts": "1512902956.000023"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "What is the accuracy?",
+        "ts": "1512902964.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "99.122932802130123",
+        "ts": "1512902968.000020"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "cool",
+        "ts": "1512902973.000029"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMS177S\/-.txt|Untitled>",
+        "file": {
+            "id": "F8BMS177S",
+            "created": 1512903015,
+            "timestamp": 1512903015,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 143,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMS177S\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8BMS177S\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMS177S\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8BMS177S-a5867bc5dc",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8BMS177S\/-.txt\/edit",
+            "preview": "# Plot X_test points\r\nplt.plot(X_test, y_test, 'go')\r\n\r\n# Plot predicted line\r\nplt.plot(X_test, y_pred, color='red', linewidth=3)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre># Plot X_test points<\/pre><\/div>\n<div><pre>plt.plot(X_test, y_test, 'go')<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre># Plot predicted line<\/pre><\/div>\n<div><pre>plt.plot(X_test, y_pred, color='red', linewidth=3)<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 7,
+            "lines_more": 2,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512903016.000002"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Now plot the predictions from the model on the graph",
+        "ts": "1512903037.000018"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "What do you observe?",
+        "ts": "1512903043.000068"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "straight line",
+        "ts": "1512903054.000048"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Yes, this is a linear regression model.",
+        "ts": "1512903088.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "Okay so above were the steps to test and train data for a model, is it?",
+        "thread_ts": "1512903165.000013",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U888HQS7K",
+                "ts": "1512903234.000012"
+            },
+            {
+                "user": "U888HQS7K",
+                "ts": "1512903280.000061"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1512903165.000013"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U888HQS7K> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7VK5GW\/-.txt|Untitled> and commented: Here I forgot to mention that test_size = 0.4 means split the data randomly such that 60% is training data and 40% is test data",
+        "file": {
+            "id": "F8D7VK5GW",
+            "created": 1512903165,
+            "timestamp": 1512903165,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U888HQS7K",
+            "editable": true,
+            "size": 90,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7VK5GW\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8D7VK5GW\/download\/-.txt?t=xoxe-280931420101-284554982275-284113338225-a70f6de42798a70158c9433518171869",
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7VK5GW\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8D7VK5GW-e86f132da6",
+            "edit_link": "https:\/\/wintermentorship.slack.com\/files\/U888HQS7K\/F8D7VK5GW\/-.txt\/edit",
+            "preview": "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state = 0)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state = 0)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8BRYEF5F",
+                "created": 1512903165,
+                "timestamp": 1512903165,
+                "user": "U888HQS7K",
+                "is_intro": true,
+                "comment": "Here I forgot to mention that test_size = 0.4 means split the data randomly such that 60% is training data and 40% is test data"
+            }
+        },
+        "user": "U888HQS7K",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shashankp5424",
+        "bot_id": null,
+        "ts": "1512903166.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "and yeah dataframe.values means?",
+        "thread_ts": "1512903213.000015",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U888HQS7K",
+                "ts": "1512903340.000033"
+            },
+            {
+                "user": "U888HQS7K",
+                "ts": "1512903354.000058"
+            },
+            {
+                "user": "U888HQS7K",
+                "ts": "1512903464.000020"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1512903213.000015"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "The model is trained on a part of the data called the training data.",
+        "thread_ts": "1512903165.000013",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512903234.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "converts them into an array?",
+        "ts": "1512903244.000055"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Test data is the new data which the model has not seen before. Using the model trained initially, we predict the y values of X_test",
+        "thread_ts": "1512903165.000013",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512903280.000061"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Gets the value from the data frame and creates a 2D list",
+        "thread_ts": "1512903213.000015",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512903340.000033"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "list of lists i mean",
+        "thread_ts": "1512903213.000015",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512903354.000058"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "So thats it for today. Hope you learnt a lot.",
+        "ts": "1512903404.000026"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": "Thanks :+1:",
+        "ts": "1512903425.000020"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Feel free to post doubts here",
+        "ts": "1512903435.000033"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "print(data_array) check the output",
+        "thread_ts": "1512903213.000015",
+        "parent_user_id": "U8B7TH3HT",
+        "ts": "1512903464.000020"
+    },
+    {
+        "type": "message",
+        "user": "U8AC9FWU8",
+        "text": "g",
+        "ts": "1512908981.000069"
+    }
+]

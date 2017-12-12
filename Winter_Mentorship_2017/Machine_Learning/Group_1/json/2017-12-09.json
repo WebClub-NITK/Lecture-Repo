@@ -1,0 +1,107 @@
+[
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Those who have installed anaconda  and jupyter notebook successfully give a thumbs up",
+        "ts": "1512891103.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8B7TH3HT",
+        "text": ":+1:",
+        "ts": "1512891294.000029"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Those of you who're facing installation issues please put up your issues here",
+        "ts": "1512891793.000003"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "hit the windows key -&gt; enter environment -&gt; choose from settings -&gt; edit environment variables for your account -&gt; select Path variable -&gt; Edit -&gt; New.\nTry adding environment variables manually <@U8AEMSF6C>",
+        "ts": "1512891971.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8AEMSF6C",
+        "text": "Tried that too ",
+        "ts": "1512892031.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B1AL28J",
+        "text": ":+1:",
+        "ts": "1512892165.000010"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Restart and see if its working otherwise remove and reinstall anaconda. <@U8AEMSF6C>",
+        "ts": "1512892221.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8AEMSF6C",
+        "text": "Okay ",
+        "ts": "1512892341.000004"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so for now, only 3 people have installed or tried installing?",
+        "ts": "1512892378.000043"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so let's get started then",
+        "ts": "1512892429.000075"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Today we'll be focusing on python libraries that we use for playing around with data, that includes manipulating it, visualizing it, using it in various ML models etc",
+        "ts": "1512892526.000054"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "If you guys have python atleast you can follow most of it",
+        "ts": "1512892582.000011"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "**Today's topics:**\n1. Numpy\n2. Matplotlib",
+        "ts": "1512892604.000038"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "3. Pandas\n4.  Scikit-learn",
+        "ts": "1512892637.000014"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so first I'll be taking up numpy, then shashank will be taking up pandas, then I'll be donig Matplotlib and finally shashank wil b doing scikit-learn",
+        "ts": "1512892719.000008",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AEMSF6C"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "**Numpy**\nthis is a library in python used very often for the purposes of scientific computing",
+        "ts": "1512892787.000031"
+    }
+]

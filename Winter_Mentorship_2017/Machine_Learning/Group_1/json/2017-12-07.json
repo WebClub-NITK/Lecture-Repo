@@ -1,0 +1,1011 @@
+[
+    {
+        "user": "U8B7TH3HT",
+        "text": "<@U8B7TH3HT> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512646634.000085"
+    },
+    {
+        "user": "U8B1AL28J",
+        "text": "<@U8B1AL28J> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512646720.000221"
+    },
+    {
+        "user": "U8B3TR1DG",
+        "text": "<@U8B3TR1DG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512647955.000308"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Hello guys! I'm Utkarsh, 2nd year IT. I'm one of your mentors. Everyone please introduce yourselves.",
+        "ts": "1512647987.000456"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Name, Year, Branch",
+        "ts": "1512648014.000152"
+    },
+    {
+        "user": "U8A5P033K",
+        "text": "<@U8A5P033K> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512648023.000243"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Hello everyone. I am Shashank, 2nd year CSE. I'm also one of your mentors.",
+        "ts": "1512648132.000341"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "We'll wait for about 5 mins more, then we'll start\nIn the meantime guys please introduce yourselves",
+        "ts": "1512648252.000139"
+    },
+    {
+        "user": "U8AC9FWU8",
+        "text": "<@U8AC9FWU8> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512648307.000087"
+    },
+    {
+        "user": "U8B85SCH3",
+        "text": "<@U8B85SCH3> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512648381.000240"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Guys reply with a :+1: atleast if you are there",
+        "ts": "1512648392.000216",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U896Z7U4V",
+                    "U8AC9FWU8",
+                    "U8BPTL1TR",
+                    "U8BCTU6HM",
+                    "U8B1AL28J",
+                    "U8AJLFZA7"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8AC9FWU8",
+        "text": ":+1: ",
+        "ts": "1512648411.000433"
+    },
+    {
+        "user": "U8BCTU6HM",
+        "text": "<@U8BCTU6HM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512648439.000076"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Also a small intro wouldn't hurt guys\nWe have to be able to communicate if you guys are interested in learning :slightly_smiling_face:",
+        "ts": "1512648463.000307"
+    },
+    {
+        "type": "message",
+        "user": "U8AJLFZA7",
+        "text": ":+1::skin-tone-3:",
+        "ts": "1512648612.000172"
+    },
+    {
+        "type": "message",
+        "user": "U8AC9FWU8",
+        "text": "I'm HIMANSHU from 1year MCA ",
+        "ts": "1512648616.000198"
+    },
+    {
+        "type": "message",
+        "user": "U8A5P033K",
+        "text": "This is Shireesh,2nd yr IT",
+        "ts": "1512648687.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8BCTU6HM",
+        "text": "Jahnwee MCA 1st year",
+        "ts": "1512648709.000289"
+    },
+    {
+        "type": "message",
+        "user": "U896Z7U4V",
+        "text": "Sonali  , MCA, 1st year",
+        "ts": "1512648736.000216"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Alright let's get started then",
+        "ts": "1512648827.000076"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So the Agenda for today:",
+        "ts": "1512648858.000115"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "- What is Machine Learning?",
+        "ts": "1512648917.000109"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "- How it differs from Artificial Intelligence",
+        "ts": "1512648937.000086"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "- Types of Tasks that Machine Learning can accomplish",
+        "ts": "1512648982.000136"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "- Different Types of Machine Learning models and a brief on each of these",
+        "ts": "1512649002.000412"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Let's start off with 'What is Machine Learning?'",
+        "ts": "1512649042.000118"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "The formal definition:\nMachine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.",
+        "ts": "1512649077.000133"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I think the best way to understand things is through examples so, I'll be stating the formal definition and then put forward examples and try to make things clear",
+        "ts": "1512649183.000337"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So if anyone has any doubts, please feel free to put that up and we'll try to clear it",
+        "ts": "1512649216.000189"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "*Getting back to the topic*",
+        "ts": "1512649269.000186"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So keep in mind the formal definition, we'll go through some examples of problems that machine learning can solve",
+        "ts": "1512649331.000266"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "1) Predicting on a given set of features like size, shape, time elapsed since diagnosis etc if a particular tumor is malignant or benign.",
+        "ts": "1512649348.000244"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So if you know features about a particular tumor and you have data from previously diagnosed tumors of other patients along with the outcome, whether it was benign or malignant",
+        "ts": "1512649484.000085"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the machine learning model will try to predict whether this tumor is benign or malignant",
+        "ts": "1512649543.000009"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "2)  Predicting housing prices based on size of rooms, area of the house, median income in a specified radius from its location etc.",
+        "ts": "1512649569.000142"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "3) Recognizing handwritten digits based on images of a set of handwritten digits provided to the machine.",
+        "ts": "1512649594.000016"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I hope everyone is getting an idea of the kind of problems machine learning can solve",
+        "ts": "1512649648.000023"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Put a :+1: if you're following or ask any doubts you have",
+        "ts": "1512649685.000109"
+    },
+    {
+        "type": "message",
+        "user": "U8AJLFZA7",
+        "text": ":+1::skin-tone-3:",
+        "ts": "1512649698.000142"
+    },
+    {
+        "type": "message",
+        "user": "U8BCTU6HM",
+        "text": ":+1: ",
+        "ts": "1512649716.000077"
+    },
+    {
+        "type": "message",
+        "user": "U8A5P033K",
+        "text": ":+1:",
+        "ts": "1512649723.000110"
+    },
+    {
+        "type": "message",
+        "user": "U8B85SCH3",
+        "text": "🖒",
+        "ts": "1512649773.000003"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Alright cool so let's move onto how Machine learning differs from Artificial Intelligence",
+        "ts": "1512649818.000290"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "*Artificial Intelligence*\nArtificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.",
+        "ts": "1512649849.000131"
+    },
+    {
+        "user": "U8A29QM0Q",
+        "text": "<@U8A29QM0Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512649882.000388"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "*So one approach towards achieving AI is Machine Learning.*",
+        "ts": "1512649886.000157"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "*But Machine Learning is merely an approach towards achieving Artificial Intelligence.*",
+        "ts": "1512649899.000127"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Just to give you a small example, not quite a good one but it'll do the job.",
+        "ts": "1512649919.000138"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Consider a very simple obstacle tackling bot. All it does it move forward, if it comes across an obstacle within say 300 cm, which it will detect using a sensor onto it, it stops and changes its direction and moves forward again.",
+        "ts": "1512649962.000218"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Now we can say that this bot has \"Intelligence\" but ofcourse *it doesn't use any machine learning at all.*",
+        "ts": "1512649996.000080"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "In a way if you were to visualise machine learning, it is like a subset of Artificial Intelligence",
+        "ts": "1512650071.000177"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Infact a lot of Self driving cars identify themselves with \"AI\" and do not make use of a lot of Machine Learning",
+        "ts": "1512650132.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I hope I've made the point clear",
+        "ts": "1512650152.000200"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Put a :+1: if you're following or ask any doubts you have",
+        "ts": "1512650167.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8AJLFZA7",
+        "text": ":+1::skin-tone-3:",
+        "ts": "1512650173.000293"
+    },
+    {
+        "type": "message",
+        "user": "U8B85SCH3",
+        "text": "🖒",
+        "ts": "1512650197.000143"
+    },
+    {
+        "type": "message",
+        "user": "U8BCTU6HM",
+        "text": ":+1: ",
+        "ts": "1512650211.000115"
+    },
+    {
+        "user": "U8A5HS1DE",
+        "text": "<@U8A5HS1DE> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512650233.000248"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Alright let's move on then",
+        "ts": "1512650318.000112"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "There are quite a lot of tasks that machine learning can accomplish",
+        "ts": "1512650352.000025"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "A thing to note is, what you'll be seeing up ahead you may not grasp completely. You will completely grasp it only in the upcoming sessions when we learn about the various models, but until then its important to know these types.",
+        "ts": "1512650437.000152"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So broadly they are:\n1. Classification\n2. Regression\n3. Clustering\n4. Dimensional Reduction",
+        "ts": "1512650490.000137"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "1. Classification - Given a set of inputs, map each to one or more of a predefined set of categories.",
+        "ts": "1512650556.000114"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "There are certain parameters\/features, associated with the a model. Based on past data, these parameters will be given values. \nSo for new data, we can predict the output value using this model.",
+        "ts": "1512650586.000024"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I'm sorry in the above message, parameters~\/features~",
+        "ts": "1512650649.000242"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "parameters\/ ~features~",
+        "ts": "1512650660.000117"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "consider the same example of tumors, in that the predefined set of categories is \"malignant or \"benign\"",
+        "ts": "1512650724.000174"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the tumors example is a binary classification problem, but we can have multiple outcomes too",
+        "ts": "1512650786.000089"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "those are multiclassification problems",
+        "ts": "1512650804.000241"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "any doubts?",
+        "ts": "1512650818.000209"
+    },
+    {
+        "type": "message",
+        "user": "U8AJLFZA7",
+        "text": "No",
+        "ts": "1512650828.000176"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Moving onto regression then",
+        "ts": "1512650874.000152"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "2. Regression - Given a set of inputs, map them to a continuous function",
+        "ts": "1512650891.000114"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So, we are given the inputs and outputs of a continuous real-valued function.\nAnd we would like to learn the function and use it to obtain the output for other unseen inputs.",
+        "ts": "1512650913.000252"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "A nice way to understand this would be the housing prices prediction",
+        "ts": "1512650948.000179"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "let's say, for the sake of this example, that you have only 1 feature called \"size of the house\" and the outcome is ofcourse the price",
+        "ts": "1512651004.000487"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so your data has two columns, one for size and the other for price",
+        "ts": "1512651055.000067"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "now if you plot this on an x-y plane, for \"size of the house\" vs \"price\" you get various points on the graph",
+        "ts": "1512651157.000284"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "the challenge for our model is to construct a curve for this x-y graph such that for any new size of the house, it provides the most accurate prediction of its corresponding price on the graph",
+        "ts": "1512651280.000442"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "was this clear? feel free to ask any doubts you might have",
+        "ts": "1512651325.000164"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I'm trying to give a very high level intuition of how these models work",
+        "ts": "1512651367.000143"
+    },
+    {
+        "type": "message",
+        "user": "U8BCTU6HM",
+        "text": ":+1: ",
+        "ts": "1512651476.000118"
+    },
+    {
+        "user": "U8AEMSF6C",
+        "text": "<@U8AEMSF6C> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1512651679.000095"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "so next let's look at Clustering",
+        "ts": "1512651682.000395"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "3. Clustering - Task of grouping a set of objects in such a way that objects in the same group are more similar (in some sense or another) to each other than to those in other groups (clusters)",
+        "ts": "1512651699.000198"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "4. Dimensional Reduction - Simplify a given input mapping it to lower dimensional space",
+        "ts": "1512651764.000045"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "We use dimentsonal reduction when suppose we have 12 attributes for a given list of objects, and we want to visualise these attributes, that can be done only if the reduce them to 2D\/3D data.",
+        "ts": "1512651885.000138"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "dimensional*",
+        "ts": "1512651934.000350"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So I think we can move onto our final Topic for the day, types of machine learning models",
+        "ts": "1512652020.000150"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Before I do, I hope everyone is following, if not please go ahead and ask doubts",
+        "ts": "1512652058.000171"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Alright so types of machine learning models:\n1) Supervised Learning",
+        "ts": "1512652150.000089"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Here, the model is given data and corresponding output, to learn a general function that maps input to output.\nSo, classification and regression are generally achieved through Supervised learning.",
+        "ts": "1512652175.000239"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "We've already looked at classification and regression above",
+        "ts": "1512652242.000144"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "2) Unsupervised Learning",
+        "ts": "1512652268.000155"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "Here, the model is given only the data, and is expected to discover hidden patterns and\/or structure in the data.\nFor example, clustering is achieved through Unsupervised Learning since we are not given any explicit labels based on which the data is to be clustered.",
+        "ts": "1512652314.000218"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "I think I'll wait for about 3-4 minutes here, you guys can read through this once more",
+        "ts": "1512652376.000340",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AEMSF6C"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "So guys if you have any doubts, anything you want to understand better please go ahead and ask",
+        "ts": "1512652608.000200"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "<@U888HQS7K> will take over from here",
+        "ts": "1512652657.000201"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Thank you <@U88K2UW8Z>",
+        "ts": "1512652679.000145"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "First of all, how many of you are still here? reply with a thumbs up",
+        "ts": "1512652710.000165"
+    },
+    {
+        "type": "message",
+        "user": "U8BCTU6HM",
+        "text": ":+1: ",
+        "ts": "1512652732.000176"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Coming to the 3rd type of machine learning called \"Reinforcement learning\"",
+        "ts": "1512652804.000214"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Reinforcement learning is different from supervised and unsupervised learning. In reinforcement learning, you are not provided with data like those in supervised and unsupervised.",
+        "ts": "1512652844.000042"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Here you have 'environment' and 'agents'.",
+        "ts": "1512652870.000284"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Reinforcement learning is a type of learning where an agent receives rewards from its environment and based on the rewards it gets, the agent learns what actions to take.",
+        "ts": "1512652897.000234"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "These rewards can be positive or negative.",
+        "ts": "1512652914.000390"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Positive rewards mean the agent is making some improvement, while negative rewards mean that the agent is making ‘mistakes’.",
+        "ts": "1512652929.000116"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Let me try to give a real life analogy of reinforcement learning.",
+        "ts": "1512652957.000328"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Remember the time when you learnt to ride a bicycle.",
+        "ts": "1512652979.000362"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Sometimes you would fall, sometimes you would be able to cycle for some distance.",
+        "ts": "1512653000.000242"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "By practising more, you eventually learnt to ride a bicycle.",
+        "ts": "1512653020.000483"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Can someone identify the 'agent' and 'environment' here and tell me?",
+        "ts": "1512653066.000007"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Ok I will tell you. The agent here would be the person riding the bicycle.",
+        "ts": "1512653162.000287"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "And environment would be the cycle and the road.",
+        "ts": "1512653192.000243"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Any doubts till here? If any please ask. If not reply with a thumbs up",
+        "ts": "1512653223.000165"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Ok I ll carry on. Stop me if you don't understand.",
+        "ts": "1512653367.000315"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "An example of reinforcement learning - consider a problem where a robot needs to reach the center of a maze from one corner of the maze.",
+        "ts": "1512653426.000286"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Here the robot is the agent and maze is the environment.",
+        "ts": "1512653441.000560"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Initially, the robot does not know anything about the maze, so it explores the maze.",
+        "ts": "1512653457.000042"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "As it explores the maze, it learns about the characteristics of the maze like the different paths it can go, check if there are dead ends, etc.",
+        "ts": "1512653470.000189"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "For each action it takes there is a reward, positive or negative.",
+        "ts": "1512653484.000185"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Using reinforcement learning algorithms to learn from its successes and mistakes, the robot will eventually find the center of the maze.",
+        "ts": "1512653519.000028"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This is just a simple intro to reinforcement learning. I don't think we ll be covering reinforcement learning in depth in this mentorship due to constraints in time.",
+        "ts": "1512653602.000389"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "There is an amazing lecture series by Prof. David Silver on youtube  if you are interested to know more about reinforcement learning.",
+        "ts": "1512653744.000463",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8BCTU6HM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Any doubts till here?",
+        "ts": "1512653758.000441"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Now I will be telling you about some of the wonderful applications of machine learning.",
+        "ts": "1512653811.000005"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Machine learning has wide applications computer vision, natural language processing, medical, business, education, social media, entertainment.",
+        "ts": "1512653828.000395"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Almost everywhere",
+        "ts": "1512653839.000055"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "An app called 'Socratic' was termed the best app of 2017 on Google Play. The app converts hand-written sentences to digital text. It has trained on millions of sample data.",
+        "ts": "1512653969.000036",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8BCTU6HM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "You may have heard of AlphaGo, a computer program that plays the board game Go. In 2015, it defeated a human professional Go player. It was made to play with itself a large number of times and using reinforcement learning it became better at the game.",
+        "ts": "1512654008.000139"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "<https:\/\/newatlas.com\/open-ai-dota2-machine-learning\/50882\/>",
+        "attachments": [
+            {
+                "title": "AI beats the world's best gamers after just two weeks of learning",
+                "title_link": "https:\/\/newatlas.com\/open-ai-dota2-machine-learning\/50882\/",
+                "text": "OpenAI, the Elon Musk-backed AI research company, has recently unleashed its latest bot on The International, a giant eSports tournament focusing on the game Dota 2. After just two weeks of independent learning, the bot could beat the world's top players.",
+                "fallback": "AI beats the world's best gamers after just two weeks of learning",
+                "image_url": "https:\/\/img.newatlas.com\/open-ai-dota-1.jpg?auto=format%2Ccompress&ch=Width%2CDPR&fit=crop&h=347&q=60&rect=0%2C403%2C3886%2C2186&w=616&s=0e8c989c98fbd3b95de28aac987c743a",
+                "from_url": "https:\/\/newatlas.com\/open-ai-dota2-machine-learning\/50882\/",
+                "image_width": 444,
+                "image_height": 250,
+                "image_bytes": 69864,
+                "service_icon": "https:\/\/cdn.newatlas.com\/eac812dd8638b62ce5b7a166a7f7b27e450c857a\/ico\/apple-touch-icon.png",
+                "service_name": "newatlas.com",
+                "id": 1
+            }
+        ],
+        "ts": "1512654071.000269"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Computers have become better than humans in certain games all because of machine learning",
+        "ts": "1512654114.000449"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "In the field of computer vision, computers have become as good as humans in detecting objects like animals, vehicles,  etc",
+        "ts": "1512654225.000379"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "<https:\/\/www.youtube.com\/watch?v=Vj17JK3J1JU>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "ImageNet Challenge 2015 Object Detection from Video",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=Vj17JK3J1JU",
+                "author_name": "Byungjae Lee",
+                "author_link": "https:\/\/www.youtube.com\/user\/BritEnglish",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/Vj17JK3J1JU\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: ImageNet Challenge 2015 Object Detection from Video",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/Vj17JK3J1JU?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=Vj17JK3J1JU",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1512654233.000471"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "<http:\/\/myselph.de\/neuralNet.html>",
+        "attachments": [
+            {
+                "title": "Neural Net for Handwritten Digit Recognition in JavaScript",
+                "title_link": "http:\/\/myselph.de\/neuralNet.html",
+                "text": "Interactive Javascript Simulation of the Hodgkin-Huxley Model for Action Potential Generation in the Squid Giant Axon",
+                "fallback": "Neural Net for Handwritten Digit Recognition in JavaScript",
+                "from_url": "http:\/\/myselph.de\/neuralNet.html",
+                "service_icon": "http:\/\/myselph.de\/favicon.ico",
+                "service_name": "myselph.de",
+                "id": 1
+            }
+        ],
+        "ts": "1512654262.000042"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Check this site, where you write a number and computer detects what number you have written using neural networks.",
+        "ts": "1512654339.000220"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "<https:\/\/www.youtube.com\/watch?v=VCdxqn0fcnE>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Stanford Autonomous Helicopter - Airshow #2",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=VCdxqn0fcnE",
+                "author_name": "stanfordhelicopter",
+                "author_link": "https:\/\/www.youtube.com\/user\/stanfordhelicopter",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/VCdxqn0fcnE\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Stanford Autonomous Helicopter - Airshow #2",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/VCdxqn0fcnE?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=VCdxqn0fcnE",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1512654384.000373"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This video shows a helicopter which has learnt to make complex manoeuvres using reinforcement learning",
+        "ts": "1512654442.000169"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Also you might be familiar with recommender systems like the movie recommender system used by Netflix.",
+        "ts": "1512654543.000581"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "<https:\/\/www.youtube.com\/watch?v=T1os88EvPc4>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "The Secret Rules of Modern Living Algorithms | Real Computer Science Documentary",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=T1os88EvPc4",
+                "author_name": "Jessica Taylor",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCYYtkMXFMhgCzrijP66uPNg",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/T1os88EvPc4\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: The Secret Rules of Modern Living Algorithms | Real Computer Science Documentary",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/T1os88EvPc4?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=T1os88EvPc4",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1512654575.000522"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This documentary(after 41;00) explains two machine learning algorithms and its impact. First one is a model to identify parts of the body used in real time games. Second is the movie recommender system.",
+        "ts": "1512654716.000541"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Other applications include those in self driving cars, stock market analysis.",
+        "ts": "1512654789.000166"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "Hope you guys are inspired by the power of machine learning.",
+        "ts": "1512654822.000377"
+    },
+    {
+        "type": "message",
+        "user": "U888HQS7K",
+        "text": "This ends the session. If you have any doubts, feel free to ask any of the mentors. Thank you",
+        "ts": "1512654857.000298"
+    },
+    {
+        "type": "message",
+        "user": "U88K2UW8Z",
+        "text": "That's about it then",
+        "ts": "1512654902.000277"
+    }
+]
