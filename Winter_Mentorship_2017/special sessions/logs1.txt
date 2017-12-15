@@ -1,0 +1,823 @@
+<@U8EJD97ME> has joined the channel
+
+<@U89606LEQ> has joined the channel
+
+<@U8F8DSDT4> has joined the channel
+
+<@U88MUQQTD> set the channel topic: Cloud Computing
+
+<@U8FCQ06Q5> has joined the channel
+
+<@U88FNP4RE> has joined the channel
+
+<@U8A7D7EVD> has joined the channel
+
+<@U88V9EB28> has joined the channel
+
+Hello
+
+ANybody home?
+
+<@U897CT84V> has joined the channel
+
+I think we'll wait 5 more minutes before we start!
+
+yeahh
+
+Guys call in your friends !
+
+<@U8A6B048M> has joined the channel
+
+<@U899KLSER> has joined the channel
+
+<@U8ENQVD41> has joined the channel
+
+<@U89591QNN> set the channel topic: Session 1: Cloud Computing - <@U89591QNN> and <@U88MUQQTD>
+
+<@U8F9SHLS1> has joined the channel
+
+Hi. 
+
+Okay so let's start
+
+So what do you guys know about cloud computing ?
+
+nothing:joy:
+
+<@U8A92CBCP> has joined the channel
+
+Using hosted services on internet.
+
+like?
+
+yes , so Cloud computing means that instead of all the computer hardware and software you're using sitting on your desktop, or somewhere inside your company's network, it's provided for you as a service by another company and accessed over the Internet, usually in a completely seamless way.
+
+Google cloud. :stuck_out_tongue:
+
+It is basically  a place where you can access apps and services, and where your data can be stored securely.
+
+now cloud is a buzzword and everyone around us is using it
+
+So there must be something special about it right
+
+<@U8AEMSF6C> has joined the channel
+
+like drive u mean
+
+google drive
+
+So cloud is a big deal because of some very important advantages that it offers
+
+Can anyone guess what these might be?
+
+Less cost?
+
+doesnt consume memory on your PC
+
+anywhere access
+
+yeah.
+
+It doesn't need any effort on your part to maintain or manage it.
+
+It's effectively infinite in size, so you don't need to worry about it running out of capacity.
+
+You can access cloud-based applications and services from anywhere . All you need is Internet and a device :stuck_out_tongue:
+
+doesnt consume memory on your PC?
+
+Infinite size? Can please explain this?
+
+A cloud computing system keeps its critical data on Internet servers rather than distributing copies of data files to individual client devices.
+
+This is how space is never an issue here
+
+ok
+
+A cloud computing system keeps its critical data on Internet servers rather than distributing copies of data files to individual client devices. So it has huge amounts of storage which it doesnt have to worry about
+
+Some examples of cloud computing services are Apple icloud , Google app engine
+
+Just that limit is really high unlike ur PC's where u can run out of resources easily.
+
+but does it risk ur privacy and security?
+
+Now can someone tell me what might be the cons of Cloud computing?
+
+complete dependency on internet connection :sweat_smile:
+
+Compromising data with third party? 
+
+Dependency issues?
+
+anyone can access the data
+
+?
+
+yes home users become highly dependent on their Internet provider in the cloud computing model. Slow broadband connections are very critical and can become a big nuisance
+
+Yeah third party dependencies as well
+
+Now another disadvantage is flexibility
+
+cloud users have limited control over the function and execution of their hosting infrastructure. They dont really have control over the backend appliacations as such
+
+Any doubts up till here
+
+Yeah
+
+yes , the privacy of your cloud-based data is another big issue people are concerned about
+
+Now well move on to Virtualisation and Emulators
+
+What do you know about virtualisation?
+
+creating virtual environment for working ??
+
+simulation of real life activities on computer screen?
+
+I meant in context to cloud computing
+
+oh..ok
+
+In computing, virtualization means to create a virtual version of a device or resource, such as a server, storage device, network or even an operating system where the framework divides the resource into one or more execution environments.
+
+Creating virtual workspaces.
+
+In terms of operating systems you basically run multiple OSes on the same device
+
+In fact even something as simple as partitioning a hard drive is considered virtualization because you take one drive and partition it to create two separate hard drives for usage.
+
+Now there is something called as a hypervisor.
+
+Have you guys heard of it?
+
+Something like Virtual Box?
+
+Hypervisor is basically a function which abstracts the OS’s from computer hardware. This basically allows the host machine hardware to independently operate one or more virtual machines as guests, allowing multiple guests to effectively share the resources like memory space and  so on. A hypervisor is sometimes also called a virtual machine monitor.
+
+meaning creating drive C ,D ,E...?
+
+yes.
+
+ok
+
+Sorry lost internet connection:sweat_smile:
+
+Suppose you want to run multiple OS’s on a system. You can do this in two ways :-
+
+One is to  install a Virtualization software on an OS. And run other OSes as processes on this OS.
+This is called as a hosted hypervisor
+
+A hosted virtualization hypervisor does not have direct access to hardware and must go through the OS, which increases resource overhead and can degrade its performance.
+
+Some examples are Oracle VM VirtualBox, Microsoft Virtual PC .
+
+The second way is by using a bare metal hypervisor
+
+In a bare-metal virtualization hypervisor you basically install a mare minimum OSdoes not require admins to install a server operating system first.
+
+Bare-metal virtualization means the hypervisor has direct access to hardware resources, which results in better performance, scalability and stability.
+Bare-metal virtualization is well suited for enterprise data centers, because it usually comes with advanced features for resource management, high availability and security.
+
+In simple words dual booting?
+
+In dual booting the OS you have isnt a bare minimum OS actually and in dual booting you can use only one OS at a time.
+
+Any doubts uptil here?
+
+Now there is something called a Virtual Desktop Infrastructure
+
+This is where client computers log in to a server and access their own desktop environments, all of which is hosted on the server computer.
+
+In fact even but mobile devices such as tablets are increasingly being used to access desktop virtualization, too.
+
+For example, Citrix XenDesktop allows hundreds of client computers to log in to a single (usually very powerful) server via remote connections. Each user has their own account and therefore their own personal workspace, plus applications.
+
+Now there are some really amazing and powerful things that Virtualisation can do !
+
+If you're out of the office, there's no need to take your laptop with you. Just leave it running (with power saving turned off!)
+
+take your mobile phone or tablet computer instead, and access the laptop via a Remote Desktop Protocol (RDP) connection over the Internet. This will let you access the same desktop environment you're used to. But it wont be very fancy in terms of appearance and graphics but you can do your work with it
+
+Apple users can check out iTap
+
+Can someone tell me what emulators are ?
+
+while the purpose of a virtual machine is to create an isolated environment , the purpose of an emulator is to accurately reproduce the behavior of some hardware.
+
+something like replicating the behaviour of  other hardware ??
+
+Some hardware?
+
+Yeah so you might have heard of Android emulators ?
+
+guest hardware i guess she meant by that ?
+
+yeah
+
+Okay so its like suppose we have two systems A and B
+
+and there is some program which can run on A but not B
+
+because B lacks the hardware needed to run it .
+
+So now an emulator basically tricks the system B in believing that , that particular hardware is present and the program can run on it
+
+In simple words , In short, an emulator is software that tries to “act” like a piece of hardware
+
+just read the next piece of info
+
+Is this clear?
+
+Emulators play a veryy important role in gaming
+
+For instance, PlayStation games don’t work on Windows because those games are not designed to run on normal computers. PlayStation devices are very specific in their physical makeup and contain unique hardware that Windows — or any other PC operating system — doesn’t know how to use.
+
+This is where emulators come into picture !
+
+So its like forcefully running the program in absence of hardware or emulator fulfills the requirnments by serving purpose of one?
+
+Its not really forceful running but in the absence of a hardware it tries to fulfil the requirements of the functions that the hardware provides
+
+Emulation aims to run programs designed for one kind of system on another kind of system, and the programs that perform this process are called emulators
+
+However these days , as hardware is getting incredibly complex its becoming hard to emulate it
+
+If you’re wondering why there aren’t emulators for modern systems (e.g. the Xbox One), this is the reason why. It takes a lot of hard work and effort to get the process working because modern hardware is exceedingly complex.
+
+Can someone guess what parts would have to be emulated in case of PlayStation?
+
+like a controller emulator
+
+ohh wait are you asking about hardware?
+
+yeah the emulator will have to pretend to have a graphics card , sound chip and so one
+
+Yeah the hardware:sweat_smile:
+
+Okay now one very important thing
+
+Virtualisation and Emulation are NOT the same thing
+
+Virtualization and emulation accomplish the same thing, but they go about it in slightly different ways.
+
+But like most of the gamers already have graphic card and all in their systems. :expressionless:
+
+In a normal  PC where you dont you have to use an emulator .
+
+for example emulators try to simulate a larger range of hardware than virtual machines can. You can’t run a Playstation system in a virtual machine.
+
+But these two generally target different audiences
+
+But this is just a generalisation
+
+It's not just the hardware, it's the software that makes use of the hardware too.
+
+You can't just plug in a PS4 disk in a PC and expect it to run.
+
+Emulators tend to be designed for video game consoles (or other systems that are completely different to regular computers) whereas virtual machines are used in huge businesses or work related environment
+
+Okay so thats about this
+
+Ping me if you have any doubts , over to <@U89591QNN>
+
+Hey
+
+Thanks Anumeha
+
+ALright can I have a small round of introduction before I go on speaking
+
+Name, Year and Interests
+
+Salman Shah, 3rd Year IT, Learning to code :stuck_out_tongue:
+
+Mathew 2nd Year IT Interested in Game Dev
+
+What kind of Game Dev?
+
+ANy frameworks that you've explored yet?
+
+Others?
+
+Bharat Sharma,2nd Year IT,learning from learners
+
+All smart coders laughing at me! :sleepy: Sad life!
+
+Sanjay Shetty 2nd year IT
+
+Draaama :stuck_out_tongue:
+
+Just started going through Unity
+
+INteresting :stuck_out_tongue:
+
+You in any club?
+
+Bhavya Bordia, 2nd Year IT , Beginner in coding :sweat_smile:
+
+Why DOraemon? You love to build !
+
+Same bro!
+
+just simply
+
+Not in any Technical Club
+
+<@U8FCQ06Q5> looking to recruit? :stuck_out_tongue:
+
+How is that an interest?
+
+Enthusiasts are always welcome
+
+Ow! Wow! I'm not surpirised :stuck_out_tongue:
+
+Says the Drama queen :stuck_out_tongue:
+
+Alright so I'll cover what I know about CLoud Computing
+
+Any of you guys into game dev as well?
+
+When do I do drama ? xP
+
+But before that I see like about 4 people + Anumeha and Kapil here so we'll make it a bit interactive!
+
+<@U8F9SHLS1> heard of a server-client model?
+
+Ya, ACM got a couple of projects going on in Game Dev.
+
+If yes explain please!
+
+When you're confused half the time :stuck_out_tongue:
+
+But thats reality :stuck_out_tongue:
+
+May be like client giving the request to the server asking for the information and servers responding to it according to it
+
+Awesome and let's say we have many clients can this model still work?
+
+Maybe let's say we have like 10 clients one server can the server still serve?
+
+Or send information as you said!
+
+yeah i guess
+
+ohh okay
+
+Okay so now the only problem here is that we have a limit to the number of requests that can be served by our server
+
+The server that we use for IRIS has like 65k requests that can be served
+
+After that crash :stuck_out_tongue:
+
+So now there's a much feasible solution here!
+
+SInce we're talking about clouds, <@U893XH8SG> can you tell me what exactly do you know about Cloud COmputing?
+
+whatever taught today:stuck_out_tongue: 
+
+Which is...?
+
+Just repeat it once!
+
+In your words
+
+virtualization
+
+hypervisor
+
+hosted hyperviser
+
+Use of internet  to use multiple OS or storage etc.. by using some other third party ?
+
+bare metal hyperwiaer
+
+<@U8A92CBCP> close!
+
+<@U893XH8SG> stop :stuck_out_tongue:
+
+Wait then is it vulnerable to DDOS? Or you people just change internal servers ip manually whenever threat arises?
+
+Okay so here's it
+Cloud computing is all about remote computing.
+
+u were asking solution to that problem?
+
+yes:joy::joy:
+
+Here a cloud provider maintains huge servers with all facilities and allows people to rent it
+You will not have 
+physical access to hardware
+And the data centers are distributed across the globe
+
+I know
+
+I just meant definition
+
+ok
+
+So we have companies like Amazon, Google, Microsoft renting out huge spaces for CLoud
+
+CCC is getting a CLoud Storage for students as well :stuck_out_tongue:
+
+Very soon hopefully!
+
+Aren't we using one? The nitk cloud ?
+
+Local storage I mean.
+
+SO there are three types of CLoud Services offered in Cloud
+1. IaaS - Infrastructure as a Service
+2. PaaS - Platform as a Service
+3. SaaS - Software as a Service
+
+<@U8A92CBCP> are you getting storage space :stuck_out_tongue: From NITK, I Doubt?
+
+If you mean your student accounts, at <http://nitk.edu.in|nitk.edu.in> email IDs then yes!
+
+But those are Google Servers not NITK Servers
+
+ANy doubts till now?
+
+<@U89591QNN> I think he mean the ssh thing we got in 1st year.
+
+No. I mean the <http://forum.nitk.ac.in|forum.nitk.ac.in>
+
+Oh that! That's just a server that's up! They have multiple rack servers. That is definitely not on the cloud :stuck_out_tongue:
+
+Domain not found :stuck_out_tongue:
+
+You need nitk-net:stuck_out_tongue_winking_eye:
+
+Again that's just your server machine. Not the cloud! <@U8A6B048M>
+
+You can't access it outside nitk:joy::joy:
+
+Ya I saw iris rack server. :pensive: Thought I got hands on something big. :face_with_head_bandage:
+
+Oh wait I have VPN access. I'll check after the session!
+
+Lol how did you get there?
+
+Which reminds me so Cloud Computing one major advantage is that you have multiple backups of your data and application code at multiple places
+
+SO even if one place goes down there are other places
+
+Its open lol. Using sparta. Well I found something funny too. A web page saying " There is no way you are getting in there"..lol
+
+Fun Fact: Google keeps 9 copies of your data!
+
+Alright any other doubts?
+
+Peace!
+
+So lets start with IaaS
+
+Using sparta?
+
+In this you get to rent an entire machine for yourself
+
+SO you'll basically have an entire machine which will typically have Ubuntu installed :stuck_out_tongue: (or any other OS, as you wish, I've worked with Ubuntu)
+
+Then you install whatever you want on that machine and run your code/ host your web service!
+
+Eg. You can rent a computer with 512 MB Ram 20 GB Disk and 1 core 2,4 Ghz processor for usd $5 / month on <http://digitalocean.com|digitalocean.com>
+
+It has high speed internet with transfer limit of 1TB / month
+
+Best part! :stuck_out_tongue:
+
+So if you ever get access to any server, make sure you download entire seasons of your favourite TV Series on the Server :stuck_out_tongue:
+
+Its a testing tool which comes pre-installed in kali. It uses Nmap n other application and quickly scans the network infra.
+
+#protip
+
+They have power backup + cooling system + guaranteed to recover from hardware You typically operate such a computer over SSH
+If you don’t know what ssh is - you just login to the computer over internet like any other machine and start using it.
+You have to install all your software and dependencies for your application to run.
+Disadvantage is that - The load on your website may be fluctuating. Like during night it will have only 10 visitors / hr but during day it will have 1000 But you will have to pay a constant amount every time
+
+Advantage is that you can run literally anything. Whatever you can do on a normal PC you can do there
+There is one more disadvantage - Not many people would know the internals of network security and operating system to optimise their machine. They only know how to build a website. They don’t know anything about load distribution so they may find setting up servers on IaaS difficult
+
+ANy doubts till here?
+
+..Interesting..
+
+Okay so we've seen disadvantages of IaaS, primarily the fact that it is absolutely to predict load on servers!
+
+A simple example for this use case would be IRIS
+
+Normally no one would use it!
+
+Results time: Server at max usage :smile:
+
+ANd this is true for any server which has to display results and all
+
+the solution is PaaS, i.e., Platform As A Service. Here you don’t rent a machine at all. You rent a platform.
+You rent computing units - i.e, the ability to do some processing
+
+So platform is basically computational resource. I mean we saw Linux Platform, Windows Platform. We mean that its a set of tools (including an OS) that helps us use our processor
+If I give you a brand new CPU you won’t be able to do anything with it unless you set up a platform - you can use that platform to exploit your computational resource
+In IaaS you build website depending on the OS / platform you install on your system, in PaaS your app is independent of underlying platform.
+
+Most website are same for all OS. There are few features that may be dependent on OS.
+PaaS provides a common method to use those few features with a common interface
+Does anyone here know Java Virtual Machine ?
+
+Peeps?
+
+Alive?
+
+i know what it is
+
+Yes/No everything is fine
+
+Please Mathew sir go on!
+
+Machine that helps us run Java programs
+
+Java code is compiled to Bytecode which runs on JVM so that it is not machine dependent.
+
+ANyone modifying that
+
+<@U8979KBHT> ji correct!
+
+I would've given you extra marks for adding "Virtual" to the answer.
+
+So now let's understand this!
+
+sorry i just assumed that xD
+
+Okay so say you want to get the path of current directory on Linux it may may - /home/user/Desktop, on windows it may be C:\\DocumentsandSettings\user\Desktop
+So the path is platform dependent
+
+Makes sense?
+
+So PaaS gives you that abstraction
+
+but the PaaS will provide you a single function say getDesktopPath()
+Internally it may be implemented like - 
+getDesktopPath() { 
+if(os == win) 
+return “C\\Docume…”; 
+else if(os== linux) 
+return “/home/…”; 
+}
+
+So you don't have to write OS Specific code in PaaS
+
+Now most important feature of PaaS
+
+It allows you to scale!
+
+<@U8979KBHT> can you help us with what is scaling?
+
+Not sure, but something like automatically adding more resources when it gets depleted?
+
+Yes
+
+So let's say Praveen ji here creates a Youtube video of him dancing on a popular Bollywood song and puts it on his website
+
+Initially we have some 10-20 views
+
+Then suddenly people keep sharing and then suddenly your traffic increases exponentially
+
+So PaaS keeps on adding resources
+
+SO that the website doesn't go down
+
+Makes sense ?
+
+ANy doubts raise them now!
+
+What resources ?
+
+Resources refers to just computing power
+
+You need more cores to process information and then serve to the client
+
+Or in this case we simply add more machines!
+
+Any other doubts?
+
+All the girls in India want to see Praveen ji!
+
+Peaceful!
+
+So now just adding onto scaling
+
+There are two types of scaling
+
+Vertical scaling means - Adding more processing capability, memory, etc
+Horizontal scaling means - Adding more machines altogether and diverting half the requests to the new machine
+
+Typical examples of IaaS are - Amazon AWS EC2, Google Compute Engine, Rackspace, Digital Ocean Droplet
+Examples of PaaS are - Amazon Elastic Beanstalk, Google App Engine, Azure PCloud, Heroku
+Note that Amazon Web Services is the most widely used Cloud Computing Platform, next if I'm not wrong is Azure Cloud by Microsoft
+
+Fun Fact: Flipkart uses Amazon Web Services :stuck_out_tongue:
+
+OKay so let's take a 2 minute breather here!
+
+I see some new people have joined up
+
+Please introduce!
+
+Web CLub people as well! Please do introduce!
+
+Mishal Shah, 2nd Year CSE :smile:
+
+Praveen Gupta, 2nd year CSE. :slightly_smiling_face:
+
+Kapil Bharath, 3rd Year Mech, Interested in Game Dev and Parallel Programming.
+
+<@U8FCQ06Q5> you have fans man! :stuck_out_tongue:
+
+No, they are all thinking, what is this guy doing with his life, in mech?
+
+FYI, I'm just a joker there.
+
+Same same bro!
+
+^ ur fan following is no less.
+
+I'm conducting a session on Parallel Programming using OpenMP tomorrow at 7pm. Join if interested.
+
+I'm outta here. Peace
+
+Please do join! OpenMP is amazing
+
+Alright let's get back
+
+One last run now
+
+And then everyone heads to dinner!
+
+SO <@U88MUQQTD> can you explain what is an API?
+
+API stands for Application Programming Interface.
+
+It is basically a set of instructions that allow two different software components to interact and use each others' data and resources
+
+You can add extra functionalities to applications in this way
+
+Yes
+
+So SaaS is basically accessed in the form of APIs
+
+You use API calls to get access to SaaS services
+
+I'll give you an example
+
+SO this time we had a group project for our WTA Course where we had to create a Music Recommendation System
+
+Now we had a web app which was supposed to play songs and based on the songs that a user plays recommend new songs
+
+SImple enough?
+
+Now there are millions and billions of songs and it didn't make sense to donwload those songs
+
+And then host it on our server!
+
+Hell we don't have that much of a storage space
+
+SO what we did instead was use Spotify's API
+
+What this does is that when the User searches for something on our server, our server sends a request to Spotify's server asking if it has the song and fetches the song from there
+
+SO we're more of a person in the middle
+
+And then the rest of it was a simple machine learning recommendation algorithm
+
+ANy doubts?
+
+OKay so that should be it for today!
+
+You guys have been here for a long time
+
+Thanks a lot for attendaing
+
+Hope you guys actually learnt something here!
+
+If you need any help feel free to contact me or any of the other mentors
+
+Whatsapp / Slack / FB anything is fine!
+
+Good Night for today and thank you for attending!
+
+GoodNight:grin:
+
+Thanks for sharing your knowledge and your time guys. Night.
+
+thanks <@U89591QNN> and <@U88MUQQTD> :slightly_smiling_face:
+
+Thank u mentors
+
+Thank you sir for attending
+
+Thank you <@U88MUQQTD> and salman sir :stuck_out_tongue:
+
+Waiting for you dance video to come out sir!
+
+waiting to see the likes on that
+
+Thank you sir <@U89591QNN> and <@U88MUQQTD>!
+
+Keep waiting.
+dance se sanyas xP :joy: :joy:
+
+BD aa raha hai sir!
+
+Thanks <@U89591QNN>  <@U88MUQQTD> 
+
+Aapko nahi dekha toh judges return maar denge
+
+Last time BD mei bahut bezatti ho rakhi hai. xD
+
+<@U8979KBHT> prove urself this time:stuck_out_tongue_winking_eye:
+
+Bhai Dance toh <@U8EJD97ME> bhai karte hai
+
+Full Garba josh
+
+<@U89591QNN> jaisa koi nhi kr sakta par.
+
+all three will dance together :stuck_out_tongue:
+
+Bas <@U8979KBHT> beizzati karaayega na!
+
+Hum gareeb log
+
+ABhi pehle code karna seekhne do
+
+Phir dance bhi seekhenge
+
+:expressionless:
+
+Gareeb logo ka har dinn whatsapp par khaane ke status toh dekho. xD
+
+dikha rhe hai mumbai ka khana :expressionless:
+
+Khaane ki baat na karo.. bhuk lagrai avv. Dinner nai bana:confused:
+
+Aree woh sab ki treat wasool rahe hai
+
+Toh hume treat kab mil rhi hai. <@U89591QNN>
+
+Ek baar diya na!
+
+Kitna khaayega
+
+<@U89591QNN>  once again
+
+Meri mummy ko mail likh do
+
+Paise dene ke
+
+Mai de dunga :stuck_out_tongue:
+
+<@U89591QNN> hamme to koi ki treat ni milti. <@U8F9SHLS1> to only girls ko treat deta hai, ab aap hi dedo ham gareb juniors ko:joy:
+
+<@U89591QNN> kaha kuch khaaya thaa. :cry:
+
+<@U8F9SHLS1> toh full playboy lagta hai
+
+<@U8979KBHT> maine nahi mana kiya tha khaane ko :stuck_out_tongue:
+
+Fir nhi treat doge soch kr kuch bhi nhi khaaya. xP
+
+Sad!
+
+<@U89591QNN>  sidha Banda hu kaha Aap uski baato Mai AA rhe ho :see_no_evil:
+
+Mujhe doubt ho raha hai
+
+Waise bhi yeh <@U8979KBHT> bhi GB mei roshan hi hai
+
+Apni baat karo.
+Har branch ke ladke gaali maar rhe hote hai :stuck_out_tongue:
+
+<@U89591QNN> ke saamne kisika koi chance nhi. :joy:
+
+Bhaiya doubt qa sahi hi hai. Har girl k sath mutual frn milta hai. Special bday parties deta hai girls ko. 
+
+WOh Mechanical wale hi hote hai khali! Apni kismat mere pe daal dete hai :stuck_out_tongue: Ab mai kya karu unki class ki abaadi aisi hai toh
+
+Ab kya bole aisi aisi khabrein aa rahi hai
+
+Sad!
+
+Agar yai conversation chalti rahi na aur razz khul jaaynge, n mere jese bachhe depress ho sakte. <@U8F9SHLS1>  <@U89591QNN> doono next level hai. Ham jaate hai sapno ki dunia mai. Night fellas.
+
+<@U89591QNN> doosro ko bhi aage badhne ka mauka do. 2nd years tak ko depress kr rkha hai.
+
+Bhai mai bhola bhala baccha
+
+Maine kuch nahi kiya
+
+<@U89591QNN> #sakth_launda
+
+Was provided to CS students to store code :stuck_out_tongue:
+

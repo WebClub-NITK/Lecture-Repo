@@ -1,0 +1,4179 @@
+[
+    {
+        "user": "U8EJD97ME",
+        "text": "<@U8EJD97ME> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513337870.000137"
+    },
+    {
+        "user": "U89606LEQ",
+        "text": "<@U89606LEQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338079.000183"
+    },
+    {
+        "user": "U8F8DSDT4",
+        "text": "<@U8F8DSDT4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338108.000215"
+    },
+    {
+        "user": "U88MUQQTD",
+        "topic": "Cloud Computing",
+        "text": "<@U88MUQQTD> set the channel topic: Cloud Computing",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1513338142.000008"
+    },
+    {
+        "user": "U8FCQ06Q5",
+        "text": "<@U8FCQ06Q5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338277.000241"
+    },
+    {
+        "user": "U88FNP4RE",
+        "text": "<@U88FNP4RE> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338291.000394"
+    },
+    {
+        "user": "U8A7D7EVD",
+        "text": "<@U8A7D7EVD> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338323.000279"
+    },
+    {
+        "user": "U88V9EB28",
+        "text": "<@U88V9EB28> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338362.000227"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hello",
+        "ts": "1513338364.000068",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U88V9EB28",
+                    "U89606LEQ",
+                    "U8A6B048M",
+                    "U8FCQ06Q5",
+                    "U88FNP4RE",
+                    "U8979KBHT",
+                    "U8F8DSDT4",
+                    "U897CT84V",
+                    "U8ENQVD41",
+                    "U8A7D7EVD",
+                    "U8A92CBCP"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANybody home?",
+        "ts": "1513338378.000182"
+    },
+    {
+        "user": "U897CT84V",
+        "text": "<@U897CT84V> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338383.000187"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "I think we'll wait 5 more minutes before we start!",
+        "ts": "1513338399.000354"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yeahh",
+        "ts": "1513338405.000333"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Guys call in your friends !",
+        "ts": "1513338460.000060"
+    },
+    {
+        "user": "U8A6B048M",
+        "text": "<@U8A6B048M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338508.000109"
+    },
+    {
+        "user": "U899KLSER",
+        "text": "<@U899KLSER> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338553.000358"
+    },
+    {
+        "user": "U8ENQVD41",
+        "text": "<@U8ENQVD41> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338694.000059"
+    },
+    {
+        "user": "U89591QNN",
+        "topic": "Session 1: Cloud Computing - <@U89591QNN> and <@U88MUQQTD>",
+        "text": "<@U89591QNN> set the channel topic: Session 1: Cloud Computing - <@U89591QNN> and <@U88MUQQTD>",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1513338762.000191"
+    },
+    {
+        "user": "U8F9SHLS1",
+        "text": "<@U8F9SHLS1> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513338763.000373"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hi. ",
+        "ts": "1513338819.000074",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "U8EJD97ME",
+                    "U897CT84V",
+                    "U8F8DSDT4",
+                    "U88FNP4RE"
+                ],
+                "count": 4
+            },
+            {
+                "name": "point_left",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Okay so let's start",
+        "ts": "1513338924.000005"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So what do you guys know about cloud computing ?",
+        "ts": "1513338959.000031"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "nothing:joy:",
+        "ts": "1513339002.000407"
+    },
+    {
+        "user": "U8A92CBCP",
+        "text": "<@U8A92CBCP> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513339024.000191"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Using hosted services on internet.",
+        "thread_ts": "1513339039.000295",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U897CT84V",
+                "ts": "1513339070.000174"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513339108.000344"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513339214.000221"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513339229.000172"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1513339039.000295",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8EJD97ME",
+                    "U897CT84V",
+                    "U89TTUVAA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "like?",
+        "thread_ts": "1513339039.000295",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513339070.000174"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yes , so Cloud computing means that instead of all the computer hardware and software you're using sitting on your desktop, or somewhere inside your company's network, it's provided for you as a service by another company and accessed over the Internet, usually in a completely seamless way.",
+        "ts": "1513339076.000144"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Google cloud. :stuck_out_tongue:",
+        "thread_ts": "1513339039.000295",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513339108.000344",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8EJD97ME",
+                    "U897CT84V",
+                    "U8F9SHLS1"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "It is basically  a place where you can access apps and services, and where your data can be stored securely.",
+        "ts": "1513339165.000176"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "now cloud is a buzzword and everyone around us is using it",
+        "ts": "1513339190.000380"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So there must be something special about it right",
+        "ts": "1513339201.000110"
+    },
+    {
+        "user": "U8AEMSF6C",
+        "text": "<@U8AEMSF6C> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513339207.000014"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "like drive u mean",
+        "thread_ts": "1513339039.000295",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513339214.000221"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "google drive",
+        "thread_ts": "1513339039.000295",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513339229.000172"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So cloud is a big deal because of some very important advantages that it offers",
+        "ts": "1513339239.000096"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Can anyone guess what these might be?",
+        "thread_ts": "1513339245.000207",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513339263.000299"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513339289.000144"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513339296.000351"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513339354.000018"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1513339245.000207"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Less cost?",
+        "thread_ts": "1513339245.000207",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339263.000299"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "doesnt consume memory on your PC",
+        "ts": "1513339278.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "anywhere access",
+        "thread_ts": "1513339245.000207",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339289.000144"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yeah.",
+        "thread_ts": "1513339245.000207",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339296.000351"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "It doesn't need any effort on your part to maintain or manage it.",
+        "ts": "1513339317.000185",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AEMSF6C",
+                    "U897CT84V",
+                    "U8ENQVD41"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "It's effectively infinite in size, so you don't need to worry about it running out of capacity.",
+        "thread_ts": "1513339334.000104",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513339410.000117"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513339513.000382"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513339555.000207"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1513339334.000104"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "You can access cloud-based applications and services from anywhere . All you need is Internet and a device :stuck_out_tongue:",
+        "ts": "1513339350.000232",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ENQVD41",
+                    "U8F9SHLS1",
+                    "U897CT84V"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "doesnt consume memory on your PC?",
+        "thread_ts": "1513339245.000207",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339354.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Infinite size? Can please explain this?",
+        "thread_ts": "1513339334.000104",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339410.000117",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "A cloud computing system keeps its critical data on Internet servers rather than distributing copies of data files to individual client devices.",
+        "ts": "1513339451.000180",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ENQVD41",
+                    "U897CT84V"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "This is how space is never an issue here",
+        "ts": "1513339464.000112"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "ts": "1513339504.000153"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "A cloud computing system keeps its critical data on Internet servers rather than distributing copies of data files to individual client devices. So it has huge amounts of storage which it doesnt have to worry about",
+        "thread_ts": "1513339334.000104",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339513.000382"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Some examples of cloud computing services are Apple icloud , Google app engine",
+        "ts": "1513339540.000200"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Just that limit is really high unlike ur PC's where u can run out of resources easily.",
+        "thread_ts": "1513339334.000104",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339555.000207"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "but does it risk ur privacy and security?",
+        "ts": "1513339579.000180"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now can someone tell me what might be the cons of Cloud computing?",
+        "thread_ts": "1513339603.000077",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513339684.000244"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513339721.000247"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513339727.000064"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513339755.000263"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513339871.000274"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1513339603.000077"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "complete dependency on internet connection :sweat_smile:",
+        "ts": "1513339681.000147",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Compromising data with third party? ",
+        "thread_ts": "1513339603.000077",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339684.000244"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Dependency issues?",
+        "thread_ts": "1513339713.000294",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513339819.000252"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513339713.000294"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "anyone can access the data",
+        "thread_ts": "1513339603.000077",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339721.000247"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "?",
+        "thread_ts": "1513339603.000077",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339727.000064"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yes home users become highly dependent on their Internet provider in the cloud computing model. Slow broadband connections are very critical and can become a big nuisance",
+        "ts": "1513339729.000358"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Yeah third party dependencies as well",
+        "thread_ts": "1513339603.000077",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339755.000263"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now another disadvantage is flexibility",
+        "ts": "1513339770.000046"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "cloud users have limited control over the function and execution of their hosting infrastructure. They dont really have control over the backend appliacations as such",
+        "ts": "1513339806.000069"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Any doubts up till here",
+        "ts": "1513339812.000229",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A6B048M",
+                    "U897CT84V",
+                    "U8AEMSF6C",
+                    "U8ENQVD41"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Yeah",
+        "thread_ts": "1513339713.000294",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513339819.000252"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yes , the privacy of your cloud-based data is another big issue people are concerned about",
+        "thread_ts": "1513339603.000077",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339871.000274"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now well move on to Virtualisation and Emulators",
+        "ts": "1513339883.000032"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "What do you know about virtualisation?",
+        "thread_ts": "1513339893.000170",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513339953.000206"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513339893.000170"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "creating virtual environment for working ??",
+        "thread_ts": "1513339893.000170",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513339953.000206",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "simulation of real life activities on computer screen?",
+        "thread_ts": "1513339953.000220",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513339999.000005"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513340013.000071"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513339953.000220"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "I meant in context to cloud computing",
+        "thread_ts": "1513339953.000220",
+        "parent_user_id": "U897CT84V",
+        "ts": "1513339999.000005"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "oh..ok",
+        "thread_ts": "1513339953.000220",
+        "parent_user_id": "U897CT84V",
+        "ts": "1513340013.000071"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In computing, virtualization means to create a virtual version of a device or resource, such as a server, storage device, network or even an operating system where the framework divides the resource into one or more execution environments.",
+        "ts": "1513340025.000186"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Creating virtual workspaces.",
+        "ts": "1513340033.000071",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In terms of operating systems you basically run multiple OSes on the same device",
+        "ts": "1513340111.000140"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In fact even something as simple as partitioning a hard drive is considered virtualization because you take one drive and partition it to create two separate hard drives for usage.",
+        "thread_ts": "1513340132.000397",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U897CT84V",
+                "ts": "1513340252.000027"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513340309.000321"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513340315.000053"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1513340132.000397"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now there is something called as a hypervisor.",
+        "ts": "1513340150.000310"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Have you guys heard of it?",
+        "ts": "1513340159.000116",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U897CT84V",
+                    "U893XH8SG",
+                    "U8AEMSF6C",
+                    "U8ENQVD41"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Something like Virtual Box?",
+        "ts": "1513340242.000019"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Hypervisor is basically a function which abstracts the OS’s from computer hardware. This basically allows the host machine hardware to independently operate one or more virtual machines as guests, allowing multiple guests to effectively share the resources like memory space and  so on. A hypervisor is sometimes also called a virtual machine monitor.",
+        "ts": "1513340246.000068"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "meaning creating drive C ,D ,E...?",
+        "thread_ts": "1513340132.000397",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513340252.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "yes.",
+        "thread_ts": "1513340132.000397",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513340309.000321"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok",
+        "thread_ts": "1513340132.000397",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513340315.000053"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Sorry lost internet connection:sweat_smile:",
+        "ts": "1513340428.000108"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Suppose you want to run multiple OS’s on a system. You can do this in two ways :-",
+        "ts": "1513340439.000427"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "One is to  install a Virtualization software on an OS. And run other OSes as processes on this OS.\nThis is called as a hosted hypervisor",
+        "ts": "1513340462.000206"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "A hosted virtualization hypervisor does not have direct access to hardware and must go through the OS, which increases resource overhead and can degrade its performance.",
+        "ts": "1513340517.000326"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Some examples are Oracle VM VirtualBox, Microsoft Virtual PC .",
+        "ts": "1513340531.000229"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "The second way is by using a bare metal hypervisor",
+        "ts": "1513340598.000273"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In a bare-metal virtualization hypervisor you basically install a mare minimum OSdoes not require admins to install a server operating system first.",
+        "thread_ts": "1513340615.000260",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513340681.000006"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513340767.000098"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513340615.000260"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Bare-metal virtualization means the hypervisor has direct access to hardware resources, which results in better performance, scalability and stability.\nBare-metal virtualization is well suited for enterprise data centers, because it usually comes with advanced features for resource management, high availability and security.",
+        "ts": "1513340638.000360"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "In simple words dual booting?",
+        "thread_ts": "1513340615.000260",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513340681.000006"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In dual booting the OS you have isnt a bare minimum OS actually and in dual booting you can use only one OS at a time.",
+        "thread_ts": "1513340615.000260",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513340767.000098"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Any doubts uptil here?",
+        "ts": "1513340770.000004",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U893XH8SG",
+                    "U897CT84V"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now there is something called a Virtual Desktop Infrastructure",
+        "ts": "1513340892.000002"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "This is where client computers log in to a server and access their own desktop environments, all of which is hosted on the server computer.",
+        "ts": "1513341065.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In fact even but mobile devices such as tablets are increasingly being used to access desktop virtualization, too.",
+        "ts": "1513341117.000266"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "For example, Citrix XenDesktop allows hundreds of client computers to log in to a single (usually very powerful) server via remote connections. Each user has their own account and therefore their own personal workspace, plus applications.",
+        "ts": "1513341172.000196"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now there are some really amazing and powerful things that Virtualisation can do !",
+        "ts": "1513341217.000066"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "If you're out of the office, there's no need to take your laptop with you. Just leave it running (with power saving turned off!)",
+        "ts": "1513341237.000330"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "take your mobile phone or tablet computer instead, and access the laptop via a Remote Desktop Protocol (RDP) connection over the Internet. This will let you access the same desktop environment you're used to. But it wont be very fancy in terms of appearance and graphics but you can do your work with it",
+        "ts": "1513341293.000056"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Apple users can check out iTap",
+        "ts": "1513341331.000380"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Can someone tell me what emulators are ?",
+        "ts": "1513341376.000110",
+        "reactions": [
+            {
+                "name": "no_mouth",
+                "users": [
+                    "U89591QNN",
+                    "U893XH8SG"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "while the purpose of a virtual machine is to create an isolated environment , the purpose of an emulator is to accurately reproduce the behavior of some hardware.",
+        "thread_ts": "1513341520.000233",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513341569.000206"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513341572.000319"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513341598.000012"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513341653.000238"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513341861.000266"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1513341520.000233"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "something like replicating the behaviour of  other hardware ??",
+        "thread_ts": "1513341520.000233",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513341569.000206"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Some hardware?",
+        "thread_ts": "1513341520.000233",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513341572.000319"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Yeah so you might have heard of Android emulators ?",
+        "ts": "1513341593.000049",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A6B048M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "guest hardware i guess she meant by that ?",
+        "thread_ts": "1513341520.000233",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513341598.000012"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yeah",
+        "thread_ts": "1513341520.000233",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513341653.000238"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Okay so its like suppose we have two systems A and B",
+        "ts": "1513341665.000166"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "and there is some program which can run on A but not B",
+        "ts": "1513341698.000376"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "because B lacks the hardware needed to run it .",
+        "ts": "1513341721.000013"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So now an emulator basically tricks the system B in believing that , that particular hardware is present and the program can run on it",
+        "ts": "1513341765.000115"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In simple words , In short, an emulator is software that tries to “act” like a piece of hardware",
+        "thread_ts": "1513341842.000426",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513341978.000013"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513342031.000210"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513341842.000426"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "just read the next piece of info",
+        "thread_ts": "1513341520.000233",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513341861.000266"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Is this clear?",
+        "ts": "1513341865.000269",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89606LEQ",
+                    "U8F9SHLS1"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Emulators play a veryy important role in gaming",
+        "ts": "1513341922.000368"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "For instance, PlayStation games don’t work on Windows because those games are not designed to run on normal computers. PlayStation devices are very specific in their physical makeup and contain unique hardware that Windows — or any other PC operating system — doesn’t know how to use.",
+        "ts": "1513341950.000077"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "This is where emulators come into picture !",
+        "ts": "1513341958.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "So its like forcefully running the program in absence of hardware or emulator fulfills the requirnments by serving purpose of one?",
+        "thread_ts": "1513341842.000426",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513341978.000013"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Its not really forceful running but in the absence of a hardware it tries to fulfil the requirements of the functions that the hardware provides",
+        "thread_ts": "1513341842.000426",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342031.000210"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Emulation aims to run programs designed for one kind of system on another kind of system, and the programs that perform this process are called emulators",
+        "ts": "1513342050.000159",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8AEMSF6C",
+                    "U8A6B048M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "However these days , as hardware is getting incredibly complex its becoming hard to emulate it",
+        "ts": "1513342089.000381"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "If you’re wondering why there aren’t emulators for modern systems (e.g. the Xbox One), this is the reason why. It takes a lot of hard work and effort to get the process working because modern hardware is exceedingly complex.",
+        "ts": "1513342099.000393"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Can someone guess what parts would have to be emulated in case of PlayStation?",
+        "thread_ts": "1513342146.000086",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "U89606LEQ",
+                "ts": "1513342247.000195"
+            },
+            {
+                "user": "U89606LEQ",
+                "ts": "1513342323.000465"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513342333.000151"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513342340.000215"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513342405.000348"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513342437.000071"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513342518.000073"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513342542.000020"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1513342146.000086"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "like a controller emulator",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342247.000195"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "ohh wait are you asking about hardware?",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342323.000465"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yeah the emulator will have to pretend to have a graphics card , sound chip and so one",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342333.000151"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Yeah the hardware:sweat_smile:",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342340.000215",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89606LEQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Okay now one very important thing",
+        "ts": "1513342348.000244"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Virtualisation and Emulation are NOT the same thing",
+        "ts": "1513342360.000130"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Virtualization and emulation accomplish the same thing, but they go about it in slightly different ways.",
+        "ts": "1513342376.000204"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "But like most of the gamers already have graphic card and all in their systems. :expressionless:",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342405.000348"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In a normal  PC where you dont you have to use an emulator .",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342437.000071"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "for example emulators try to simulate a larger range of hardware than virtual machines can. You can’t run a Playstation system in a virtual machine.",
+        "ts": "1513342475.000202"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "But these two generally target different audiences",
+        "ts": "1513342490.000240"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "But this is just a generalisation",
+        "ts": "1513342498.000288"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "It's not just the hardware, it's the software that makes use of the hardware too.",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342518.000073"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "You can't just plug in a PS4 disk in a PC and expect it to run.",
+        "thread_ts": "1513342146.000086",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513342542.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Emulators tend to be designed for video game consoles (or other systems that are completely different to regular computers) whereas virtual machines are used in huge businesses or work related environment",
+        "ts": "1513342560.000070"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Okay so thats about this",
+        "ts": "1513342569.000119"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Ping me if you have any doubts , over to <@U89591QNN>",
+        "ts": "1513342582.000399"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hey",
+        "ts": "1513342590.000090"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Thanks Anumeha",
+        "ts": "1513342596.000016"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ALright can I have a small round of introduction before I go on speaking",
+        "ts": "1513342611.000213"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Name, Year and Interests",
+        "ts": "1513342619.000171"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Salman Shah, 3rd Year IT, Learning to code :stuck_out_tongue:",
+        "thread_ts": "1513342642.000032",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513342773.000284"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513342784.000204"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513342885.000041"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513342907.000056"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513342983.000116"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513343023.000225"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1513342642.000032",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U88MUQQTD",
+                    "U8A6B048M",
+                    "U8F9SHLS1"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "Mathew 2nd Year IT Interested in Game Dev",
+        "thread_ts": "1513342678.000144",
+        "reply_count": 10,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513342703.000088"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513342712.000101"
+            },
+            {
+                "user": "U89606LEQ",
+                "ts": "1513342784.000404"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513342802.000114"
+            },
+            {
+                "user": "U89606LEQ",
+                "ts": "1513342832.000252"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513342833.000094"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513342858.000197"
+            },
+            {
+                "user": "U89606LEQ",
+                "ts": "1513342904.000043"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513342950.000125"
+            },
+            {
+                "user": "U89606LEQ",
+                "ts": "1513343169.000215"
+            }
+        ],
+        "unread_count": 10,
+        "ts": "1513342678.000144"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "What kind of Game Dev?",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342703.000088"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANy frameworks that you've explored yet?",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342712.000101"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Others?",
+        "ts": "1513342746.000347"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Bharat Sharma,2nd Year IT,learning from learners",
+        "thread_ts": "1513342750.000453",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513342788.000063"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513342750.000453"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "All smart coders laughing at me! :sleepy: Sad life!",
+        "thread_ts": "1513342642.000032",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513342773.000284"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "Sanjay Shetty 2nd year IT",
+        "thread_ts": "1513342777.000116",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513342806.000172"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1513342825.000233"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513342861.000113"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1513342777.000116"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Draaama :stuck_out_tongue:",
+        "thread_ts": "1513342642.000032",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513342784.000204"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "Just started going through Unity",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342784.000404"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "INteresting :stuck_out_tongue:",
+        "thread_ts": "1513342750.000453",
+        "parent_user_id": "U8A6B048M",
+        "ts": "1513342788.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "You in any club?",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342802.000114"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "Bhavya Bordia, 2nd Year IT , Beginner in coding :sweat_smile:",
+        "thread_ts": "1513342802.000149",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513342816.000238"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513342836.000045"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513342802.000149"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Why DOraemon? You love to build !",
+        "thread_ts": "1513342777.000116",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513342806.000172",
+        "reactions": [
+            {
+                "name": "sweat_smile",
+                "users": [
+                    "U893XH8SG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Same bro!",
+        "thread_ts": "1513342802.000149",
+        "parent_user_id": "U8F9SHLS1",
+        "ts": "1513342816.000238",
+        "reactions": [
+            {
+                "name": "expressionless",
+                "users": [
+                    "U88MUQQTD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "just simply",
+        "thread_ts": "1513342777.000116",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513342825.000233"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "Not in any Technical Club",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342832.000252"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8FCQ06Q5> looking to recruit? :stuck_out_tongue:",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342833.000094",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89606LEQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "How is that an interest?",
+        "thread_ts": "1513342802.000149",
+        "parent_user_id": "U8F9SHLS1",
+        "ts": "1513342836.000045",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U88MUQQTD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "Enthusiasts are always welcome",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342858.000197"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Ow! Wow! I'm not surpirised :stuck_out_tongue:",
+        "thread_ts": "1513342777.000116",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513342861.000113",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U893XH8SG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Says the Drama queen :stuck_out_tongue:",
+        "thread_ts": "1513342642.000032",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513342885.000041"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Alright so I'll cover what I know about CLoud Computing",
+        "ts": "1513342902.000152"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "Any of you guys into game dev as well?",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342904.000043"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "When do I do drama ? xP",
+        "thread_ts": "1513342642.000032",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513342907.000056"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "But before that I see like about 4 people + Anumeha and Kapil here so we'll make it a bit interactive!",
+        "ts": "1513342927.000204"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8F9SHLS1> heard of a server-client model?",
+        "ts": "1513342945.000291"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "Ya, ACM got a couple of projects going on in Game Dev.",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513342950.000125"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "If yes explain please!",
+        "ts": "1513342952.000155"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "When you're confused half the time :stuck_out_tongue:",
+        "thread_ts": "1513342642.000032",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513342983.000116"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "But thats reality :stuck_out_tongue:",
+        "thread_ts": "1513342642.000032",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513343023.000225"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "May be like client giving the request to the server asking for the information and servers responding to it according to it",
+        "ts": "1513343046.000007"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Awesome and let's say we have many clients can this model still work?",
+        "ts": "1513343069.000207"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Maybe let's say we have like 10 clients one server can the server still serve?",
+        "ts": "1513343088.000190"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Or send information as you said!",
+        "ts": "1513343113.000196"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "yeah i guess",
+        "ts": "1513343147.000114"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "ohh okay",
+        "thread_ts": "1513342678.000144",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513343169.000215"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Okay so now the only problem here is that we have a limit to the number of requests that can be served by our server",
+        "ts": "1513343221.000294"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "The server that we use for IRIS has like 65k requests that can be served",
+        "thread_ts": "1513343239.000256",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513343447.000290"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513343239.000256"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "After that crash :stuck_out_tongue:",
+        "ts": "1513343245.000392"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So now there's a much feasible solution here!",
+        "ts": "1513343264.000080"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SInce we're talking about clouds, <@U893XH8SG> can you tell me what exactly do you know about Cloud COmputing?",
+        "ts": "1513343289.000288"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "whatever taught today:stuck_out_tongue: ",
+        "ts": "1513343341.000372"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Which is...?",
+        "ts": "1513343347.000290"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Just repeat it once!",
+        "ts": "1513343355.000038"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "In your words",
+        "ts": "1513343361.000019"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "virtualization",
+        "ts": "1513343405.000304"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "hypervisor",
+        "ts": "1513343411.000245"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "hosted hyperviser",
+        "ts": "1513343417.000269"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "Use of internet  to use multiple OS or storage etc.. by using some other third party ?",
+        "ts": "1513343418.000230"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "bare metal hyperwiaer",
+        "ts": "1513343433.000407"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8A92CBCP> close!",
+        "ts": "1513343439.000038"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U893XH8SG> stop :stuck_out_tongue:",
+        "ts": "1513343443.000042",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Wait then is it vulnerable to DDOS? Or you people just change internal servers ip manually whenever threat arises?",
+        "thread_ts": "1513343239.000256",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513343447.000290"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Okay so here's it\nCloud computing is all about remote computing.",
+        "ts": "1513343473.000243"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "u were asking solution to that problem?",
+        "thread_ts": "1513343475.000033",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513343490.000187"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513343515.000116"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513343519.000251"
+            },
+            {
+                "user": "U893XH8SG",
+                "ts": "1513343548.000009"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1513343475.000033"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yes:joy::joy:",
+        "thread_ts": "1513343475.000033",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513343490.000187",
+        "reactions": [
+            {
+                "name": "stuck_out_tongue",
+                "users": [
+                    "U893XH8SG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U8A92CBCP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Here a cloud provider maintains huge servers with all facilities and allows people to rent it\nYou will not have \nphysical access to hardware\nAnd the data centers are distributed across the globe",
+        "ts": "1513343497.000345"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "I know",
+        "thread_ts": "1513343475.000033",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513343515.000116"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "I just meant definition",
+        "thread_ts": "1513343475.000033",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513343519.000251"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "ok",
+        "thread_ts": "1513343475.000033",
+        "parent_user_id": "U893XH8SG",
+        "ts": "1513343548.000009"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So we have companies like Amazon, Google, Microsoft renting out huge spaces for CLoud",
+        "ts": "1513343556.000116"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "CCC is getting a CLoud Storage for students as well :stuck_out_tongue:",
+        "ts": "1513343569.000506",
+        "reactions": [
+            {
+                "name": "stuck_out_tongue",
+                "users": [
+                    "U88MUQQTD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Very soon hopefully!",
+        "ts": "1513343575.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "Aren't we using one? The nitk cloud ?",
+        "ts": "1513343611.000178"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "Local storage I mean.",
+        "ts": "1513343621.000252"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO there are three types of CLoud Services offered in Cloud\n1. IaaS - Infrastructure as a Service\n2. PaaS - Platform as a Service\n3. SaaS - Software as a Service",
+        "ts": "1513343626.000210"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8A92CBCP> are you getting storage space :stuck_out_tongue: From NITK, I Doubt?",
+        "ts": "1513343649.000311"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "If you mean your student accounts, at <http:\/\/nitk.edu.in|nitk.edu.in> email IDs then yes!",
+        "ts": "1513343673.000319"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "But those are Google Servers not NITK Servers",
+        "ts": "1513343683.000046"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANy doubts till now?",
+        "ts": "1513343705.000205",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U89606LEQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "<@U89591QNN> I think he mean the ssh thing we got in 1st year.",
+        "ts": "1513343728.000148"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "No. I mean the <http:\/\/forum.nitk.ac.in|forum.nitk.ac.in>",
+        "thread_ts": "1513343763.000209",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513343785.000271"
+            },
+            {
+                "user": "U8A92CBCP",
+                "ts": "1513343802.000497"
+            },
+            {
+                "user": "U8A92CBCP",
+                "ts": "1513343819.000135"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513343842.000138"
+            },
+            {
+                "user": "U89TTUVAA",
+                "ts": "1513349372.000422"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1513343763.000209"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Oh that! That's just a server that's up! They have multiple rack servers. That is definitely not on the cloud :stuck_out_tongue:",
+        "thread_ts": "1513343765.000275",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "U8A6B048M",
+                "ts": "1513343830.000201"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513343860.000281"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513343920.000172"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513344012.000070"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513344166.000018"
+            },
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513344382.000015"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1513343765.000275"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Domain not found :stuck_out_tongue:",
+        "thread_ts": "1513343763.000209",
+        "parent_user_id": "U8A92CBCP",
+        "ts": "1513343785.000271"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "You need nitk-net:stuck_out_tongue_winking_eye:",
+        "thread_ts": "1513343763.000209",
+        "parent_user_id": "U8A92CBCP",
+        "ts": "1513343802.000497"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Again that's just your server machine. Not the cloud! <@U8A6B048M>",
+        "ts": "1513343819.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "You can't access it outside nitk:joy::joy:",
+        "thread_ts": "1513343763.000209",
+        "parent_user_id": "U8A92CBCP",
+        "ts": "1513343819.000135"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Ya I saw iris rack server. :pensive: Thought I got hands on something big. :face_with_head_bandage:",
+        "thread_ts": "1513343765.000275",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513343830.000201"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Oh wait I have VPN access. I'll check after the session!",
+        "thread_ts": "1513343763.000209",
+        "parent_user_id": "U8A92CBCP",
+        "ts": "1513343842.000138"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Lol how did you get there?",
+        "thread_ts": "1513343765.000275",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513343860.000281"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Which reminds me so Cloud Computing one major advantage is that you have multiple backups of your data and application code at multiple places",
+        "ts": "1513343898.000504"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO even if one place goes down there are other places",
+        "ts": "1513343910.000394"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Its open lol. Using sparta. Well I found something funny too. A web page saying \" There is no way you are getting in there\"..lol",
+        "thread_ts": "1513343765.000275",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513343920.000172"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Fun Fact: Google keeps 9 copies of your data!",
+        "ts": "1513343923.000274"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Alright any other doubts?",
+        "ts": "1513343958.000055",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8F9SHLS1",
+                    "U893XH8SG",
+                    "U8A6B048M",
+                    "U89606LEQ",
+                    "U88MUQQTD",
+                    "U8A92CBCP"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Peace!",
+        "ts": "1513343977.000055"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So lets start with IaaS",
+        "ts": "1513344000.000367"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "Using sparta?",
+        "thread_ts": "1513343765.000275",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513344012.000070"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "In this you get to rent an entire machine for yourself",
+        "ts": "1513344013.000151"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO you'll basically have an entire machine which will typically have Ubuntu installed :stuck_out_tongue: (or any other OS, as you wish, I've worked with Ubuntu)",
+        "ts": "1513344048.000208"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Then you install whatever you want on that machine and run your code\/ host your web service!",
+        "ts": "1513344066.000135"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Eg. You can rent a computer with 512 MB Ram 20 GB Disk and 1 core 2,4 Ghz processor for usd $5 \/ month on <http:\/\/digitalocean.com|digitalocean.com>",
+        "ts": "1513344080.000271"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "It has high speed internet with transfer limit of 1TB \/ month",
+        "ts": "1513344100.000299"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Best part! :stuck_out_tongue:",
+        "ts": "1513344105.000189"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So if you ever get access to any server, make sure you download entire seasons of your favourite TV Series on the Server :stuck_out_tongue:",
+        "ts": "1513344137.000170",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8A92CBCP",
+                    "U893XH8SG",
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U8CFDUF27"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Its a testing tool which comes pre-installed in kali. It uses Nmap n other application and quickly scans the network infra.",
+        "thread_ts": "1513343765.000275",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513344166.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "#protip",
+        "ts": "1513344170.000119"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "They have power backup + cooling system + guaranteed to recover from hardware You typically operate such a computer over SSH\nIf you don’t know what ssh is - you just login to the computer over internet like any other machine and start using it.\nYou have to install all your software and dependencies for your application to run.\nDisadvantage is that - The load on your website may be fluctuating. Like during night it will have only 10 visitors \/ hr but during day it will have 1000 But you will have to pay a constant amount every time",
+        "ts": "1513344243.000244"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Advantage is that you can run literally anything. Whatever you can do on a normal PC you can do there\nThere is one more disadvantage - Not many people would know the internals of network security and operating system to optimise their machine. They only know how to build a website. They don’t know anything about load distribution so they may find setting up servers on IaaS difficult",
+        "ts": "1513344322.000079"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANy doubts till here?",
+        "ts": "1513344328.000064",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U88MUQQTD",
+                    "U8A92CBCP",
+                    "U89606LEQ",
+                    "U8A6B048M",
+                    "U893XH8SG"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "..Interesting..",
+        "thread_ts": "1513343765.000275",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513344382.000015"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Okay so we've seen disadvantages of IaaS, primarily the fact that it is absolutely to predict load on servers!",
+        "ts": "1513344467.000108"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "A simple example for this use case would be IRIS",
+        "ts": "1513344475.000230"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Normally no one would use it!",
+        "ts": "1513344483.000053"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Results time: Server at max usage :smile:",
+        "ts": "1513344494.000056"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANd this is true for any server which has to display results and all",
+        "ts": "1513344519.000205"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "the solution is PaaS, i.e., Platform As A Service. Here you don’t rent a machine at all. You rent a platform.\nYou rent computing units - i.e, the ability to do some processing",
+        "ts": "1513344569.000283"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So platform is basically computational resource. I mean we saw Linux Platform, Windows Platform. We mean that its a set of tools (including an OS) that helps us use our processor\nIf I give you a brand new CPU you won’t be able to do anything with it unless you set up a platform - you can use that platform to exploit your computational resource\nIn IaaS you build website depending on the OS \/ platform you install on your system, in PaaS your app is independent of underlying platform.",
+        "ts": "1513344637.000307"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Most website are same for all OS. There are few features that may be dependent on OS.\nPaaS provides a common method to use those few features with a common interface\nDoes anyone here know Java Virtual Machine ?",
+        "ts": "1513344678.000332"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Peeps?",
+        "ts": "1513344761.000292"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Alive?",
+        "ts": "1513344764.000290",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U88MUQQTD",
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U893XH8SG",
+                    "U8A92CBCP"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "i know what it is",
+        "ts": "1513344776.000208",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89591QNN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Yes\/No everything is fine",
+        "ts": "1513344783.000047"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Please Mathew sir go on!",
+        "ts": "1513344788.000483"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "Machine that helps us run Java programs",
+        "thread_ts": "1513344815.000240",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8FCQ06Q5",
+                "ts": "1513344867.000181"
+            },
+            {
+                "user": "U89606LEQ",
+                "ts": "1513344898.000187"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513344815.000240"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Java code is compiled to Bytecode which runs on JVM so that it is not machine dependent.",
+        "ts": "1513344848.000339"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANyone modifying that",
+        "ts": "1513344854.000400"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8979KBHT> ji correct!",
+        "ts": "1513344862.000093",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "I would've given you extra marks for adding \"Virtual\" to the answer.",
+        "thread_ts": "1513344815.000240",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513344867.000181"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So now let's understand this!",
+        "ts": "1513344892.000145"
+    },
+    {
+        "type": "message",
+        "user": "U89606LEQ",
+        "text": "sorry i just assumed that xD",
+        "thread_ts": "1513344815.000240",
+        "parent_user_id": "U89606LEQ",
+        "ts": "1513344898.000187"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Okay so say you want to get the path of current directory on Linux it may may - \/home\/user\/Desktop, on windows it may be C:\\\\DocumentsandSettings\\user\\Desktop\nSo the path is platform dependent",
+        "edited": {
+            "user": "U89591QNN",
+            "ts": "1513344995.000000"
+        },
+        "ts": "1513344971.000186"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Makes sense?",
+        "ts": "1513345000.000049",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A6B048M",
+                    "U893XH8SG",
+                    "U8F9SHLS1",
+                    "U8AEMSF6C",
+                    "U8979KBHT",
+                    "U89606LEQ"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So PaaS gives you that abstraction",
+        "ts": "1513345047.000260"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "but the PaaS will provide you a single function say getDesktopPath()\nInternally it may be implemented like - \ngetDesktopPath() { \nif(os == win) \nreturn “C\\\\Docume…”; \nelse if(os== linux) \nreturn “\/home\/…”; \n}",
+        "ts": "1513345083.000103",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U8A92CBCP"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So you don't have to write OS Specific code in PaaS",
+        "ts": "1513345149.000111"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Now most important feature of PaaS",
+        "ts": "1513345170.000217"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "It allows you to scale!",
+        "ts": "1513345175.000215"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8979KBHT> can you help us with what is scaling?",
+        "ts": "1513345188.000246"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Not sure, but something like automatically adding more resources when it gets depleted?",
+        "ts": "1513345310.000264"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Yes",
+        "ts": "1513345343.000036"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So let's say Praveen ji here creates a Youtube video of him dancing on a popular Bollywood song and puts it on his website",
+        "ts": "1513345371.000472",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8EJD97ME",
+                    "U8979KBHT",
+                    "U8A6B048M",
+                    "U8A92CBCP"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Initially we have some 10-20 views",
+        "ts": "1513345385.000315",
+        "reactions": [
+            {
+                "name": "cry",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Then suddenly people keep sharing and then suddenly your traffic increases exponentially",
+        "thread_ts": "1513345407.000401",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513345660.000230"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513345407.000401"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So PaaS keeps on adding resources",
+        "ts": "1513345427.000478"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO that the website doesn't go down",
+        "ts": "1513345438.000219"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Makes sense ?",
+        "ts": "1513345442.000279"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANy doubts raise them now!",
+        "ts": "1513345451.000258"
+    },
+    {
+        "type": "message",
+        "user": "U8EJD97ME",
+        "text": "What resources ?",
+        "ts": "1513345453.000543"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Resources refers to just computing power",
+        "ts": "1513345473.000430",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8EJD97ME",
+                    "U8A6B048M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "You need more cores to process information and then serve to the client",
+        "ts": "1513345493.000527"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Or in this case we simply add more machines!",
+        "ts": "1513345505.000478",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Any other doubts?",
+        "ts": "1513345632.000297",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U89606LEQ",
+                    "U88MUQQTD",
+                    "U893XH8SG",
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U8979KBHT",
+                    "U8EJD97ME",
+                    "U8A92CBCP"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "All the girls in India want to see Praveen ji!",
+        "thread_ts": "1513345407.000401",
+        "parent_user_id": "U89591QNN",
+        "ts": "1513345660.000230",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8EJD97ME",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            },
+            {
+                "name": "cry",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Peaceful!",
+        "ts": "1513345671.000051"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So now just adding onto scaling",
+        "ts": "1513345687.000264"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "There are two types of scaling",
+        "ts": "1513345694.000560"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Vertical scaling means - Adding more processing capability, memory, etc\nHorizontal scaling means - Adding more machines altogether and diverting half the requests to the new machine",
+        "ts": "1513345734.000040"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Typical examples of IaaS are - Amazon AWS EC2, Google Compute Engine, Rackspace, Digital Ocean Droplet\nExamples of PaaS are - Amazon Elastic Beanstalk, Google App Engine, Azure PCloud, Heroku\nNote that Amazon Web Services is the most widely used Cloud Computing Platform, next if I'm not wrong is Azure Cloud by Microsoft",
+        "ts": "1513345797.000336"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Fun Fact: Flipkart uses Amazon Web Services :stuck_out_tongue:",
+        "ts": "1513345820.000107",
+        "reactions": [
+            {
+                "name": "grin",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U8A6B048M",
+                    "U8F9SHLS1",
+                    "U8979KBHT",
+                    "U893XH8SG",
+                    "U8A92CBCP",
+                    "U8CFDUF27"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "OKay so let's take a 2 minute breather here!",
+        "ts": "1513345898.000428"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "I see some new people have joined up",
+        "ts": "1513345908.000295"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Please introduce!",
+        "ts": "1513345912.000337"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Web CLub people as well! Please do introduce!",
+        "ts": "1513345922.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8EJD97ME",
+        "text": "Mishal Shah, 2nd Year CSE :smile:",
+        "ts": "1513345943.000555"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Praveen Gupta, 2nd year CSE. :slightly_smiling_face:",
+        "ts": "1513345959.000558"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "Kapil Bharath, 3rd Year Mech, Interested in Game Dev and Parallel Programming.",
+        "ts": "1513346003.000141",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8EJD97ME",
+                    "U89606LEQ",
+                    "U8A6B048M",
+                    "U8979KBHT",
+                    "U89591QNN",
+                    "U8F9SHLS1",
+                    "U88MUQQTD",
+                    "U8A92CBCP"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8FCQ06Q5> you have fans man! :stuck_out_tongue:",
+        "ts": "1513346044.000143"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "No, they are all thinking, what is this guy doing with his life, in mech?",
+        "ts": "1513346068.000176"
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "FYI, I'm just a joker there.",
+        "ts": "1513346084.000172"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Same same bro!",
+        "ts": "1513346116.000263",
+        "reactions": [
+            {
+                "name": "rage",
+                "users": [
+                    "U8979KBHT",
+                    "U8FCQ06Q5",
+                    "U8EJD97ME",
+                    "U893XH8SG",
+                    "U8F9SHLS1",
+                    "U88MUQQTD",
+                    "U8A92CBCP"
+                ],
+                "count": 7
+            },
+            {
+                "name": "face_with_rolling_eyes",
+                "users": [
+                    "U8EJD97ME",
+                    "U88MUQQTD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "^ ur fan following is no less.",
+        "ts": "1513346197.000626",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89606LEQ",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            },
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "I'm conducting a session on Parallel Programming using OpenMP tomorrow at 7pm. Join if interested.",
+        "ts": "1513346221.000202",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8EJD97ME",
+                    "U88MUQQTD",
+                    "U8979KBHT",
+                    "U8F9SHLS1",
+                    "U893XH8SG",
+                    "U8A6B048M",
+                    "U8A92CBCP"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8FCQ06Q5",
+        "text": "I'm outta here. Peace",
+        "ts": "1513346229.000379"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Please do join! OpenMP is amazing",
+        "ts": "1513346233.000526"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Alright let's get back",
+        "ts": "1513346238.000108"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "One last run now",
+        "ts": "1513346245.000363"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "And then everyone heads to dinner!",
+        "ts": "1513346254.000315"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO <@U88MUQQTD> can you explain what is an API?",
+        "ts": "1513346264.000143"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "API stands for Application Programming Interface.",
+        "ts": "1513346300.000260"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "It is basically a set of instructions that allow two different software components to interact and use each others' data and resources",
+        "ts": "1513346370.000263"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "You can add extra functionalities to applications in this way",
+        "ts": "1513346398.000462"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Yes",
+        "ts": "1513346426.000382"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "So SaaS is basically accessed in the form of APIs",
+        "ts": "1513346446.000003"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "You use API calls to get access to SaaS services",
+        "ts": "1513346461.000314"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "I'll give you an example",
+        "ts": "1513346468.000188"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO this time we had a group project for our WTA Course where we had to create a Music Recommendation System",
+        "ts": "1513346492.000461"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Now we had a web app which was supposed to play songs and based on the songs that a user plays recommend new songs",
+        "ts": "1513346516.000482"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SImple enough?",
+        "ts": "1513346520.000377"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Now there are millions and billions of songs and it didn't make sense to donwload those songs",
+        "ts": "1513346548.000334"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "And then host it on our server!",
+        "ts": "1513346555.000261"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hell we don't have that much of a storage space",
+        "ts": "1513346566.000214"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO what we did instead was use Spotify's API",
+        "ts": "1513346579.000236"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "What this does is that when the User searches for something on our server, our server sends a request to Spotify's server asking if it has the song and fetches the song from there",
+        "ts": "1513346626.000264"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "SO we're more of a person in the middle",
+        "ts": "1513346634.000498"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "And then the rest of it was a simple machine learning recommendation algorithm",
+        "ts": "1513346658.000261"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ANy doubts?",
+        "ts": "1513346663.000109",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8A6B048M",
+                    "U89606LEQ",
+                    "U8979KBHT",
+                    "U8EJD97ME",
+                    "U8F9SHLS1",
+                    "U88MUQQTD",
+                    "U893XH8SG",
+                    "U8A92CBCP"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "OKay so that should be it for today!",
+        "ts": "1513346740.000166"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "You guys have been here for a long time",
+        "ts": "1513346750.000392"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Thanks a lot for attendaing",
+        "ts": "1513346756.000265"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hope you guys actually learnt something here!",
+        "ts": "1513346766.000519",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8F9SHLS1",
+                    "U89606LEQ",
+                    "U8A92CBCP"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "If you need any help feel free to contact me or any of the other mentors",
+        "ts": "1513346780.000530"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Whatsapp \/ Slack \/ FB anything is fine!",
+        "ts": "1513346795.000045"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Good Night for today and thank you for attending!",
+        "ts": "1513346810.000137"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "GoodNight:grin:",
+        "ts": "1513346836.000386"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Thanks for sharing your knowledge and your time guys. Night.",
+        "edited": {
+            "user": "U8A6B048M",
+            "ts": "1513348657.000000"
+        },
+        "ts": "1513346862.000354"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "thanks <@U89591QNN> and <@U88MUQQTD> :slightly_smiling_face:",
+        "ts": "1513346871.000319"
+    },
+    {
+        "type": "message",
+        "user": "U893XH8SG",
+        "text": "Thank u mentors",
+        "ts": "1513346883.000468"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Thank you sir for attending",
+        "ts": "1513346911.000364"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Thank you <@U88MUQQTD> and salman sir :stuck_out_tongue:",
+        "thread_ts": "1513346912.000267",
+        "reply_count": 47,
+        "replies": [
+            {
+                "user": "U89591QNN",
+                "ts": "1513346926.000205"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513346943.000440"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513346958.000392"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513346976.000214"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513346989.000520"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513347009.000356"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513347047.000265"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347067.000111"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347071.000337"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513347084.000056"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513347111.000080"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347135.000531"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347160.000337"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347168.000253"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347173.000409"
+            },
+            {
+                "user": "U8EJD97ME",
+                "ts": "1513347185.000589"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513347190.000103"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513347232.000095"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513347302.000147"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347347.000172"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513347455.000382"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347492.000349"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347495.000330"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513347504.000376"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347516.000284"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347521.000440"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347525.000395"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513347579.000015"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513347748.000326"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347756.000014"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347765.000496"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513347767.000282"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347773.000314"
+            },
+            {
+                "user": "U8F9SHLS1",
+                "ts": "1513347846.000509"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513347988.000381"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513348002.000625"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513348048.000709"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513348072.000011"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513348081.000154"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513348102.000469"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513348142.000031"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513348143.000441"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513348257.000458"
+            },
+            {
+                "user": "U8979KBHT",
+                "ts": "1513348325.000194"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513348391.000631"
+            },
+            {
+                "user": "U89591QNN",
+                "ts": "1513348397.000491"
+            },
+            {
+                "user": "U8A6B048M",
+                "ts": "1513348497.000421"
+            }
+        ],
+        "unread_count": 47,
+        "ts": "1513346912.000267"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Waiting for you dance video to come out sir!",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513346926.000205",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8EJD97ME",
+                    "U893XH8SG",
+                    "U8979KBHT",
+                    "U8A92CBCP"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "waiting to see the likes on that",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513346943.000440",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89591QNN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8EJD97ME",
+        "text": "Thank you sir <@U89591QNN> and <@U88MUQQTD>!",
+        "ts": "1513346949.000285"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Keep waiting.\ndance se sanyas xP :joy: :joy:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513346958.000392",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8F9SHLS1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "cry",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "BD aa raha hai sir!",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513346976.000214",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A92CBCP",
+        "text": "Thanks <@U89591QNN>  <@U88MUQQTD> ",
+        "ts": "1513346988.000045"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Aapko nahi dekha toh judges return maar denge",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513346989.000520",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8EJD97ME",
+                    "U8F9SHLS1",
+                    "U88MUQQTD",
+                    "U8979KBHT",
+                    "U8A92CBCP"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Last time BD mei bahut bezatti ho rakhi hai. xD",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347009.000356",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89591QNN",
+                    "U8F9SHLS1"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "<@U8979KBHT> prove urself this time:stuck_out_tongue_winking_eye:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347047.000265",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Bhai Dance toh <@U8EJD97ME> bhai karte hai",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347067.000111",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8F9SHLS1",
+                    "U8979KBHT",
+                    "U8A92CBCP"
+                ],
+                "count": 3
+            },
+            {
+                "name": "stuck_out_tongue_winking_eye",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Full Garba josh",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347071.000337",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            },
+            {
+                "name": "sunglasses",
+                "users": [
+                    "U8EJD97ME"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "<@U89591QNN> jaisa koi nhi kr sakta par.",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347084.000056",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8F9SHLS1",
+                    "U8A92CBCP"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "all three will dance together :stuck_out_tongue:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347111.000080"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Bas <@U8979KBHT> beizzati karaayega na!",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347135.000531",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8F9SHLS1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hum gareeb log",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347160.000337"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "ABhi pehle code karna seekhne do",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347168.000253"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Phir dance bhi seekhenge",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347173.000409"
+    },
+    {
+        "type": "message",
+        "user": "U8EJD97ME",
+        "text": ":expressionless:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347185.000589"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Gareeb logo ka har dinn whatsapp par khaane ke status toh dekho. xD",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347190.000103",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8F9SHLS1",
+                    "U89591QNN"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "dikha rhe hai mumbai ka khana :expressionless:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347232.000095",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89591QNN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Khaane ki baat na karo.. bhuk lagrai avv. Dinner nai bana:confused:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347302.000147",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U89591QNN",
+                    "U8EJD97ME",
+                    "U8979KBHT"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Aree woh sab ki treat wasool rahe hai",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347347.000172"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Toh hume treat kab mil rhi hai. <@U89591QNN>",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347455.000382"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Ek baar diya na!",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347492.000349"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Kitna khaayega",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347495.000330"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "<@U89591QNN>  once again",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347504.000376"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Meri mummy ko mail likh do",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347516.000284",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8F9SHLS1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Paise dene ke",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347521.000440",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8EJD97ME",
+                    "U8A6B048M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Mai de dunga :stuck_out_tongue:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347525.000395"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "<@U89591QNN> hamme to koi ki treat ni milti. <@U8F9SHLS1> to only girls ko treat deta hai, ab aap hi dedo ham gareb juniors ko:joy:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347579.000015",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8EJD97ME",
+                    "U89591QNN",
+                    "U8979KBHT"
+                ],
+                "count": 3
+            },
+            {
+                "name": "rage",
+                "users": [
+                    "U8F9SHLS1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "<@U89591QNN> kaha kuch khaaya thaa. :cry:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347748.000326"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8F9SHLS1> toh full playboy lagta hai",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347756.000014",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A6B048M"
+                ],
+                "count": 1
+            },
+            {
+                "name": "expressionless",
+                "users": [
+                    "U8F9SHLS1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "<@U8979KBHT> maine nahi mana kiya tha khaane ko :stuck_out_tongue:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347765.000496"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Fir nhi treat doge soch kr kuch bhi nhi khaaya. xP",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347767.000282",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8A6B048M",
+                    "U8F9SHLS1"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Sad!",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347773.000314"
+    },
+    {
+        "type": "message",
+        "user": "U8F9SHLS1",
+        "text": "<@U89591QNN>  sidha Banda hu kaha Aap uski baato Mai AA rhe ho :see_no_evil:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347846.000509"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Mujhe doubt ho raha hai",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513347988.000381"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Waise bhi yeh <@U8979KBHT> bhi GB mei roshan hi hai",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348002.000625"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "Apni baat karo.\nHar branch ke ladke gaali maar rhe hote hai :stuck_out_tongue:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348048.000709"
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "<@U89591QNN> ke saamne kisika koi chance nhi. :joy:",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348072.000011",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8A6B048M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Bhaiya doubt qa sahi hi hai. Har girl k sath mutual frn milta hai. Special bday parties deta hai girls ko. ",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348081.000154",
+        "reactions": [
+            {
+                "name": "scream",
+                "users": [
+                    "U89591QNN"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "WOh Mechanical wale hi hote hai khali! Apni kismat mere pe daal dete hai :stuck_out_tongue: Ab mai kya karu unki class ki abaadi aisi hai toh",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348102.000469"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Ab kya bole aisi aisi khabrein aa rahi hai",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348142.000031"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Sad!",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348143.000441"
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "Agar yai conversation chalti rahi na aur razz khul jaaynge, n mere jese bachhe depress ho sakte. <@U8F9SHLS1>  <@U89591QNN> doono next level hai. Ham jaate hai sapno ki dunia mai. Night fellas.",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348257.000458",
+        "reactions": [
+            {
+                "name": "cry",
+                "users": [
+                    "U8979KBHT",
+                    "U89591QNN"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8979KBHT",
+        "text": "<@U89591QNN> doosro ko bhi aage badhne ka mauka do. 2nd years tak ko depress kr rkha hai.",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348325.000194",
+        "reactions": [
+            {
+                "name": "pensive",
+                "users": [
+                    "U8A6B048M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Bhai mai bhola bhala baccha",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348391.000631"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Maine kuch nahi kiya",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348397.000491",
+        "reactions": [
+            {
+                "name": "rage",
+                "users": [
+                    "U8979KBHT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8A6B048M",
+        "text": "<@U89591QNN> #sakth_launda",
+        "thread_ts": "1513346912.000267",
+        "parent_user_id": "U8979KBHT",
+        "ts": "1513348497.000421"
+    },
+    {
+        "type": "message",
+        "user": "U89TTUVAA",
+        "text": "Was provided to CS students to store code :stuck_out_tongue:",
+        "thread_ts": "1513343763.000209",
+        "parent_user_id": "U8A92CBCP",
+        "ts": "1513349372.000422"
+    }
+]
