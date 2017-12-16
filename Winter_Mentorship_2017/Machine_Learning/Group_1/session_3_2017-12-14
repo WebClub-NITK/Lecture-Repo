@@ -1,0 +1,438 @@
+
+Shashank:
+We ll start the session in 5 min. People who are here give a ':+1:'.
+
+U8BNZJW95:
+:+1: 
+
+U8B7TH3HT:
+Hey :+1:
+
+Utkarsh:
+Alright guys lets get started then
+
+Utkarsh:
+Today we'll be focusing on two ML algorithms
+
+Utkarsh:
+ML models*
+
+Utkarsh:
+1) Linear Regression
+
+Utkarsh:
+2) Logistic Regression
+
+Utkarsh:
+I'll be covering Linear, Shashank will be taking up Logistic
+
+Utkarsh:
+Both these are supervised learning problems
+
+Utkarsh:
+Let's start off with Model Representation of a supervised learning problem
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8FDHB1SS/image.png|image.png>
+
+Utkarsh:
+So you have a training set which the learning algorithm uses for learning
+
+Utkarsh:
+Our goal is, given a training set, to learn a function h : X → Y so that h(x) is a “good” predictor for the corresponding value of y. This function h is called a hypothesis.
+
+Utkarsh:
+When the target variable that we’re trying to predict is continuous, we call the learning problem a regression problem. When y can take on only a small number of discrete values (such as if, given the living area, we wanted to predict if a dwelling is a house or an apartment, say), we call it a classification problem.
+
+Utkarsh:
+We've discussed this in the previous session, so what I'll be focusing on is the regression problem
+
+Utkarsh:
+Since slack doesn't support superscript or subscript, let me just define this
+H{2}O -&gt; 2 is subscript so everything in { } is subscript
+X[2] -&gt; X * X so everything in [ ] is superscript
+
+Utkarsh:
+Terminology:
+x[i] -&gt; input variable for the ith example
+y[i] -&gt; output / prediction for the ith example
+( x[i], y[i] ) -&gt; ith training example
+m -&gt; number of training examples
+
+Utkarsh:
+Consider the housing prices example, we have the dataset plotted on the following graph
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8DTJC248/image.png|image.png>
+
+Utkarsh:
+If we try to think of it in visual terms, our training data set is scattered on the x-y plane. We are trying to make a straight line (defined by h(θ(x))) which passes through these scattered data points.
+
+Utkarsh:
+so here the hypothesis function h(θ(x))) = θ{0} + x * θ{1}
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8EHJ6UUS/image.png|image.png>
+
+Utkarsh:
+here x -&gt; size of the house
+y -&gt; Price of the house
+
+Utkarsh:
+So our algorithm tries to find the best possible straight line curve for which our prediction of y (price) for any new x (size of the house) is most accurate
+
+U8B7TH3HT:
+Ok so h(θ(x))) = θ{0} + x * θ{1} is just an equation of y = mx  + c where θ{0} and θ{1} are constants, is it?
+
+Utkarsh:
+yes and he algo tries to find best possible θ{0} and θ{1} here
+
+Utkarsh:
+the*
+
+Utkarsh:
+We can measure the accuracy of our hypothesis function by using a cost function. There are a lot of cost functions that exist but we’ll be focusing on one most commonly used. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8FDP620N/image.png|image.png>
+
+Utkarsh:
+Thats the cost function, you can ignore the expression in the middle its enough to know that, J(theta0, theta1) = the right most expression
+
+Utkarsh:
+This function is otherwise called the "Squared error function", or "Mean squared error". The mean is halved as a convenience for the computation of the gradient descent. Knowing this equation is more than enough to use this algorithm, you need not exactly understand how this algorithm came in being
+
+Utkarsh:
+When we visualized the graph, we said "We are trying to make a straight line (defined by h(θ(x))) which passes through these scattered data points."
+
+Utkarsh:
+In mathematical terms, the equivalent of that statement would be, we must minimize the cost function J
+
+Utkarsh:
+in order for the straight line to fit the data set most accuratelt
+
+Utkarsh:
+accurately*
+
+Utkarsh:
+Let me take a 3-4 min break here, you guys can go through it once before I can proceed
+
+Utkarsh:
+Alright let's move on guys
+
+Utkarsh:
+Let's discuss Gradient Decent, this algorithm is what will help us in finding the optimal values for our thetas so that our cost function is minimized
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8EJWSQR2/image.png|image.png>
+
+Utkarsh:
+Basically, for all the thetas that we have, j=0,1,2,... , we should perform the above operation
+
+Utkarsh:
+:= stands for simultaneous update, so when we update the values of these thetas, we should update all of them simultaeously
+
+Utkarsh:
+otherwise if we say change theta0 first, then update the value of theta1, the new value of theta0 is what theta1 will use which is something we don't want
+
+Utkarsh:
+we want up update all theta values simultaneously with the same set of old theta values
+
+Utkarsh:
+For the sake of visualization, let theta0 = 0
+then we can plot theta1 against J(theta1) and check how gradient decent works
+
+Utkarsh:
+<@U88K2UW8Z> uploaded a file: <https://wintermentorship.slack.com/files/U88K2UW8Z/F8EN1AZ8D/image.png|image.png>
+
+Utkarsh:
+So in the beginning we begin with any value of thetas, and when we do so, our theta1 value might be to the left or right of 1 (w.r.t. x)
+
+Utkarsh:
+As we run gradient decent over iterations, the value of theta gets updated
+
+Utkarsh:
+and slowly we reach the point where the slope of the graph is 0
+
+Utkarsh:
+here that point is 1
+
+Utkarsh:
+If you look at the gradient decent algorithm, your partial derivative value will decrease with every iteration and as that decreases, the steps taken towards approaching the minima also decrease
+
+Utkarsh:
+as the slope decreases*
+
+Utkarsh:
+Let me summarize everything that happened once
+
+Utkarsh:
+1. You had training set, which you plot on the graph
+
+Utkarsh:
+2. You decided on the hypothesis function
+
+Utkarsh:
+3. You ran gradient decent using this hypothesis function to get optimal thetas
+
+Utkarsh:
+Now once you have optimal thetas, for any value of x, you can predict the corresponding y accurately
+
+Utkarsh:
+Doubts?
+
+U8B7TH3HT:
+Did we run gradiet descent on the hypothesis function or on out mean square value?
+
+U8B7TH3HT:
+on the*
+
+Utkarsh:
+Btw if you guys are wondering where I took these pictures from, they're from <https://www.coursera.org/learn/machine-learning/>
+This is Stanford's Machine Learning course by Andrew Ng, a great beginner level machine learning course
+
+Utkarsh:
+We got it on the mean squared function (cost function) but I said hypothesis because hypothesis may change from one graph to another but the cost function remains the same
+
+U8B7TH3HT:
+Okay got it
+
+Utkarsh:
+And the cost function includes hypothesis
+
+Shashank:
+Ok I will be discussing logistic regression now
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EHZC3HQ/1.jpg|1.jpg>
+
+Shashank:
+This is a matrix representation of y using theta and x
+
+Shashank:
+θT is θ transpose.
+
+Shashank:
+θT x is dot product of θT and x, which is equal to predicted 'y' in linear regression.
+
+Shashank:
+Is it clear?
+
+Shashank:
+Coming to logistic regression. Logistic regression is used for classification tasks unlike linear regression.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EJ11AAW/1a.png|1a.png>
+
+Shashank:
+Say you have the data which determines if cancer is malignant or not. This is a classification problem.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EFUKGLB/1b.png|1b.png>
+
+Shashank:
+A linear regression model would is not a good model when it comes to classification. This can be seen in the above diagram.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EJ2HD5G/2b.png|2b.png>
+
+Shashank:
+So a better function to make prediction would be a function like this one above.
+
+Shashank:
+This is called a sigmoid function.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8ENATE69/2a.png|2a.png>
+
+Shashank:
+g(z) is the definition of sigmoid function.
+
+Shashank:
+In linear regression, z was the predicted 'y'. While in logistic regression, g(z) (sigmoid function) is the predicted 'y'.
+
+Shashank:
+Is it clear?
+
+Shashank:
+Let us look at some important properties of this sigmoid function.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8E2XRQQH/3b.png|3b.png>
+
+Shashank:
+Sigmoid function is a binary classifier. So 1 can be read as 'yes' and 0 can be read as 'no'.
+
+Shashank:
+1) When z = 0, g(z) = 1/2. which is equal probability of being 'yes' and 'no'
+
+Shashank:
+2) When z tends to infinity, g(z) is 1 or 'yes'.
+
+Shashank:
+3) When z tends to negative infinity, g(z) is 0 or 'no'.
+
+Shashank:
+Is it clear?
+
+Shashank:
+Now coming to the cost function.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8FEARCS2/4a.jpg|4a.jpg> and commented: This was the cost function for linear regression. Where m is the number of training examples.
+
+Shashank:
+But if you use the same cost function for logistic regression, you will mostly get a graph something like this.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8FEBCJR4/3d.png|3d.png>
+
+Shashank:
+See this cost function has multiple minima.  But you dont want mulitiple minima. You just want a single minima so that gradient descent can find the minimum cost.
+
+Shashank:
+So you want a cost function which is convex. Something like this
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8FLB1KJB/3e.png|3e.png>
+
+Shashank:
+So we need a new cost function which is convex.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8E32NQHX/4aa.png|4aa.png>
+
+Shashank:
+For gradient descent, we use this cost function.
+
+Shashank:
+Note that h(x) is the predicted 'y'  and y is the actual 'y'.
+
+Shashank:
+If y = 1, then the cost function would look something like this
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EJAQW2W/4b.png|4b.png>
+
+U8B7TH3HT:
+So since this is a classification, we have a given set of outputs. But is it necessary that we have only two outputs, 0 &amp; 1?
+
+Shashank:
+Observe that if h(x) is 0, then the cost goes to infinity and if h(x) is near 1, cost is close to 0.
+
+Shashank:
+This is exactly how we want the cost function to behave when y = 1.
+
+Shashank:
+Similarly when y = 0, cost function looks like this
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8FEERU7Q/4c.png|4c.png>
+
+Shashank:
+Yes, in classification, it is required to have discrete values like 0 and 1. You can also say that if h(x) &gt;= 0.5, then predicted 'y' is 1 and if h(x) &lt; 0.5, predicted 'y' is 0.
+
+Shashank:
+Here also cost function behaves exactly as we want.
+
+Shashank:
+When y = 0,  if h(x) is near 0 , cost is close to 0 and if h(x) is close to 1, then cost is very high.
+
+Shashank:
+Is it clear?
+
+Shashank:
+We can combine the two equations in cost function when y=1 and y=0 to get a new cost function with a single equation.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8E37GSP3/5a.png|5a.png> and commented: Cost function for logistic regression.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8ENNDCJZ/5b.png|5b.png> and commented: Cost function for logistic regression for m training examples
+
+Shashank:
+You learnt about gradient descent for linear regression
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EJFBPB4/5c.png|5c.png>
+
+Shashank:
+where alpha is the learning rate and J is the cost function.
+
+Shashank:
+It turns out that the derivative of cost function of logistic regression is equal to the derivative of cost function of linear regression.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EG9DG2X/5d.png|5d.png>
+
+Shashank:
+So this equation to update θ values remains same for logistic and linear regression.
+
+Shashank:
+All clear?
+
+Shashank:
+Till now we were focusing on binary classification. Lets discuss about multiclass classification(more than two)
+
+Shashank:
+Before that let me give some examples of binary classification
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8FLKGQUX/7a.png|7a.png>
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8FLKLU79/7b.png|7b.png>
+
+Shashank:
+You can try to find the θ values for the decision boundaries.
+
+U8B7TH3HT:
+You got those theta values by running gradient descent right?
+
+Shashank:
+Yes, theta values are found out by gradient descent.
+
+Shashank:
+But I just gave examples here to intuitively find the theta values for better understanding.
+
+Shashank:
+Coming to multiclass classification.
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8EKRA04C/6b.png|6b.png>
+
+Shashank:
+In multiclass classification, you would find h(x) for each of the classes.
+
+Shashank:
+In the above example there are 3 classes, so there would be 3 different h(x) functions.
+
+Shashank:
+To know if a data point belongs to a certain class, the maximum of all these 3 h(x) is found. The data point is assigned the class which has the maximum h(x).
+
+Shashank:
+<@U888HQS7K> uploaded a file: <https://wintermentorship.slack.com/files/U888HQS7K/F8DUNE9NC/6a.png|6a.png> and commented: Multiclass logistic regression
+
+Shashank:
+Is it clear?
+
+Shashank:
+Thats it for today.
+
+U8B7TH3HT:
+Didn't understand this
+
+U8B7TH3HT:
+Okay this is explained in the image
+
+Shashank:
+Each of these classes has a h(x) function to tell if the point belongs to that particular class or not. For example, a data point has h(x) = 0.7 for class 1, h(x) = 0.2 for class 2 and h(x) =0.4 for class 3. Then the data point belongs to class 1 as it has the maximum h(x) value.
+
+Shashank:
+I recommend all of you to start learning from Andrew Ng's Machine learning on Coursera <https://www.coursera.org/learn/machine-learning/>.
+
+Shashank:
+Most of the pics were taken from there.
+
+Shashank:
+I also recommend that you start doing the assignments in Andrew Ng's course to get a practical and better understanding of all these concepts. Totally worth doing it.
