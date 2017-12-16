@@ -1,0 +1,353 @@
+Please put a thumbs up if you guys are awake :stuck_out_tongue:
+
+We will wait for 5 more mins
+
+Okay so lets start
+
+in this session we will be covering cross validation , over fitting , underfitting , types of crossvalidation and its importance
+
+So lets start with cross validation
+
+What exactly is cross validation?
+
+checking whether result is correct or not?
+
+I guess
+
+Okay so yeah partially you are correct
+
+There is always a need to validate the stability of your machine learning model. I mean you just can’t fit the model to your training data and hope it would accurately work for the real data it has never seen before. You need some kind of assurance that your model has got most of the patterns from the data correct, and its not picking up too much on the noise.
+
+<@U88MUQQTD> set the channel topic: Session 5 : Cross validation - Anumeha &amp; Chenna Keshava
+
+Generally, an error estimation for the model is made after training. In this process, a numerical estimate of the difference in predicted and original responses is done, also called the training error. However, this only gives us an idea about how well our model does on data used to train it. Now its possible that the model is too perfect for the data it is trained on or the model performs poorly.
+
+So, the problem with this evaluation technique is that it does not give an indication of how well the model will work on unseen data set. Getting this idea about our model is known as Cross Validation.
+
+Any doubts ?
+
+nope
+
+Okay so moving on
+
+Now a basic remedy for this involves removing a part of the training data and using it to get predictions from the model trained on rest of the data. The error estimation then tells how our model is doing on unseen data or the validation set. This is a simple kind of cross validation technique, also known as the holdout method. However this can lead to issues .
+
+Now a basic remedy for this involves removing a part of the training data and using it to get predictions from the model trained on rest of the data. The error estimation then tells how our model is doing on unseen data or the validation set. This is a simple kind of cross validation technique, also known as the holdout method. However this can lead to issues .
+
+Before we move on to cross validation techniques let me introduce you to very freuqently used terms .
+Underfitting and overfitting
+
+Is it clear uptil here?
+
+up till *
+
+So what according to you is overfitting?
+
+it fits the training set but fails to hold for other values
+
+yes so , Overfitting refers to a model that models the training data too well.
+
+Overfitting happens when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. This means that the random fluctuations in the training data is picked up and learned as concepts by the model. The problem is that these concepts do not apply to new data and negatively impact the models ability to generalize.
+
+There can be overfitting , if there are too many polynomial features in the model .
+This would try to form a hypothesis which includes all data points , even the random fluctuations which would cause incorrect predictions on new test data.
+
+Now lets discuss the ways in which we can combat overfitting
+
+Cross- Validation: A standard way to find out-of-sample prediction error is to use 5-fold cross validation.
+Pruning: Pruning is extensively used while building related models. It simply removes the nodes which add little predictive power for the problem in hand.
+Regularization: It introduces a cost term for bringing in more features with the objective function. Hence it tries to push the coefficients for many variables to zero and hence reduce cost term.
+
+Lets discuss Regularisation
+
+can u explAin pruning
+
+Yes i will in a while
+
+ok
+
+Do you all remember the cost function equation?
+
+Yeah
+
+Regularization works well when we have a lot of slightly useful f
+
+features
+
+If we have overfitting from our hypothesis function, we can reduce the weight that some of the terms in our function carry by increasing their cost.
+
+Say we wanted to make a function having high power terms more quadratic:
+
+Thus we can modify our cost function in such a way that the influence of the higher power terms become negligible
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8FBH2W94/img.png|img.png>
+
+Now in this equation the extra term added to the cost function equation is called regularisation term and lambda is regularisation parameter
+
+It determines how much the costs of our theta parameters are inflated.
+
+Now the value of lambda shouldnt be too large or too small
+
+Can someone tell me the reason for it ?
+
+to prevent over and under fitting?
+
+Yes
+
+So if lambda is too large it will nullify the effect of most weights making the hypothesis linear which will start underfitting
+
+and if lambda is too small the effect of regularisation term will be almost null
+
+Any doubts?
+
+Okay lets discuss prunning now
+
+nope
+
+Prunning is basically used in decision trees which will be discussed in coming sessions
+
+Pruning is a technique in machine learning that reduces the size of decision trees by removing sections of the tree that provide little power to classify instances. Pruning reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting.
+
+Lets move on to underfitting
+
+Underfitting refers to a model that can neither model the training data nor generalize to new data.
+An underfit machine learning model is not a suitable model and will be obvious as it will have poor performance on the training data. Lets assume a dataset has n &gt;5 features and m training examples. Now if the hypothesis is linear and considers only one feature , we would get a straight line passing through veryy few data points . This is underfitting
+
+Poor performance on the training data could be because the model is too simple (the input features are not expressive enough) to describe the target well. Performance can be improved by increasing model flexibility. To increase model flexibility, try the following:
+   1)  Add new features to increase complexity
+   2)  Decrease the amount of regularization used
+
+Okay so <@U8AV51H47> will continue from here
+
+okay, so let us see different types of cross validation (CV)
+
+a few points to remember
+
+here, we usually split the data into 2 parts - train and validation set, but in practice, we will usually split it into 3 - train, validate and test
+
+I will explain the reason later on
+
+also, while splitting we may go for stratified CV
+
+here, the splits will have almost equal no. instances of both classes(1 and 0) for classification problems.
+
+if this is possible at all
+
+okay, I think you guys are familiar with Holdout CV?
+
+just split dataset into training and test. Then perform training on train, and evalualate the model on test
+
+since, the model is not exposed to test set before, we can see how well it generalises to new unseen data
+
+but the error might have high variance and may depend on which points are chosen in training set.
+
+so we need a better way
+
+that brings us to k-fold CV
+
+here dataset is split into k equal parts.
+
+we make one of them test, and k-1 parts as training set
+
+we will find error on the test set
+
+we repeat this process by making all the k parts as test set exactly once, and finally take the average of all the errors
+
+this is computationally expensive, but provides unbiased view of the model
+
+we have a variation of this also
+
+ex the monte carlo CV
+
+select the test and train sets randomly every time, but specify their respective sizes
+
+The points are chosen without replacement
+
+ie, a point can only be in test/train set
+
+But we will have to repeat this step as many times as required
+
+so, the same point might get chosen into test set multiple times
+
+in this method, error shown will have less variance, but it might be biased
+
+One advantage over k-fold CV is that we can specify the number of times this process is repeated, unlike k-fold where we need to repeat the process k times
+
+we can have one more modification
+
+the same data point may get chosen in train and test set, some problems might need this change
+
+because in real-world, just because an instance is selected for train, it's probability of being asked again is not reduced
+
+everyone with me?
+
+<@U897CT84V>? am I being too fast?
+
+okay, in the k-fold CV method, if we set k = N(the number of records), we will get leave-one-out CV method
+
+On the first inspection, it feels that this may be computationally expensive
+
+but it can be efficiently implemented using local weighted learners
+
+no. of records meaning?
+
+More on that here - <http://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/web/lwr.html>
+
+the total number of samples in the training data
+
+ok and learners?
+
+learner refers to the model
+
+ok
+
+coming to the next part, we will have to think about what to do if our model is not working as expected
+
+we will have to debug, and see for possible solutions
+
+like other data preprocessing techniques?  more data? different ML model?
+
+to decide, plotting errors during training and cross validation versus other parameters will be very helpful
+
+first of all, for a regression problem, we can have different models
+
+for instance, models of different degrees
+
+if we plot the errors wrt the degree, we will be able to choose the best model
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8EFL7P34/degree_of_model.jpg|degree of model.jpg>
+
+d is the degree of the polynomial/model
+
+so, in case of bias, both train and CV error will be high
+
+in case of variance, train error will be negligibe, but the model can't generalise to new data
+
+from the graphs, we will have to identify whether we are underfitting/overfitting
+
+any doubts?
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8E0E56LR/regularization.jpg|regularization.jpg>
+
+consider what happens during regularization
+
+so basically we are finding a region where error is also less and the difference between errors also less?
+
+no, we seek the point where J_CV is minimum
+
+ok
+
+because , that's what happens for new data
+
+high value of lambda will result in bias, and higher value will cause variance
+
+bias is underfitting, variance is overffiting
+
+that's because, in underfitting, often a linear model is applied to apparent non linear distribution
+
+in overfitting, we get wiggly curves, because the model tries very hard to pass through many data points
+
+If we have one feature we might get theta of d+1 dimension vector but if we have a very large features the dimension of theta is very difficult to compute and computationally expensive . Is there any method to overcome that?
+
+the dimensions of feature vector is on more than number of features. I am not sure I am understand your question. What's computationally expensive here?
+
+Thumb rule: In underfitting: Neither the train nor the CV error will be less
+
+because the model can't fit the situation well
+
+In overfitting: Train error will be very less, but the model can work well with new data
+
+any doubts with the regularization pic above?
+
+It is all a trade off between two features , so if we want to improve the complexity of our model we need to face a little expense computationally which is in the form of large dimensions
+
+no
+
+I'd training set has one feature, for degree 2 the hyp may be w0  + w1 x1 + w2 x^2
+
+so we have seen how to find optimal degree and regularization parameter from the graphs
+
+but, we can identify bias and variance by plotting errors vs the number of training examples used for training
+
+J_CV is found by running the model over the whole CV dataset
+
+But if we have 2 it may be w0 + w1 x1 +w2 x2 + w3 x1^2 + w4 x2^2 + w5 x1 x2. 
+
+we need to choose the features before going for training, there is no need to include all possible combinations of features in the hypothesis
+
+Hence if the features increases the terms for higher degree increases. That may be very high if features are 1k or so
+
+But i will train the model only on some instances of training dtata - starting from 1, 2, 3, ... instances of training data
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8FBSM46A/ideal_-_no._of_training_examples.jpg|ideal - no. of training examples.jpg>
+
+j_train is initially low, as the model can fit few points very well. but it fails to do so, when the number of train data points is very large
+
+otoh, J_CV decreases when we train the model with more parameters because the model can learn new variations, and modifying it's hypothesis accordingly
+
+this is the ideal case, where our model works as expected
+
+and this happens quite rarely :joy:
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8FBT925U/bias.jpg|bias.jpg>
+
+here, even though we are training with more data, the fails to improve even during training
+
+the model* fails to perform well
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8E0H6JLR/bias_-_hyp.jpg|bias - hyp.jpg>
+
+as shown on the RHS, our model might not be suitable for this case
+
+any doubts?
+
+<@U8AV51H47> uploaded a file: <https://wintermentorship.slack.com/files/U8AV51H47/F8FBTNGMC/variance.jpg|variance.jpg>
+
+with high variance, J_CV decreases when the model  is trained with more data
+
+but the accuracy/metric is not up to the level of expectation
+
+J_train increases with more train data, because we can't get a perfect curve though many points
+
+J_CV decreases because the model learns to not memorise noise
+
+so if our model is suffering from variance, getting more data helps
+
+extrapolationg J_CV above, will bring down the error levels
+
+doing so, for bias is useless
+
+we will have to change the model, for the case of bias
+
+ok, moving to the last small part of today's session
+
+let's look at how to avoid overfitting during hyper parameter optimization
+
+first of all, what are hyper params?
+
+These are manually set by the practitioner, and are critical to find out the above parameters. We cannot find the best hyperparameters; In grid search, random search etc, we are just tuning the hyper parameters to get the most skilful predictions. Example: Learning rate, k in kNN, regularization parameter(lambda), Number of hidden layers in NN, etc. Hyper parameters express higher level complexity of the model, like how fast it should run? Usually Hyper Parameters are decided by hyperparameter optimization, or by trial and error method.
+
+but to do the hyp param optimisation, we will often use the CV dataset
+
+but then, CV will no longer be new unseen data, over which we can test the accuracy of our model
+
+we will use it to tune the hyper parameters, so it kinda becomes secondary training data
+
+and often, during this process, the models may become overfit
+
+so, as I mentioned during the start of the session, we will split the data into 3 parts - train, CV and test
+
+Hyp params can be searched by using grid search/random search on the CV dataset, and finally the models can be tested on the test part of data
+
+like this, the risk of overfitting on hyp param search can be mitigated
+
+more on this - 
+ <https://dswalter.github.io/blog/overfitting-regularization-hyperparameters/>
+<https://blog.sigopt.com/posts/common-problems-in-hyperparameter-optimization>
+
+any doubts?
+
+ok, that's it for today
+
+feel free to ping us for any doubts
+
