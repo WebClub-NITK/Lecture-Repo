@@ -1,0 +1,1535 @@
+[
+    {
+        "user": "U8B6NRYES",
+        "text": "<@U8B6NRYES> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398152.000064"
+    },
+    {
+        "user": "U8BSD2U6Q",
+        "text": "<@U8BSD2U6Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398308.000093"
+    },
+    {
+        "user": "U8C3DD53R",
+        "text": "<@U8C3DD53R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398446.000054"
+    },
+    {
+        "user": "U8ATV8M3M",
+        "text": "<@U8ATV8M3M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398505.000008"
+    },
+    {
+        "user": "U8B1RPPEW",
+        "text": "<@U8B1RPPEW> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398557.000029"
+    },
+    {
+        "user": "U8B647JVB",
+        "text": "<@U8B647JVB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398594.000078"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Alright guys let us all introduce ourselves\nI'm Utkarsh Patil, 2nd year IT",
+        "ts": "1513398634.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "I'm Mishal, 2nd Year CSE",
+        "ts": "1513398668.000066"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Both me and <@U8B6NRYES> will be conducting today's session",
+        "ts": "1513398697.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Would be nice if the rest of you put up a small intro too",
+        "ts": "1513398714.000074"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Hi, I am Nikhil, EC 2nd year. ",
+        "ts": "1513398748.000015"
+    },
+    {
+        "user": "U8B291X42",
+        "text": "<@U8B291X42> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398760.000058"
+    },
+    {
+        "user": "U8BA5RRED",
+        "text": "<@U8BA5RRED> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398781.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8BA5RRED",
+        "text": "Hie \nI'm Hrishi\n3rd yr, you can ask me doubts anytime during session",
+        "ts": "1513398822.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Today I'll be taking up the following topics\n1. jQuery into\n2. jQuery Effects\n3. jQuery HTML - changing and manipulating HTML\n4. jQuery Traversing\n5. jQuery Ajax",
+        "ts": "1513399012.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Intro*",
+        "ts": "1513399026.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let",
+        "ts": "1513399033.000086"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's get started",
+        "ts": "1513399039.000091",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "*jQuery is a JavaScript Library.*",
+        "ts": "1513399069.000079"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "*jQuery greatly simplifies JavaScript programming.*",
+        "ts": "1513399080.000057"
+    },
+    {
+        "user": "U8BSX9W3Y",
+        "text": "<@U8BSX9W3Y> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399089.000068"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Basic syntax:* $(selector).action()*",
+        "ts": "1513399140.000013"
+    },
+    {
+        "user": "U8B6V28G1",
+        "text": "<@U8B6V28G1> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399149.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Everyone just open up this link\n<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_hide>",
+        "ts": "1513399195.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "On the right side, you'll see \"Click me away!\"",
+        "ts": "1513399229.000072"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Click on that",
+        "ts": "1513399233.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "When you see the change happpening put up a :+1:",
+        "ts": "1513399256.000021",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C3DD53R",
+                    "U8BSD2U6Q"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "So when you click on that, or any of the 3 lines of text, you'll notice that the text disappears",
+        "ts": "1513399361.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "What's happening here?",
+        "ts": "1513399377.000015"
+    },
+    {
+        "user": "U8C55GJ5D",
+        "text": "<@U8C55GJ5D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399385.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "If you focus on the `&lt;script&gt;` tag in the link, you'll see some jQuery code writtenn",
+        "ts": "1513399410.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(document).ready();`\nThis function takes an argument which is a function",
+        "thread_ts": "1513399468.000052",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8BA5RRED",
+                "ts": "1513399672.000012"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513399468.000052"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "It executes this function only once the documennt gets loaded completely",
+        "ts": "1513399522.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "This is to prevent any jQuery code from running before the document is finished loading (is ready).",
+        "ts": "1513399534.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "In the function that you pass as an argument, you'll see \n```\n$(\"p\").click(function(){\n        $(this).hide();\n    });\n```",
+        "ts": "1513399580.000088"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "So over here, `.click()` too takes an argument that is a function",
+        "ts": "1513399618.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`.click()` executes this function only once the selector is clicked",
+        "ts": "1513399642.000020"
+    },
+    {
+        "type": "message",
+        "user": "U8BA5RRED",
+        "text": "This is equivalent to document onload of js",
+        "thread_ts": "1513399468.000052",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513399672.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(this).hide();` hides the element that is clicked",
+        "ts": "1513399674.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at the selectors",
+        "ts": "1513399686.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`document`, `p`, `this`",
+        "ts": "1513399713.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "they're all selectors",
+        "ts": "1513399719.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "ready, click, hide are all actions",
+        "ts": "1513399748.000026"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "So here as you notice, selectors help us select the HTML elements that we want to perform actions on",
+        "ts": "1513399842.000047"
+    },
+    {
+        "user": "U8B64M7PA",
+        "text": "<@U8B64M7PA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399866.000064"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Here's a few examples of selectors:",
+        "thread_ts": "1513399873.000068",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8BA5RRED",
+                "ts": "1513399962.000075"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513399873.000068"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(\"*\")` selects all elements",
+        "ts": "1513399889.000067"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(\"p.intro\")` selects all paragraph tags with class \"intro\"",
+        "ts": "1513399929.000011"
+    },
+    {
+        "type": "message",
+        "user": "U8BA5RRED",
+        "text": "These are similar to css selectors",
+        "thread_ts": "1513399873.000068",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513399962.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(this)` selects the current HTML element\nas we saw in the link, this referred to the element that was clicked",
+        "ts": "1513399990.000072"
+    },
+    {
+        "user": "U8C2UBX1D",
+        "text": "<@U8C2UBX1D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513400015.000047"
+    },
+    {
+        "user": "U8CLC2PAS",
+        "text": "<@U8CLC2PAS> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513400019.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(\"p:first\")` selects the first paragraph tag",
+        "ts": "1513400035.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Now can someone tell me what do you think is the difference between\n`$(\"ul li:first\")` and `$(\"ul li:first-child\")`",
+        "ts": "1513400077.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<@U8ATV8M3M>? <@U8C3DD53R>? Others?",
+        "ts": "1513400157.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Don't worry even if you answer wrong...just respond",
+        "ts": "1513400185.000017"
+    },
+    {
+        "user": "U8BJDBYDR",
+        "text": "<@U8BJDBYDR> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513400265.000077"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "ul li:first selects the first element in the list whereas ul li:first-child selects the first sub element of first element in a list",
+        "ts": "1513400289.000114",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Right?",
+        "ts": "1513400294.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Urm quite almost there <@U8ATV8M3M>!",
+        "ts": "1513400323.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Selects the first &lt;li&gt; element of every &lt;ul&gt; - `$(\"ul li:first-child\")`",
+        "ts": "1513400367.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Selects the first &lt;li&gt; element of the first &lt;ul&gt; - `$(\"ul li:first\")`",
+        "ts": "1513400394.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Alright I think we know enough about events",
+        "ts": "1513400411.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Those of you familiar with css selectors, this is quite similar to those",
+        "ts": "1513400425.000053"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "$(\"#myid\") helps us select an element using its ID",
+        "ts": "1513400447.000131"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "`$(\".myclass\")` selects all classes with a class name \"myclass\"",
+        "ts": "1513400481.000071"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "You can also pass multiple selectors like this\n`$(\".myclass, p.mypclass\")`",
+        "thread_ts": "1513400549.000057",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513400901.000025"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513401041.000020"
+            },
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513401094.000080"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513401207.000029"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513401236.000034"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1513400549.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at the actions part now, of the jQuery syntax",
+        "ts": "1513400585.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "So for events like click, mouse enter, hover, keypress, keydown etc we can attach to these events a function which executes actions to be performed when these events occur",
+        "ts": "1513400682.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "so in the link we saw that the click event on all paragraph tags executed a function which had only 1 line, `$(this).hide()` and this line of code made sure that on clicking the paragraph tag, that tag hides",
+        "ts": "1513400758.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "I hope its clear now how selectors and actions work together to accomplish tasks in jQuery",
+        "ts": "1513400799.000035",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Open up this link guys\n<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_toggle>",
+        "ts": "1513400853.000038"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "and click on the button multiple times to see the button work",
+        "ts": "1513400882.000076"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "About the class selector, it selects all the elements with given class name. What is the best practice if we have to change only one element with given class? Use some other selector like provide id to that element to be selected or we can do it using class itself?",
+        "thread_ts": "1513400549.000057",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513400901.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Can one of you tell me what you observe?",
+        "ts": "1513400906.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "The paragraphs toggle between hide and show as we press the button",
+        "ts": "1513400960.000072",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Correct <@U8ATV8M3M>!",
+        "ts": "1513400982.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Great so I hope you guys are getting a hang of jQuery",
+        "ts": "1513400997.000006",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C2UBX1D",
+                    "U8C3DD53R",
+                    "U8BJDBYDR"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "The button on clicking simple toggles between hide and show",
+        "ts": "1513401013.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "You can do it either way, as classname selects all the elements, they are in array, so you can just specify the nth element in classname to change it\nOr you can even do it using id.",
+        "thread_ts": "1513400549.000057",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401041.000020",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "we saw that hide() hides an HTML element\nsimilarly show() displays a hidden HTML element",
+        "ts": "1513401042.000078"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "and toggle() detects the state of that HTML element, whether it is hidden or not, and performs the action to change this state",
+        "thread_ts": "1513401088.000027",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513401145.000032"
+            },
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513401217.000025"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513401088.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "Thank you!",
+        "thread_ts": "1513400549.000057",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401094.000080"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Is toggle() only for hide\/show? Or for anything that has two states?",
+        "edited": {
+            "user": "U8ATV8M3M",
+            "ts": "1513401169.000000"
+        },
+        "thread_ts": "1513401088.000027",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401145.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "So an element can have both class and id?",
+        "thread_ts": "1513400549.000057",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401207.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<http:\/\/api.jquery.com\/toggle\/>\nGo through this once, it'll be clear",
+        "thread_ts": "1513401088.000027",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401217.000025",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U8GGC7DT8",
+        "text": "<@U8GGC7DT8> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513401225.000060"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes...that is allowed.",
+        "thread_ts": "1513400549.000057",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401236.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Open up this link\n<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_focus_blur>",
+        "ts": "1513401255.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "So focus() is what happens when I select an input for tag, and blur() is the event when that input tag which is in focus loses its focus",
+        "thread_ts": "1513401312.000025",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513401452.000067"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513401312.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Now in the link I sent, if you click on the input for, its background changes to grey, and white again when you unselect this input form",
+        "thread_ts": "1513401359.000082",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513401393.000013"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513401359.000082"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "I hope you guys understood what happened there, if not please ask",
+        "ts": "1513401377.000094",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8BJDBYDR"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "form*",
+        "thread_ts": "1513401359.000082",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401393.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "form*",
+        "thread_ts": "1513401312.000025",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401452.000067"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "So focus is for when an element is in use, and blur when it's not right?",
+        "ts": "1513401456.000071"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Urm yeah somewhhat, a better way to say it is when the tag is selected and unselected",
+        "ts": "1513401489.000006",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_slide_down>\nOpen up this link guys",
+        "ts": "1513401538.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "On clicking the coloured box, the slidedown effect occurs",
+        "ts": "1513401587.000053"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "In panel style what is the display: none for?",
+        "thread_ts": "1513401621.000013",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8C55GJ5D",
+                "ts": "1513401680.000072"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513401621.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Initially the \"#panel\" tag isn't displayed",
+        "ts": "1513401648.000011"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "Ohok",
+        "ts": "1513401657.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "the css display:none is for that",
+        "ts": "1513401657.000103"
+    },
+    {
+        "type": "message",
+        "user": "U8C55GJ5D",
+        "text": "Just hides the panel initially.",
+        "thread_ts": "1513401621.000013",
+        "parent_user_id": "U8C2UBX1D",
+        "ts": "1513401680.000072"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at something interesting now",
+        "ts": "1513401702.000071"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Animations!",
+        "ts": "1513401706.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_animation1>",
+        "ts": "1513401711.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Just a sec <@U8B1RPPEW>",
+        "ts": "1513401716.000192"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Others also please respond, only 2-3 people are seen responding.",
+        "ts": "1513401739.000012",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8C55GJ5D",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Continue...",
+        "ts": "1513401763.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Yeah alright guys the more you participate and interact, the more you'll able to learn",
+        "thread_ts": "1513401806.000060",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513401825.000046"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513401921.000041"
+            },
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513401934.000016"
+            },
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513401941.000050"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513401970.000042"
+            },
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513402100.000015"
+            },
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513402161.000034"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1513401806.000060"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Always feel free to intereupt me and ask doubts",
+        "ts": "1513401824.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "What is the position: absolute for?",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401825.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "left: 250px, does this mean, 250 px from the left?",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401921.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<@U8ATV8M3M> yes",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401934.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<@U8C2UBX1D> \tThe element is positioned relative to its first positioned ancestor",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401941.000050"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "Ohok",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513401970.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Okay right",
+        "ts": "1513402010.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "so animations",
+        "ts": "1513402014.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_animation1>\nOpen up this link guys",
+        "ts": "1513402032.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "So the use of animate is to provided a css property, that is different from that of property specified in css and animate it, or we can use it in different manner?",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402100.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "what .animate() does it, it takes as an argument css properties and applies these to the selectors but the transition from the initial to this new css property is animated",
+        "ts": "1513402142.000046",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C2UBX1D"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "I'm actually explaining that now",
+        "thread_ts": "1513401806.000060",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402161.000034",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "check this out\n<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_animation1_multicss>",
+        "thread_ts": "1513402199.000022",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513402234.000100"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513402199.000022",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8ATV8M3M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Same way that the initial link works",
+        "ts": "1513402217.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "transition from the initial to the new css property is animated",
+        "ts": "1513402234.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "Woah cool",
+        "thread_ts": "1513402199.000022",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402234.000100",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "And we can use onload, hover and onclick right?the corresponding commands",
+        "thread_ts": "1513402325.000057",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513402342.000006"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513402325.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes",
+        "thread_ts": "1513402325.000057",
+        "parent_user_id": "U8C2UBX1D",
+        "ts": "1513402342.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at stop()\nIts used to stop an animation that is currently occurrring and prevent this animation from going to completion",
+        "ts": "1513402353.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_stop_slide>",
+        "ts": "1513402364.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "click on the panel and wait for about 2 seconds then click on stop sliding",
+        "thread_ts": "1513402380.000029",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513402513.000018"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513402527.000023"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513402380.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Clear?",
+        "ts": "1513402407.000035",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R",
+                    "U8ATV8M3M",
+                    "U8BJDBYDR"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Okay next let's look at callback",
+        "ts": "1513402445.000074"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Now for each action that we performed, we pass a function for the block of code we want to execute once the event has occured",
+        "ts": "1513402503.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "How did panel get same color and other attributes as flip?",
+        "thread_ts": "1513402380.000029",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402513.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Oh! I got it. ",
+        "thread_ts": "1513402380.000029",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402527.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "A lot of times its very useful to have some provision to perform a block of code, after this action is over",
+        "ts": "1513402599.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "callback is an optional parameter that gets executed only after the effect has occured",
+        "ts": "1513402673.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_hide_callback>\nhave a look at this",
+        "ts": "1513402680.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "the function() {alert(\"The paragraph is now hidden\");} function is a callback argument",
+        "thread_ts": "1513402718.000051",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513402797.000061"
+            },
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513402847.000012"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513402903.000024"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513402927.000042"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1513402718.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Any doubts here?",
+        "ts": "1513402770.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Does hide() here have two parameters i.e slow and function alert...?",
+        "thread_ts": "1513402718.000051",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402797.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "The idea is, pass a function as an argument for callback parameter, this function gets executed after the effect is done with execution",
+        "ts": "1513402821.000053",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "yeah",
+        "thread_ts": "1513402718.000051",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402847.000012",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Next let's look at chaining",
+        "ts": "1513402874.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_chaining>",
+        "ts": "1513402895.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Even if you remove the slow parameter, it will get executed but at a faster pace.\nIt has two parameters but only 1 is compulsory.",
+        "thread_ts": "1513402718.000051",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402903.000024"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "here we see that the same selector is used to perform multiple actions",
+        "ts": "1513402923.000054"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "To get that executed at slower pace we mention the \"slow\" parameter.",
+        "thread_ts": "1513402718.000051",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513402927.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "that's chaining",
+        "ts": "1513402936.000026"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at the add() method",
+        "ts": "1513402978.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "append*",
+        "ts": "1513402998.000031"
+    },
+    {
+        "user": "U8AAM6VLJ",
+        "text": "<@U8AAM6VLJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513403000.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_html_append>",
+        "ts": "1513403018.000018"
+    },
+    {
+        "user": "U8AUCD03S",
+        "text": "<@U8AUCD03S> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513403037.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "This allows us to append AT THE END of the selected HTML elements",
+        "ts": "1513403053.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "similarly, prepend is IN THE BEGINNING",
+        "ts": "1513403079.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "before() and after() are used for adding before or after the selectors",
+        "ts": "1513403135.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_html_after>\nThis should make everything clear",
+        "ts": "1513403160.000102"
+    },
+    {
+        "text": "This message was deleted.",
+        "edited": {
+            "user": "U8B6NRYES",
+            "ts": "1513403301.000000"
+        },
+        "type": "message",
+        "subtype": "tombstone",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "thread_ts": "1513403281.000045",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513403339.000017"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513403281.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at .css method",
+        "ts": "1513403287.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_css_set_multiple>",
+        "ts": "1513403294.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "we can set css styling via jQuery for selectors",
+        "ts": "1513403308.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "quite simple just go through the link",
+        "ts": "1513403316.000071",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8C2UBX1D",
+                    "U8ATV8M3M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Now delete this thread :stuck_out_tongue:",
+        "thread_ts": "1513403281.000045",
+        "parent_user_id": "USLACKBOT",
+        "ts": "1513403339.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Post any doubts you have guys, feel free to interrupt any time",
+        "thread_ts": "1513403352.000098",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513403399.000007"
+            },
+            {
+                "user": "U8B1RPPEW",
+                "ts": "1513403492.000007"
+            },
+            {
+                "user": "U8ATV8M3M",
+                "ts": "1513403529.000012"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1513403352.000098"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "What if I want to change text in the button. Where should I use innerHTML?",
+        "thread_ts": "1513403352.000098",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513403399.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "I think you're looking for text()\n<https:\/\/www.w3schools.com\/jquery\/jquery_dom_set.asp>",
+        "attachments": [
+            {
+                "title": "jQuery Set Content and Attributes",
+                "title_link": "https:\/\/www.w3schools.com\/jquery\/jquery_dom_set.asp",
+                "text": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.",
+                "fallback": "jQuery Set Content and Attributes",
+                "from_url": "https:\/\/www.w3schools.com\/jquery\/jquery_dom_set.asp",
+                "service_icon": "https:\/\/www.w3schools.com\/favicon.ico",
+                "service_name": "w3schools.com",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1513403352.000098",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513403492.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8ATV8M3M",
+        "text": "Cool. Thanks",
+        "thread_ts": "1513403352.000098",
+        "parent_user_id": "U8B1RPPEW",
+        "ts": "1513403529.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Let's look at ajax next and how we can use jquery with ajax",
+        "ts": "1513403605.000015"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Everyone Join <#C8F4XFESV|ajax>",
+        "ts": "1513403617.000062"
+    },
+    {
+        "user": "U8BS39J1L",
+        "text": "<@U8BS39J1L> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513403919.000068"
+    },
+    {
+        "user": "U8BSWMSLE",
+        "text": "<@U8BSWMSLE> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513404066.000002"
+    }
+]

@@ -1,0 +1,2160 @@
+[
+    {
+        "user": "U8B6NRYES",
+        "text": "<@U8B6NRYES> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398179.000064"
+    },
+    {
+        "user": "U8BSD2U6Q",
+        "text": "<@U8BSD2U6Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398326.000051"
+    },
+    {
+        "user": "U8C3DD53R",
+        "text": "<@U8C3DD53R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398392.000088"
+    },
+    {
+        "user": "U8ATV8M3M",
+        "text": "<@U8ATV8M3M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398463.000005"
+    },
+    {
+        "user": "U8B647JVB",
+        "text": "<@U8B647JVB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398588.000090"
+    },
+    {
+        "user": "U8B4UNL2H",
+        "text": "<@U8B4UNL2H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398601.000048"
+    },
+    {
+        "user": "U8B291X42",
+        "text": "<@U8B291X42> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398740.000022"
+    },
+    {
+        "user": "U8BA5RRED",
+        "text": "<@U8BA5RRED> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513398834.000028"
+    },
+    {
+        "user": "U8BSX9W3Y",
+        "text": "<@U8BSX9W3Y> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399079.000062"
+    },
+    {
+        "user": "U8C55GJ5D",
+        "text": "<@U8C55GJ5D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399387.000013"
+    },
+    {
+        "user": "U8CLC2PAS",
+        "text": "<@U8CLC2PAS> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399650.000079"
+    },
+    {
+        "user": "U8AUCD03S",
+        "text": "<@U8AUCD03S> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399748.000105"
+    },
+    {
+        "user": "U8B64M7PA",
+        "text": "<@U8B64M7PA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513399886.000072"
+    },
+    {
+        "user": "U8C2UBX1D",
+        "text": "<@U8C2UBX1D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513400031.000083"
+    },
+    {
+        "user": "U8GGC7DT8",
+        "text": "<@U8GGC7DT8> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513401517.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "All here?",
+        "ts": "1513403640.000085",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8ATV8M3M",
+                    "U8C2UBX1D"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U8B1RPPEW",
+        "text": "<@U8B1RPPEW> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513403656.000082"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "Cool let's begin then",
+        "ts": "1513403679.000014"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "demo_test.txt contains the following\n&lt;h2&gt;jQuery and AJAX is FUN!!!&lt;\/h2&gt;\n&lt;p id=\"p1\"&gt;This is some text in a paragraph.&lt;\/p&gt;",
+        "ts": "1513403720.000102"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<https:\/\/www.w3schools.com\/jquery\/tryit.asp?filename=tryjquery_ajax_load>\nopen up this link",
+        "ts": "1513403742.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B1RPPEW",
+        "text": "<@U8B6NRYES> will be taking AJAX",
+        "ts": "1513403789.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yeah..okay\nThanks <@U8B1RPPEW>",
+        "ts": "1513403803.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So Lets start",
+        "ts": "1513403817.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "How many of you here? Put a :thumbsup:",
+        "ts": "1513403829.000016",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C3DD53R",
+                    "U8C2UBX1D",
+                    "U8BJDBYDR",
+                    "U8B291X42"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "user": "U8BS39J1L",
+        "text": "<@U8BS39J1L> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513403913.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yea so AJAX \nWhy do we need AJAX, what are its benefits?\nAny ideas?",
+        "thread_ts": "1513403925.000059",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513403975.000030"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513403983.000052"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513403925.000059",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C2UBX1D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "update the part of webpage without reloading it.",
+        "thread_ts": "1513403925.000059",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513403975.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "okay..\nAJAX can selectively modify a part of a page displayed by the browser, and update it without the need to reload the whole document with all images, menus, etc...",
+        "ts": "1513403976.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yea correct",
+        "thread_ts": "1513403925.000059",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513403983.000052",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "till now whatever we saw the data was by default set by us, yes?",
+        "edited": {
+            "user": "U8B6NRYES",
+            "ts": "1513404018.000000"
+        },
+        "ts": "1513404007.000145",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8C3DD53R",
+                    "U8C2UBX1D"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U8BSWMSLE",
+        "text": "<@U8BSWMSLE> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513404057.000104"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "But you cannot keep so much data in your webpage... it will be a pain to write so many html files or so.",
+        "ts": "1513404071.000101"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Imagine facebook writing your profile page for 2 billion users :stuck_out_tongue:",
+        "ts": "1513404091.000001",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U8ATV8M3M",
+                    "U8B1RPPEW"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So that's where AJAX calls come into picture...we load the data from our server and display them on your webpage",
+        "ts": "1513404145.000024"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We are into front-end part, so do not think for now how servers give the data\nOur role is to get that data fromservers",
+        "ts": "1513404188.000048"
+    },
+    {
+        "user": "U8BJDBYDR",
+        "text": "<@U8BJDBYDR> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513404214.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So AJAX stands for Asynchronous JavaScript + XML",
+        "ts": "1513404217.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "The \"asynchronous\" word, means that the response of the server while be processed when available, without to wait and to freeze the display of the page.",
+        "ts": "1513404279.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Everything clear till now and why we need AJAX calls?",
+        "ts": "1513404290.000041",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R",
+                    "U8ATV8M3M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We will be studying AJAX calls in jQuery as they are simpler to implement and the code is also way clearer",
+        "ts": "1513404341.000119"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This is a basic code in jQuery for AJAX calls",
+        "ts": "1513404359.000079"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8GNFLUET\/basic_jquery.js|basic jquery>",
+        "file": {
+            "id": "F8GNFLUET",
+            "created": 1513404406,
+            "timestamp": 1513404406,
+            "name": "basic_jquery.js",
+            "title": "basic jquery",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 152,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8GNFLUET\/basic_jquery.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8GNFLUET\/download\/basic_jquery.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8GNFLUET\/basic_jquery.js",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8GNFLUET-85c16c5ab4",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8GNFLUET\/basic_jquery.js\/edit",
+            "preview": "$.ajax({\r\n       type:””,\t\r\n        url: \"url\",\r\n        success: function(data) {\r\n            \/\/ Do whatever you want to do \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">$<\/span>.<span class=\"cm-property\">ajax<\/span>({<\/pre><\/div>\n<div><pre>       <span class=\"cm-property\">type<\/span>:<span class=\"cm-variable\">””<\/span>,\t<\/pre><\/div>\n<div><pre>        <span class=\"cm-property\">url<\/span>: <span class=\"cm-string\">&quot;url&quot;<\/span>,<\/pre><\/div>\n<div><pre>        <span class=\"cm-property\">success<\/span>: <span class=\"cm-keyword\">function<\/span>(<span class=\"cm-def\">data<\/span>) {<\/pre><\/div>\n<div><pre>            <span class=\"cm-comment\">\/\/ Do whatever you want to do <\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 8,
+            "lines_more": 3,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513404406.000090"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Explaining each terms\ntype is the method",
+        "ts": "1513404435.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We need to get data from the server, right?",
+        "ts": "1513404453.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So we use `GET` request",
+        "ts": "1513404465.000060"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If we want to post data to the server, we use `POST` request",
+        "ts": "1513404486.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If we want to delete a data from the server we use `DELETE` request",
+        "ts": "1513404508.000027"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If we want to update the data, we use `PUT` request",
+        "ts": "1513404526.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Clear?",
+        "ts": "1513404530.000043",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So the difference between GET and POST isn't just about posting\/getting the data",
+        "ts": "1513404596.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It is much more",
+        "ts": "1513404603.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "GET requests can be cached\nGET requests remain in the browser history\nGET requests can be bookmarked\nGET requests should never be used when dealing with sensitive data\nGET requests have length restrictions",
+        "ts": "1513404619.000065"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "GET requests should be used only to retrieve data",
+        "ts": "1513404628.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "===========================================================\nPOST requests are never cached\nPOST requests do not remain in the browser history\nPOST requests cannot be bookmarked\nPOST requests have no restrictions on data length",
+        "ts": "1513404644.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "any doubts?",
+        "ts": "1513404672.000116"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Usually the length restriction is 8KBs\nBut that can be modified",
+        "ts": "1513404732.000068"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "any doubts?\nFeel free to ask",
+        "ts": "1513404759.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Should I go ahead?",
+        "ts": "1513404799.000049",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Okay\nSo coming back to url...the url is where we are making the request(POST,GET.....)",
+        "ts": "1513404849.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "success is the callback function.",
+        "ts": "1513404865.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Lets get into examples\nMay I know which OS you are using?",
+        "thread_ts": "1513404909.000056",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513404974.000085"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513405003.000021"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513404909.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "windows",
+        "ts": "1513404934.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Okay....create a folder\nAnd create a text file named `test.txt`",
+        "ts": "1513404973.000035",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "Linux Mint",
+        "thread_ts": "1513404909.000056",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513404974.000085"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "text file in the folder",
+        "ts": "1513404986.000060"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Okay....create a folder\nAnd create a text file named `test.txt`\ntext file in the folder",
+        "thread_ts": "1513404909.000056",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405003.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Done?",
+        "ts": "1513405007.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Great add this content into that file.\n&lt;div class=\"\"&gt;This is a very basic example..Cool things coming on their way&lt;\/div&gt;",
+        "ts": "1513405061.000066"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Done?",
+        "ts": "1513405086.000069",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8C2UBX1D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F58S1H7\/ajax_basics.html|AJAX basics>",
+        "file": {
+            "id": "F8F58S1H7",
+            "created": 1513405126,
+            "timestamp": 1513405126,
+            "name": "AJAX_basics.html",
+            "title": "AJAX basics",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 564,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8F58S1H7\/ajax_basics.html?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8F58S1H7\/download\/ajax_basics.html?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F58S1H7\/ajax_basics.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8F58S1H7-7863989ac7",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F58S1H7\/ajax_basics.html\/edit",
+            "preview": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\r\n<script>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">script<\/span> <span class=\"cm-attribute\">src<\/span>=<span class=\"cm-string\">&quot;https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">script<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">script<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 27,
+            "lines_more": 22,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513405127.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Add this file into same folder",
+        "ts": "1513405139.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Done?",
+        "ts": "1513405151.000033",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Open the file .html which you made^ in your browser",
+        "ts": "1513405181.000086"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Done?",
+        "ts": "1513405201.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "?",
+        "ts": "1513405259.000077"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Any problems?",
+        "ts": "1513405307.000067"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Mention here.",
+        "ts": "1513405316.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Guys what happened? <@U8C2UBX1D> <@U8C3DD53R> <@U8BJDBYDR> <@U8B647JVB>",
+        "ts": "1513405407.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "its not retrieving data from the text file",
+        "thread_ts": "1513405447.000053",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513405460.000047"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513405447.000053",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "same here.",
+        "thread_ts": "1513405447.000053",
+        "parent_user_id": "U8C2UBX1D",
+        "ts": "1513405460.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes cool\nOpen the console see the error",
+        "ts": "1513405461.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "and paste it here",
+        "thread_ts": "1513405469.000057",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513405525.000051"
+            },
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513405552.000030"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513405469.000057"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8C2UBX1D> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8C2UBX1D\/F8FQQAB0D\/image.png|image.png>",
+        "file": {
+            "id": "F8FQQAB0D",
+            "created": 1513405510,
+            "timestamp": 1513405510,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8C2UBX1D",
+            "editable": false,
+            "size": 84306,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8FQQAB0D\/image.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8FQQAB0D\/download\/image.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_64.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_80.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_360.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_360_w": 360,
+            "thumb_360_h": 202,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_480.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_160.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_720.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_800.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_960.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T8ABPNCBW-F8FQQAB0D-af96c29595\/image_1024.png?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1366,
+            "original_h": 768,
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8C2UBX1D\/F8FQQAB0D\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8FQQAB0D-24e8081958",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8C2UBX1D",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adit.rastogi2014",
+        "bot_id": null,
+        "ts": "1513405513.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "index.html:9 Failed to load file:\/\/\/media\/akshay\/Volume%20E\/exp\/ajax\/test.txt: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.",
+        "thread_ts": "1513405469.000057",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405525.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It was intentional so don't worry",
+        "ts": "1513405551.000025",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "failed to load test.txt",
+        "thread_ts": "1513405469.000057",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405552.000030"
+    },
+    {
+        "user": "U8B6V28G1",
+        "text": "<@U8B6V28G1> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1513405555.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So a point to note here is that \nAJAX calls are allowed only over HTTP\/HTTPS protocols",
+        "ts": "1513405591.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So I had mentioned on the group to install web server for chrome\nIt helps us set up a simple server for static files",
+        "ts": "1513405629.000073"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So now open Web Server for Chrome\nChoose the folder which you made",
+        "ts": "1513405656.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "And click on the URL mentioned",
+        "thread_ts": "1513405670.000008",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513405688.000039"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513405670.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "done",
+        "thread_ts": "1513405670.000008",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405688.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "did the file content load?",
+        "ts": "1513405700.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yup",
+        "ts": "1513405707.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Great",
+        "ts": "1513405725.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Got the concept?",
+        "thread_ts": "1513405730.000026",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513405748.000063"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513405766.000030"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513405853.000040"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513405868.000078"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1513405730.000026"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "kind of",
+        "thread_ts": "1513405730.000026",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405748.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "For Linux users, you can set up server using\n`python -m SimpleHTTPServer 3000`",
+        "ts": "1513405756.000056",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Okay\nWhat isn't clear?",
+        "thread_ts": "1513405730.000026",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405766.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Go to that particular directory",
+        "ts": "1513405782.000073"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "and then type the command in that directory using terminal",
+        "ts": "1513405799.000030",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Is it done for you <@U8C3DD53R>?",
+        "thread_ts": "1513405820.000032",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513405860.000059"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513405820.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "its clear but will require some getting used to",
+        "thread_ts": "1513405730.000026",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405853.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "Done Thank You!",
+        "thread_ts": "1513405820.000032",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405860.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yea okay.",
+        "thread_ts": "1513405730.000026",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513405868.000078"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Cool",
+        "ts": "1513405874.000037"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So this was very simple example of AJAX call",
+        "ts": "1513405886.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We now see some really cool applications :stuck_out_tongue:",
+        "ts": "1513405906.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "We'll be making requests to cross platform\nThat is we will retrieve data from some website",
+        "ts": "1513405951.000033"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F148P16\/-.html|Untitled>",
+        "file": {
+            "id": "F8F148P16",
+            "created": 1513406026,
+            "timestamp": 1513406026,
+            "name": "-.html",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 738,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8F148P16\/-.html?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8F148P16\/download\/-.html?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F148P16\/-.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8F148P16-c506a4bb91",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F148P16\/-.html\/edit",
+            "preview": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\r\n<script>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">script<\/span> <span class=\"cm-attribute\">src<\/span>=<span class=\"cm-string\">&quot;https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">script<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">script<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 36,
+            "lines_more": 31,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513406027.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Try this code \nWe have made a GET request to `<https:\/\/api.meetup.com\/2\/cities>`\nWe will get the data from their servers and we will be showing on our webpage",
+        "ts": "1513406090.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Please close the element with \"\n`$('.try').text(\"data.results[0].city\");`",
+        "ts": "1513406150.000067"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Working?",
+        "ts": "1513406177.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "you forgot a \" :sweat_smile:",
+        "ts": "1513406198.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yea, sorry",
+        "ts": "1513406210.000089"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yup working:+1:",
+        "ts": "1513406233.000052"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "What about <@U8C3DD53R>?",
+        "thread_ts": "1513406248.000017",
+        "reply_count": 9,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513406267.000041"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406285.000028"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406289.000089"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406326.000018"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406332.000013"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406343.000094"
+            },
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513406345.000096"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406368.000025"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406370.000004"
+            }
+        ],
+        "unread_count": 9,
+        "ts": "1513406248.000017"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "Working Now, loading...",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406267.000041"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Is only loading shown?",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406285.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Or even some data?",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406289.000089"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So this is how we make requests to other servers and get data.",
+        "thread_ts": "1513406305.000024",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406397.000078"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406409.000042"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406423.000020"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1513406305.000024",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "is the data some huge garbage?",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406326.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "No no",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406332.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Wait I'll explain that",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406343.000094"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "No Data is shown.",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406345.000096"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Note that the data is usually returned in `json` formats",
+        "ts": "1513406347.000083"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Umm\nOpen console see the error",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406368.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Post it here",
+        "thread_ts": "1513406248.000017",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406370.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "\"results\":[{\"zip\":\"meetup2\",\"country\":\"in\",\"localized_country_name\":\"India\",\"distance\":0.46609883797936297,\"city\":\"Delhi\",\"lon\":77.2 and so on  was the data right?",
+        "thread_ts": "1513406305.000024",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406397.000078"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes",
+        "thread_ts": "1513406305.000024",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406409.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "ok:+1:",
+        "thread_ts": "1513406305.000024",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406423.000020"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Data isn't a garabage :stuck_out_tongue:\nThat is how data is stored in databases,\nWe can style the data and display it properly on our website",
+        "ts": "1513406431.000075",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "For example this is the list of meetups happening\nso we can use those particular parameters, and show on our webpage",
+        "ts": "1513406482.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Is everything clear?",
+        "ts": "1513406520.000025"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Let's take an example of WikiPedia API to display the content properly.\nSo you'll come to know that data is not a garbage :stuck_out_tongue:",
+        "ts": "1513406581.000015",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8GGLGSG6\/wikipedia_api.html|Wikipedia API>",
+        "file": {
+            "id": "F8GGLGSG6",
+            "created": 1513406643,
+            "timestamp": 1513406643,
+            "name": "Wikipedia_API.html",
+            "title": "Wikipedia API",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 792,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8GGLGSG6\/wikipedia_api.html?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8GGLGSG6\/download\/wikipedia_api.html?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8GGLGSG6\/wikipedia_api.html",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8GGLGSG6-b0e3611f33",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8GGLGSG6\/wikipedia_api.html\/edit",
+            "preview": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\r\n<script>\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">script<\/span> <span class=\"cm-attribute\">src<\/span>=<span class=\"cm-string\">&quot;https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">script<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">script<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 32,
+            "lines_more": 27,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513406644.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Try running this",
+        "ts": "1513406651.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Tell me the output",
+        "thread_ts": "1513406719.000003",
+        "reply_count": 26,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513406742.000008"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406768.000034"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406783.000052"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406797.000005"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406805.000077"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406819.000061"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406825.000046"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406839.000007"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513406864.000006"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513406938.000004"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407010.000055"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407039.000009"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407098.000036"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407133.000035"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407197.000050"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407213.000035"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407253.000028"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407302.000003"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407352.000068"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407382.000038"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407392.000092"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407410.000042"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407414.000029"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407419.000052"
+            },
+            {
+                "user": "U8C2UBX1D",
+                "ts": "1513407424.000043"
+            },
+            {
+                "user": "U8B6NRYES",
+                "ts": "1513407430.000069"
+            }
+        ],
+        "unread_count": 26,
+        "ts": "1513406719.000003",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8C2UBX1D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "Data about NITK",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406742.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes, so explaining the parameters sent in url",
+        "ts": "1513406760.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yup but how did it get formatted?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406768.000034"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Formatted?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406783.000052"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "You mean not displaying the tables and all?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406797.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yea...",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406805.000077"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "That's what you have to do using CSS",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406819.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This is how you get the data",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406825.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "its in a different format to both the page and the format of the last file",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406839.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Meaning?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406864.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "i mean its not like the official page of nitk on wikipedia and not like the \"garbage\" of the last file either, how come?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513406938.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See the data is same here and on Wikipedia?\nYes?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407010.000055"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yup",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407039.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Okay\nOpen the console and see that the format of the data is smae",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407098.000036",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8C2UBX1D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yup",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407133.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes so here we got the data only of NITK\nSo it is a bit clear\nImagine if we had a lot of queries like last time(all meetups in India)\nThe content would have looked in a similar manner",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407197.000050"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "ohok",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407213.000035",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8B6NRYES"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yea so the data is returned in similar manner\nHow we display is important",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407253.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "ohok but how is the display different here ?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407302.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yea beacause we took only\n`var markup = data.parse.text[\"*\"];`",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407352.000068"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "ohok",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407382.000038"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "In the JSON returned\nWe took omly the data which we needed\ni.e data.parse\/text[\"*\"]",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407392.000092"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See the data returned and how we have accesed the JSON data",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407410.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "ok",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407414.000029"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Clear?",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407419.000052"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "yup",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407424.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Cool",
+        "thread_ts": "1513406719.000003",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513407430.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So coming back\nThese were a few open APIs, they don't need authentication\nSome need authentication to access their data, like Facebook,Google",
+        "ts": "1513407455.000058"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "They charge if you send more then a certain amount of requests to their server :smirk:",
+        "ts": "1513407494.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Yes so clear about how to do AJAX calls",
+        "ts": "1513407530.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "?",
+        "ts": "1513407532.000059",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "In the request we sent\ndataType is what you're expecting back from the server: json, html, text, etc. jQuery will use this to figure out how to populate the success function's parameter.",
+        "ts": "1513407622.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you're posting something like:\n`{\"name\":\"John Doe\"}`\nand expecting back:\n`{\"success\":true}`\nThen you should have:",
+        "ts": "1513407688.000011"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F16LF96\/-.js|Untitled>",
+        "file": {
+            "id": "F8F16LF96",
+            "created": 1513407730,
+            "timestamp": 1513407730,
+            "name": "-.js",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 252,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8F16LF96\/-.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8F16LF96\/download\/-.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F16LF96\/-.js",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8F16LF96-c52a75c74e",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8F16LF96\/-.js\/edit",
+            "preview": "\r\n$.ajax({ \r\n\tdataType : \"json\", \r\n\tcontentType: \"application\/json; charset=utf-8\", \r\n\tdata : JSON.stringify(data), \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-variable\">$<\/span>.<span class=\"cm-property\">ajax<\/span>({ <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">dataType<\/span> : <span class=\"cm-string\">&quot;json&quot;<\/span>, <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">contentType<\/span>: <span class=\"cm-string\">&quot;application\/json; charset=utf-8&quot;<\/span>, <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">data<\/span> : <span class=\"cm-variable\">JSON<\/span>.<span class=\"cm-property\">stringify<\/span>(<span class=\"cm-variable\">data<\/span>), <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 10,
+            "lines_more": 5,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513407730.000050"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you're expecting the following:\n`&lt;div&gt;Great!&lt;\/div&gt;`\nThen you should do:",
+        "ts": "1513407757.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8FJD6C9Z\/-.js|Untitled>",
+        "file": {
+            "id": "F8FJD6C9Z",
+            "created": 1513407791,
+            "timestamp": 1513407791,
+            "name": "-.js",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 230,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8FJD6C9Z\/-.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8FJD6C9Z\/download\/-.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8FJD6C9Z\/-.js",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8FJD6C9Z-9094c731d3",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8FJD6C9Z\/-.js\/edit",
+            "preview": "$.ajax({ \r\n\tdataType : \"html\", \r\n\tcontentType: \"application\/json; charset=utf-8\", \r\n\tdata : JSON.stringify(data), \r\n\tsuccess : function(result) \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">$<\/span>.<span class=\"cm-property\">ajax<\/span>({ <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">dataType<\/span> : <span class=\"cm-string\">&quot;html&quot;<\/span>, <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">contentType<\/span>: <span class=\"cm-string\">&quot;application\/json; charset=utf-8&quot;<\/span>, <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">data<\/span> : <span class=\"cm-variable\">JSON<\/span>.<span class=\"cm-property\">stringify<\/span>(<span class=\"cm-variable\">data<\/span>), <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">success<\/span> : <span class=\"cm-keyword\">function<\/span>(<span class=\"cm-def\">result<\/span>) <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 9,
+            "lines_more": 4,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513407792.000058"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "See the difference in callback",
+        "ts": "1513407805.000073"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Got it?",
+        "ts": "1513407853.000037",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Great!\nI haven't covered about POST request, should I just tell you a small info about how to do that&gt;",
+        "ts": "1513407899.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Suppose you want to post this data \n`var data = {\"name\":\"John\", \"age\": 34}`",
+        "ts": "1513407940.000041"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8B6NRYES> uploaded a file: <https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8FLKPG8J\/post_request.js|POST request>",
+        "file": {
+            "id": "F8FLKPG8J",
+            "created": 1513408019,
+            "timestamp": 1513408019,
+            "name": "POST_request.js",
+            "title": "POST request",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U8B6NRYES",
+            "editable": true,
+            "size": 293,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8FLKPG8J\/post_request.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ABPNCBW-F8FLKPG8J\/download\/post_request.js?t=xoxe-282397760404-287688042403-287762362354-f75ae70cfdf2958a7a98b2d3ba91aef7",
+            "permalink": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8FLKPG8J\/post_request.js",
+            "permalink_public": "https:\/\/slack-files.com\/T8ABPNCBW-F8FLKPG8J-6dee0dc14c",
+            "edit_link": "https:\/\/wintermentorshipweb.slack.com\/files\/U8B6NRYES\/F8FLKPG8J\/post_request.js\/edit",
+            "preview": "$.ajax({ \r\n\tdataType : \"html\", \r\n\ttype: \"POST\",\r\n\tcontentType: \"application\/x-www-form-urlencoded; charset=UTF-8\", \/\/ this is the default value, so it's optional \r\n\tdata : data, \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">$<\/span>.<span class=\"cm-property\">ajax<\/span>({ <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">dataType<\/span> : <span class=\"cm-string\">&quot;html&quot;<\/span>, <\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">type<\/span>: <span class=\"cm-string\">&quot;POST&quot;<\/span>,<\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">contentType<\/span>: <span class=\"cm-string\">&quot;application\/x-www-form-urlencoded; charset=UTF-8&quot;<\/span>, <span class=\"cm-comment\">\/\/ this is the default value, so it's optional <\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-property\">data<\/span> : <span class=\"cm-variable\">data<\/span>, <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 10,
+            "lines_more": 5,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8B6NRYES",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "shahmishal1998",
+        "bot_id": null,
+        "ts": "1513408020.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Not much a difference, just that type:\"POST\"",
+        "ts": "1513408046.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If we haven't mentioned about the type, it takes `GET` request by default",
+        "ts": "1513408079.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "So that was all from my side\nI have some more examples but I guess this much is enough for the day",
+        "ts": "1513408123.000010"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Thank you <@U8C3DD53R> <@U8C2UBX1D> for attending the session",
+        "ts": "1513408136.000041",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "I hope you got some knowledge about AJAX calls and jQuery",
+        "ts": "1513408158.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Any doubts ask me , right now!",
+        "ts": "1513408183.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "It's great to see such an enthusiasm from you people, keep it up!\nAnd dive deeper, there is yet to learn about server side(backend)\nYou can always contact any of the mentors for any kind of help.",
+        "ts": "1513408251.000043",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C3DD53R",
+                    "U8C2UBX1D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Also try building something on your own using what all we have taught.\nThen go into backend",
+        "ts": "1513408320.000065"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "If you need any help contact me! :smile:",
+        "ts": "1513408356.000042",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8C2UBX1D",
+                    "U8C3DD53R"
+                ],
+                "count": 2
+            },
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U8CLD0XP0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "This mentorship isn't over yet, there will be a few more sessions :stuck_out_tongue:",
+        "ts": "1513408413.000004"
+    },
+    {
+        "type": "message",
+        "user": "U8C2UBX1D",
+        "text": "Cool",
+        "ts": "1513408430.000049"
+    },
+    {
+        "type": "message",
+        "user": "U8B6NRYES",
+        "text": "Bye",
+        "thread_ts": "1513408451.000078",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8C3DD53R",
+                "ts": "1513408504.000052"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1513408451.000078"
+    },
+    {
+        "type": "message",
+        "user": "U8C3DD53R",
+        "text": "Bye! thanks for both the sessions!: +1:",
+        "thread_ts": "1513408451.000078",
+        "parent_user_id": "U8B6NRYES",
+        "ts": "1513408504.000052",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B6NRYES"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
