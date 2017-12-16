@@ -1,0 +1,448 @@
+<@U8B6NRYES> has joined the channel
+
+<@U8BSD2U6Q> has joined the channel
+
+<@U8C3DD53R> has joined the channel
+
+<@U8ATV8M3M> has joined the channel
+
+<@U8B647JVB> has joined the channel
+
+<@U8B4UNL2H> has joined the channel
+
+<@U8B291X42> has joined the channel
+
+<@U8BA5RRED> has joined the channel
+
+<@U8BSX9W3Y> has joined the channel
+
+<@U8C55GJ5D> has joined the channel
+
+<@U8CLC2PAS> has joined the channel
+
+<@U8AUCD03S> has joined the channel
+
+<@U8B64M7PA> has joined the channel
+
+<@U8C2UBX1D> has joined the channel
+
+<@U8GGC7DT8> has joined the channel
+
+All here?
+
+<@U8B1RPPEW> has joined the channel
+
+Cool let's begin then
+
+demo_test.txt contains the following
+&lt;h2&gt;jQuery and AJAX is FUN!!!&lt;/h2&gt;
+&lt;p id="p1"&gt;This is some text in a paragraph.&lt;/p&gt;
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_ajax_load>
+open up this link
+
+<@U8B6NRYES> will be taking AJAX
+
+Yeah..okay
+Thanks <@U8B1RPPEW>
+
+So Lets start
+
+How many of you here? Put a :thumbsup:
+
+<@U8BS39J1L> has joined the channel
+
+Yea so AJAX 
+Why do we need AJAX, what are its benefits?
+Any ideas?
+
+update the part of webpage without reloading it.
+
+okay..
+AJAX can selectively modify a part of a page displayed by the browser, and update it without the need to reload the whole document with all images, menus, etc...
+
+Yea correct
+
+till now whatever we saw the data was by default set by us, yes?
+
+<@U8BSWMSLE> has joined the channel
+
+But you cannot keep so much data in your webpage... it will be a pain to write so many html files or so.
+
+Imagine facebook writing your profile page for 2 billion users :stuck_out_tongue:
+
+So that's where AJAX calls come into picture...we load the data from our server and display them on your webpage
+
+We are into front-end part, so do not think for now how servers give the data
+Our role is to get that data fromservers
+
+<@U8BJDBYDR> has joined the channel
+
+So AJAX stands for Asynchronous JavaScript + XML
+
+The "asynchronous" word, means that the response of the server while be processed when available, without to wait and to freeze the display of the page.
+
+Everything clear till now and why we need AJAX calls?
+
+We will be studying AJAX calls in jQuery as they are simpler to implement and the code is also way clearer
+
+This is a basic code in jQuery for AJAX calls
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8GNFLUET/basic_jquery.js|basic jquery>
+
+Explaining each terms
+type is the method
+
+We need to get data from the server, right?
+
+So we use `GET` request
+
+If we want to post data to the server, we use `POST` request
+
+If we want to delete a data from the server we use `DELETE` request
+
+If we want to update the data, we use `PUT` request
+
+Clear?
+
+So the difference between GET and POST isn't just about posting/getting the data
+
+It is much more
+
+GET requests can be cached
+GET requests remain in the browser history
+GET requests can be bookmarked
+GET requests should never be used when dealing with sensitive data
+GET requests have length restrictions
+
+GET requests should be used only to retrieve data
+
+===========================================================
+POST requests are never cached
+POST requests do not remain in the browser history
+POST requests cannot be bookmarked
+POST requests have no restrictions on data length
+
+any doubts?
+
+Usually the length restriction is 8KBs
+But that can be modified
+
+any doubts?
+Feel free to ask
+
+Should I go ahead?
+
+Okay
+So coming back to url...the url is where we are making the request(POST,GET.....)
+
+success is the callback function.
+
+Lets get into examples
+May I know which OS you are using?
+
+windows
+
+Okay....create a folder
+And create a text file named `test.txt`
+
+Linux Mint
+
+text file in the folder
+
+Okay....create a folder
+And create a text file named `test.txt`
+text file in the folder
+
+Done?
+
+Great add this content into that file.
+&lt;div class=""&gt;This is a very basic example..Cool things coming on their way&lt;/div&gt;
+
+Done?
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8F58S1H7/ajax_basics.html|AJAX basics>
+
+Add this file into same folder
+
+Done?
+
+Open the file .html which you made^ in your browser
+
+Done?
+
+?
+
+Any problems?
+
+Mention here.
+
+Guys what happened? <@U8C2UBX1D> <@U8C3DD53R> <@U8BJDBYDR> <@U8B647JVB>
+
+its not retrieving data from the text file
+
+same here.
+
+Yes cool
+Open the console see the error
+
+and paste it here
+
+<@U8C2UBX1D> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8C2UBX1D/F8FQQAB0D/image.png|image.png>
+
+index.html:9 Failed to load file:///media/akshay/Volume%20E/exp/ajax/test.txt: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.
+
+It was intentional so don't worry
+
+failed to load test.txt
+
+<@U8B6V28G1> has joined the channel
+
+So a point to note here is that 
+AJAX calls are allowed only over HTTP/HTTPS protocols
+
+So I had mentioned on the group to install web server for chrome
+It helps us set up a simple server for static files
+
+So now open Web Server for Chrome
+Choose the folder which you made
+
+And click on the URL mentioned
+
+done
+
+did the file content load?
+
+yup
+
+Great
+
+Got the concept?
+
+kind of
+
+For Linux users, you can set up server using
+`python -m SimpleHTTPServer 3000`
+
+Okay
+What isn't clear?
+
+Go to that particular directory
+
+and then type the command in that directory using terminal
+
+Is it done for you <@U8C3DD53R>?
+
+its clear but will require some getting used to
+
+Done Thank You!
+
+Yea okay.
+
+Cool
+
+So this was very simple example of AJAX call
+
+We now see some really cool applications :stuck_out_tongue:
+
+We'll be making requests to cross platform
+That is we will retrieve data from some website
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8F148P16/-.html|Untitled>
+
+Try this code 
+We have made a GET request to `<https://api.meetup.com/2/cities>`
+We will get the data from their servers and we will be showing on our webpage
+
+Please close the element with "
+`$('.try').text("data.results[0].city");`
+
+Working?
+
+you forgot a " :sweat_smile:
+
+Yea, sorry
+
+yup working:+1:
+
+What about <@U8C3DD53R>?
+
+Working Now, loading...
+
+Is only loading shown?
+
+Or even some data?
+
+So this is how we make requests to other servers and get data.
+
+is the data some huge garbage?
+
+No no
+
+Wait I'll explain that
+
+No Data is shown.
+
+Note that the data is usually returned in `json` formats
+
+Umm
+Open console see the error
+
+Post it here
+
+"results":[{"zip":"meetup2","country":"in","localized_country_name":"India","distance":0.46609883797936297,"city":"Delhi","lon":77.2 and so on  was the data right?
+
+Yes
+
+ok:+1:
+
+Data isn't a garabage :stuck_out_tongue:
+That is how data is stored in databases,
+We can style the data and display it properly on our website
+
+For example this is the list of meetups happening
+so we can use those particular parameters, and show on our webpage
+
+Is everything clear?
+
+Let's take an example of WikiPedia API to display the content properly.
+So you'll come to know that data is not a garbage :stuck_out_tongue:
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8GGLGSG6/wikipedia_api.html|Wikipedia API>
+
+Try running this
+
+Tell me the output
+
+Data about NITK
+
+Yes, so explaining the parameters sent in url
+
+yup but how did it get formatted?
+
+Formatted?
+
+You mean not displaying the tables and all?
+
+yea...
+
+That's what you have to do using CSS
+
+This is how you get the data
+
+its in a different format to both the page and the format of the last file
+
+Meaning?
+
+i mean its not like the official page of nitk on wikipedia and not like the "garbage" of the last file either, how come?
+
+See the data is same here and on Wikipedia?
+Yes?
+
+yup
+
+Okay
+Open the console and see that the format of the data is smae
+
+yup
+
+Yes so here we got the data only of NITK
+So it is a bit clear
+Imagine if we had a lot of queries like last time(all meetups in India)
+The content would have looked in a similar manner
+
+ohok
+
+Yea so the data is returned in similar manner
+How we display is important
+
+ohok but how is the display different here ?
+
+Yea beacause we took only
+`var markup = data.parse.text["*"];`
+
+ohok
+
+In the JSON returned
+We took omly the data which we needed
+i.e data.parse/text["*"]
+
+See the data returned and how we have accesed the JSON data
+
+ok
+
+Clear?
+
+yup
+
+Cool
+
+So coming back
+These were a few open APIs, they don't need authentication
+Some need authentication to access their data, like Facebook,Google
+
+They charge if you send more then a certain amount of requests to their server :smirk:
+
+Yes so clear about how to do AJAX calls
+
+?
+
+In the request we sent
+dataType is what you're expecting back from the server: json, html, text, etc. jQuery will use this to figure out how to populate the success function's parameter.
+
+If you're posting something like:
+`{"name":"John Doe"}`
+and expecting back:
+`{"success":true}`
+Then you should have:
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8F16LF96/-.js|Untitled>
+
+If you're expecting the following:
+`&lt;div&gt;Great!&lt;/div&gt;`
+Then you should do:
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8FJD6C9Z/-.js|Untitled>
+
+See the difference in callback
+
+Got it?
+
+Great!
+I haven't covered about POST request, should I just tell you a small info about how to do that&gt;
+
+Suppose you want to post this data 
+`var data = {"name":"John", "age": 34}`
+
+<@U8B6NRYES> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8B6NRYES/F8FLKPG8J/post_request.js|POST request>
+
+Not much a difference, just that type:"POST"
+
+If we haven't mentioned about the type, it takes `GET` request by default
+
+So that was all from my side
+I have some more examples but I guess this much is enough for the day
+
+Thank you <@U8C3DD53R> <@U8C2UBX1D> for attending the session
+
+I hope you got some knowledge about AJAX calls and jQuery
+
+Any doubts ask me , right now!
+
+It's great to see such an enthusiasm from you people, keep it up!
+And dive deeper, there is yet to learn about server side(backend)
+You can always contact any of the mentors for any kind of help.
+
+Also try building something on your own using what all we have taught.
+Then go into backend
+
+If you need any help contact me! :smile:
+
+This mentorship isn't over yet, there will be a few more sessions :stuck_out_tongue:
+
+Cool
+
+Bye
+
+Bye! thanks for both the sessions!: +1:
+

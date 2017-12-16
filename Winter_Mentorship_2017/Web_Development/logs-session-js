@@ -1,0 +1,708 @@
+<@U8C55GJ5D> has joined the channel
+
+<@U8C55GJ5D> set the channel purpose: JS Session
+
+<@U8CLV09GW> has joined the channel
+
+<@U8B647JVB> has joined the channel
+
+<@U8ATV8M3M> has joined the channel
+
+<@U8ATR9EJF> has joined the channel
+
+<@U8C2UBX1D> has joined the channel
+
+<@U8CN67YES> has joined the channel
+
+<@U8BU06C0N> has joined the channel
+
+<@U8B7P03QD> has joined the channel
+
+<@U8B1NPW4B> has joined the channel
+
+<@U8ATUURM1> has joined the channel
+
+<@U8AESMM0R> has joined the channel
+
+<@U8B4YMT7A> has joined the channel
+
+<@U8B6NRYES> has joined the channel
+
+<@U89RH5UF3> has joined the channel
+
+<@U8BSWMSLE> has joined the channel
+
+Please put a :thumbsup: if you are online. We'll start in 5 min.
+
+<@U8B64M7PA> has joined the channel
+
+<@U8B9B7V09> has joined the channel
+
+<@U8BRF7128> has joined the channel
+
+<@U8BRMPAUA> has joined the channel
+
+Let us start.
+
+So u guys learn html and css in the previous session.
+
+This is enough to built a basic stylised static web page
+
+But to create dynamic websites with interactive features u need js.
+
+JavaScript is an scripting language that is primarily used for creating interactive features on webpages. It can be used to create menus, validate forms, swap images, or just about anything else you can think of to do on a webpage.
+
+Javascipt is completely different from Java.
+
+Java is a compiled language. This means that the Java code must be transformed ("compiled") into a high-level programming language before it can run.
+
+JavaScript is an interpreted language. It doesn't need to be compiled before it is run. In an interpreted language the instructions are parsed (divided into small components that can be analyzed). For instance, as the browser "reads" this page, it breaks down each of the page's components into individual components and interprets each component as it moves down the page
+
+Now to include javascript in ur html code.
+
+Like CSS, u can include it in 2 ways
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8D9K5YE7/Include_JS.html|Include JS>
+
+Here text/javascript is optional as all browsers now always choose js as default programming language
+
+It is a good practice to write js code in separate file as
+
+You can use same code and functions in different html files.
+
+It makes ur page faster as the browser can cache ur js files to be used by the different pages
+
+Any doubts..?
+
+didnt exactly get the code written is it default syntax or?
+
+Moving on.
+
+I am coming there.
+
+JS is a weakly typed language.
+
+Compared to ur other languages like cpp, java where u need to specify datatypes of the variables separately
+
+What does it mean?
+
+In JS all variables are declared using `var`
+
+Also ; is optional, but is recommended that u use ; in ur code.
+
+`var x=5;var a="Hello";`
+
+Please open up your browsers.
+
+Means you don't have to declare the different data type for different variable like for integer string etc
+
+Right click and click on Inspect element
+
+They are related to each other in a way car and carpet are related to each other.
+
+And goto console
+
+Done..?
+
+All variables are declared with same data type in JavaScript which is "var"
+
+Just like your basic printf and cout to print in std out.
+
+Here u use console
+
+So 
+`console.log("Hey");`
+
+`alert('hmm')`
+
+Try these two commands.
+
+Hopefully, everyone got a dialogbox for alert
+
+So we will use these 2 output ways to see other features.
+
+I'll move on to objects.
+
+Basically object is just a collection of properties and methods.
+
+in the console no?
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8CQ8LARE/object.html|Object>
+
+yes type in console
+
+Copy paste in ur console.
+
+u can access object properties like 
+`person.age` or `person['age']`
+
+Any doubts so far..?
+
+What does the above code do? I am getting 'undefined'
+
+type person.age
+
+youll get 50
+
+Oh! Thanks
+
+So, javasicript objects are mutable
+
+i.e When u make a copy of ur object and make changes there
+
+it changes original object as well.
+
+hey wait i am also getting undefined
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8CQB5F2L/Object_mutable.js|Object mutable>
+
+where to type age
+
+??
+
+Try console.log(person)
+
+after the snippet
+
+Everybody done..?
+
+So, other things like conditional statements, loops, strings are pretty much same here in js.
+
+what exactly does it do?
+
+I wont be focussing much on that.
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8EGHA4UF/Conditional.html|Conditional>
+
+var person = {
+    firstName : "John",
+    lastName  : "Doe",
+    age       : 50,
+    eyeColor  : "blue"
+};
+
+this one
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DCA9ZKM/loop.html|loop>
+
+it shows that variable(object) person is assigned this values
+
+You can try out these html files later.
+
+even after assigning it says undefined
+
+Moving to arrays. 
+As no separate datatypes in js, array can hold a bunch of different kind of data together.
+
+KK...hmmm
+
+Hmm kkk
+
+Unlike cpp ,java where all the members of array must be of the same type
+
+What is the <@U8C55GJ5D> Skipping topics?
+
+even after doing console.log(person) ?
+
+*this
+
+`var arr = [1,2,3]`
+
+For trying out some array examples,
+
+`document.getElementById('id')`
+
+This is used to select an HTML element in js.
+
+<@U8BNR3DME> will be talking more about this later
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>
+
+Run this HTML snippet.
+
+So basically here we are declaring a basic array.
+
+Then selecting an html para tag by its id and dynamically changing its HTML content.
+
+Done..?
+
+what output should we get?
+
+Let us see some array methods.
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8ERFBCSJ/basic_array_functions.html|Basic array functions>
+
+So some basic functions here.
+
+<@U8B1NPW4B> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8ERFBCSJ/basic_array_functions.html|Basic array functions>: Why always kk and hmm man? :stuck_out_tongue:
+
+<@U8CN67YES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: where are you printing the elements of array??
+
+`var x = arr.pop()`
+
+<@U8B6NRYES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: .innerHTML appends the array in that  id, and thus prints it
+
+so an array works like  a stack in js?
+
+Load it in ur browser. You can see the elements of the array n ur browser.
+
+<@U8B6NRYES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: appends is a bad word, sorry
+Take it as sets the array
+
+<@U8CN67YES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: what exactly is the whole line doing
+
+and each array element is separated by a comma automatically?
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: Did u load the file in ur browser..?
+
+<@U8CN67YES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: yes
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: After declaring ur array like
+var points = [40,100, 1, 5, 25, 10];
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: document.getElementById("demo").innerHTML = points;
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: This line searches for ur HTML element with ID 'demo'
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: .innerHTML method bascially changes what goes in ur paragraph tag
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: &lt;p&gt;content here&lt;/p&gt;
+
+nope...in a stack you can only access the top element, here you can access any
+
+It is just that it has feature of .pop()
+
+ohok
+
+yes <@U8C2UBX1D>
+
+Any other doubts.?
+
+<@U8CN67YES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: [object Object]
+how is this thing getting printed
+
+<@U8B4YMT7A> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: yeah I am also getting the same output
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: Yeah.So when you directly  try to set an object as  content of an element .
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: It is displayed like that.
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: So we use object.property to access the individual feature
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: Thats the difference between an array and an object
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: array uses numbered indices
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: arr[1]
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8E123F7E/array.html|Array>: whereas object properties are accessed with the property name.
+
+Please ask if you have any doubts.
+<@U8BNR3DME> will continue.
+
+what is object?
+
+so basically a normal variable can store a single value be it of any type int,string etc.
+
+yeah but object can store others also
+
+i got that but i was asking in that snippet
+
+among 40,hey,100,1,5,25,10
+which one is a object?
+
+you are confused with what is that *Object* getting printed?
+
+{name:"kk",job:"hmm"} &lt;- this was object
+
+ok ok yeah i got it that was a object
+sorry my bad ..
+
+cool
+
+Okay so, 
+javascript can be used to create dynamic HTML
+With the help of javascript you can do the following things:
+1. Change HTML elements of the page, also their attributes
+2. Change CSS styles 
+3. Add, remove HTML elements
+and much more...
+
+So how can you access the elements of the web page via javascript?
+
+This is where HTML DOM comes into picture!
+
+DOM stands for Document Object Model 
+HTML DOM is a API which treats HTML as a tree structure wherein each node is an object representing a part of the html document
+
+I will give a example to make this statement clear...
+
+So consider this HTML code
+
+<@U8BNR3DME> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8BNR3DME/F8E2YLZ1A/html_dom.html|HTML DOM>
+
+So when you open this html file in your browser,
+ After the webpage is loaded, the browser creates a Document Object Model of the page
+
+<@U8BNR3DME> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8BNR3DME/F8E306VGC/dom.png|dom.png>
+
+so the entire page is available to JS, from the document object
+
+In the example above each node of the tree is a object
+
+Any doubt so far?
+
+doubts*
+
+Alright now moving on to writing js code to access and modify elements of the page,
+This is called as DOM manipulation.
+
+Okay so many functions are available in javascript for manipulating DOM
+I will be going over some of them here
+
+A simple one is getElementById(id)
+
+Take a look at this code
+
+<@U8BNR3DME> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8BNR3DME/F8E68HXJ9/dom_manipulation.html|DOM manipulation>
+
+So in the javascript code 
+document.getElementById() finds the HTML element with the id "p1" in the DOM tree,
+
+So JavaScript is enough for developing websites?
+
+HTML,css and js on its own is enough to make a dynamic front end.
+
+Is it necessary to keep every id needed in &lt;script&gt; before it?
+
+Text for p1 is stored in innerHtml variable in object of p1
+Thus setting .innerHTML to a new string on the HTML element p1 allows us to modify it
+
+Nope.
+
+We can only change the inner html but not add html through js?
+
+```
+&lt;script&gt;
+	document.getElementById("p1").innerHTML = "New text!";
+&lt;/script&gt;
+&lt;p id="p1"&gt;Hello World!&lt;/p&gt;
+
+```
+
+But its not working!
+
+This will work just fine
+
+No scripts can be written anywhere in the html file or by making a new file and including it
+
+We can.
+
+No, Its still not working.
+
+Cool. Thanks
+
+Another example for modifying css in a webpage
+
+<@U8BNR3DME> uploaded a file: <https://wintermentorshipweb.slack.com/files/U8BNR3DME/F8E24U20J/css_manipulation.html|CSS manipulation>
+
+yea its not working
+
+Any doubts so far??
+
+```
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;div id="div1"&gt;
+&lt;p id="p1"&gt;This is a paragraph.&lt;/p&gt;
+&lt;p id="p2"&gt;This is another paragraph.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(para);
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+```
+
+yea it shouldn't work
+Because only 1(first) element is returned in getElementById
+
+Thanks
+
+Please respond.
+
+Heyy...
+
+Hi.
+
+LOL
+
+There are many more functions available,
+Take a look at this later
+<https://www.w3schools.com/js/js_htmldom_document.asp>
+
+<https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction>
+
+Now <@U8C55GJ5D> will continue further
+
+Let us move on HTML events.
+
+Events are things or 'triggers' which a browser does or a user does
+
+Thanks
+
+what does this code do?
+
+So to make changes to more then one element we use getElementsByClassName
+
+e.g.
+&gt; A button click by a user
+&gt; Changing text in input text field
+&gt; Pressing enter key.
+&gt; When a browser finishes loading an html page
+
+We can carry out operations with these events.
+
+This is called event handling
+
+` &lt;element event="some JavaScript"&gt;`
+
+For example if we want an alert box onclick on a button
+
+`&lt;button onclick="alert('hey')"&gt;btn&lt;/button&gt;`
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DTGK1QT/event_basic.html|Event basic>
+
+Try out this snippet.
+
+Here on clicking the button with id myBtn , it selects the dom element with the id and changes the html content.
+
+Often what we require may need more than 1 line of js code.
+
+So more commonly we see these  events calling js functions
+
+Is onlick inline script?
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8ERVTC86/Event_with_function.html|Event with function>
+
+Try out this snippet. Is it working..?
+
+no no
+onclick is an event
+
+So here we see that we use the same function for two buttons
+
+HOW IS IT TELLING THE TIME??
+
+We pass the color to custom function where it finds the DOM elemeny with id para
+
+then we change the attribute of that element
+
+Any doubts..?
+
+go to console in your browser
+type `Date()`
+
+What is the use of var par = document.getElementById("para");
+?
+
+<@U8CN67YES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DTGK1QT/event_basic.html|Event basic>: how is this telling the time??
+
+I mean, why are we using a new variable?
+
+<@U8ATV8M3M> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DTGK1QT/event_basic.html|Event basic>: Date(); is a function, which returns date and time
+
+Though here we do not require to store the DOM element in a variable
+
+it is a good practice to store if u r accessing the same element many times
+
+The variables can be cached in the browser
+
+<@U8CN67YES> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DTGK1QT/event_basic.html|Event basic>: does this access the time online ?
+
+So it is more efficient
+
+Oh! Okay. Cool.
+
+Finding in DOM tree takes time
+
+Go Date is a function in JS , which gives current date and time
+
+<@U8C55GJ5D> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DTGK1QT/event_basic.html|Event basic>: No. through ur browser
+
+but we havent used par anywhere right?
+
+nope
+
+<@U8BNR3DME> commented on <@U8C55GJ5D>’s file <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DTGK1QT/event_basic.html|Event basic>: When setting a date, without specifying the time zone, JavaScript will use the browser's time zone.
+
+In this case no. But, if we need to access #para a lot of times. It will be helpful.
+
+Some other commonly used events are
+```onchange     An HTML element has been changed
+onclick     The user clicks an HTML element
+onmouseover     The user moves the mouse over an HTML element
+onmouseout     The user moves the mouse away from an HTML element
+onkeydown     The user pushes a keyboard key
+onload     The browser has finished loading the page```
+
+ok..
+
+onchange is mostly used with text boxes, e.g when you are making a searchbar
+
+After every character change u need to update the results
+
+so that event can be used there.
+
+So,
+So
+Event handlers can be used to handle, and verify, user input, user actions, and browser actions:
+&gt;  Things that should be done every time a page loads
+&gt;  Things that should be done when the page is closed
+&gt;   Action that should be performed when a user clicks a button
+&gt;   Content that should be verified when a user inputs data
+
+any doubts..?
+
+If someone orders a steak, and I order water, it makes sense if my order comes fast.
+
+You can try changing para.style.color to par.style.color.
+
+More often than not when u send request to server through javascript
+
+it will take time to process and send a response
+
+While in some requests u may need some bulky files, some others might need just some text
+
+Asynchronous means code (generally) wont block the next line of code from executing if it takes a while.
+
+An example will make it clear.
+The setTimeout function is probably the simplest way to asynchronously schedule code to run in the future.
+
+`setTimeout(&lt;function to run&gt;, &lt;delay time before running in millisecond&gt;)`
+
+```setTimeout(function() {
+  console.log("Goodbye!");
+}, 2000);```
+
+In this example Goodbye will be printed after 2 seconds.
+
+Is it clear?
+
+Not really, what exactly is function?
+
+So this is part of callback functions in javascript
+
+Ok...
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DF0ENF3/setTimeout_basic_example.js|setTimeout basic example>
+
+If u run some code like this, what output do u expect?
+
+setTimeout is a asynchrounous function which will get executed and then it execution of the next line of js code will take place
+
+After 2 seconds that is 2000 milliseconds
+
+Ok so function() here is what, exactly?
+
+Hello. Hello again!, Goodbye!
+
+Right?
+
+setTimeOut takes two parameters
+
+The callback function which would get executed after 2 sec
+
+first one is another function
+
+It tells that execute that function after a certain interval of time
+
+Could you help out with an example?:sweat_smile:
+
+Yes.
+
+It prints hello
+
+Ok so that is just any function like custom we had last.
+
+yes.
+
+Then when it encounters setTimeout execution carries forward.
+
+setTimeout ( &lt;the function to execute after&gt; , &lt;this is time has passed&gt;)
+
+&lt;this much time has passed&gt;*
+
+It separately u can say 'remembers' that I have to wait two seconds before running the function passed in setTimeout(without a name called anonymous functions)
+
+So we see that it does not block the execution.
+
+But u should be careful while using this as this can cause unexpected behaviour.
+
+<@U8C55GJ5D> shared a file: <https://wintermentorshipweb.slack.com/files/U8C55GJ5D/F8DF25G3B/Unexpected_asynchronous.js|Unexpected asynchronous>
+
+This will be the last example for today.
+
+Go through this snippet and think what will be the output . Then run and see if u get the same output.
+
+This will be all for today's session.
+
+Ask if u have any doubts..
+
+I did not understand what happened in the last code.
+
+Nothing was printed on the console?
+
+its giving some random output and then 4 seconds elapsed
+
+4 seconds elapsed is not printed..?
+
+yes.
+
+By the time ur control comes back to the function passed in the setTimeout, the loop has already finished running.
+
+So i becomes 4.
+
+what about the random output?
+
+What output are u getting..?
+
+i run it twice got 2315 and then 2341
+
+Oh sorry. have changed the snippet now.
+
+Run again
+
+3087 and then 4 second(s) elapsed
+
+running on firefox..?
+
+chrome
+
+that is some debugging code printed by the browser
+
+ohok
+
+It should print 4 secs elapsed 3 times
+
+no, just once
+
+There is a circled 3 on the left of output right?
+
+That means repeated 3 times.
+
+ohok
+
+yea checked it. if u run through console it prints some debugging code.
+
+cool, thanks.
+
+I had a question, lets say that we used setTimeOut() and then introduced a loop, our timer is such that it finishes mid way through the loop so which happens next rest of the loop or function()
+

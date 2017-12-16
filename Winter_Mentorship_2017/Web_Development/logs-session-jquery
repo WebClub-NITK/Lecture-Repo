@@ -1,0 +1,377 @@
+<@U8B6NRYES> has joined the channel
+
+<@U8BSD2U6Q> has joined the channel
+
+<@U8C3DD53R> has joined the channel
+
+<@U8ATV8M3M> has joined the channel
+
+<@U8B1RPPEW> has joined the channel
+
+<@U8B647JVB> has joined the channel
+
+Alright guys let us all introduce ourselves
+I'm Utkarsh Patil, 2nd year IT
+
+I'm Mishal, 2nd Year CSE
+
+Both me and <@U8B6NRYES> will be conducting today's session
+
+Would be nice if the rest of you put up a small intro too
+
+Hi, I am Nikhil, EC 2nd year. 
+
+<@U8B291X42> has joined the channel
+
+<@U8BA5RRED> has joined the channel
+
+Hie 
+I'm Hrishi
+3rd yr, you can ask me doubts anytime during session
+
+Today I'll be taking up the following topics
+1. jQuery into
+2. jQuery Effects
+3. jQuery HTML - changing and manipulating HTML
+4. jQuery Traversing
+5. jQuery Ajax
+
+Intro*
+
+Let
+
+Let's get started
+
+*jQuery is a JavaScript Library.*
+
+*jQuery greatly simplifies JavaScript programming.*
+
+<@U8BSX9W3Y> has joined the channel
+
+Basic syntax:* $(selector).action()*
+
+<@U8B6V28G1> has joined the channel
+
+Everyone just open up this link
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide>
+
+On the right side, you'll see "Click me away!"
+
+Click on that
+
+When you see the change happpening put up a :+1:
+
+So when you click on that, or any of the 3 lines of text, you'll notice that the text disappears
+
+What's happening here?
+
+<@U8C55GJ5D> has joined the channel
+
+If you focus on the `&lt;script&gt;` tag in the link, you'll see some jQuery code writtenn
+
+`$(document).ready();`
+This function takes an argument which is a function
+
+It executes this function only once the documennt gets loaded completely
+
+This is to prevent any jQuery code from running before the document is finished loading (is ready).
+
+In the function that you pass as an argument, you'll see 
+```
+$("p").click(function(){
+        $(this).hide();
+    });
+```
+
+So over here, `.click()` too takes an argument that is a function
+
+`.click()` executes this function only once the selector is clicked
+
+This is equivalent to document onload of js
+
+`$(this).hide();` hides the element that is clicked
+
+Let's look at the selectors
+
+`document`, `p`, `this`
+
+they're all selectors
+
+ready, click, hide are all actions
+
+So here as you notice, selectors help us select the HTML elements that we want to perform actions on
+
+<@U8B64M7PA> has joined the channel
+
+Here's a few examples of selectors:
+
+`$("*")` selects all elements
+
+`$("p.intro")` selects all paragraph tags with class "intro"
+
+These are similar to css selectors
+
+`$(this)` selects the current HTML element
+as we saw in the link, this referred to the element that was clicked
+
+<@U8C2UBX1D> has joined the channel
+
+<@U8CLC2PAS> has joined the channel
+
+`$("p:first")` selects the first paragraph tag
+
+Now can someone tell me what do you think is the difference between
+`$("ul li:first")` and `$("ul li:first-child")`
+
+<@U8ATV8M3M>? <@U8C3DD53R>? Others?
+
+Don't worry even if you answer wrong...just respond
+
+<@U8BJDBYDR> has joined the channel
+
+ul li:first selects the first element in the list whereas ul li:first-child selects the first sub element of first element in a list
+
+Right?
+
+Urm quite almost there <@U8ATV8M3M>!
+
+Selects the first &lt;li&gt; element of every &lt;ul&gt; - `$("ul li:first-child")`
+
+Selects the first &lt;li&gt; element of the first &lt;ul&gt; - `$("ul li:first")`
+
+Alright I think we know enough about events
+
+Those of you familiar with css selectors, this is quite similar to those
+
+$("#myid") helps us select an element using its ID
+
+`$(".myclass")` selects all classes with a class name "myclass"
+
+You can also pass multiple selectors like this
+`$(".myclass, p.mypclass")`
+
+Let's look at the actions part now, of the jQuery syntax
+
+So for events like click, mouse enter, hover, keypress, keydown etc we can attach to these events a function which executes actions to be performed when these events occur
+
+so in the link we saw that the click event on all paragraph tags executed a function which had only 1 line, `$(this).hide()` and this line of code made sure that on clicking the paragraph tag, that tag hides
+
+I hope its clear now how selectors and actions work together to accomplish tasks in jQuery
+
+Open up this link guys
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_toggle>
+
+and click on the button multiple times to see the button work
+
+About the class selector, it selects all the elements with given class name. What is the best practice if we have to change only one element with given class? Use some other selector like provide id to that element to be selected or we can do it using class itself?
+
+Can one of you tell me what you observe?
+
+The paragraphs toggle between hide and show as we press the button
+
+Correct <@U8ATV8M3M>!
+
+Great so I hope you guys are getting a hang of jQuery
+
+The button on clicking simple toggles between hide and show
+
+You can do it either way, as classname selects all the elements, they are in array, so you can just specify the nth element in classname to change it
+Or you can even do it using id.
+
+we saw that hide() hides an HTML element
+similarly show() displays a hidden HTML element
+
+and toggle() detects the state of that HTML element, whether it is hidden or not, and performs the action to change this state
+
+Thank you!
+
+Is toggle() only for hide/show? Or for anything that has two states?
+
+So an element can have both class and id?
+
+<http://api.jquery.com/toggle/>
+Go through this once, it'll be clear
+
+<@U8GGC7DT8> has joined the channel
+
+Yes...that is allowed.
+
+Open up this link
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_focus_blur>
+
+So focus() is what happens when I select an input for tag, and blur() is the event when that input tag which is in focus loses its focus
+
+Now in the link I sent, if you click on the input for, its background changes to grey, and white again when you unselect this input form
+
+I hope you guys understood what happened there, if not please ask
+
+form*
+
+form*
+
+So focus is for when an element is in use, and blur when it's not right?
+
+Urm yeah somewhhat, a better way to say it is when the tag is selected and unselected
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down>
+Open up this link guys
+
+On clicking the coloured box, the slidedown effect occurs
+
+In panel style what is the display: none for?
+
+Initially the "#panel" tag isn't displayed
+
+Ohok
+
+the css display:none is for that
+
+Just hides the panel initially.
+
+Let's look at something interesting now
+
+Animations!
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_animation1>
+
+Just a sec <@U8B1RPPEW>
+
+Others also please respond, only 2-3 people are seen responding.
+
+Continue...
+
+Yeah alright guys the more you participate and interact, the more you'll able to learn
+
+Always feel free to intereupt me and ask doubts
+
+What is the position: absolute for?
+
+left: 250px, does this mean, 250 px from the left?
+
+<@U8ATV8M3M> yes
+
+<@U8C2UBX1D> 	The element is positioned relative to its first positioned ancestor
+
+Ohok
+
+Okay right
+
+so animations
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_animation1>
+Open up this link guys
+
+So the use of animate is to provided a css property, that is different from that of property specified in css and animate it, or we can use it in different manner?
+
+what .animate() does it, it takes as an argument css properties and applies these to the selectors but the transition from the initial to this new css property is animated
+
+I'm actually explaining that now
+
+check this out
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_animation1_multicss>
+
+Same way that the initial link works
+
+transition from the initial to the new css property is animated
+
+Woah cool
+
+And we can use onload, hover and onclick right?the corresponding commands
+
+Yes
+
+Let's look at stop()
+Its used to stop an animation that is currently occurrring and prevent this animation from going to completion
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_stop_slide>
+
+click on the panel and wait for about 2 seconds then click on stop sliding
+
+Clear?
+
+Okay next let's look at callback
+
+Now for each action that we performed, we pass a function for the block of code we want to execute once the event has occured
+
+How did panel get same color and other attributes as flip?
+
+Oh! I got it. 
+
+A lot of times its very useful to have some provision to perform a block of code, after this action is over
+
+callback is an optional parameter that gets executed only after the effect has occured
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_callback>
+have a look at this
+
+the function() {alert("The paragraph is now hidden");} function is a callback argument
+
+Any doubts here?
+
+Does hide() here have two parameters i.e slow and function alert...?
+
+The idea is, pass a function as an argument for callback parameter, this function gets executed after the effect is done with execution
+
+yeah
+
+Next let's look at chaining
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_chaining>
+
+Even if you remove the slow parameter, it will get executed but at a faster pace.
+It has two parameters but only 1 is compulsory.
+
+here we see that the same selector is used to perform multiple actions
+
+To get that executed at slower pace we mention the "slow" parameter.
+
+that's chaining
+
+Let's look at the add() method
+
+append*
+
+<@U8AAM6VLJ> has joined the channel
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_append>
+
+<@U8AUCD03S> has joined the channel
+
+This allows us to append AT THE END of the selected HTML elements
+
+similarly, prepend is IN THE BEGINNING
+
+before() and after() are used for adding before or after the selectors
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_after>
+This should make everything clear
+
+This message was deleted.
+
+Let's look at .css method
+
+<https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_css_set_multiple>
+
+we can set css styling via jQuery for selectors
+
+quite simple just go through the link
+
+Now delete this thread :stuck_out_tongue:
+
+Post any doubts you have guys, feel free to interrupt any time
+
+What if I want to change text in the button. Where should I use innerHTML?
+
+I think you're looking for text()
+<https://www.w3schools.com/jquery/jquery_dom_set.asp>
+
+Cool. Thanks
+
+Let's look at ajax next and how we can use jquery with ajax
+
+Everyone Join <#C8F4XFESV|ajax>
+
+<@U8BS39J1L> has joined the channel
+
+<@U8BSWMSLE> has joined the channel
+
