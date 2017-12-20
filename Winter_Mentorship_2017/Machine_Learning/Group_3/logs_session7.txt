@@ -1,0 +1,209 @@
+Everyone who has joined, thumbs up this message. We'll start soon
+
+We'll start in 5 mins
+
+Okay, so we'll start now
+
+Today I'll be talking about Feature Engineering
+
+So, as discussed in few of the previous lectures, Data is a very important aspect of a ML model
+
+But just having a lot of data is not enough
+
+Even if you have all the right data which is required, that is not enough
+
+Another important aspect is how this data is fed to the model
+
+How the data is represented for the model to take in, for example binary encoding discussed in the last session
+
+But another important aspect is the structure, and the relations between the features in the data
+
+Many ML models make certain assumptions regarding the nature of the data being fed to them, thus it is necessary to make sure our data follows those assumptions before using it to train a model
+
+And that is where Feature Engineering comes into play
+
+_Feature engineering is the process of using domain knowledge of the data to create features that make machine learning algorithms work._
+
+It is a very important aspect of applied Machine Learning
+
+Is everyone clear regarding the need for feature engineering?
+
+<@U88R2LCCU> set the channel topic: Session 7 - Feature Engineering
+
+Okay so we'll start with Correlation.
+
+Correlation basically refers to any statistical relationship between two sets of data.
+
+That is, suppose we have two features x1 and x2
+
+If x1 increases when x2 increases and decreases when x2 decreases then x1 and x2 have strong positive correlation
+
+If x1 increases when x2 decreases and decreases when x1 increases then x1 and x2 strong negative correlation
+
+Otherwise the two features are non correlated
+
+Now, there are quite a few metrics to measure the correlation between a pair of datasets
+
+By datasets I mean, two sets of data, x={x1,x2,x3...xn} and y={y1, y2, y3, ... yn}
+
+One of the popular metric is the Pearson Correlation Coefficient
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8GRNMQHF/image.png|pearson>
+
+This is the formula for calculating Pearson Correlation Coefficient
+
+It is denoted by _r_
+
+It is used for finding only *linear* correlation between the two sets
+
+_r_ takes values from -1 to 1
+
+r = -1 indicates strong negative correlation
+
+r = 1 indicates strong positive correlation
+
+r=0 indicates that there is no linear correlation
+
+But the data might have non-linear correlation.
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8H9B8F8T/correlation_coefficient.png|Correlation_coefficient.png>
+
+ok.how does correlation help?
+
+<@U897CT84V> I'll get to that once we finish the metrics
+
+In the image you can see what the values of the Pearson correlation means
+
+Is everyone clear with this?
+
+didnt exactly understand
+
+What part was not clear?
+
+Okay, moving ahead. Another metric is the Spearman coefficient
+
+does it help in predicting hypothesis?or what?
+
+It is used for finding the Pearson coefficient for ranked variables
+
+what does it do?
+
+Oh okay, I'll get to that after spearman coefficient
+
+What this means is that in Pearson coefficient we considered all the elements of the sets had the same 'rank', i.e there was no order to them
+
+But there are situations where the order of data also matters
+
+That is when we use Spearman coefficent
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8HBNSM7U/image__1_.png|Spearman>
+
+here d is the difference between the 'ranks' of the elements in the two sets
+
+The rank can be the index of the element in the sorted order
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8HBPFLF4/360px-spearman_fig3.svg.png|Spearman_fig3>
+
+Spearman can also find non-linear correlations in the sets
+
+Now, why is this needed
+
+Many models work better when the features in the data have less correlation
+
+Let's take an example of linear regression, if 3 of the 4 features are correlated, then we can see that the weights corresponding to them will have a larger influence on the result
+
+But infact all 3 features convey similar information about some higher level feature
+
+Is this clear?
+
+u mean hypothesis may no longer remain linear if there are correlations
+
+?
+
+can you add reference to know more about pearson and spearman coefficient.
+
+<@U8B01GK47> Okay, I'll post some resources later
+
+<@U897CT84V> No, the hypothesis is decided by you, what I'm trying to say is that suppose that there are two features, x1 and x2, and they are linearly correlated as x2 = 3x1
+
+But the linear model will learn treat them as separate features and assign weights to them individually
+
+When actually they both convey the same inherent information
+
+oh...ok
+
+Moving ahead
+
+The distribution of the data is also important in many models
+
+Distribution in simple words is no. of samples per sample
+
+One very important distribution is the Normal Distribution
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8HFYHMSR/empirical_rule.png|NormalDistributon>
+
+Normal Distribution has many unique mathematical properties, but we'll not be discussing those
+
+It is important to note that these properties are used by the underlying statistical models for many ML algorithms
+
+The shape of the graph is called the bell curve
+
+But not all data distributions are normal distributions
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8HG0A3AR/negative_and_positive_skew_diagrams__english_.svg.png|Skew>
+
+skewness is a measure of the asymmetry of the distribution
+
+In graphical terms it is the extent to which the bell curve is skewed
+
+Is this clear so far?
+
+Now, in some cases if we take a log of the data in a skewed distribution, we end up getting a normal distribution
+
+This operation of applying the logarithm to the data is called a Log Transform
+
+Another way of obtaining a Normal Distribution from a skewed distribution is the Box Cox Transform
+
+<@U88R2LCCU> uploaded a file: <https://wintermentorship.slack.com/files/U88R2LCCU/F8GMWRJAC/boxcox-formula-1.png|boxcox-formula-1.png>
+
+Here, we can change the value of lambda till we get the required normal distribution
+
+Is everyone clear with these transforms
+
+is boxcox transform applicable to any skew curve to give normal distribution?
+
+skewed normal curve only
+
+skewed normal curve ? how to know from its  distribution data?
+
+Plot it :stuck_out_tongue:
+
+Okay, so the last topic for today is PCA
+
+PCA - Principal Component Analysis
+
+It is a technique used for dimensionality reduction
+
+It is an extremely useful and powerful technique
+
+It is used for mapping data in higher dimensions in to an approximate representation in a lower dimension
+
+It has many use cases
+
+For example, suppose we have 10 features in a given data set.
+
+Then we need 10 dimensions to plot the data, which we obviously cannot, so instead we can reduce it to two dimensions while retreiving most of the inherent information of the data using PCA
+
+Another use case might be, suppose we have a large number of features and it is known that many of them might be correlated, we can use PCA there to reduce the number of features by collapsing the correlated features into one, while retaining most of the variation in the data
+
+Now, due to constraints of time I won't be able to go into the details of the algorithm for PCA.
+
+However, this is a great resource for understanding the details of the algorithm, along with the mathematics behind it
+<https://klevas.mif.vu.lt/~tomukas/Knygos/principal_components.pdf>
+
+Also, there are many other resources which you can find on the internet
+
+That's all for today
+
+If you have any doubts feel free to approach the mentors :slightly_smiling_face:
+

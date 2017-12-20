@@ -1,0 +1,1122 @@
+[
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Everyone who has joined, thumbs up this message. We'll start soon",
+        "ts": "1513769369.000099",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V",
+                    "U8B01GK47",
+                    "U89591QNN"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "We'll start in 5 mins",
+        "ts": "1513769807.000180"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so we'll start now",
+        "ts": "1513770058.000103"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Today I'll be talking about Feature Engineering",
+        "ts": "1513770085.000353"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "So, as discussed in few of the previous lectures, Data is a very important aspect of a ML model",
+        "ts": "1513770130.000051"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But just having a lot of data is not enough",
+        "ts": "1513770173.000146"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Even if you have all the right data which is required, that is not enough",
+        "ts": "1513770210.000215"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Another important aspect is how this data is fed to the model",
+        "ts": "1513770229.000148"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "How the data is represented for the model to take in, for example binary encoding discussed in the last session",
+        "ts": "1513770275.000167"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But another important aspect is the structure, and the relations between the features in the data",
+        "ts": "1513770329.000353"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Many ML models make certain assumptions regarding the nature of the data being fed to them, thus it is necessary to make sure our data follows those assumptions before using it to train a model",
+        "ts": "1513770394.000071"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "And that is where Feature Engineering comes into play",
+        "ts": "1513770456.000312"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "_Feature engineering is the process of using domain knowledge of the data to create features that make machine learning algorithms work._",
+        "ts": "1513770466.000335"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is a very important aspect of applied Machine Learning",
+        "ts": "1513770493.000223"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is everyone clear regarding the need for feature engineering?",
+        "ts": "1513770556.000215",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B01GK47",
+                    "U88KFEENM",
+                    "U897CT84V",
+                    "U89591QNN"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "user": "U88R2LCCU",
+        "topic": "Session 7 - Feature Engineering",
+        "text": "<@U88R2LCCU> set the channel topic: Session 7 - Feature Engineering",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1513770573.000262"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay so we'll start with Correlation.",
+        "ts": "1513770707.000023"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Correlation basically refers to any statistical relationship between two sets of data.",
+        "ts": "1513770777.000116"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That is, suppose we have two features x1 and x2",
+        "ts": "1513770807.000171"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "If x1 increases when x2 increases and decreases when x2 decreases then x1 and x2 have strong positive correlation",
+        "ts": "1513770864.000041"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "If x1 increases when x2 decreases and decreases when x1 increases then x1 and x2 strong negative correlation",
+        "ts": "1513770914.000037"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Otherwise the two features are non correlated",
+        "ts": "1513770962.000111"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, there are quite a few metrics to measure the correlation between a pair of datasets",
+        "ts": "1513771010.000227"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "By datasets I mean, two sets of data, x={x1,x2,x3...xn} and y={y1, y2, y3, ... yn}",
+        "ts": "1513771105.000496"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "One of the popular metric is the Pearson Correlation Coefficient",
+        "ts": "1513771148.000127"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8GRNMQHF\/image.png|pearson>",
+        "file": {
+            "id": "F8GRNMQHF",
+            "created": 1513771194,
+            "timestamp": 1513771194,
+            "name": "image.png",
+            "title": "pearson",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 8584,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GRNMQHF\/image.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GRNMQHF\/download\/image.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GRNMQHF-005265ba9e\/image_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GRNMQHF-005265ba9e\/image_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GRNMQHF-005265ba9e\/image_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 59,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GRNMQHF-005265ba9e\/image_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 418,
+            "original_h": 68,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8GRNMQHF\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8GRNMQHF-6583d88b60",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513771195.000201"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This is the formula for calculating Pearson Correlation Coefficient",
+        "ts": "1513771231.000104"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is denoted by _r_",
+        "ts": "1513771242.000211"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is used for finding only *linear* correlation between the two sets",
+        "ts": "1513771284.000405"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "_r_ takes values from -1 to 1",
+        "ts": "1513771310.000237"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "r = -1 indicates strong negative correlation",
+        "ts": "1513771331.000070"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "r = 1 indicates strong positive correlation",
+        "ts": "1513771350.000230"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "r=0 indicates that there is no linear correlation",
+        "ts": "1513771376.000358"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But the data might have non-linear correlation.",
+        "ts": "1513771396.000117"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8H9B8F8T\/correlation_coefficient.png|Correlation_coefficient.png>",
+        "file": {
+            "id": "F8H9B8F8T",
+            "created": 1513771439,
+            "timestamp": 1513771439,
+            "name": "Correlation_coefficient.png",
+            "title": "Correlation_coefficient.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 9270,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8H9B8F8T\/correlation_coefficient.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8H9B8F8T\/download\/correlation_coefficient.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 199,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_480.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_480_w": 480,
+            "thumb_480_h": 265,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_720.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_720_w": 720,
+            "thumb_720_h": 398,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8H9B8F8T-4d6524e323\/correlation_coefficient_800.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_800_w": 800,
+            "thumb_800_h": 442,
+            "image_exif_rotation": 1,
+            "original_w": 960,
+            "original_h": 530,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8H9B8F8T\/correlation_coefficient.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8H9B8F8T-760cb324dc",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513771442.000128"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "ok.how does correlation help?",
+        "ts": "1513771453.000186"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "<@U897CT84V> I'll get to that once we finish the metrics",
+        "ts": "1513771478.000009",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "In the image you can see what the values of the Pearson correlation means",
+        "ts": "1513771523.000167"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is everyone clear with this?",
+        "thread_ts": "1513771568.000349",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U897CT84V",
+                "ts": "1513771719.000434"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513771740.000142"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513771773.000017"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513771782.000230"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513771831.000187"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1513771568.000349",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B01GK47"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "didnt exactly understand",
+        "thread_ts": "1513771568.000349",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513771719.000434"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "What part was not clear?",
+        "thread_ts": "1513771568.000349",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513771740.000142"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, moving ahead. Another metric is the Spearman coefficient",
+        "ts": "1513771750.000145"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "does it help in predicting hypothesis?or what?",
+        "thread_ts": "1513771568.000349",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513771773.000017"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is used for finding the Pearson coefficient for ranked variables",
+        "ts": "1513771776.000176"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "what does it do?",
+        "thread_ts": "1513771568.000349",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513771782.000230"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Oh okay, I'll get to that after spearman coefficient",
+        "thread_ts": "1513771568.000349",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513771831.000187"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "What this means is that in Pearson coefficient we considered all the elements of the sets had the same 'rank', i.e there was no order to them",
+        "ts": "1513771896.000031"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But there are situations where the order of data also matters",
+        "ts": "1513771913.000155"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That is when we use Spearman coefficent",
+        "ts": "1513771926.000139"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HBNSM7U\/image__1_.png|Spearman>",
+        "file": {
+            "id": "F8HBNSM7U",
+            "created": 1513771945,
+            "timestamp": 1513771945,
+            "name": "image (1).png",
+            "title": "Spearman",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 2959,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HBNSM7U\/image__1_.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HBNSM7U\/download\/image__1_.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBNSM7U-dd718e45f5\/image__1__64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBNSM7U-dd718e45f5\/image__1__80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBNSM7U-dd718e45f5\/image__1__360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 163,
+            "thumb_360_h": 55,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBNSM7U-dd718e45f5\/image__1__160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 163,
+            "original_h": 55,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HBNSM7U\/image__1_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8HBNSM7U-77b9625694",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513771946.000222"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "here d is the difference between the 'ranks' of the elements in the two sets",
+        "ts": "1513771987.000229"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The rank can be the index of the element in the sorted order",
+        "ts": "1513772029.000397"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HBPFLF4\/360px-spearman_fig3.svg.png|Spearman_fig3>",
+        "file": {
+            "id": "F8HBPFLF4",
+            "created": 1513772052,
+            "timestamp": 1513772052,
+            "name": "360px-Spearman_fig3.svg.png",
+            "title": "Spearman_fig3",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 29532,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HBPFLF4\/360px-spearman_fig3.svg.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HBPFLF4\/download\/360px-spearman_fig3.svg.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBPFLF4-2c0160a403\/360px-spearman_fig3.svg_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBPFLF4-2c0160a403\/360px-spearman_fig3.svg_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBPFLF4-2c0160a403\/360px-spearman_fig3.svg_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 341,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HBPFLF4-2c0160a403\/360px-spearman_fig3.svg_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 360,
+            "original_h": 341,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HBPFLF4\/360px-spearman_fig3.svg.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8HBPFLF4-de4ff2e858",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513772054.000263"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Spearman can also find non-linear correlations in the sets",
+        "ts": "1513772096.000145"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, why is this needed",
+        "ts": "1513772107.000358"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Many models work better when the features in the data have less correlation",
+        "ts": "1513772134.000241"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Let's take an example of linear regression, if 3 of the 4 features are correlated, then we can see that the weights corresponding to them will have a larger influence on the result",
+        "ts": "1513772224.000375"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But infact all 3 features convey similar information about some higher level feature",
+        "ts": "1513772278.000154"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is this clear?",
+        "thread_ts": "1513772286.000260",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "U897CT84V",
+                "ts": "1513772373.000280"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513772381.000180"
+            },
+            {
+                "user": "U8B01GK47",
+                "ts": "1513772404.000139"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513772458.000141"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513772527.000276"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513772576.000244"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513772604.000217"
+            },
+            {
+                "user": "U897CT84V",
+                "ts": "1513772619.000066"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1513772286.000260",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U897CT84V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "u mean hypothesis may no longer remain linear if there are correlations",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772373.000280"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "?",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772381.000180"
+    },
+    {
+        "type": "message",
+        "user": "U8B01GK47",
+        "text": "can you add reference to know more about pearson and spearman coefficient.",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772404.000139"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "<@U8B01GK47> Okay, I'll post some resources later",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772458.000141"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "<@U897CT84V> No, the hypothesis is decided by you, what I'm trying to say is that suppose that there are two features, x1 and x2, and they are linearly correlated as x2 = 3x1",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772527.000276"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But the linear model will learn treat them as separate features and assign weights to them individually",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772576.000244"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "When actually they both convey the same inherent information",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772604.000217"
+    },
+    {
+        "type": "message",
+        "user": "U897CT84V",
+        "text": "oh...ok",
+        "thread_ts": "1513772286.000260",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513772619.000066"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Moving ahead",
+        "ts": "1513772643.000226"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The distribution of the data is also important in many models",
+        "ts": "1513772681.000054"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Distribution in simple words is no. of samples per sample",
+        "ts": "1513772716.000170"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "One very important distribution is the Normal Distribution",
+        "ts": "1513772741.000205"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HFYHMSR\/empirical_rule.png|NormalDistributon>",
+        "file": {
+            "id": "F8HFYHMSR",
+            "created": 1513772759,
+            "timestamp": 1513772759,
+            "name": "Empirical_Rule.PNG",
+            "title": "NormalDistributon",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 30519,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HFYHMSR\/empirical_rule.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HFYHMSR\/download\/empirical_rule.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HFYHMSR-a2f00540ac\/empirical_rule_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HFYHMSR-a2f00540ac\/empirical_rule_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HFYHMSR-a2f00540ac\/empirical_rule_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 261,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HFYHMSR-a2f00540ac\/empirical_rule_480.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_480_w": 480,
+            "thumb_480_h": 348,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HFYHMSR-a2f00540ac\/empirical_rule_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HFYHMSR-a2f00540ac\/empirical_rule_720.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_720_w": 720,
+            "thumb_720_h": 522,
+            "image_exif_rotation": 1,
+            "original_w": 769,
+            "original_h": 558,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HFYHMSR\/empirical_rule.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8HFYHMSR-7e3c3fef4b",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513772761.000083"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Normal Distribution has many unique mathematical properties, but we'll not be discussing those",
+        "ts": "1513772853.000038"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is important to note that these properties are used by the underlying statistical models for many ML algorithms",
+        "ts": "1513772901.000226"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "The shape of the graph is called the bell curve",
+        "ts": "1513772938.000239"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "But not all data distributions are normal distributions",
+        "ts": "1513773020.000257"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HG0A3AR\/negative_and_positive_skew_diagrams__english_.svg.png|Skew>",
+        "file": {
+            "id": "F8HG0A3AR",
+            "created": 1513773036,
+            "timestamp": 1513773036,
+            "name": "Negative_and_positive_skew_diagrams_(English).svg.png",
+            "title": "Skew",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 11541,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HG0A3AR\/negative_and_positive_skew_diagrams__english_.svg.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HG0A3AR\/download\/negative_and_positive_skew_diagrams__english_.svg.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HG0A3AR-17cc5632e0\/negative_and_positive_skew_diagrams__english_.svg_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HG0A3AR-17cc5632e0\/negative_and_positive_skew_diagrams__english_.svg_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HG0A3AR-17cc5632e0\/negative_and_positive_skew_diagrams__english_.svg_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 128,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HG0A3AR-17cc5632e0\/negative_and_positive_skew_diagrams__english_.svg_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 446,
+            "original_h": 159,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8HG0A3AR\/negative_and_positive_skew_diagrams__english_.svg.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8HG0A3AR-39f549e751",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513773037.000355"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "skewness is a measure of the asymmetry of the distribution",
+        "ts": "1513773087.000426"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "In graphical terms it is the extent to which the bell curve is skewed",
+        "ts": "1513773188.000146"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is this clear so far?",
+        "ts": "1513773221.000215",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B01GK47"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, in some cases if we take a log of the data in a skewed distribution, we end up getting a normal distribution",
+        "ts": "1513773312.000255"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "This operation of applying the logarithm to the data is called a Log Transform",
+        "ts": "1513773340.000162"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Another way of obtaining a Normal Distribution from a skewed distribution is the Box Cox Transform",
+        "ts": "1513773382.000118"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88R2LCCU> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8GMWRJAC\/boxcox-formula-1.png|boxcox-formula-1.png>",
+        "file": {
+            "id": "F8GMWRJAC",
+            "created": 1513773402,
+            "timestamp": 1513773402,
+            "name": "boxcox-formula-1.png",
+            "title": "boxcox-formula-1.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88R2LCCU",
+            "editable": false,
+            "size": 3590,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GMWRJAC\/boxcox-formula-1.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GMWRJAC\/download\/boxcox-formula-1.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GMWRJAC-12b68576da\/boxcox-formula-1_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GMWRJAC-12b68576da\/boxcox-formula-1_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GMWRJAC-12b68576da\/boxcox-formula-1_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 222,
+            "thumb_360_h": 70,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GMWRJAC-12b68576da\/boxcox-formula-1_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 222,
+            "original_h": 70,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88R2LCCU\/F8GMWRJAC\/boxcox-formula-1.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8GMWRJAC-61f2328bb0",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88R2LCCU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mokshjn00",
+        "bot_id": null,
+        "ts": "1513773403.000195"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Here, we can change the value of lambda till we get the required normal distribution",
+        "ts": "1513773478.000317"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Is everyone clear with these transforms",
+        "thread_ts": "1513773516.000224",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U8B01GK47",
+                "ts": "1513773600.000134"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513773662.000108"
+            },
+            {
+                "user": "U8B01GK47",
+                "ts": "1513773713.000160"
+            },
+            {
+                "user": "U88R2LCCU",
+                "ts": "1513773734.000153"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1513773516.000224"
+    },
+    {
+        "type": "message",
+        "user": "U8B01GK47",
+        "text": "is boxcox transform applicable to any skew curve to give normal distribution?",
+        "thread_ts": "1513773516.000224",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513773600.000134"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "skewed normal curve only",
+        "thread_ts": "1513773516.000224",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513773662.000108"
+    },
+    {
+        "type": "message",
+        "user": "U8B01GK47",
+        "text": "skewed normal curve ? how to know from its  distribution data?",
+        "thread_ts": "1513773516.000224",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513773713.000160"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Plot it :stuck_out_tongue:",
+        "thread_ts": "1513773516.000224",
+        "parent_user_id": "U88R2LCCU",
+        "ts": "1513773734.000153"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Okay, so the last topic for today is PCA",
+        "ts": "1513773927.000010"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "PCA - Principal Component Analysis",
+        "ts": "1513773943.000295"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is a technique used for dimensionality reduction",
+        "ts": "1513773975.000181"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is an extremely useful and powerful technique",
+        "ts": "1513774000.000160"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It is used for mapping data in higher dimensions in to an approximate representation in a lower dimension",
+        "ts": "1513774073.000417"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "It has many use cases",
+        "ts": "1513774086.000230"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "For example, suppose we have 10 features in a given data set.",
+        "ts": "1513774112.000175"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Then we need 10 dimensions to plot the data, which we obviously cannot, so instead we can reduce it to two dimensions while retreiving most of the inherent information of the data using PCA",
+        "ts": "1513774192.000106"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Another use case might be, suppose we have a large number of features and it is known that many of them might be correlated, we can use PCA there to reduce the number of features by collapsing the correlated features into one, while retaining most of the variation in the data",
+        "ts": "1513774298.000235"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Now, due to constraints of time I won't be able to go into the details of the algorithm for PCA.",
+        "ts": "1513774459.000113"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "However, this is a great resource for understanding the details of the algorithm, along with the mathematics behind it\n<https:\/\/klevas.mif.vu.lt\/~tomukas\/Knygos\/principal_components.pdf>",
+        "ts": "1513774515.000027"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "Also, there are many other resources which you can find on the internet",
+        "ts": "1513774560.000171"
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "That's all for today",
+        "ts": "1513774581.000196",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8B01GK47"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88R2LCCU",
+        "text": "If you have any doubts feel free to approach the mentors :slightly_smiling_face:",
+        "ts": "1513774664.000060"
+    }
+]

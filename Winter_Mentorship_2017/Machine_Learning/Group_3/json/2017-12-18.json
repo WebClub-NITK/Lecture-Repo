@@ -1,0 +1,707 @@
+[
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Hullo. ",
+        "ts": "1513661503.000150"
+    },
+    {
+        "type": "message",
+        "user": "U89591QNN",
+        "text": "Anyone home? ",
+        "ts": "1513661515.000074",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A2QMW4E",
+                    "U897CT84V"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U88MUQQTD",
+        "topic": "Session 6 - Features",
+        "text": "<@U88MUQQTD> set the channel topic: Session 6 - Features",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1513661610.000124"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "We will wait for 5 more mins and then start",
+        "ts": "1513661720.000180",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8A2QMW4E",
+                    "U8B01GK47",
+                    "U89591QNN",
+                    "U897CT84V"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Okay so today we will be talking about features of data",
+        "ts": "1513662079.000177"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now can someone tell me what exactly are features ?",
+        "ts": "1513662096.000133"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Features are basically parameters which determine or attribute\nto the properties of an observation. Choosing informative, discriminating and independent features is a crucial step for classification and regression.",
+        "ts": "1513662198.000053"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Features are usually numeric but we can also have strings and graphs as features as well.",
+        "ts": "1513662293.000151"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "For example :- In speech recognition, features for recognizing phonemes can include noise ratios, length of sounds, relative power, filter matches and many others.",
+        "ts": "1513662319.000149"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In spam detection features may include the presence or absence of certain email headers, the email structure, the language, the frequency of specific terms, the grammatical correctness of the text.",
+        "ts": "1513662337.000110"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Is it clear ?",
+        "ts": "1513662351.000203",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89BENEMB",
+                    "U8B01GK47",
+                    "U8A2QMW4E"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So now when we are working with multiple features it\nbecomes very important to make sure that the features lie in the same range.",
+        "ts": "1513662405.000073"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "This is called feature scaling",
+        "ts": "1513662490.000125"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.",
+        "ts": "1513662496.000153"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So it becomes faster to find optimum theta ( weights)",
+        "ts": "1513662519.000094"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now there are two ways of doing this",
+        "ts": "1513662540.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "1) Standardisation\n2) Min-Max Scaling",
+        "ts": "1513662554.000096"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In standardisation we determine the distribution mean and standard deviation for each feature. Next we subtract the mean from each feature. Then we divide the values (mean is already subtracted) of each feature by its standard deviation.",
+        "ts": "1513662674.000072"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88MUQQTD> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8GLGG38U\/screenshot-2017-12-19_about_feature_scaling_and_normalization.png|Standardisation> and commented: Here mu is mean",
+        "file": {
+            "id": "F8GLGG38U",
+            "created": 1513662728,
+            "timestamp": 1513662728,
+            "name": "Screenshot-2017-12-19 About Feature Scaling and Normalization.png",
+            "title": "Standardisation",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88MUQQTD",
+            "editable": false,
+            "size": 1421,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GLGG38U\/screenshot-2017-12-19_about_feature_scaling_and_normalization.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GLGG38U\/download\/screenshot-2017-12-19_about_feature_scaling_and_normalization.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLGG38U-3118691b22\/screenshot-2017-12-19_about_feature_scaling_and_normalization_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLGG38U-3118691b22\/screenshot-2017-12-19_about_feature_scaling_and_normalization_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLGG38U-3118691b22\/screenshot-2017-12-19_about_feature_scaling_and_normalization_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 36,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLGG38U-3118691b22\/screenshot-2017-12-19_about_feature_scaling_and_normalization_480.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_480_w": 480,
+            "thumb_480_h": 47,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLGG38U-3118691b22\/screenshot-2017-12-19_about_feature_scaling_and_normalization_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLGG38U-3118691b22\/screenshot-2017-12-19_about_feature_scaling_and_normalization_720.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_720_w": 720,
+            "thumb_720_h": 71,
+            "image_exif_rotation": 1,
+            "original_w": 740,
+            "original_h": 73,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8GLGG38U\/screenshot-2017-12-19_about_feature_scaling_and_normalization.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8GLGG38U-54a9ae982a",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8GH5712P",
+                "created": 1513662728,
+                "timestamp": 1513662728,
+                "user": "U88MUQQTD",
+                "is_intro": true,
+                "comment": "Here mu is mean"
+            }
+        },
+        "user": "U88MUQQTD",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1513662730.000133"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "This is also used in Logistic Regression which we have learnt . If you are using gradient descent\/ascent-based optimization, otherwise some weights will update much faster than others and this will not give optimum theta",
+        "thread_ts": "1513662873.000047",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U89BENEMB",
+                "ts": "1513663072.000107"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513663184.000081"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513662873.000047"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now lets move on to Min max scaling",
+        "ts": "1513662919.000144"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In this approach, the data is scaled to a fixed range - usually 0 to 1.",
+        "ts": "1513662948.000137"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "One property of this type of scaling is that  we will end up with smaller standard deviations, which can suppress the effect of outliers.",
+        "ts": "1513663004.000014"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "The equation of Mix-Max scaling is :-",
+        "ts": "1513663027.000081"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88MUQQTD> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8GLHN604\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1_.png|Min-Max Scaling>",
+        "file": {
+            "id": "F8GLHN604",
+            "created": 1513663065,
+            "timestamp": 1513663065,
+            "name": "Screenshot-2017-12-19 About Feature Scaling and Normalization(1).png",
+            "title": "Min-Max Scaling",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88MUQQTD",
+            "editable": false,
+            "size": 2029,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GLHN604\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1_.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GLHN604\/download\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1_.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLHN604-fcf5d0e126\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1__64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLHN604-fcf5d0e126\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1__80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLHN604-fcf5d0e126\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1__360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 311,
+            "thumb_360_h": 85,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GLHN604-fcf5d0e126\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1__160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 311,
+            "original_h": 85,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8GLHN604\/screenshot-2017-12-19_about_feature_scaling_and_normalization_1_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8GLHN604-60e8336085",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88MUQQTD",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1513663066.000190"
+    },
+    {
+        "type": "message",
+        "user": "U89BENEMB",
+        "text": "Are we scaling down a particular feature of all training examples or all features of all training examples to some particular range?",
+        "thread_ts": "1513662873.000047",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513663072.000107"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "All features so each feature contributes approximately to the same amount",
+        "thread_ts": "1513662873.000047",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513663184.000081",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89BENEMB"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Any doubts ?",
+        "ts": "1513663237.000171"
+    },
+    {
+        "type": "message",
+        "user": "U8B01GK47",
+        "text": "can you show using some feature graph changes in features after 2 scaling",
+        "thread_ts": "1513663312.000061",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513663387.000150"
+            },
+            {
+                "user": "U8B01GK47",
+                "ts": "1513663405.000109"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1513663312.000061"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Yes I will do so at the end of this lecture",
+        "thread_ts": "1513663312.000061",
+        "parent_user_id": "U8B01GK47",
+        "ts": "1513663387.000150"
+    },
+    {
+        "type": "message",
+        "user": "U8B01GK47",
+        "text": "ok:+1:",
+        "thread_ts": "1513663312.000061",
+        "parent_user_id": "U8B01GK47",
+        "ts": "1513663405.000109"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now most models cannot deal with categorial data and this data needs to 'encoded' or converted to numeric form which can be handled my the model",
+        "ts": "1513663459.000159"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "There are two ways to do so",
+        "ts": "1513663501.000028"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "1) Label encoding or Integer encoding \n2) One hot encoding",
+        "ts": "1513663517.000184"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "We'll first discuss Label Encoding",
+        "ts": "1513663531.000030"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Lets suppose that colours is a feature of a dataset",
+        "ts": "1513663553.000186"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Say its observations are red, green , blue",
+        "ts": "1513663564.000113"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So label encoding might assign in the following way :- “red” is 1, “green” is 2, and “blue” is 3.",
+        "ts": "1513663631.000187"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "However there is an issue with this type of encoding",
+        "ts": "1513663734.000097"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Let each value , red,blue , green represent a category",
+        "ts": "1513663779.000191"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Here we dont see any relationship between categories",
+        "ts": "1513663790.000159"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "if my feature was say ranks , first second third then encoding it as 1, 2,3 made alot of sense because it gave us an idea of order or ranking",
+        "ts": "1513663839.000015"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Using Label encoding for a feature with no categorial relationship is futile as it does not imply anything orderly",
+        "ts": "1513663894.000061"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So in these situations we use One Hot Encoding",
+        "ts": "1513663906.000102"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "In the “color” variable example, there are 3 categories and therefore 3 binary variables are needed. A “1” value is placed in the binary variable for the color and “0” values for the other colors.",
+        "ts": "1513664044.000032"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88MUQQTD> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8GPQEZV3\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery.png|Screenshot-2017-12-19 Why One-Hot Encode Data in Machine Learning? - Machine Learning Mastery>",
+        "file": {
+            "id": "F8GPQEZV3",
+            "created": 1513664157,
+            "timestamp": 1513664157,
+            "name": "Screenshot-2017-12-19 Why One-Hot Encode Data in Machine Learning? - Machine Learning Mastery.png",
+            "title": "Screenshot-2017-12-19 Why One-Hot Encode Data in Machine Learning? - Machine Learning Mastery",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88MUQQTD",
+            "editable": false,
+            "size": 1796,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GPQEZV3\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8GPQEZV3\/download\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GPQEZV3-c30991af17\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GPQEZV3-c30991af17\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GPQEZV3-c30991af17\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 213,
+            "thumb_360_h": 60,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8GPQEZV3-c30991af17\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 213,
+            "original_h": 60,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8GPQEZV3\/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8GPQEZV3-182a4e7ddd",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88MUQQTD",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1513664158.000209"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Can someone tell me a drawback of this one Hot encoding?",
+        "ts": "1513664318.000041"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now red , green , blue are dummy variables",
+        "ts": "1513664374.000120"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So suppose we had multiple colours as categories then it would become hard to form so many dummy variables and one hot encode them . Creating these would slow down the performance of the model",
+        "ts": "1513664437.000210"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So in that case we would use Binary Encoding",
+        "ts": "1513664451.000108"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Suppose we have 10 categories in a feature and assign them a number from 1-10 correspondingly , then the encoded value corresponding to each would be  the binary form of each of those numbers",
+        "ts": "1513664582.000053"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "If name is a feature of some data and there are 10 people then after encoding it would look like :-",
+        "ts": "1513664641.000090"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U88MUQQTD> uploaded a file: <https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8HMHS831\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees.png|Binary Encoding>",
+        "file": {
+            "id": "F8HMHS831",
+            "created": 1513664661,
+            "timestamp": 1513664661,
+            "name": "Screenshot-2017-12-19 Visiting Categorical Features and Encoding in Decision Trees.png",
+            "title": "Binary Encoding",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U88MUQQTD",
+            "editable": false,
+            "size": 6355,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HMHS831\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T88TDCC2Z-F8HMHS831\/download\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HMHS831-26ebbdf04b\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees_64.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HMHS831-26ebbdf04b\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees_80.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HMHS831-26ebbdf04b\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees_360.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "thumb_360_w": 360,
+            "thumb_360_h": 256,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T88TDCC2Z-F8HMHS831-26ebbdf04b\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees_160.png?t=xoxe-280931420101-288895658065-289449085204-84d5f0ebe3f861d254bfb6a09dce9a41",
+            "image_exif_rotation": 1,
+            "original_w": 371,
+            "original_h": 264,
+            "permalink": "https:\/\/wintermentorship.slack.com\/files\/U88MUQQTD\/F8HMHS831\/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees.png",
+            "permalink_public": "https:\/\/slack-files.com\/T88TDCC2Z-F8HMHS831-b6a7b5a3ed",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U88MUQQTD",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "anuzenith29",
+        "bot_id": null,
+        "ts": "1513664662.000097"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "So had we used One hot encoding we would have had 10 dummy variables but now we have 4 dummy variables conveying the same message",
+        "ts": "1513664717.000020"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Any doubts?",
+        "ts": "1513664721.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Now one more thing which i forgot to mention before.",
+        "ts": "1513664926.000111"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "How do you really know what kind of scaling is to be performed",
+        "ts": "1513664942.000002"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Standardization may be especially crucial in order to compare similarities between features based on certain distance measures. This can we seen in the case of clustering which we will cover in furtur lectures",
+        "ts": "1513665058.000039"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "One very popular use of Min Max Scaing is in picture classifications",
+        "ts": "1513665077.000137"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Pixel intensities have to be normalized to fit within a certain range (i.e., 0 to 255 for the RGB color range) in this case.",
+        "ts": "1513665125.000005"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Some algorithms would want this data in 0-1 range as well",
+        "ts": "1513665140.000201"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Okay so thats all for today",
+        "ts": "1513665255.000016",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U89BENEMB",
+                    "U8A6B048M",
+                    "U89591QNN"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Feel free to ask any doubts",
+        "thread_ts": "1513665264.000085",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8B01GK47",
+                "ts": "1513665356.000010"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513665405.000077"
+            },
+            {
+                "user": "U88MUQQTD",
+                "ts": "1513666139.000022"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1513665264.000085"
+    },
+    {
+        "type": "message",
+        "user": "U8B01GK47",
+        "text": "did not get clear idea about when to use which scaling can you take a test case to show why one is better than other?",
+        "thread_ts": "1513665264.000085",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513665356.000010"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "yeah sure",
+        "thread_ts": "1513665264.000085",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513665405.000077"
+    },
+    {
+        "type": "message",
+        "user": "U88MUQQTD",
+        "text": "Sorry lost internet connection , Read this article once and let me know if its still not clear - <https:\/\/stats.stackexchange.com\/questions\/10289\/whats-the-difference-between-normalization-and-standardization>",
+        "attachments": [
+            {
+                "title": "What's the difference between Normalization and Standardization?",
+                "title_link": "https:\/\/stats.stackexchange.com\/questions\/10289\/whats-the-difference-between-normalization-and-standardization",
+                "text": "At work we were discussing this as my boss has never heard of normalization. In Linear Algebra, Normalization seems to refer to the dividing of a vector by its length. And in statistics, Standardiz...",
+                "fallback": "What's the difference between Normalization and Standardization?",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/stats\/img\/apple-touch-icon@2.png?v=344f57aa10cc",
+                "from_url": "https:\/\/stats.stackexchange.com\/questions\/10289\/whats-the-difference-between-normalization-and-standardization",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/stats\/img\/favicon.ico?v=573163e34adf",
+                "service_name": "stats.stackexchange.com",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1513665264.000085",
+        "parent_user_id": "U88MUQQTD",
+        "ts": "1513666139.000022"
+    }
+]

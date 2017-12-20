@@ -1,0 +1,136 @@
+Hullo. 
+
+Anyone home? 
+
+<@U88MUQQTD> set the channel topic: Session 6 - Features
+
+We will wait for 5 more mins and then start
+
+Okay so today we will be talking about features of data
+
+Now can someone tell me what exactly are features ?
+
+Features are basically parameters which determine or attribute
+to the properties of an observation. Choosing informative, discriminating and independent features is a crucial step for classification and regression.
+
+Features are usually numeric but we can also have strings and graphs as features as well.
+
+For example :- In speech recognition, features for recognizing phonemes can include noise ratios, length of sounds, relative power, filter matches and many others.
+
+In spam detection features may include the presence or absence of certain email headers, the email structure, the language, the frequency of specific terms, the grammatical correctness of the text.
+
+Is it clear ?
+
+So now when we are working with multiple features it
+becomes very important to make sure that the features lie in the same range.
+
+This is called feature scaling
+
+Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.
+
+So it becomes faster to find optimum theta ( weights)
+
+Now there are two ways of doing this
+
+1) Standardisation
+2) Min-Max Scaling
+
+In standardisation we determine the distribution mean and standard deviation for each feature. Next we subtract the mean from each feature. Then we divide the values (mean is already subtracted) of each feature by its standard deviation.
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8GLGG38U/screenshot-2017-12-19_about_feature_scaling_and_normalization.png|Standardisation> and commented: Here mu is mean
+
+This is also used in Logistic Regression which we have learnt . If you are using gradient descent/ascent-based optimization, otherwise some weights will update much faster than others and this will not give optimum theta
+
+Now lets move on to Min max scaling
+
+In this approach, the data is scaled to a fixed range - usually 0 to 1.
+
+One property of this type of scaling is that  we will end up with smaller standard deviations, which can suppress the effect of outliers.
+
+The equation of Mix-Max scaling is :-
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8GLHN604/screenshot-2017-12-19_about_feature_scaling_and_normalization_1_.png|Min-Max Scaling>
+
+Are we scaling down a particular feature of all training examples or all features of all training examples to some particular range?
+
+All features so each feature contributes approximately to the same amount
+
+Any doubts ?
+
+can you show using some feature graph changes in features after 2 scaling
+
+Yes I will do so at the end of this lecture
+
+ok:+1:
+
+Now most models cannot deal with categorial data and this data needs to 'encoded' or converted to numeric form which can be handled my the model
+
+There are two ways to do so
+
+1) Label encoding or Integer encoding 
+2) One hot encoding
+
+We'll first discuss Label Encoding
+
+Lets suppose that colours is a feature of a dataset
+
+Say its observations are red, green , blue
+
+So label encoding might assign in the following way :- “red” is 1, “green” is 2, and “blue” is 3.
+
+However there is an issue with this type of encoding
+
+Let each value , red,blue , green represent a category
+
+Here we dont see any relationship between categories
+
+if my feature was say ranks , first second third then encoding it as 1, 2,3 made alot of sense because it gave us an idea of order or ranking
+
+Using Label encoding for a feature with no categorial relationship is futile as it does not imply anything orderly
+
+So in these situations we use One Hot Encoding
+
+In the “color” variable example, there are 3 categories and therefore 3 binary variables are needed. A “1” value is placed in the binary variable for the color and “0” values for the other colors.
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8GPQEZV3/screenshot-2017-12-19_why_one-hot_encode_data_in_machine_learning__-_machine_learning_mastery.png|Screenshot-2017-12-19 Why One-Hot Encode Data in Machine Learning? - Machine Learning Mastery>
+
+Can someone tell me a drawback of this one Hot encoding?
+
+Now red , green , blue are dummy variables
+
+So suppose we had multiple colours as categories then it would become hard to form so many dummy variables and one hot encode them . Creating these would slow down the performance of the model
+
+So in that case we would use Binary Encoding
+
+Suppose we have 10 categories in a feature and assign them a number from 1-10 correspondingly , then the encoded value corresponding to each would be  the binary form of each of those numbers
+
+If name is a feature of some data and there are 10 people then after encoding it would look like :-
+
+<@U88MUQQTD> uploaded a file: <https://wintermentorship.slack.com/files/U88MUQQTD/F8HMHS831/screenshot-2017-12-19_visiting_categorical_features_and_encoding_in_decision_trees.png|Binary Encoding>
+
+So had we used One hot encoding we would have had 10 dummy variables but now we have 4 dummy variables conveying the same message
+
+Any doubts?
+
+Now one more thing which i forgot to mention before.
+
+How do you really know what kind of scaling is to be performed
+
+Standardization may be especially crucial in order to compare similarities between features based on certain distance measures. This can we seen in the case of clustering which we will cover in furtur lectures
+
+One very popular use of Min Max Scaing is in picture classifications
+
+Pixel intensities have to be normalized to fit within a certain range (i.e., 0 to 255 for the RGB color range) in this case.
+
+Some algorithms would want this data in 0-1 range as well
+
+Okay so thats all for today
+
+Feel free to ask any doubts
+
+did not get clear idea about when to use which scaling can you take a test case to show why one is better than other?
+
+yeah sure
+
+Sorry lost internet connection , Read this article once and let me know if its still not clear - <https://stats.stackexchange.com/questions/10289/whats-the-difference-between-normalization-and-standardization>
+
